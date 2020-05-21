@@ -1,8 +1,8 @@
 Matches saved 2020-05-21T10:36:40.256471300+10:00[Australia/Brisbane], input files:
 	a:
-		12389812	aQOVD5/V4ga1AbXp7VOp7KPp1PhKp+DFMhqiLi49eLY=	18w22c-merged.jar
-	b:
 		12386341	YblkcM+rl6ssDSfGZ0I4i1zfRWEaMGwqxxTJi8bejzA=	18w22b-merged.jar
+	b:
+		12389812	aQOVD5/V4ga1AbXp7VOp7KPp1PhKp+DFMhqiLi49eLY=	18w22c-merged.jar
 	cp:
 		64412	znqchuvr8wuJkpAm9KCjxYzg9NR5N9bcCGrk/Qx3VEo=	authlib-1.5.21.jar
 		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
@@ -62,8 +62,6 @@ Matches saved 2020-05-21T10:36:40.256471300+10:00[Australia/Brisbane], input fil
 		83009	8vAw/cj7964mVw28MnPQJPueFNGPydoSqmeiPxxtD3I=	lwjgl-stb-3.1.2.jar
 	cp a:
 	cp b:
-	non-obf cls a	.+/.+
-	non-obf cls b	.+/.+
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -6349,7 +6347,7 @@ c	Laic;	Laic;
 		mv	0	0
 		mv	1	1
 		mv	2	2
-	m	a(DFLcgz;)Lcgy;	a(DF)Lcgy;
+	m	a(DF)Lcgy;	a(DFLcgz;)Lcgy;
 		ma	0	0
 		ma	1	1
 	m	aD()Z	aD()Z
@@ -24108,7 +24106,7 @@ c	Lawp;	Lawp;
 		mv	1	1
 		mv	2	2
 		mv	3	3
-		mv	8	7
+		mv	7	8
 	m	t()Z	t()Z
 	m	u()Laxb;	u()Laxb;
 	m	v()Z	v()Z
@@ -67633,7 +67631,7 @@ c	Lcjs;	Lcjs;
 	m	<init>(Lcio;)V	<init>(Lcio;)V
 		ma	0	0
 	m	a()V	a()V
-	m	b()V	f()V
+	m	f()V	b()V
 		mv	0	0
 		mv	1	1
 		mv	2	2
