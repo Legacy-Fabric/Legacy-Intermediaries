@@ -1,11 +1,10 @@
-Matches saved 2020-05-23T13:01:36.750153100+10:00[Australia/Brisbane], input files:
+Matches saved 2020-06-03T20:56:48.580503+05:30[Asia/Calcutta], input files:
 	a:
-		12033851	EcQVN9oU6fAtRN5bEoLoBCen12XDTHOXInJTLTDQjdc=	18w16a-merged.jar
+		12033851	Vd9VY/ESOqB0toIJySilncmajRlT9PFRRMKIWC3i4ys=	18w16a-merged.jar
 	b:
-		12416297	AqUhIaWRD8dtPGB4Zyd3b7DrRROyc3yOwEUJIN4Fwoo=	18w19a-merged.jar
+		12416297	v70aNXMFpq6o0wvpYAmiWnvnCYpzr7bA033qEEU7JrQ=	18w19a-merged.jar
 	cp:
 		65621	yKCVEjvpPFnUrCnkoGFklbPUeaxlkTy3Gage5YPp380=	authlib-1.5.25.jar
-		66676	CZVahq9OIOSZ/DmEGcotIvHQuH+3tTsR/YCLcyoZ7cw=	brigadier-0.1.25.jar
 		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
 		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
 		284184	QkHfqU5xHUNfKaRgSj4t5cSqPBZeI70Ga+b8H8QwlWk=	commons-codec-1.10.jar
@@ -40,9 +39,9 @@ Matches saved 2020-05-23T13:01:36.750153100+10:00[Australia/Brisbane], input fil
 		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
 		11055	hB0vQHgkpKnD3YcsUezXbVA4HFabecPqewa2nuwrulM=	text2speech-1.10.3.jar
 	cp a:
+		65227	jGLdSDGK7+ulFnmtfpnmeVF0VgzYWHaF3zv5jvLQ1qk=	brigadier-0.1.24.jar
 	cp b:
-	non-obf cls a	.+/.+
-	non-obf cls b	.+/.+
+		66676	CZVahq9OIOSZ/DmEGcotIvHQuH+3tTsR/YCLcyoZ7cw=	brigadier-0.1.25.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -2299,6 +2298,7 @@ c	Labw;	Lagd;
 	f	Y;;Labw;	Y;;Lagd;
 	f	Z;;Labw;	Z;;Lagd;
 	f	aa;;Labw;	aa;;Lagd;
+	f	ab;;Labw;	ab;;Lagd;
 	f	ac;;Labw;	ac;;Lagd;
 	f	ad;;Labw;	ad;;Lagd;
 	f	ae;;Labw;	ae;;Lagd;
@@ -17728,6 +17728,7 @@ c	Laor;	Lasy;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	f	a;;Lazl;	a;;Lbzc;
 c	Laos;	Lasz;
 	m	<init>(Laqa$a;)V	<init>(Lauh$a;)V
 		ma	0	0
@@ -18996,6 +18997,8 @@ c	Laqe;	Laul;
 	m	c()Laqa;	c()Lauh;
 	m	a(Larp;)Laan;	a(Lavx;)Laeu;
 		ma	0	0
+		mv	1	0
+		mv	2	3
 	m	a(Lbhu;)F	a(Lbmb;)F
 		ma	0	0
 	m	a(Lauv;Lalg;Laal;)Laao;	a(Lazd;Lapn;Laes;)Laev;
@@ -19175,6 +19178,16 @@ c	Laqe;	Laul;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	m	a(Lazl;)Z	a(Lwg;Lbmg;)Z
+		ma	0	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+	m	b(Lazl;)Z	b(Lwg;Lbmg;)Z
+		ma	0	1
+		mv	0	0
+		mv	1	1
+		mv	2	3
 	m	B()I	B()I
 	m	d(I)V	d(I)V
 		ma	0	0
@@ -19195,6 +19208,10 @@ c	Laqe;	Laul;
 	f	g;;Lgt;	g;;Lgu;
 	f	h;;Z	h;;Z
 	f	i;;Lajb;	i;;Lani;
+	f	j;;Lazl;	j;;Lbmg;
+	f	k;;Z	k;;Z
+	f	l;;Lazl;	l;;Lbmg;
+	f	m;;Z	m;;Z
 c	Laqf;	Laum;
 	m	a(Ljava/lang/String;)Laqa;	a(Ljava/lang/String;)Lauh;
 		ma	0	0
@@ -19406,6 +19423,7 @@ c	Laqf;	Laum;
 	f	cV;;Laqa;	cV;;Lauh;
 	f	cW;;Laqa;	cW;;Lauh;
 	f	cX;;Laqa;	cX;;Lauh;
+	f	cY;;Laqa;	cY;;Lauh;
 	f	cZ;;Laqa;	cZ;;Lauh;
 	f	da;;Laqa;	da;;Lauh;
 	f	db;;Laqa;	db;;Lauh;
@@ -23195,6 +23213,10 @@ c	Lauv;	Lazd;
 	m	a(Lef;I)I	a(Lef;I)I
 		ma	0	0
 		ma	1	1
+	m	a(Lbko$a;II)I	a(Lboz$a;II)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	f(II)I	f(II)I
 		ma	0	0
 		ma	1	1
@@ -25487,6 +25509,7 @@ c	Lavx;	Lbae;
 	m	<init>()V	<init>()V
 	m	a()[Lavq;	a()[Lazx;
 	m	b()I	b()I
+	f	a;;[Lavq;	a;;[Lazx;
 	f	b;;I	b;;I
 c	Lavy;	Lbaf;
 	m	<init>()V	<init>()V
@@ -29397,6 +29420,7 @@ c	Lbak;	Lber;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+		mv	5	4
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbin;	a;;Lbmx;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
@@ -36861,7 +36885,10 @@ c	Lbgg;	Lbkn;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	e;;[Lazl;	e;;[Lbds;
+	f	a;;I	a;;I
 	f	f;;F	f;;F
+	f	g;;I	k;;J
+	f	h;;Z	g;;Z
 	f	i;;Ljava/util/List;	h;;Ljava/util/List;
 	f	j;;Lacb;	i;;Lagi;
 	f	k;;Ljava/util/UUID;	j;;Ljava/util/UUID;
@@ -38395,6 +38422,18 @@ c	Lbhs$1;	Lblz$1;
 		ma	1	1
 	m	apply(Ljava/lang/Object;)Ljava/lang/Object;	apply(Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	0
+c	Lbhs;	Lblz;
+	m	<init>()V	<init>(Ljava/lang/Object;Lcom/google/common/collect/ImmutableMap;)V
+	m	a(Lbiq;)Lbhu;	a(Lbna;)Ljava/lang/Object;
+		ma	0	0
+	m	a(Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;	a(Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+		mv	0	0
+	m	<clinit>()V	<clinit>()V
+	f	a;;Ljava/util/function/Function;	b;;Ljava/util/function/Function;
 c	Lbht;	Lbma;
 	m	values()[Lbht;	values()[Lbma;
 	m	valueOf(Ljava/lang/String;)Lbht;	valueOf(Ljava/lang/String;)Lbma;
@@ -38582,8 +38621,8 @@ c	Lbhv;	Lbmd;
 		mv	3	1
 		mv	4	2
 		mv	5	3
-		mv	6	4
 	m	a()Lcom/google/common/collect/ImmutableList;	a()Lcom/google/common/collect/ImmutableList;
+	m	c()Lazl;	c()Ljava/lang/Object;
 	m	d()Ljava/util/Collection;	d()Ljava/util/Collection;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	a(Ljava/lang/String;)Lbiq;	a(Ljava/lang/String;)Lbna;
@@ -38598,7 +38637,9 @@ c	Lbhv;	Lbmd;
 		mv	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/regex/Pattern;	a;;Ljava/util/regex/Pattern;
+	f	b;;Lazl;	b;;Ljava/lang/Object;
 	f	c;;Lcom/google/common/collect/ImmutableSortedMap;	c;;Lcom/google/common/collect/ImmutableSortedMap;
+	f	d;;Lcom/google/common/collect/ImmutableList;	d;;Lcom/google/common/collect/ImmutableList;
 c	Lbhx;	Lbmg;
 	m	<init>(Lava;Lef;Z)V	<init>(Lazh;Lef;Z)V
 		ma	0	0
@@ -40309,6 +40350,7 @@ c	Lbjo;	Lbnz;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+		mv	3	3
 	m	a(Lef;Lbga;)V	a(Lef;Lbkh;)V
 		ma	0	0
 		ma	1	1
@@ -41235,10 +41277,23 @@ c	Lbkc;	Lbon;
 	m	m()V	m()V
 	m	n()Lbix;	n()Lbnh;
 		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
+		mv	4	4
 		mv	5	5
+		mv	6	6
+		mv	7	7
 		mv	8	8
+		mv	9	10
+		mv	10	11
+		mv	11	12
+		mv	13	13
+		mv	14	14
+		mv	15	18
+		mv	17	31
+		mv	18	35
+		mv	19	36
 	m	a(JF)F	a(JF)F
 		ma	0	0
 		ma	1	1
@@ -41494,6 +41549,8 @@ c	Lbki;	Lbot;
 	m	i()I	i()I
 	m	j()I	j()I
 	m	k()I	k()I
+	m	l()Lbhu;	l()Lbmb;
+	m	m()Lbhu;	m()Lbmb;
 	m	a(Lbhu;)V	a(Lbmb;)V
 		ma	0	0
 	m	b(Lbhu;)V	b(Lbmb;)V
@@ -44951,6 +45008,7 @@ c	Lbp;	Lbp;
 	f	a;;Lib;	a;;Lic;
 c	Lbpa;	Lbtn;
 	m	<init>(Lazl;)V	<init>(Lbzc;)V
+	f	a;;Lazl;	a;;Lbzc;
 c	Lbpb;	Lbto;
 	m	<init>()V	<init>()V
 	m	a(Lauw;Lbix;Ljava/util/Random;Lef;Lbpa;)Z	a(Laze;Lbnh;Ljava/util/Random;Lef;Lbtn;)Z
@@ -46436,6 +46494,18 @@ c	Lbrj;	Lbvy;
 		ma	6	6
 c	Lbrk;	Lbvz;
 	m	<init>()V	<init>()V
+	m	a(Lauw;Lbix;Ljava/util/Random;Lef;Lbnu;Lbmk;Lbml;)Z	a(Laze;Lbnh;Ljava/util/Random;Lef;Lbsf;Lbqv;Lbqw;)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	a(Lauw;Lbix;Ljava/util/Random;Lef;Lblu;Lbmk;Lbml;)Z	a(Laze;Lbnh;Ljava/util/Random;Lef;Lbqf;Lbqv;Lbqw;)Z
 		ma	0	0
 		ma	1	1
@@ -46748,6 +46818,8 @@ c	Lbrx;	Lbwm;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbhu;	a;;Lbmb;
 	f	b;;Lbhu;	b;;Lbmb;
+	f	c;;Lbhu;	c;;Lbzd;
+	f	d;;Lbhu;	d;;Lbzd;
 	f	e;;Ljava/util/Set;	e;;Ljava/util/Set;
 	f	f;;Ljava/util/Set;	f;;Ljava/util/Set;
 c	Lbry$1;	Lbwn$1;
@@ -51576,6 +51648,7 @@ c	Lbth$a;	Lbxw$a;
 	m	a(Lbhu;I)V	a(Lbmb;I)V
 		ma	0	0
 		ma	1	1
+	m	<init>(Lbth$1;)V	<init>(Lbxw$1;)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbhu;	a;;Lbmb;
 	f	b;;Lep;	b;;Lep;
@@ -52054,6 +52127,7 @@ c	Lbtr;	Lbyg;
 	f	c;;Lbhu;	c;;Lbmb;
 	f	d;;Lbhu;	d;;Lbmb;
 	f	e;;Lbhu;	e;;Lbmb;
+	f	f;;Lbhu;	f;;Lbmb;
 	f	a;;J	a;;J
 	f	b;;Lbub;	b;;Lbyq;
 c	Lbts;	Lbyh;
@@ -52568,21 +52642,6 @@ c	Lbuj;	Lbyy;
 		mv	13	13
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Lel;	a;;[Lel;
-c	Lbul;	Lbza;
-	m	<init>()V	<init>()V
-	m	a()Lauk;	a()Lays;
-	m	b()Laqa;	b()Lauh;
-	m	a(Lbuo;)Lbhu;	b(Lbzd;)Lbmb;
-		ma	0	0
-	m	a(Lbup;Lel;)Z	a(Lbzc;Lel;)Z
-		ma	0	0
-		ma	1	1
-	m	a(Lava;Lef;Lbuo;)Lbzs;	a(Lazh;Lef;Lbzd;)Lcei;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(Lava;)I	a(Lazh;)I
-		ma	0	0
 c	Lbum;	Lbzb;
 	m	<init>()V	<init>()V
 	m	a(Lava;Lef;Lbuo;)Lbzs;	a(Lazh;Lef;Lbzd;)Lcei;
@@ -52755,8 +52814,6 @@ c	Lbun;	Lbzg;
 		ma	2	2
 		ma	3	3
 		mv	0	0
-c	Lbuq;	Lbzf;
-	m	<clinit>()V	<clinit>()V
 c	Lbur$a;	Lbzh$a;
 	m	<init>(Lbus;)V	<init>(Lbzi;)V
 		ma	0	0
@@ -58290,6 +58347,8 @@ c	Lcan;	Lcfd;
 		mv	0	0
 	m	a(I)V	a(I)V
 		ma	0	0
+	m	a(La;)V	a(La;)V
+		ma	0	0
 	m	l()La;	l()La;
 	f	a;;Lcap;	a;;Lcff;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
@@ -62773,8 +62832,6 @@ c	Lcds;	Lcii;
 	m	j()D	j()D
 	m	k()I	k()I
 	f	v;;Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;	v;;Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;
-c	Lcdt;	Laav$l;
-	m	<init>(Lnet/minecraft/realms/RealmsGuiEventListener;)V	<init>(Laav;)V
 c	Lcdu;	Lcij;
 	m	<init>(Lnet/minecraft/realms/RealmsScreen;)V	<init>(Lnet/minecraft/realms/RealmsScreen;)V
 		ma	0	0
@@ -76816,6 +76873,824 @@ c	Lcol;	Lctc;
 	f	e;;D	e;;D
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Z	b;;Z
+c	Lcom/mojang/brigadier/AmbiguityConsumer;	Lcom/mojang/brigadier/AmbiguityConsumer;
+	m	ambiguous(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Collection;)V	ambiguous(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Collection;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+c	Lcom/mojang/brigadier/Command;	Lcom/mojang/brigadier/Command;
+	m	run(Lcom/mojang/brigadier/context/CommandContext;)I	run(Lcom/mojang/brigadier/context/CommandContext;)I
+		ma	0	0
+	f	SINGLE_SUCCESS;;I	SINGLE_SUCCESS;;I
+c	Lcom/mojang/brigadier/CommandDispatcher$1;	Lcom/mojang/brigadier/CommandDispatcher$1;
+	m	<init>(Lcom/mojang/brigadier/CommandDispatcher;)V	<init>(Lcom/mojang/brigadier/CommandDispatcher;)V
+		ma	0	0
+	m	test(Lcom/mojang/brigadier/tree/CommandNode;)Z	test(Lcom/mojang/brigadier/tree/CommandNode;)Z
+		ma	0	0
+	m	test(Ljava/lang/Object;)Z	test(Ljava/lang/Object;)Z
+		ma	0	0
+	f	this$0;;Lcom/mojang/brigadier/CommandDispatcher;	this$0;;Lcom/mojang/brigadier/CommandDispatcher;
+c	Lcom/mojang/brigadier/CommandDispatcher$PartialParse;	Lcom/mojang/brigadier/CommandDispatcher$PartialParse;
+	m	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;Lcom/mojang/brigadier/ParseResults;)V	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;Lcom/mojang/brigadier/ParseResults;)V
+		ma	0	0
+		ma	1	1
+	m	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;Lcom/mojang/brigadier/ParseResults;Lcom/mojang/brigadier/CommandDispatcher$1;)V	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;Lcom/mojang/brigadier/ParseResults;Lcom/mojang/brigadier/CommandDispatcher$1;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	f	context;;Lcom/mojang/brigadier/context/CommandContextBuilder;	context;;Lcom/mojang/brigadier/context/CommandContextBuilder;
+	f	parse;;Lcom/mojang/brigadier/ParseResults;	parse;;Lcom/mojang/brigadier/ParseResults;
+c	Lcom/mojang/brigadier/CommandDispatcher;	Lcom/mojang/brigadier/CommandDispatcher;
+	m	<init>(Lcom/mojang/brigadier/tree/RootCommandNode;)V	<init>(Lcom/mojang/brigadier/tree/RootCommandNode;)V
+		ma	0	0
+	m	<init>()V	<init>()V
+	m	register(Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;)Lcom/mojang/brigadier/tree/LiteralCommandNode;	register(Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;)Lcom/mojang/brigadier/tree/LiteralCommandNode;
+		ma	0	0
+	m	setConsumer(Lcom/mojang/brigadier/ResultConsumer;)V	setConsumer(Lcom/mojang/brigadier/ResultConsumer;)V
+		ma	0	0
+	m	execute(Ljava/lang/String;Ljava/lang/Object;)I	execute(Ljava/lang/String;Ljava/lang/Object;)I
+		ma	0	0
+		ma	1	1
+	m	execute(Lcom/mojang/brigadier/ParseResults;)I	execute(Lcom/mojang/brigadier/ParseResults;)I
+		ma	0	0
+	m	parse(Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/brigadier/ParseResults;	parse(Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/brigadier/ParseResults;
+		ma	0	0
+		ma	1	1
+	m	parseNodes(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/ParseResults;	parseNodes(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/ParseResults;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getAllUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;Z)[Ljava/lang/String;	getAllUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;Z)[Ljava/lang/String;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getAllUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/String;Z)V	getAllUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/String;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	getSmartUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;)Ljava/util/Map;	getSmartUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;)Ljava/util/Map;
+		ma	0	0
+		ma	1	1
+	m	getSmartUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;ZZ)Ljava/lang/String;	getSmartUsage(Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;ZZ)Ljava/lang/String;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	getCompletionSuggestions(Lcom/mojang/brigadier/ParseResults;)Ljava/util/concurrent/CompletableFuture;	getCompletionSuggestions(Lcom/mojang/brigadier/ParseResults;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+	m	getRoot()Lcom/mojang/brigadier/tree/RootCommandNode;	getRoot()Lcom/mojang/brigadier/tree/RootCommandNode;
+	m	getPath(Lcom/mojang/brigadier/tree/CommandNode;)Ljava/util/Collection;	getPath(Lcom/mojang/brigadier/tree/CommandNode;)Ljava/util/Collection;
+		ma	0	0
+	m	findNode(Ljava/util/Collection;)Lcom/mojang/brigadier/tree/CommandNode;	findNode(Ljava/util/Collection;)Lcom/mojang/brigadier/tree/CommandNode;
+		ma	0	0
+	m	findAmbiguities(Lcom/mojang/brigadier/AmbiguityConsumer;)V	findAmbiguities(Lcom/mojang/brigadier/AmbiguityConsumer;)V
+		ma	0	0
+	m	addPaths(Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/List;Ljava/util/List;)V	addPaths(Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/List;Ljava/util/List;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	lambda$getCompletionSuggestions$3([Ljava/util/concurrent/CompletableFuture;Ljava/util/concurrent/CompletableFuture;Lcom/mojang/brigadier/ParseResults;)V	lambda$getCompletionSuggestions$3([Ljava/util/concurrent/CompletableFuture;Ljava/util/concurrent/CompletableFuture;Lcom/mojang/brigadier/ParseResults;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	lambda$getSmartUsage$2(Ljava/lang/Object;Lcom/mojang/brigadier/tree/CommandNode;)Z	lambda$getSmartUsage$2(Ljava/lang/Object;Lcom/mojang/brigadier/tree/CommandNode;)Z
+		ma	0	0
+		ma	1	1
+	m	lambda$parseNodes$1(Lcom/mojang/brigadier/CommandDispatcher$PartialParse;Lcom/mojang/brigadier/CommandDispatcher$PartialParse;)I	lambda$parseNodes$1(Lcom/mojang/brigadier/CommandDispatcher$PartialParse;Lcom/mojang/brigadier/CommandDispatcher$PartialParse;)I
+		ma	0	0
+		ma	1	1
+	m	lambda$new$0(Lcom/mojang/brigadier/context/CommandContext;ZI)V	lambda$new$0(Lcom/mojang/brigadier/context/CommandContext;ZI)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;	access$000(Lcom/mojang/brigadier/CommandDispatcher;)Ljava/util/function/Predicate;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	ERROR_UNKNOWN_COMMAND;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_UNKNOWN_COMMAND;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_UNKNOWN_ARGUMENT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_UNKNOWN_ARGUMENT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_EXPECTED_ARGUMENT_SEPARATOR;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_ARGUMENT_SEPARATOR;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_PARSE_EXCEPTION;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_PARSE_EXCEPTION;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ARGUMENT_SEPARATOR;;Ljava/lang/String;	ARGUMENT_SEPARATOR;;Ljava/lang/String;
+	f	ARGUMENT_SEPARATOR_CHAR;;C	ARGUMENT_SEPARATOR_CHAR;;C
+	f	USAGE_OPTIONAL_OPEN;;Ljava/lang/String;	USAGE_OPTIONAL_OPEN;;Ljava/lang/String;
+	f	USAGE_OPTIONAL_CLOSE;;Ljava/lang/String;	USAGE_OPTIONAL_CLOSE;;Ljava/lang/String;
+	f	USAGE_REQUIRED_OPEN;;Ljava/lang/String;	USAGE_REQUIRED_OPEN;;Ljava/lang/String;
+	f	USAGE_REQUIRED_CLOSE;;Ljava/lang/String;	USAGE_REQUIRED_CLOSE;;Ljava/lang/String;
+	f	USAGE_OR;;Ljava/lang/String;	USAGE_OR;;Ljava/lang/String;
+	f	root;;Lcom/mojang/brigadier/tree/RootCommandNode;	root;;Lcom/mojang/brigadier/tree/RootCommandNode;
+	f	hasCommand;;Ljava/util/function/Predicate;	hasCommand;;Ljava/util/function/Predicate;
+	f	consumer;;Lcom/mojang/brigadier/ResultConsumer;	consumer;;Lcom/mojang/brigadier/ResultConsumer;
+c	Lcom/mojang/brigadier/ImmutableStringReader;	Lcom/mojang/brigadier/ImmutableStringReader;
+	m	getString()Ljava/lang/String;	getString()Ljava/lang/String;
+	m	getRemainingLength()I	getRemainingLength()I
+	m	getTotalLength()I	getTotalLength()I
+	m	getCursor()I	getCursor()I
+	m	getRead()Ljava/lang/String;	getRead()Ljava/lang/String;
+	m	getRemaining()Ljava/lang/String;	getRemaining()Ljava/lang/String;
+	m	canRead(I)Z	canRead(I)Z
+		ma	0	0
+	m	canRead()Z	canRead()Z
+	m	peek()C	peek()C
+	m	peek(I)C	peek(I)C
+		ma	0	0
+c	Lcom/mojang/brigadier/Message;	Lcom/mojang/brigadier/Message;
+	m	getString()Ljava/lang/String;	getString()Ljava/lang/String;
+c	Lcom/mojang/brigadier/ParseResults;	Lcom/mojang/brigadier/ParseResults;
+	m	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;Lcom/mojang/brigadier/ImmutableStringReader;Ljava/util/Map;)V	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;Lcom/mojang/brigadier/ImmutableStringReader;Ljava/util/Map;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;)V	<init>(Lcom/mojang/brigadier/context/CommandContextBuilder;)V
+		ma	0	0
+	m	getContext()Lcom/mojang/brigadier/context/CommandContextBuilder;	getContext()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	getReader()Lcom/mojang/brigadier/ImmutableStringReader;	getReader()Lcom/mojang/brigadier/ImmutableStringReader;
+	m	getExceptions()Ljava/util/Map;	getExceptions()Ljava/util/Map;
+	f	context;;Lcom/mojang/brigadier/context/CommandContextBuilder;	context;;Lcom/mojang/brigadier/context/CommandContextBuilder;
+	f	exceptions;;Ljava/util/Map;	exceptions;;Ljava/util/Map;
+	f	reader;;Lcom/mojang/brigadier/ImmutableStringReader;	reader;;Lcom/mojang/brigadier/ImmutableStringReader;
+c	Lcom/mojang/brigadier/RedirectModifier;	Lcom/mojang/brigadier/RedirectModifier;
+	m	apply(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	apply(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
+		ma	0	0
+c	Lcom/mojang/brigadier/ResultConsumer;	Lcom/mojang/brigadier/ResultConsumer;
+	m	onCommandComplete(Lcom/mojang/brigadier/context/CommandContext;ZI)V	onCommandComplete(Lcom/mojang/brigadier/context/CommandContext;ZI)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+c	Lcom/mojang/brigadier/SingleRedirectModifier;	Lcom/mojang/brigadier/SingleRedirectModifier;
+	m	apply(Lcom/mojang/brigadier/context/CommandContext;)Ljava/lang/Object;	apply(Lcom/mojang/brigadier/context/CommandContext;)Ljava/lang/Object;
+		ma	0	0
+c	Lcom/mojang/brigadier/StringReader;	Lcom/mojang/brigadier/StringReader;
+	m	<init>(Lcom/mojang/brigadier/StringReader;)V	<init>(Lcom/mojang/brigadier/StringReader;)V
+		ma	0	0
+	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
+		ma	0	0
+	m	getString()Ljava/lang/String;	getString()Ljava/lang/String;
+	m	setCursor(I)V	setCursor(I)V
+		ma	0	0
+	m	getRemainingLength()I	getRemainingLength()I
+	m	getTotalLength()I	getTotalLength()I
+	m	getCursor()I	getCursor()I
+	m	getRead()Ljava/lang/String;	getRead()Ljava/lang/String;
+	m	getRemaining()Ljava/lang/String;	getRemaining()Ljava/lang/String;
+	m	canRead(I)Z	canRead(I)Z
+		ma	0	0
+	m	canRead()Z	canRead()Z
+	m	peek()C	peek()C
+	m	peek(I)C	peek(I)C
+		ma	0	0
+	m	read()C	read()C
+	m	skip()V	skip()V
+	m	isAllowedNumber(C)Z	isAllowedNumber(C)Z
+		ma	0	0
+	m	skipWhitespace()V	skipWhitespace()V
+	m	readInt()I	readInt()I
+	m	readDouble()D	readDouble()D
+	m	readFloat()F	readFloat()F
+	m	isAllowedInUnquotedString(C)Z	isAllowedInUnquotedString(C)Z
+		ma	0	0
+	m	readUnquotedString()Ljava/lang/String;	readUnquotedString()Ljava/lang/String;
+	m	readQuotedString()Ljava/lang/String;	readQuotedString()Ljava/lang/String;
+	m	readString()Ljava/lang/String;	readString()Ljava/lang/String;
+	m	readBoolean()Z	readBoolean()Z
+	m	expect(C)V	expect(C)V
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	SYNTAX_ESCAPE;;C	SYNTAX_ESCAPE;;C
+	f	SYNTAX_QUOTE;;C	SYNTAX_QUOTE;;C
+	f	ERROR_EXPECTED_START_OF_QUOTE;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_START_OF_QUOTE;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_EXPECTED_END_OF_QUOTE;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_END_OF_QUOTE;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_INVALID_ESCAPE;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_INVALID_ESCAPE;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_INVALID_BOOL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_INVALID_BOOL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_INVALID_INT;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_INVALID_INT;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_EXPECTED_INT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_INT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_INVALID_DOUBLE;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_INVALID_DOUBLE;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_EXPECTED_DOUBLE;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_DOUBLE;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_INVALID_FLOAT;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_INVALID_FLOAT;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_EXPECTED_FLOAT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_FLOAT;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_EXPECTED_BOOL;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_EXPECTED_BOOL;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	ERROR_EXPECTED_SYMBOL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_EXPECTED_SYMBOL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	string;;Ljava/lang/String;	string;;Ljava/lang/String;
+	f	cursor;;I	cursor;;I
+c	Lcom/mojang/brigadier/arguments/ArgumentType;	Lcom/mojang/brigadier/arguments/ArgumentType;
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ma	0	0
+	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+c	Lcom/mojang/brigadier/arguments/BoolArgumentType;	Lcom/mojang/brigadier/arguments/BoolArgumentType;
+	m	<init>()V	<init>()V
+	m	bool()Lcom/mojang/brigadier/arguments/BoolArgumentType;	bool()Lcom/mojang/brigadier/arguments/BoolArgumentType;
+	m	getBool(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Z	getBool(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Z
+		ma	0	0
+		ma	1	1
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Boolean;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Boolean;
+		ma	0	0
+	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	EXAMPLES;;Ljava/util/Collection;	EXAMPLES;;Ljava/util/Collection;
+c	Lcom/mojang/brigadier/arguments/DoubleArgumentType;	Lcom/mojang/brigadier/arguments/DoubleArgumentType;
+	m	<init>(DD)V	<init>(DD)V
+		ma	0	0
+		ma	1	1
+	m	doubleArg()Lcom/mojang/brigadier/arguments/DoubleArgumentType;	doubleArg()Lcom/mojang/brigadier/arguments/DoubleArgumentType;
+	m	doubleArg(D)Lcom/mojang/brigadier/arguments/DoubleArgumentType;	doubleArg(D)Lcom/mojang/brigadier/arguments/DoubleArgumentType;
+		ma	0	0
+	m	doubleArg(DD)Lcom/mojang/brigadier/arguments/DoubleArgumentType;	doubleArg(DD)Lcom/mojang/brigadier/arguments/DoubleArgumentType;
+		ma	0	0
+		ma	1	1
+	m	getDouble(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)D	getDouble(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)D
+		ma	0	0
+		ma	1	1
+	m	getMinimum()D	getMinimum()D
+	m	getMaximum()D	getMaximum()D
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Double;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Double;
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	ERROR_TOO_SMALL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_TOO_SMALL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_TOO_BIG;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_TOO_BIG;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	EXAMPLES;;Ljava/util/Collection;	EXAMPLES;;Ljava/util/Collection;
+	f	minimum;;D	minimum;;D
+	f	maximum;;D	maximum;;D
+c	Lcom/mojang/brigadier/arguments/FloatArgumentType;	Lcom/mojang/brigadier/arguments/FloatArgumentType;
+	m	<init>(FF)V	<init>(FF)V
+		ma	0	0
+		ma	1	1
+	m	floatArg()Lcom/mojang/brigadier/arguments/FloatArgumentType;	floatArg()Lcom/mojang/brigadier/arguments/FloatArgumentType;
+	m	floatArg(F)Lcom/mojang/brigadier/arguments/FloatArgumentType;	floatArg(F)Lcom/mojang/brigadier/arguments/FloatArgumentType;
+		ma	0	0
+	m	floatArg(FF)Lcom/mojang/brigadier/arguments/FloatArgumentType;	floatArg(FF)Lcom/mojang/brigadier/arguments/FloatArgumentType;
+		ma	0	0
+		ma	1	1
+	m	getFloat(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F	getFloat(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F
+		ma	0	0
+		ma	1	1
+	m	getMinimum()F	getMinimum()F
+	m	getMaximum()F	getMaximum()F
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Float;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Float;
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	ERROR_TOO_SMALL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_TOO_SMALL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_TOO_BIG;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_TOO_BIG;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	EXAMPLES;;Ljava/util/Collection;	EXAMPLES;;Ljava/util/Collection;
+	f	minimum;;F	minimum;;F
+	f	maximum;;F	maximum;;F
+c	Lcom/mojang/brigadier/arguments/IntegerArgumentType;	Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+	m	<init>(II)V	<init>(II)V
+		ma	0	0
+		ma	1	1
+	m	integer()Lcom/mojang/brigadier/arguments/IntegerArgumentType;	integer()Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+	m	integer(I)Lcom/mojang/brigadier/arguments/IntegerArgumentType;	integer(I)Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+		ma	0	0
+	m	integer(II)Lcom/mojang/brigadier/arguments/IntegerArgumentType;	integer(II)Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+		ma	0	0
+		ma	1	1
+	m	getInteger(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I	getInteger(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I
+		ma	0	0
+		ma	1	1
+	m	getMinimum()I	getMinimum()I
+	m	getMaximum()I	getMaximum()I
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	ERROR_TOO_SMALL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_TOO_SMALL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	ERROR_TOO_BIG;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_TOO_BIG;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	EXAMPLES;;Ljava/util/Collection;	EXAMPLES;;Ljava/util/Collection;
+	f	minimum;;I	minimum;;I
+	f	maximum;;I	maximum;;I
+c	Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+	m	values()[Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	values()[Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+	m	valueOf(Ljava/lang/String;)Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	valueOf(Ljava/lang/String;)Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+		ma	0	0
+	m	<init>(Ljava/lang/String;I[Ljava/lang/String;)V	<init>(Ljava/lang/String;I[Ljava/lang/String;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	<clinit>()V	<clinit>()V
+	f	SINGLE_WORD;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	SINGLE_WORD;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+	f	QUOTABLE_PHRASE;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	QUOTABLE_PHRASE;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+	f	GREEDY_PHRASE;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	GREEDY_PHRASE;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+	f	examples;;Ljava/util/Collection;	examples;;Ljava/util/Collection;
+	f	$VALUES;;[Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	$VALUES;;[Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+c	Lcom/mojang/brigadier/arguments/StringArgumentType;	Lcom/mojang/brigadier/arguments/StringArgumentType;
+	m	<init>(Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;)V	<init>(Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;)V
+		ma	0	0
+	m	word()Lcom/mojang/brigadier/arguments/StringArgumentType;	word()Lcom/mojang/brigadier/arguments/StringArgumentType;
+	m	string()Lcom/mojang/brigadier/arguments/StringArgumentType;	string()Lcom/mojang/brigadier/arguments/StringArgumentType;
+	m	greedyString()Lcom/mojang/brigadier/arguments/StringArgumentType;	greedyString()Lcom/mojang/brigadier/arguments/StringArgumentType;
+	m	getString(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/String;	getString(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+		ma	1	1
+	m	getType()Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	getType()Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;
+		ma	0	0
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	escapeIfRequired(Ljava/lang/String;)Ljava/lang/String;	escapeIfRequired(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+	m	escape(Ljava/lang/String;)Ljava/lang/String;	escape(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+	m	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ma	0	0
+	f	type;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;	type;;Lcom/mojang/brigadier/arguments/StringArgumentType$StringType;
+c	Lcom/mojang/brigadier/builder/ArgumentBuilder;	Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	m	<init>()V	<init>()V
+	m	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	m	then(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	then(Lcom/mojang/brigadier/builder/ArgumentBuilder;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+	m	then(Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	then(Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+	m	getArguments()Ljava/util/Collection;	getArguments()Ljava/util/Collection;
+	m	executes(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	executes(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+	m	getCommand()Lcom/mojang/brigadier/Command;	getCommand()Lcom/mojang/brigadier/Command;
+	m	requires(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	requires(Ljava/util/function/Predicate;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+	m	getRequirement()Ljava/util/function/Predicate;	getRequirement()Ljava/util/function/Predicate;
+	m	redirect(Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	redirect(Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+	m	redirect(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/SingleRedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	redirect(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/SingleRedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+		ma	1	1
+	m	fork(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	fork(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+		ma	1	1
+	m	forward(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;Z)Lcom/mojang/brigadier/builder/ArgumentBuilder;	forward(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;Z)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getRedirect()Lcom/mojang/brigadier/tree/CommandNode;	getRedirect()Lcom/mojang/brigadier/tree/CommandNode;
+	m	getRedirectModifier()Lcom/mojang/brigadier/RedirectModifier;	getRedirectModifier()Lcom/mojang/brigadier/RedirectModifier;
+	m	isFork()Z	isFork()Z
+	m	build()Lcom/mojang/brigadier/tree/CommandNode;	build()Lcom/mojang/brigadier/tree/CommandNode;
+	m	lambda$redirect$1(Lcom/mojang/brigadier/SingleRedirectModifier;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	lambda$redirect$1(Lcom/mojang/brigadier/SingleRedirectModifier;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
+		ma	0	0
+		ma	1	1
+	m	lambda$new$0(Ljava/lang/Object;)Z	lambda$new$0(Ljava/lang/Object;)Z
+		ma	0	0
+	f	arguments;;Lcom/mojang/brigadier/tree/RootCommandNode;	arguments;;Lcom/mojang/brigadier/tree/RootCommandNode;
+	f	command;;Lcom/mojang/brigadier/Command;	command;;Lcom/mojang/brigadier/Command;
+	f	requirement;;Ljava/util/function/Predicate;	requirement;;Ljava/util/function/Predicate;
+	f	target;;Lcom/mojang/brigadier/tree/CommandNode;	target;;Lcom/mojang/brigadier/tree/CommandNode;
+	f	modifier;;Lcom/mojang/brigadier/RedirectModifier;	modifier;;Lcom/mojang/brigadier/RedirectModifier;
+	f	forks;;Z	forks;;Z
+c	Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
+		ma	0	0
+	m	literal(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	literal(Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+		ma	0	0
+	m	getThis()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	m	getLiteral()Ljava/lang/String;	getLiteral()Ljava/lang/String;
+	m	build()Lcom/mojang/brigadier/tree/LiteralCommandNode;	build()Lcom/mojang/brigadier/tree/LiteralCommandNode;
+	m	build()Lcom/mojang/brigadier/tree/CommandNode;	build()Lcom/mojang/brigadier/tree/CommandNode;
+	m	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	f	literal;;Ljava/lang/String;	literal;;Ljava/lang/String;
+c	Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+	m	<init>(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)V	<init>(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)V
+		ma	0	0
+		ma	1	1
+	m	argument(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	argument(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+		ma	0	0
+		ma	1	1
+	m	suggests(Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	suggests(Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+		ma	0	0
+	m	getSuggestionsProvider()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	getSuggestionsProvider()Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	m	getThis()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+	m	getType()Lcom/mojang/brigadier/arguments/ArgumentType;	getType()Lcom/mojang/brigadier/arguments/ArgumentType;
+	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
+	m	build()Lcom/mojang/brigadier/tree/ArgumentCommandNode;	build()Lcom/mojang/brigadier/tree/ArgumentCommandNode;
+	m	build()Lcom/mojang/brigadier/tree/CommandNode;	build()Lcom/mojang/brigadier/tree/CommandNode;
+	m	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;	getThis()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
+	f	type;;Lcom/mojang/brigadier/arguments/ArgumentType;	type;;Lcom/mojang/brigadier/arguments/ArgumentType;
+	f	suggestionsProvider;;Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestionsProvider;;Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+c	Lcom/mojang/brigadier/context/CommandContext;	Lcom/mojang/brigadier/context/CommandContext;
+	m	<init>(Ljava/lang/Object;Ljava/lang/String;Ljava/util/Map;Lcom/mojang/brigadier/Command;Ljava/util/Map;Lcom/mojang/brigadier/context/StringRange;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/RedirectModifier;Z)V	<init>(Ljava/lang/Object;Ljava/lang/String;Ljava/util/Map;Lcom/mojang/brigadier/Command;Ljava/util/Map;Lcom/mojang/brigadier/context/StringRange;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/RedirectModifier;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+		ma	8	8
+	m	copyFor(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContext;	copyFor(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContext;
+		ma	0	0
+	m	getChild()Lcom/mojang/brigadier/context/CommandContext;	getChild()Lcom/mojang/brigadier/context/CommandContext;
+	m	getLastChild()Lcom/mojang/brigadier/context/CommandContext;	getLastChild()Lcom/mojang/brigadier/context/CommandContext;
+	m	getCommand()Lcom/mojang/brigadier/Command;	getCommand()Lcom/mojang/brigadier/Command;
+	m	getSource()Ljava/lang/Object;	getSource()Ljava/lang/Object;
+	m	getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;	getArgument(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+		ma	0	0
+		ma	1	1
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	getRedirectModifier()Lcom/mojang/brigadier/RedirectModifier;	getRedirectModifier()Lcom/mojang/brigadier/RedirectModifier;
+	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
+	m	getInput()Ljava/lang/String;	getInput()Ljava/lang/String;
+	m	getNodes()Ljava/util/Map;	getNodes()Ljava/util/Map;
+	m	isForked()Z	isForked()Z
+	f	source;;Ljava/lang/Object;	source;;Ljava/lang/Object;
+	f	input;;Ljava/lang/String;	input;;Ljava/lang/String;
+	f	command;;Lcom/mojang/brigadier/Command;	command;;Lcom/mojang/brigadier/Command;
+	f	arguments;;Ljava/util/Map;	arguments;;Ljava/util/Map;
+	f	nodes;;Ljava/util/Map;	nodes;;Ljava/util/Map;
+	f	range;;Lcom/mojang/brigadier/context/StringRange;	range;;Lcom/mojang/brigadier/context/StringRange;
+	f	child;;Lcom/mojang/brigadier/context/CommandContext;	child;;Lcom/mojang/brigadier/context/CommandContext;
+	f	modifier;;Lcom/mojang/brigadier/RedirectModifier;	modifier;;Lcom/mojang/brigadier/RedirectModifier;
+	f	forks;;Z	forks;;Z
+c	Lcom/mojang/brigadier/context/CommandContextBuilder;	Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	<init>(Lcom/mojang/brigadier/CommandDispatcher;Ljava/lang/Object;I)V	<init>(Lcom/mojang/brigadier/CommandDispatcher;Ljava/lang/Object;I)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	withSource(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withSource(Ljava/lang/Object;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+	m	getSource()Ljava/lang/Object;	getSource()Ljava/lang/Object;
+	m	withArgument(Ljava/lang/String;Lcom/mojang/brigadier/context/ParsedArgument;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withArgument(Ljava/lang/String;Lcom/mojang/brigadier/context/ParsedArgument;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+		ma	1	1
+	m	getArguments()Ljava/util/Map;	getArguments()Ljava/util/Map;
+	m	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withCommand(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+	m	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withNode(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+		ma	1	1
+	m	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;	copy()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;	withChild(Lcom/mojang/brigadier/context/CommandContextBuilder;)Lcom/mojang/brigadier/context/CommandContextBuilder;
+		ma	0	0
+	m	getChild()Lcom/mojang/brigadier/context/CommandContextBuilder;	getChild()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	getLastChild()Lcom/mojang/brigadier/context/CommandContextBuilder;	getLastChild()Lcom/mojang/brigadier/context/CommandContextBuilder;
+	m	getCommand()Lcom/mojang/brigadier/Command;	getCommand()Lcom/mojang/brigadier/Command;
+	m	getNodes()Ljava/util/Map;	getNodes()Ljava/util/Map;
+	m	build(Ljava/lang/String;)Lcom/mojang/brigadier/context/CommandContext;	build(Ljava/lang/String;)Lcom/mojang/brigadier/context/CommandContext;
+		ma	0	0
+	m	getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;	getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;
+	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
+	f	arguments;;Ljava/util/Map;	arguments;;Ljava/util/Map;
+	f	nodes;;Ljava/util/Map;	nodes;;Ljava/util/Map;
+	f	dispatcher;;Lcom/mojang/brigadier/CommandDispatcher;	dispatcher;;Lcom/mojang/brigadier/CommandDispatcher;
+	f	source;;Ljava/lang/Object;	source;;Ljava/lang/Object;
+	f	command;;Lcom/mojang/brigadier/Command;	command;;Lcom/mojang/brigadier/Command;
+	f	child;;Lcom/mojang/brigadier/context/CommandContextBuilder;	child;;Lcom/mojang/brigadier/context/CommandContextBuilder;
+	f	range;;Lcom/mojang/brigadier/context/StringRange;	range;;Lcom/mojang/brigadier/context/StringRange;
+	f	modifier;;Lcom/mojang/brigadier/RedirectModifier;	modifier;;Lcom/mojang/brigadier/RedirectModifier;
+	f	forks;;Z	forks;;Z
+c	Lcom/mojang/brigadier/context/ParsedArgument;	Lcom/mojang/brigadier/context/ParsedArgument;
+	m	<init>(IILjava/lang/Object;)V	<init>(IILjava/lang/Object;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
+	m	getResult()Ljava/lang/Object;	getResult()Ljava/lang/Object;
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	f	range;;Lcom/mojang/brigadier/context/StringRange;	range;;Lcom/mojang/brigadier/context/StringRange;
+	f	result;;Ljava/lang/Object;	result;;Ljava/lang/Object;
+c	Lcom/mojang/brigadier/context/StringRange;	Lcom/mojang/brigadier/context/StringRange;
+	m	<init>(II)V	<init>(II)V
+		ma	0	0
+		ma	1	1
+	m	at(I)Lcom/mojang/brigadier/context/StringRange;	at(I)Lcom/mojang/brigadier/context/StringRange;
+		ma	0	0
+	m	between(II)Lcom/mojang/brigadier/context/StringRange;	between(II)Lcom/mojang/brigadier/context/StringRange;
+		ma	0	0
+		ma	1	1
+	m	encompassing(Lcom/mojang/brigadier/context/StringRange;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/StringRange;	encompassing(Lcom/mojang/brigadier/context/StringRange;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/context/StringRange;
+		ma	0	0
+		ma	1	1
+	m	getStart()I	getStart()I
+	m	getEnd()I	getEnd()I
+	m	get(Lcom/mojang/brigadier/ImmutableStringReader;)Ljava/lang/String;	get(Lcom/mojang/brigadier/ImmutableStringReader;)Ljava/lang/String;
+		ma	0	0
+	m	get(Ljava/lang/String;)Ljava/lang/String;	get(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+	m	isEmpty()Z	isEmpty()Z
+	m	getLength()I	getLength()I
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	start;;I	start;;I
+	f	end;;I	end;;I
+c	Lcom/mojang/brigadier/exceptions/CommandExceptionType;	Lcom/mojang/brigadier/exceptions/CommandExceptionType;
+	m	getTypeName()Ljava/lang/String;	getTypeName()Ljava/lang/String;
+	m	getErrorMessage(Ljava/util/Map;)Ljava/lang/String;	getErrorMessage(Ljava/util/Map;)Ljava/lang/String;
+		ma	0	0
+c	Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	m	<init>(Lcom/mojang/brigadier/exceptions/CommandExceptionType;Ljava/util/Map;)V	<init>(Lcom/mojang/brigadier/exceptions/CommandExceptionType;Ljava/util/Map;)V
+		ma	0	0
+		ma	1	1
+	m	<init>(Lcom/mojang/brigadier/exceptions/CommandExceptionType;Ljava/util/Map;Ljava/lang/String;I)V	<init>(Lcom/mojang/brigadier/exceptions/CommandExceptionType;Ljava/util/Map;Ljava/lang/String;I)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	getMessage()Ljava/lang/String;	getMessage()Ljava/lang/String;
+	m	getContext()Ljava/lang/String;	getContext()Ljava/lang/String;
+	m	getType()Lcom/mojang/brigadier/exceptions/CommandExceptionType;	getType()Lcom/mojang/brigadier/exceptions/CommandExceptionType;
+	m	getData()Ljava/util/Map;	getData()Ljava/util/Map;
+	m	getInput()Ljava/lang/String;	getInput()Ljava/lang/String;
+	m	getCursor()I	getCursor()I
+	m	<clinit>()V	<clinit>()V
+	f	CONTEXT_AMOUNT;;I	CONTEXT_AMOUNT;;I
+	f	ENABLE_COMMAND_STACK_TRACES;;Z	ENABLE_COMMAND_STACK_TRACES;;Z
+	f	type;;Lcom/mojang/brigadier/exceptions/CommandExceptionType;	type;;Lcom/mojang/brigadier/exceptions/CommandExceptionType;
+	f	data;;Ljava/util/Map;	data;;Ljava/util/Map;
+	f	input;;Ljava/lang/String;	input;;Ljava/lang/String;
+	f	cursor;;I	cursor;;I
+c	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	m	<init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V	<init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getTypeName()Ljava/lang/String;	getTypeName()Ljava/lang/String;
+	m	getErrorMessage(Ljava/util/Map;)Ljava/lang/String;	getErrorMessage(Ljava/util/Map;)Ljava/lang/String;
+		ma	0	0
+	m	create([Ljava/lang/Object;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	create([Ljava/lang/Object;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+		ma	0	0
+	m	createWithContext(Lcom/mojang/brigadier/ImmutableStringReader;[Ljava/lang/Object;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	createWithContext(Lcom/mojang/brigadier/ImmutableStringReader;[Ljava/lang/Object;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+		ma	0	0
+		ma	1	1
+	m	createMap([Ljava/lang/Object;)Ljava/util/Map;	createMap([Ljava/lang/Object;)Ljava/util/Map;
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	<clinit>()V	<clinit>()V
+	f	PATTERN;;Ljava/util/regex/Pattern;	PATTERN;;Ljava/util/regex/Pattern;
+	f	JOINER;;Lcom/google/common/base/Joiner;	JOINER;;Lcom/google/common/base/Joiner;
+	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
+	f	message;;Ljava/lang/String;	message;;Ljava/lang/String;
+	f	keys;;[Ljava/lang/String;	keys;;[Ljava/lang/String;
+c	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	m	<init>(Ljava/lang/String;Ljava/lang/String;)V	<init>(Ljava/lang/String;Ljava/lang/String;)V
+		ma	0	0
+		ma	1	1
+	m	getTypeName()Ljava/lang/String;	getTypeName()Ljava/lang/String;
+	m	getErrorMessage(Ljava/util/Map;)Ljava/lang/String;	getErrorMessage(Ljava/util/Map;)Ljava/lang/String;
+		ma	0	0
+	m	create()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	create()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	m	createWithContext(Lcom/mojang/brigadier/ImmutableStringReader;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	createWithContext(Lcom/mojang/brigadier/ImmutableStringReader;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
+	f	message;;Ljava/lang/String;	message;;Ljava/lang/String;
+c	Lcom/mojang/brigadier/suggestion/Suggestion;	Lcom/mojang/brigadier/suggestion/Suggestion;
+	m	<init>(Lcom/mojang/brigadier/context/StringRange;Ljava/lang/String;)V	<init>(Lcom/mojang/brigadier/context/StringRange;Ljava/lang/String;)V
+		ma	0	0
+		ma	1	1
+	m	<init>(Lcom/mojang/brigadier/context/StringRange;Ljava/lang/String;Lcom/mojang/brigadier/Message;)V	<init>(Lcom/mojang/brigadier/context/StringRange;Ljava/lang/String;Lcom/mojang/brigadier/Message;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
+	m	getText()Ljava/lang/String;	getText()Ljava/lang/String;
+	m	getTooltip()Lcom/mojang/brigadier/Message;	getTooltip()Lcom/mojang/brigadier/Message;
+	m	apply(Ljava/lang/String;)Ljava/lang/String;	apply(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	compareTo(Lcom/mojang/brigadier/suggestion/Suggestion;)I	compareTo(Lcom/mojang/brigadier/suggestion/Suggestion;)I
+		ma	0	0
+	m	expand(Ljava/lang/String;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/suggestion/Suggestion;	expand(Ljava/lang/String;Lcom/mojang/brigadier/context/StringRange;)Lcom/mojang/brigadier/suggestion/Suggestion;
+		ma	0	0
+		ma	1	1
+	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
+		ma	0	0
+	f	range;;Lcom/mojang/brigadier/context/StringRange;	range;;Lcom/mojang/brigadier/context/StringRange;
+	f	text;;Ljava/lang/String;	text;;Ljava/lang/String;
+	f	tooltip;;Lcom/mojang/brigadier/Message;	tooltip;;Lcom/mojang/brigadier/Message;
+c	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	m	getSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	getSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+c	Lcom/mojang/brigadier/suggestion/Suggestions;	Lcom/mojang/brigadier/suggestion/Suggestions;
+	m	<init>(Lcom/mojang/brigadier/context/StringRange;Ljava/util/List;)V	<init>(Lcom/mojang/brigadier/context/StringRange;Ljava/util/List;)V
+		ma	0	0
+		ma	1	1
+	m	getRange()Lcom/mojang/brigadier/context/StringRange;	getRange()Lcom/mojang/brigadier/context/StringRange;
+	m	getList()Ljava/util/List;	getList()Ljava/util/List;
+	m	isEmpty()Z	isEmpty()Z
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	m	empty()Ljava/util/concurrent/CompletableFuture;	empty()Ljava/util/concurrent/CompletableFuture;
+	m	merge(Ljava/lang/String;Ljava/util/Collection;)Lcom/mojang/brigadier/suggestion/Suggestions;	merge(Ljava/lang/String;Ljava/util/Collection;)Lcom/mojang/brigadier/suggestion/Suggestions;
+		ma	0	0
+		ma	1	1
+	m	create(Ljava/lang/String;Ljava/util/Collection;)Lcom/mojang/brigadier/suggestion/Suggestions;	create(Ljava/lang/String;Ljava/util/Collection;)Lcom/mojang/brigadier/suggestion/Suggestions;
+		ma	0	0
+		ma	1	1
+	m	lambda$create$0(Lcom/mojang/brigadier/suggestion/Suggestion;Lcom/mojang/brigadier/suggestion/Suggestion;)I	lambda$create$0(Lcom/mojang/brigadier/suggestion/Suggestion;Lcom/mojang/brigadier/suggestion/Suggestion;)I
+		ma	0	0
+		ma	1	1
+	m	<clinit>()V	<clinit>()V
+	f	EMPTY;;Lcom/mojang/brigadier/suggestion/Suggestions;	EMPTY;;Lcom/mojang/brigadier/suggestion/Suggestions;
+	f	range;;Lcom/mojang/brigadier/context/StringRange;	range;;Lcom/mojang/brigadier/context/StringRange;
+	f	suggestions;;Ljava/util/List;	suggestions;;Ljava/util/List;
+c	Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;	Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;
+	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
+		ma	0	0
+		ma	1	1
+	m	getInput()Ljava/lang/String;	getInput()Ljava/lang/String;
+	m	getStart()I	getStart()I
+	m	getRemaining()Ljava/lang/String;	getRemaining()Ljava/lang/String;
+	m	build()Lcom/mojang/brigadier/suggestion/Suggestions;	build()Lcom/mojang/brigadier/suggestion/Suggestions;
+	m	buildFuture()Ljava/util/concurrent/CompletableFuture;	buildFuture()Ljava/util/concurrent/CompletableFuture;
+	m	suggest(Ljava/lang/String;)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;	suggest(Ljava/lang/String;)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;
+		ma	0	0
+	m	suggest(Ljava/lang/String;Lcom/mojang/brigadier/Message;)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;	suggest(Ljava/lang/String;Lcom/mojang/brigadier/Message;)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;
+		ma	0	0
+		ma	1	1
+	m	add(Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;	add(Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;
+		ma	0	0
+	m	createOffset(I)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;	createOffset(I)Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;
+		ma	0	0
+	m	restart()Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;	restart()Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;
+	f	input;;Ljava/lang/String;	input;;Ljava/lang/String;
+	f	start;;I	start;;I
+	f	remaining;;Ljava/lang/String;	remaining;;Ljava/lang/String;
+	f	result;;Ljava/util/List;	result;;Ljava/util/List;
+c	Lcom/mojang/brigadier/tree/ArgumentCommandNode;	Lcom/mojang/brigadier/tree/ArgumentCommandNode;
+	m	<init>(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/mojang/brigadier/Command;Ljava/util/function/Predicate;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;ZLcom/mojang/brigadier/suggestion/SuggestionProvider;)V	<init>(Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/mojang/brigadier/Command;Ljava/util/function/Predicate;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;ZLcom/mojang/brigadier/suggestion/SuggestionProvider;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+	m	getType()Lcom/mojang/brigadier/arguments/ArgumentType;	getType()Lcom/mojang/brigadier/arguments/ArgumentType;
+	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
+	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
+	m	getCustomSuggestions()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	getCustomSuggestions()Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	m	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V
+		ma	0	0
+		ma	1	1
+	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+	m	createBuilder()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+	m	isValidInput(Ljava/lang/String;)Z	isValidInput(Ljava/lang/String;)Z
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	getSortedKey()Ljava/lang/String;	getSortedKey()Ljava/lang/String;
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	f	USAGE_ARGUMENT_OPEN;;Ljava/lang/String;	USAGE_ARGUMENT_OPEN;;Ljava/lang/String;
+	f	USAGE_ARGUMENT_CLOSE;;Ljava/lang/String;	USAGE_ARGUMENT_CLOSE;;Ljava/lang/String;
+	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
+	f	type;;Lcom/mojang/brigadier/arguments/ArgumentType;	type;;Lcom/mojang/brigadier/arguments/ArgumentType;
+	f	customSuggestions;;Lcom/mojang/brigadier/suggestion/SuggestionProvider;	customSuggestions;;Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+c	Lcom/mojang/brigadier/tree/CommandNode;	Lcom/mojang/brigadier/tree/CommandNode;
+	m	<init>(Lcom/mojang/brigadier/Command;Ljava/util/function/Predicate;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;Z)V	<init>(Lcom/mojang/brigadier/Command;Ljava/util/function/Predicate;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	getCommand()Lcom/mojang/brigadier/Command;	getCommand()Lcom/mojang/brigadier/Command;
+	m	getChildren()Ljava/util/Collection;	getChildren()Ljava/util/Collection;
+	m	getChild(Ljava/lang/String;)Lcom/mojang/brigadier/tree/CommandNode;	getChild(Ljava/lang/String;)Lcom/mojang/brigadier/tree/CommandNode;
+		ma	0	0
+	m	getRedirect()Lcom/mojang/brigadier/tree/CommandNode;	getRedirect()Lcom/mojang/brigadier/tree/CommandNode;
+	m	getRedirectModifier()Lcom/mojang/brigadier/RedirectModifier;	getRedirectModifier()Lcom/mojang/brigadier/RedirectModifier;
+	m	canUse(Ljava/lang/Object;)Z	canUse(Ljava/lang/Object;)Z
+		ma	0	0
+	m	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V	addChild(Lcom/mojang/brigadier/tree/CommandNode;)V
+		ma	0	0
+	m	findAmbiguities(Lcom/mojang/brigadier/AmbiguityConsumer;)V	findAmbiguities(Lcom/mojang/brigadier/AmbiguityConsumer;)V
+		ma	0	0
+	m	isValidInput(Ljava/lang/String;)Z	isValidInput(Ljava/lang/String;)Z
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	getRequirement()Ljava/util/function/Predicate;	getRequirement()Ljava/util/function/Predicate;
+	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
+	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
+	m	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V
+		ma	0	0
+		ma	1	1
+	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+	m	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	m	getSortedKey()Ljava/lang/String;	getSortedKey()Ljava/lang/String;
+	m	getRelevantNodes(Lcom/mojang/brigadier/StringReader;)Ljava/util/Collection;	getRelevantNodes(Lcom/mojang/brigadier/StringReader;)Ljava/util/Collection;
+		ma	0	0
+	m	compareTo(Lcom/mojang/brigadier/tree/CommandNode;)I	compareTo(Lcom/mojang/brigadier/tree/CommandNode;)I
+		ma	0	0
+	m	isFork()Z	isFork()Z
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
+		ma	0	0
+	m	lambda$addChild$0(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/tree/CommandNode;	lambda$addChild$0(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/tree/CommandNode;
+		ma	0	0
+		ma	1	1
+	f	children;;Ljava/util/Map;	children;;Ljava/util/Map;
+	f	literals;;Ljava/util/Map;	literals;;Ljava/util/Map;
+	f	arguments;;Ljava/util/Map;	arguments;;Ljava/util/Map;
+	f	requirement;;Ljava/util/function/Predicate;	requirement;;Ljava/util/function/Predicate;
+	f	redirect;;Lcom/mojang/brigadier/tree/CommandNode;	redirect;;Lcom/mojang/brigadier/tree/CommandNode;
+	f	modifier;;Lcom/mojang/brigadier/RedirectModifier;	modifier;;Lcom/mojang/brigadier/RedirectModifier;
+	f	forks;;Z	forks;;Z
+	f	command;;Lcom/mojang/brigadier/Command;	command;;Lcom/mojang/brigadier/Command;
+c	Lcom/mojang/brigadier/tree/LiteralCommandNode;	Lcom/mojang/brigadier/tree/LiteralCommandNode;
+	m	<init>(Ljava/lang/String;Lcom/mojang/brigadier/Command;Ljava/util/function/Predicate;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;Z)V	<init>(Ljava/lang/String;Lcom/mojang/brigadier/Command;Ljava/util/function/Predicate;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/RedirectModifier;Z)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	getLiteral()Ljava/lang/String;	getLiteral()Ljava/lang/String;
+	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
+	m	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V
+		ma	0	0
+		ma	1	1
+	m	parse(Lcom/mojang/brigadier/StringReader;)I	parse(Lcom/mojang/brigadier/StringReader;)I
+		ma	0	0
+	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+	m	isValidInput(Ljava/lang/String;)Z	isValidInput(Ljava/lang/String;)Z
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
+	m	hashCode()I	hashCode()I
+	m	createBuilder()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	m	getSortedKey()Ljava/lang/String;	getSortedKey()Ljava/lang/String;
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	m	<clinit>()V	<clinit>()V
+	f	ERROR_INCORRECT_LITERAL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	ERROR_INCORRECT_LITERAL;;Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;
+	f	literal;;Ljava/lang/String;	literal;;Ljava/lang/String;
+c	Lcom/mojang/brigadier/tree/RootCommandNode;	Lcom/mojang/brigadier/tree/RootCommandNode;
+	m	<init>()V	<init>()V
+	m	getName()Ljava/lang/String;	getName()Ljava/lang/String;
+	m	getUsageText()Ljava/lang/String;	getUsageText()Ljava/lang/String;
+	m	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V	parse(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)V
+		ma	0	0
+		ma	1	1
+	m	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ma	0	0
+		ma	1	1
+	m	isValidInput(Ljava/lang/String;)Z	isValidInput(Ljava/lang/String;)Z
+		ma	0	0
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;	createBuilder()Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	m	getSortedKey()Ljava/lang/String;	getSortedKey()Ljava/lang/String;
+	m	getExamples()Ljava/util/Collection;	getExamples()Ljava/util/Collection;
+	m	lambda$new$1(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	lambda$new$1(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
+		ma	0	0
+	m	lambda$new$0(Ljava/lang/Object;)Z	lambda$new$0(Ljava/lang/Object;)Z
+		ma	0	0
 c	Lcom;	Lctd;
 	m	<init>()V	<init>()V
 	m	a(Laqe;)V	a(Laul;)V
@@ -79099,6 +79974,7 @@ c	Lcp$a;	Lcp$a;
 	f	b;;Ljava/util/Set;	b;;Ljava/util/Set;
 	f	c;;Lgt;	c;;Lgu;
 c	Lcp$b;	Lcp$b;
+	m	create(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/function/Predicate;	create(Lwg;)Ljava/util/function/Predicate;
 c	Lcp$c;	Lcp$c;
 	m	<init>(Lwc;Ljava/util/Map;Lgt;)V	<init>(Lwe;Ljava/util/Map;Lgu;)V
 		ma	0	0
@@ -90241,6 +91117,9 @@ c	Ldbb;	Ldfr;
 		ma	0	0
 	m	b(Lsj;)V	b(Lsk;)V
 		ma	0	0
+	m	a(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;	a(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Lic;
+		ma	0	0
+		ma	1	1
 	m	b()Ldbc;	b()Ldfs;
 	m	t()Lgt;	t()Lgu;
 	m	c()Lnet/minecraft/server/MinecraftServer;	c()Lnet/minecraft/server/MinecraftServer;
@@ -94394,6 +95273,13 @@ c	Lgq;	Lgr;
 	m	c()[B	c()[B
 	m	a(I)Lgr;	a(I)Lgs;
 		ma	0	0
+	m	a(ILhi;)V	a(ILhj;)V
+		ma	0	0
+		ma	1	1
+	m	b(I)V	b(I)V
+		ma	0	0
+	m	c(I)Lhi;	c(I)Lhj;
+		ma	0	0
 	f	f;;[B	f;;[B
 c	Lgr;	Lgs;
 	m	<init>()V	<init>()V
@@ -94442,6 +95328,183 @@ c	Lgt$2;	Lgu$2;
 	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
 	f	a;;I	a;;I
 	f	b;;Lgt;	b;;Lgu;
+c	Lgt;	Lgu;
+	m	<init>()V	<init>()V
+	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
+		ma	0	0
+		mv	0	0
+		mv	1	1
+	m	a(Ljava/io/DataInput;ILhc;)V	a(Ljava/io/DataInput;ILhd;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
+	m	c()Ljava/util/Set;	c()Ljava/util/Set;
+	m	a()B	a()B
+	m	d()I	d()I
+	m	a(Ljava/lang/String;Lhi;)V	a(Ljava/lang/String;Lhj;)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;B)V	a(Ljava/lang/String;B)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;S)V	a(Ljava/lang/String;S)V
+		ma	0	0
+		ma	1	1
+	m	b(Ljava/lang/String;I)V	b(Ljava/lang/String;I)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;J)V	a(Ljava/lang/String;J)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;Ljava/util/UUID;)V	a(Ljava/lang/String;Ljava/util/UUID;)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;)Ljava/util/UUID;	a(Ljava/lang/String;)Ljava/util/UUID;
+		ma	0	0
+	m	b(Ljava/lang/String;)Z	b(Ljava/lang/String;)Z
+		ma	0	0
+	m	a(Ljava/lang/String;F)V	a(Ljava/lang/String;F)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;D)V	a(Ljava/lang/String;D)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;Ljava/lang/String;)V	a(Ljava/lang/String;Ljava/lang/String;)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;[B)V	a(Ljava/lang/String;[B)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;[I)V	a(Ljava/lang/String;[I)V
+		ma	0	0
+		ma	1	1
+	m	b(Ljava/lang/String;Ljava/util/List;)V	b(Ljava/lang/String;Ljava/util/List;)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;[J)V	a(Ljava/lang/String;[J)V
+		ma	0	0
+		ma	1	1
+	m	c(Ljava/lang/String;Ljava/util/List;)V	c(Ljava/lang/String;Ljava/util/List;)V
+		ma	0	0
+		ma	1	1
+	m	a(Ljava/lang/String;Z)V	a(Ljava/lang/String;Z)V
+		ma	0	0
+		ma	1	1
+	m	c(Ljava/lang/String;)Lhi;	c(Ljava/lang/String;)Lhj;
+		ma	0	0
+	m	d(Ljava/lang/String;)B	d(Ljava/lang/String;)B
+		ma	0	0
+		mv	0	0
+	m	e(Ljava/lang/String;)Z	e(Ljava/lang/String;)Z
+		ma	0	0
+	m	c(Ljava/lang/String;I)Z	c(Ljava/lang/String;I)Z
+		ma	0	0
+		ma	1	1
+		mv	0	0
+	m	f(Ljava/lang/String;)B	f(Ljava/lang/String;)B
+		ma	0	0
+	m	g(Ljava/lang/String;)S	g(Ljava/lang/String;)S
+		ma	0	0
+	m	h(Ljava/lang/String;)I	h(Ljava/lang/String;)I
+		ma	0	0
+	m	i(Ljava/lang/String;)J	i(Ljava/lang/String;)J
+		ma	0	0
+	m	j(Ljava/lang/String;)F	j(Ljava/lang/String;)F
+		ma	0	0
+	m	k(Ljava/lang/String;)D	k(Ljava/lang/String;)D
+		ma	0	0
+	m	l(Ljava/lang/String;)Ljava/lang/String;	l(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+	m	m(Ljava/lang/String;)[B	m(Ljava/lang/String;)[B
+		ma	0	0
+		mv	0	0
+	m	n(Ljava/lang/String;)[I	n(Ljava/lang/String;)[I
+		ma	0	0
+		mv	0	0
+	m	o(Ljava/lang/String;)[J	o(Ljava/lang/String;)[J
+		ma	0	0
+		mv	0	0
+	m	p(Ljava/lang/String;)Lgt;	p(Ljava/lang/String;)Lgu;
+		ma	0	0
+		mv	0	0
+	m	d(Ljava/lang/String;I)Lgz;	d(Ljava/lang/String;I)Lha;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+	m	q(Ljava/lang/String;)Z	q(Ljava/lang/String;)Z
+		ma	0	0
+	m	r(Ljava/lang/String;)V	r(Ljava/lang/String;)V
+		ma	0	0
+	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	m	c_()Z	isEmpty()Z
+	m	a(Ljava/lang/String;ILjava/lang/ClassCastException;)Lb;	a(Ljava/lang/String;ILjava/lang/ClassCastException;)Lb;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	0	0
+		mv	1	1
+	m	g()Lgt;	f()Lgu;
+		mv	0	0
+		mv	1	1
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	a(Ljava/lang/String;Lhi;Ljava/io/DataOutput;)V	a(Ljava/lang/String;Lhj;Ljava/io/DataOutput;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a(Ljava/io/DataInput;Lhc;)B	a(Ljava/io/DataInput;Lhd;)B
+		ma	0	0
+		ma	1	1
+	m	b(Ljava/io/DataInput;Lhc;)Ljava/lang/String;	b(Ljava/io/DataInput;Lhd;)Ljava/lang/String;
+		ma	0	0
+		ma	1	1
+	m	a(BLjava/lang/String;Ljava/io/DataInput;ILhc;)Lhi;	a(BLjava/lang/String;Ljava/io/DataInput;ILhd;)Lhj;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+	m	a(Lgt;)Lgt;	a(Lgu;)Lgu;
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+	m	s(Ljava/lang/String;)Ljava/lang/String;	s(Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+	m	t(Ljava/lang/String;)Lib;	t(Ljava/lang/String;)Lic;
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+	m	a(Ljava/lang/String;I)Lib;	a(Ljava/lang/String;I)Lic;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+	m	b()Lhi;	b()Lhj;
+	m	b(Lgt;)Ljava/util/Map;	b(Lgu;)Ljava/util/Map;
+		ma	0	0
+	m	<clinit>()V	<clinit>()V
+	f	f;;Lorg/apache/logging/log4j/Logger;	f;;Lorg/apache/logging/log4j/Logger;
+	f	g;;Ljava/util/regex/Pattern;	g;;Ljava/util/regex/Pattern;
+	f	h;;Ljava/util/Map;	h;;Ljava/util/Map;
 c	Lgu;	Lgv;
 	m	<init>()V	<init>()V
 	m	<init>(D)V	<init>(D)V
@@ -94555,7 +95618,14 @@ c	Lgx;	Lgy;
 		mv	3	3
 	m	a(I)Lgy;	a(I)Lgz;
 		ma	0	0
+	m	a(ILhi;)V	a(ILhj;)V
+		ma	0	0
+		ma	1	1
+	m	b(I)V	b(I)V
+		ma	0	0
 	m	b()Lhi;	b()Lhj;
+	m	c(I)Lhi;	c(I)Lhj;
+		ma	0	0
 	f	f;;[I	f;;[I
 c	Lgy;	Lgz;
 	m	<init>()V	<init>()V
@@ -94629,6 +95699,15 @@ c	Lgz;	Lha;
 	m	l(I)Ljava/lang/String;	m(I)Ljava/lang/String;
 		ma	0	0
 		mv	0	0
+	m	m(I)Lhi;	d(I)Lhj;
+		ma	0	0
+	m	c(I)Lhi;	c(I)Lhj;
+		ma	0	0
+	m	a(ILhi;)V	a(ILhj;)V
+		ma	0	0
+		ma	1	1
+	m	b(I)V	b(I)V
+		ma	0	0
 	m	c()Lgz;	c()Lha;
 		mv	0	0
 		mv	1	1
@@ -94697,7 +95776,14 @@ c	Lha;	Lhb;
 	m	g()[J	d()[J
 	m	a(I)Lhb;	a(I)Lhc;
 		ma	0	0
+	m	a(ILhi;)V	a(ILhj;)V
+		ma	0	0
+		ma	1	1
+	m	b(I)V	b(I)V
+		ma	0	0
 	m	b()Lhi;	b()Lhj;
+	m	c(I)Lhi;	c(I)Lhj;
+		ma	0	0
 	f	f;;[J	f;;[J
 c	Lhb;	Lhc;
 	m	<init>()V	<init>()V
@@ -94947,6 +96033,8 @@ c	Lhi;	Lhj;
 	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
 	f	b;;La;	b;;La;
 	f	c;;La;	c;;La;
+	f	d;;La;	d;;La;
+	f	e;;La;	e;;La;
 c	Lhj;	Lhk;
 	m	a(Ljava/lang/String;)Lgt;	a(Ljava/lang/String;)Lgu;
 		ma	0	0
@@ -97574,6 +98662,12 @@ c	Lk$a;	Lk$a;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	m	a(Ljava/net/URI;)V	a(Ljava/net/URI;)V
+		ma	0	0
+		mv	0	0
+	m	a(Ljava/io/File;)V	a(Ljava/io/File;)V
+		ma	0	0
+		mv	0	0
 	m	b(Ljava/net/URL;)[Ljava/lang/String;	b(Ljava/net/URL;)[Ljava/lang/String;
 		ma	0	0
 		mv	0	0
@@ -100832,7 +101926,16 @@ c	Lnet/minecraft/realms/RealmsScreen;	Lnet/minecraft/realms/RealmsScreen;
 		ma	1	1
 	m	getLevelStorageSource()Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;	getLevelStorageSource()Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;
 	m	removed()V	removed()V
+	f	SKIN_HEAD_U;;I	SKIN_HEAD_U;;I
+	f	SKIN_HEAD_V;;I	SKIN_HEAD_V;;I
+	f	SKIN_HEAD_WIDTH;;I	SKIN_HEAD_WIDTH;;I
+	f	SKIN_HEAD_HEIGHT;;I	SKIN_HEAD_HEIGHT;;I
 	f	SKIN_HAT_U;;I	SKIN_HAT_U;;I
+	f	SKIN_HAT_V;;I	SKIN_HAT_V;;I
+	f	SKIN_HAT_WIDTH;;I	SKIN_HAT_WIDTH;;I
+	f	SKIN_HAT_HEIGHT;;I	SKIN_HAT_HEIGHT;;I
+	f	SKIN_TEX_WIDTH;;I	SKIN_TEX_WIDTH;;I
+	f	SKIN_TEX_HEIGHT;;I	SKIN_TEX_HEIGHT;;I
 	f	minecraft;;Lcbf;	minecraft;;Lcfv;
 	f	width;;I	width;;I
 	f	height;;I	height;;I
@@ -100898,7 +102001,9 @@ c	Lnet/minecraft/realms/RealmsServerAddress;	Lnet/minecraft/realms/RealmsServerA
 c	Lnet/minecraft/realms/RealmsSharedConstants;	Lnet/minecraft/realms/RealmsSharedConstants;
 	m	<init>()V	<init>()V
 	m	<clinit>()V	<clinit>()V
+	f	NETWORK_PROTOCOL_VERSION;;I	NETWORK_PROTOCOL_VERSION;;I
 	f	TICKS_PER_SECOND;;I	TICKS_PER_SECOND;;I
+	f	VERSION_STRING;;Ljava/lang/String;	VERSION_STRING;;Ljava/lang/String;
 	f	ILLEGAL_FILE_CHARACTERS;;[C	ILLEGAL_FILE_CHARACTERS;;[C
 c	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;
 	m	<init>(IIIII)V	<init>(IIIII)V
@@ -101142,6 +102247,10 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 		mv	2	2
 		mv	3	3
 		mv	4	4
+		mv	6	5
+		mv	7	6
+		mv	8	7
+		mv	9	8
 		mv	10	10
 		mv	11	11
 		mv	12	12
@@ -104523,6 +105632,12 @@ c	Lpx;	Lpy;
 c	Lpy;	Lpz;
 	m	a(Lcom/mojang/brigadier/CommandDispatcher;)V	a(Lcom/mojang/brigadier/CommandDispatcher;)V
 		ma	0	0
+	m	a(Lcom/mojang/brigadier/CommandDispatcher;Lcom/mojang/brigadier/context/CommandContext;)I	a(Lcom/mojang/brigadier/CommandDispatcher;Lcom/mojang/brigadier/context/CommandContext;)I
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
 c	Lpz;	Lqa;
 	m	a(Lcom/mojang/brigadier/CommandDispatcher;)V	a(Lcom/mojang/brigadier/CommandDispatcher;)V
 		ma	0	0
@@ -105506,6 +106621,7 @@ c	Lrc;	Lrd;
 	f	f;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	g;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	g;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	h;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	h;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	f	i;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	i;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	j;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	j;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	k;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	k;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	f	l;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	l;;Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
@@ -107596,6 +108712,13 @@ c	Lsm;	Lsn;
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	m	c(II)Lbiw;	c(II)Lbng;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
 	m	b(Lef;)Lbhu;	a_(Lef;)Lbmb;
 		ma	0	0
 	m	a(DDDDLjava/util/function/Predicate;)Lalg;	a(DDDDLjava/util/function/Predicate;)Lapn;
@@ -107687,6 +108810,10 @@ c	Lsm;	Lsn;
 	m	a(Lef;Lazl;)V	a(Lef;Lbds;)V
 		ma	0	0
 		ma	1	1
+	m	a(Lbko$a;II)I	a(Lboz$a;II)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	a(Lalg;Lef;Lvm;Lvo;FF)V	a(Lapn;Lef;Lvn;Lvp;FF)V
 		ma	0	0
 		ma	1	1
@@ -108645,6 +109772,9 @@ c	Lti;	Ltj;
 		ma	0	0
 		mv	0	0
 		mv	1	1
+	m	a(Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;	a(Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
+		ma	0	0
+		mv	0	0
 	m	a(Lti;)Lnet/minecraft/server/MinecraftServer;	a(Ltj;)Lnet/minecraft/server/MinecraftServer;
 		ma	0	0
 	m	b(Lti;)Lcom/mojang/authlib/GameProfile;	b(Ltj;)Lcom/mojang/authlib/GameProfile;
@@ -109784,6 +110914,11 @@ c	Lut;	Luu;
 		mv	2	2
 		mv	3	3
 		mv	4	4
+	m	a(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;	a(Ljava/net/SocketAddress;Lcom/mojang/authlib/GameProfile;)Lic;
+		ma	0	0
+		ma	1	1
+		mv	0	0
+		mv	2	2
 	m	g(Lcom/mojang/authlib/GameProfile;)Lsj;	g(Lcom/mojang/authlib/GameProfile;)Lsk;
 		ma	0	0
 		mv	0	0
@@ -110669,6 +111804,7 @@ c	Lvn;	Lvo;
 	f	dv;;Lvm;	dE;;Lvn;
 	f	dw;;Lvm;	dF;;Lvn;
 	f	dx;;Lvm;	dG;;Lvn;
+	f	dy;;Lvm;	dH;;Lvn;
 	f	dz;;Lvm;	dI;;Lvn;
 	f	dA;;Lvm;	dJ;;Lvn;
 	f	dB;;Lvm;	dK;;Lvn;
@@ -112667,37 +113803,43 @@ c	Lxa;	Lxe;
 	m	a(Ljava/util/Random;Ljava/util/List;)Lxa$a;	a(Ljava/util/Random;Ljava/util/List;)Lxe$a;
 		ma	0	0
 		ma	1	1
-c	Lxb;	Laaa;
-	m	<init>(I)V	<init>(IZLjava/lang/String;Lxg$b;Ljava/lang/String;)V
-		ma	0	0
-c	Lxd;	Lxj;
-	m	values()[Lxd;	values()[Lxj;
-	m	valueOf(Ljava/lang/String;)Lxd;	valueOf(Ljava/lang/String;)Lxj;
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;ILjava/lang/String;)V
-		ma	0	0
-		ma	1	1
-	m	<clinit>()V	<clinit>()V
-	f	n;;[Lxd;	p;;[Lxj;
 c	Lxf;	Lxl;
 	m	<init>(I)V	<init>(Ljava/util/function/Consumer;I)V
+	m	a(Lxc;Lgt;I)Lgt;	a(Lxi;Lgu;I)Lgu;
+		ma	0	0
+		ma	2	2
+		mv	0	2
+	m	a(Lxc;Lxb;)V	a(Lxh;)V
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	f	d;;I	e;;I
-c	Lxg;	Lxm;
 c	Lxi;	Lxz;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
+c	Lxj;	Lya;
+	m	<init>(I)V	<init>(IZ)V
+		ma	0	0
+c	Lxk;	Lyc;
+	m	<init>(I)V	<init>(IZ)V
+		ma	0	0
+c	Lxl;	Lyb;
+	m	<init>(I)V	<init>(IZ)V
+		ma	0	0
+c	Lxm;	Lyq;
+	m	<init>(I)V	<init>(IZ)V
+		ma	0	0
 c	Lxn;	Lye;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
-c	Lxp;	Lzz;
+c	Lxo;	Lyf;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
-c	Lxq;	Lyg;
+c	Lxp;	Lzz;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
 c	Lxr$1;	Lyh$1;
@@ -112992,6 +114134,9 @@ c	Lxx;	Lyp;
 		mv	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
+c	Lxy;	Lzj;
+	m	<init>(I)V	<init>(IZ)V
+		ma	0	0
 c	Lxz;	Lyd;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
@@ -113004,7 +114149,7 @@ c	Ly;	Ly;
 c	Lya;	Lyr;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
-c	Lyb;	Lys;
+c	Lyb;	Lzc;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
 c	Lyc;	Lyt;
@@ -113040,9 +114185,6 @@ c	Lyj;	Lza;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
-c	Lyk;	Lzc;
-	m	<init>(I)V	<init>(IZ)V
-		ma	0	0
 c	Lym;	Lzf;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
@@ -113227,14 +114369,13 @@ c	Lzh;	Laac;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
+	f	a;;Lwp;	a;;Lws;
 c	Lzi;	Laad;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
 c	Lzj;	Laae;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
-c	Lzk;	Laaf;
-	m	<clinit>()V	<clinit>()V
 c	Lzl;	Laag;
 	m	<init>(I)V	<init>(IZ)V
 		ma	0	0
@@ -113247,14 +114388,6 @@ c	Lzm;	Laai;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
-c	Lzr;	Laap;
-c	Lzs;	Lacr;
-	m	<init>()V	<init>()V
-	m	<clinit>()V	<clinit>()V
-	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
-c	Lzu;	Lacx$d;
-	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
-		ma	0	0
 c	Lzx;	Laee;
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
