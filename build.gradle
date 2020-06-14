@@ -17,13 +17,17 @@ plugins {
     id 'maven'
     id 'maven-publish'
     id 'signing'
-    id 'com.jfrog.bintray' version '1.8.4'
+    id 'com.jfrog.bintray' version '1.8.5'
 }
 
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
+def versions = []
 file('mappings').eachFile {
     if (!it.name.endsWith(".tiny")) return
+    def mcVer = it.name.replace(".tiny", "")
+    getLogger().lifecycle(":loading mappings for $mcVer")
+
     File v1MappingFile = it
     File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
@@ -42,8 +46,6 @@ file('mappings').eachFile {
             )
         }
     }
-
-    def mcVer = it.name.replace(".tiny", "")
 
     Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
     Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
@@ -71,28 +73,27 @@ file('mappings').eachFile {
         }
     }
 
-    bintray {
-        user = project.hasProperty('bintrayUser') ? project.property('bintrayUser') : System.getenv('BINTRAY_USER')
-        key = project.hasProperty('bintrayApiKey') ? project.property('bintrayApiKey') : System.getenv('BINTRAY_KEY')
-        publications = ["${mcVer}_mavenJava"]
-        publish = true
-        override = true // I don't think we care about overriding them
-        pkg {
-            repo = "Legacy-Fabric-Maven"
-            name = "Legacy-Intermediaries"
-            userOrg = "legacy-fabric"
-            licenses = ["CC0-1.0"]
-            version {
-                name = mcVer
-                vcsTag = mcVer
-                released = new Date()
-                githubRepo = 'Legacy-Fabric/Legacy-Intermediaries'
-                websiteUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries'
-                issueTrackerUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries/issues'
-                vcsUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries.git'
-                gpg {
-                    sign = true
-                }
+    versions.add(mcVer)
+}
+
+bintray {
+    user = project.hasProperty('bintrayUser') ? project.property('bintrayUser') : System.getenv('BINTRAY_USER')
+    key = project.hasProperty('bintrayApiKey') ? project.property('bintrayApiKey') : System.getenv('BINTRAY_KEY')
+    publications = versions.collect { "${it}_mavenJava" }
+    publish = true
+    override = true // I don't think we care about overriding them
+    pkg {
+        repo = "Legacy-Fabric-Maven"
+        name = "Legacy-Intermediaries"
+        userOrg = "legacy-fabric"
+        licenses = ["CC0-1.0"]
+        version {
+            githubRepo = 'Legacy-Fabric/Legacy-Intermediaries'
+            websiteUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries'
+            issueTrackerUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries/issues'
+            vcsUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries.git'
+            gpg {
+                sign = true
             }
         }
     }
