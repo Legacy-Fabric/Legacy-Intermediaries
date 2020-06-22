@@ -1,4 +1,4 @@
-Matches saved 2020-06-21T18:01:34.609253-04:00[America/Indianapolis], input files:
+Matches saved 2020-06-21T23:36:34.751201300-04:00[America/Indianapolis], input files:
 	a:
 		10335765	/hRRFHQhDEg/vLC6aEl1pjR264KVzH1iR4pRvgscOiE=	1.12.2-merged.jar
 	b:
@@ -22495,13 +22495,9 @@ c	Laqn;	Laql;
 		mv	0	0
 	m	a(Lawt;Lamu;Let;Laow;Let;)V	a(Lawr;Lams;Let;Laou;Let;)V
 		ma	0	0
-		ma	1	1
-		ma	2	2
 		ma	3	3
 		ma	4	4
 	m	c(Lamu;Let;Lawt;)V	c(Lams;Let;Lawr;)V
-		ma	0	0
-		ma	1	1
 		ma	2	2
 	m	a(Lawt;Lamy;Let;Lfa;)Z	a(Lawr;Lamw;Let;Lfa;)Z
 		ma	0	0
@@ -50545,11 +50541,6 @@ c	Lbli;	Lblg;
 	f	f;;Ljava/lang/String;	f;;Ljava/lang/String;
 	f	g;;I	g;;I
 	f	h;;Z	h;;Z
-c	Lblj;	Lblh;
-	m	<init>()V	<init>(Lbrx;)V
-	m	b()V	b()V
-	m	a(IIF)V	a(IIF)V
-	m	d()Z	d()Z
 c	Lblk;	Lbli;
 	m	<init>()V	<init>()V
 	m	a(IIF)V	a(IIF)V
@@ -53949,7 +53940,6 @@ c	Lbno;	Lbnm;
 	m	a(Ljava/util/List;)V	a(Ljava/util/List;)V
 		ma	0	0
 		mv	0	0
-	m	a(Lakt;Ljava/util/List;)V	a(Lakr;Ljava/util/List;)V
 	m	i()V	j()V
 	m	a(Lbns;)Z	a(Lbnq;)Z
 		ma	0	0
@@ -57938,11 +57928,6 @@ c	Lbsa;	Lbry;
 		ma	4	4
 		mv	0	0
 		mv	1	1
-	m	a(ILakt;ZLaed;)V	a(ILjava/util/List;Ljava/util/List;Laeb;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
 	m	a(II)V	a(II)V
 		ma	0	0
 		ma	1	1
@@ -65019,32 +65004,6 @@ c	Lbwe;	Lbwc;
 	f	b;;Lcfz;	b;;Lcfx;
 	f	c;;Z	c;;Z
 	f	d;;I	d;;I
-c	Lbwf$1;	Lbwd;
-	m	<init>(Lbwf;Lawu;)V	<init>(Ljava/lang/Iterable;)V
-c	Lbwg$1$1;	Lbwe$1$1;
-	m	<init>(Lbwg$1;)V	<init>(Lbwe$1;)V
-		ma	0	0
-	m	a(Lawt;)Z	a(Lawr;)Z
-		ma	0	0
-	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
-		ma	0	0
-	f	a;;Lbwg$1;	a;;Lbwe$1;
-c	Lbwg$1;	Lbwe$1;
-	m	<init>()V	<init>()V
-	m	a(Lawu;)Lcom/google/common/base/Predicate;	a(Laws;)Lcom/google/common/base/Predicate;
-		ma	0	0
-c	Lbwg$2$1;	Lbwe$2$1;
-	m	<init>(Lbwg$2;)V	<init>(Lbwe$2;)V
-		ma	0	0
-	m	a(Lawt;)Z	a(Lawr;)Z
-		ma	0	0
-	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
-		ma	0	0
-	f	a;;Lbwg$2;	a;;Lbwe$2;
-c	Lbwg$2;	Lbwe$2;
-	m	<init>()V	<init>()V
-	m	a(Lawu;)Lcom/google/common/base/Predicate;	a(Laws;)Lcom/google/common/base/Predicate;
-		ma	0	0
 c	Lbwg;	Lbwe;
 	m	a(Lawu;)Lcom/google/common/base/Predicate;	a(Laws;)Lcom/google/common/base/Predicate;
 		ma	0	0
@@ -65129,22 +65088,6 @@ c	Lbwi;	Lbwg;
 	m	hashCode()I	hashCode()I
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Lawu;	b;;Laws;
-c	Lbwj$1;	Lbwh$1;
-	m	<init>(Lbwj;Lawu;)V	<init>(Lbwh;Laws;)V
-		ma	0	0
-		ma	1	1
-	m	a(Lbwg;)Lcom/google/common/base/Predicate;	a(Lbwe;)Lcom/google/common/base/Predicate;
-		ma	0	0
-	m	apply(Ljava/lang/Object;)Ljava/lang/Object;	apply(Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-	f	a;;Lawu;	a;;Laws;
-	f	b;;Lbwj;	b;;Lbwh;
-c	Lbwj;	Lbwh;
-	m	<init>(Ljava/lang/Iterable;)V	<init>(Ljava/lang/Iterable;)V
-		ma	0	0
-	m	a(Lawu;)Lcom/google/common/base/Predicate;	a(Laws;)Lcom/google/common/base/Predicate;
-		ma	0	0
-	f	c;;Ljava/lang/Iterable;	c;;Ljava/lang/Iterable;
 c	Lbwk$a$1;	Lbwi$a$1;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/JsonElement;)Lbwg;	a(Lcom/google/gson/JsonElement;)Lbwe;
@@ -81149,8 +81092,6 @@ c	Ljl;	Ljl;
 	m	a(Lhb;)V	a(Lhb;)V
 		ma	0	0
 	f	a;;Let;	a;;Let;
-c	Ljm;	Lbwd$1;
-	m	<init>(ILakt;)V	<init>(Lbwd;Laws;)V
 c	Ljn;	Ljm;
 	m	<init>()V	<init>()V
 	m	<init>(Laeb;)V	<init>(Ladz;)V
@@ -82708,17 +82649,6 @@ c	Llm;	Llm;
 		ma	0	0
 	f	a;;Z	a;;Z
 	f	b;;Z	b;;Z
-c	Lln;	Lky;
-	m	<init>()V	<init>()V
-	m	a(Lgy;)V	a(Lgy;)V
-	m	b(Lgy;)V	b(Lgy;)V
-	m	a(Lkx;)V	a(Lkw;)V
-		ma	0	0
-	m	a()I	a()I
-	m	b()Lakt;	b()S
-	m	a(Lhb;)V	a(Lhb;)V
-		ma	0	0
-	f	a;;I	a;;I
 c	Llo;	Lln;
 	m	<init>()V	<init>()V
 	m	<init>(Laeb;)V	<init>(Ladz;)V
@@ -84552,16 +84482,7 @@ c	Lnet/minecraft/realms/RealmsScreen;	Lnet/minecraft/realms/RealmsScreen;
 		ma	1	1
 	m	getLevelStorageSource()Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;	getLevelStorageSource()Lnet/minecraft/realms/RealmsAnvilLevelStorageSource;
 	m	removed()V	removed()V
-	f	SKIN_HEAD_U;;I	SKIN_HEAD_U;;I
-	f	SKIN_HEAD_V;;I	SKIN_HEAD_V;;I
-	f	SKIN_HEAD_WIDTH;;I	SKIN_HEAD_WIDTH;;I
-	f	SKIN_HEAD_HEIGHT;;I	SKIN_HEAD_HEIGHT;;I
 	f	SKIN_HAT_U;;I	SKIN_HAT_U;;I
-	f	SKIN_HAT_V;;I	SKIN_HAT_V;;I
-	f	SKIN_HAT_WIDTH;;I	SKIN_HAT_WIDTH;;I
-	f	SKIN_HAT_HEIGHT;;I	SKIN_HAT_HEIGHT;;I
-	f	SKIN_TEX_WIDTH;;I	SKIN_TEX_WIDTH;;I
-	f	SKIN_TEX_HEIGHT;;I	SKIN_TEX_HEIGHT;;I
 	f	minecraft;;Lbib;	minecraft;;Lbhz;
 	f	width;;I	width;;I
 	f	height;;I	height;;I
@@ -84627,13 +84548,6 @@ c	Lnet/minecraft/realms/RealmsServerAddress;	Lnet/minecraft/realms/RealmsServerA
 		mv	0	0
 	f	host;;Ljava/lang/String;	host;;Ljava/lang/String;
 	f	port;;I	port;;I
-c	Lnet/minecraft/realms/RealmsSharedConstants;	Lnet/minecraft/realms/RealmsSharedConstants;
-	m	<init>()V	<init>()V
-	m	<clinit>()V	<clinit>()V
-	f	NETWORK_PROTOCOL_VERSION;;I	NETWORK_PROTOCOL_VERSION;;I
-	f	TICKS_PER_SECOND;;I	TICKS_PER_SECOND;;I
-	f	VERSION_STRING;;Ljava/lang/String;	VERSION_STRING;;Ljava/lang/String;
-	f	ILLEGAL_FILE_CHARACTERS;;[C	ILLEGAL_FILE_CHARACTERS;;[C
 c	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;
 	m	<init>(IIIII)V	<init>(IIIII)V
 		ma	0	0
@@ -85303,40 +85217,6 @@ c	Lni$15;	Lng$15;
 		ma	2	2
 	m	a()F	a()F
 	m	b()F	b()F
-c	Lni$16$1;	Lng$17$1;
-	m	<init>(Lni$16;Laip;)V	<init>(Lng$17;Lain;)V
-		ma	0	0
-		ma	1	1
-	m	a(Lamu;Lfk;Laip;)Laep;	a(Lams;Lfk;Lain;)Laen;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a()F	a()F
-	m	b()F	b()F
-	f	b;;Laip;	b;;Lain;
-	f	c;;Lni$16;	c;;Lng$17;
-c	Lni$16;	Lng$17;
-	m	<init>()V	<init>()V
-	m	a(Leu;Laip;)Laip;	a(Leu;Lain;)Lain;
-		ma	0	0
-		ma	1	1
-c	Lni$17$1;	Lng$16$1;
-	m	<init>(Lni$17;Laip;)V	<init>(Lng$16;Lain;)V
-		ma	0	0
-		ma	1	1
-	m	a(Lamu;Lfk;Laip;)Laep;	a(Lams;Lfk;Lain;)Laen;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a()F	a()F
-	m	b()F	b()F
-	f	b;;Laip;	b;;Lain;
-	f	c;;Lni$17;	c;;Lng$16;
-c	Lni$17;	Lng$16;
-	m	<init>()V	<init>()V
-	m	a(Leu;Laip;)Laip;	a(Leu;Lain;)Lain;
-		ma	0	0
-		ma	1	1
 c	Lni$18;	Lng$18;
 	m	<init>()V	<init>()V
 	m	b(Leu;Laip;)Laip;	b(Leu;Lain;)Lain;
