@@ -22,6 +22,8 @@ plugins {
 
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
+def versionsToUpdate = []
+file("versionsToUpdate.txt").eachLine { versionsToUpdate.add(it) }
 def versions = []
 file('mappings').eachFile {
     if (!it.name.endsWith(".tiny")) return
@@ -73,7 +75,8 @@ file('mappings').eachFile {
         }
     }
 
-    versions.add(mcVer)
+    if (versionsToUpdate.contains(mcVer))
+        versions.add(mcVer)
 }
 
 bintray {
