@@ -95,9 +95,6 @@ bintray {
             websiteUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries'
             issueTrackerUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries/issues'
             vcsUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries.git'
-            gpg {
-                sign = true
-            }
         }
     }
 }
