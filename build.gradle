@@ -1,112 +1,118 @@
 import cuchaz.enigma.command.ConvertMappingsCommand
 
 buildscript {
-    repositories {
-        maven {
-            name "Fabric Repository"
-            url 'https://maven.fabricmc.net'
-        }
-    }
+	repositories {
+		maven {
+			name "Fabric Repository"
+			url 'https://maven.fabricmc.net'
+		}
+	}
 
-    dependencies {
-        classpath "cuchaz:enigma:0.14.2.138"
-    }
+	dependencies {
+		classpath "cuchaz:enigma:0.14.2.138"
+	}
 }
 
 plugins {
-    id 'maven'
-    id 'maven-publish'
-    id 'signing'
-    id 'com.jfrog.bintray' version '1.8.5'
+	id 'maven'
+	id 'maven-publish'
 }
+
+static List<String> getPublishedVersions() {
+	def xml = new URL("https://maven.legacyfabric.net/releases/net/fabricmc/intermediary/maven-metadata.xml").text
+	def metadata = new XmlSlurper().parseText(xml)
+	def versions = metadata.versioning.versions.version*.text();
+	return versions
+}
+
+def publishedVersions = getPublishedVersions()
 
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
-def versionsToUpdate = []
-file("versionsToUpdate.txt").eachLine { versionsToUpdate.add(it) }
-def versions = []
 file('mappings').eachFile {
-    if (!it.name.endsWith(".tiny")) return
-    def mcVer = it.name.replace(".tiny", "")
-    getLogger().lifecycle(":loading mappings for $mcVer")
+	if (!it.name.endsWith(".tiny")) return
 
-    File v1MappingFile = it
-    File v2MappingFile = new File("$localMappingsPath/${it.name}")
+	def mcVer = it.name.replace(".tiny", "")
 
-    def conversionTask = "convert${it.name}ToV2"
-    tasks.register(conversionTask) {
-        group = "V2 Conversion"
-        inputs.file(v1MappingFile)
-        outputs.file(v2MappingFile)
+	if (publishedVersions.contains(mcVer)) {
+		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
+		return
+	}
 
-        doLast {
-            new ConvertMappingsCommand().run(
-                    "tiny",
-                    v1MappingFile.path,
-                    "tinyv2:official:intermediary",
-                    v2MappingFile.path
-            )
-        }
-    }
+	File v1MappingFile = it
+	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-    Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-    Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	def conversionTask = "convert${it.name}ToV2"
+	tasks.register(conversionTask) {
+		group = "V2 Conversion"
+		inputs.file(v1MappingFile)
+		outputs.file(v2MappingFile)
+
+		doLast {
+			new ConvertMappingsCommand().run(
+					"tiny",
+					v1MappingFile.path,
+					"tinyv2:official:intermediary",
+					v2MappingFile.path
+			)
+		}
+	}
+
+	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
 
 
-    build.dependsOn makeV1Jar
-    build.dependsOn makeV2Jar
+	build.dependsOn makeV1Jar
+	build.dependsOn makeV2Jar
 
-    makeV2Jar.dependsOn conversionTask
+	makeV2Jar.dependsOn conversionTask
 
-    publishing {
-        publications {
-            create("${mcVer}_mavenJava", MavenPublication) {
-                groupId 'net.fabricmc'
-                artifactId "intermediary"
-                version mcVer
-                artifact(makeV1Jar.archiveFile) {
-                    builtBy makeV1Jar
-                }
-                artifact(makeV2Jar.archiveFile) {
-                    builtBy makeV2Jar
-                    classifier = "v2"
-                }
-            }
-        }
-    }
+	publishing {
+		publications {
+			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
+				groupId 'net.fabricmc'
+				artifactId "intermediary"
+				version mcVer
+				artifact(makeV1Jar.archiveFile) {
+					builtBy makeV1Jar
+				}
+				artifact(makeV2Jar.archiveFile) {
+					builtBy makeV2Jar
+					classifier = "v2"
+				}
+			}
+		}
+	}
 
-    if (versionsToUpdate.contains(mcVer))
-        versions.add(mcVer)
-}
-
-bintray {
-    user = project.hasProperty('bintrayUser') ? project.property('bintrayUser') : System.getenv('BINTRAY_USER')
-    key = project.hasProperty('bintrayApiKey') ? project.property('bintrayApiKey') : System.getenv('BINTRAY_KEY')
-    publications = versions.collect { "${it}_mavenJava" }
-    publish = true
-    override = true // I don't think we care about overriding them
-    pkg {
-        repo = "Legacy-Fabric-Maven"
-        name = "Legacy-Intermediaries"
-        userOrg = "legacy-fabric"
-        licenses = ["CC0-1.0"]
-        version {
-            githubRepo = 'Legacy-Fabric/Legacy-Intermediaries'
-            websiteUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries'
-            issueTrackerUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries/issues'
-            vcsUrl = 'https://github.com/Legacy-Fabric/Legacy-Intermediaries.git'
-        }
-    }
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-    def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
-    return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
-        baseName jarFilename
-        from(file(mappings)) {
-            into "mappings"
-            rename mappings.name, "mappings.tiny"
-        }
-        destinationDirectory = file("build/jars")
-    }
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
+	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
+		baseName jarFilename
+		from(file(mappings)) {
+			into "mappings"
+			rename mappings.name, "mappings.tiny"
+		}
+		destinationDirectory = file("build/jars")
+	}
+}
+
+def ENV = System.getenv()
+
+publishing {
+	repositories {
+		if (ENV.MAVEN_PUBLISH_TOKEN) {
+			maven {
+				url 'https://maven.legacyfabric.net/releases/'
+				credentials {
+					username 'BobTheBuildSlave'
+					password ENV.MAVEN_PUBLISH_TOKEN
+				}
+				authentication {
+					basic(BasicAuthentication)
+				}
+			}
+		}
+	}
 }
