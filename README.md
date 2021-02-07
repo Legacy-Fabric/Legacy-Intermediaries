@@ -1,12 +1,12 @@
 # Legacy-intermediary mappings
 
-This repository contains the match information between different versions of Minecraft created by the Fabric project, as well as the "intermediary" mappings we use, that is an intermediary naming form which tries to keep names
+This repository contains the match information between different versions of Minecraft created by the LegacyFabric project, as well as the "intermediary" mappings we use, that is an intermediary naming form which tries to keep names
 the same across versions and mapping changes.
 
 ## Files included in this repo
 
 * __mappings/<mcversion>.tiny__: Intermediary mappings in the Tiny mapping format.
-* __matches/releases/gameversion/*.matches__: Matches between Minecraft versions, created by the Legacy-Fabric project with the aid of Matcher.
+* __matches/releases/gameversion/*.matches__: Matches between Minecraft versions, created by the LegacyFabric project with the aid of Matcher.
 
 ## Generating / updating mappings
 
