@@ -19,7 +19,7 @@ plugins {
 }
 
 static List<String> getPublishedVersions() {
-	def xml = new URL("https://maven.legacyfabric.net/releases/net/fabricmc/intermediary/maven-metadata.xml").text
+	def xml = new URL("https://maven.legacyfabric.net/net/fabricmc/intermediary/maven-metadata.xml").text
 	def metadata = new XmlSlurper().parseText(xml)
 	def versions = metadata.versioning.versions.version*.text();
 	return versions
@@ -104,7 +104,7 @@ publishing {
 	repositories {
 		if (ENV.MAVEN_PUBLISH_TOKEN) {
 			maven {
-				url 'https://maven.legacyfabric.net/releases/'
+				url 'https://maven.legacyfabric.net/'
 				credentials {
 					username 'BobTheBuildSlave'
 					password ENV.MAVEN_PUBLISH_TOKEN
