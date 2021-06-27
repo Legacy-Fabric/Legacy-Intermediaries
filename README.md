@@ -19,7 +19,7 @@ In general, you're going to want to use the following tools:
 
 As with the named mappings, we provide the intermediary mappings under the Creative Commons Zero license, so all can benefit.
 
-## Hydos's guide on how to use the toolchain on legacy versions (subject to change)
+## Hydos' guide on how to use the toolchain on legacy versions (subject to change)
 1. Clone legacy fabric matcher
 2. generate a config using the config generator i made (because it's simple. may not work on macos/linux as its untested)
 3. Auto match all
