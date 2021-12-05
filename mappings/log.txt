@@ -1,0 +1,246 @@
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar 
+Available commands:
+	asmTrace <class-file>
+	generateIntermediary <input-jar> <mapping-name> [-t|--target-namespace <namespace>] [-p|--obfuscation-pattern <regex pattern>]...
+	genPrefixedTiny <input JAR> <prefix> <output tinymap> [inname] [outname]
+	matcherToTiny <in> <out> <src-name> <dst-name>
+	mergeJar <client-jar> <server-jar> <output> [--removeSnowman] [--syntheticparams]
+	mergeTiny <input-a> <input-b> <output> [mappingBlankFillOrder...]
+	mergeTinyV2 <input-a> <input-b> <output>
+	proposeFieldNames <input jar> <input mappings> <output mappings>
+	proposeV2FieldNames <input jar> <input mappings> <output mappings> <should replace>
+	reorderTiny <old-mapping-file> <new-mapping-file> [name order...]
+	reorderTinyV2 <old-mapping-file> <new-mapping-file> [new name order...]
+	rewriteIntermediary <jar> <old-mapping-file> <new-mapping-file> [--writeAll]
+	updateIntermediary <old-jar> <new-jar> <old-mapping-file> <new-mapping-file> <match-file> [-t|--target-namespace <namespace>] [-p|--obfuscation-pattern <regex pattern>]
+	validateRecords <jar>
+
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar generateIntermediary 1.3.2-merged.jar 1.3.2.tiny
+Read 1345 (1328) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 4496 MethodEntries (0 unique, 1345 classes).
+Collecting additional information...
+- Done. -
+Generating new mappings...
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.3.2-merged.jar 1.4.7-merged.jar 1.3.2.tiny 1.4.7.tiny 1.3.2-1.4.7.match 
+Read 1345 (1328) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 4496 MethodEntries (0 unique, 1345 classes).
+Collecting additional information...
+- Done. -
+Read 1500 (1479) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 5161 MethodEntries (0 unique, 1500 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.4.7-merged.jar 1.5.2-merged.jar 1.4.7.tiny 1.5.2.tiny 1.4.7-1.5.2.match 
+Read 1500 (1479) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 5161 MethodEntries (0 unique, 1500 classes).
+Collecting additional information...
+- Done. -
+Read 1636 (1615) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 5749 MethodEntries (0 unique, 1636 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Conflict detected - matched same target name!
+1) method_395 <- amq.a(II)Llx;, apa.a(II)Llx;
+2) method_396 <- amq.a(II)Llx;
+1
+OK!
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.5.2-merged.jar 1.6.4-merged.jar 1.5.2.tiny 1.6.4.tiny 1.5.2-1.6.4.match 
+Read 1636 (1615) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 5749 MethodEntries (0 unique, 1636 classes).
+Collecting additional information...
+- Done. -
+Read 1572 (1572) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 5949 MethodEntries (0 unique, 1572 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+net/minecraft/client/Minecraft is now class_1600
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.6.4-merged.jar 1.7.10-merged.jar 1.6.4.tiny 1.7.10.tiny 1.6.4-1.7.10.match 
+Read 1572 (1572) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 5949 MethodEntries (0 unique, 1572 classes).
+Collecting additional information...
+- Done. -
+Read 1836 (1836) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 6450 MethodEntries (0 unique, 1836 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Conflict detected - matched same target name!
+1) method_2518 <- nn.b_()Ljava/lang/String;, sa.b_()Ljava/lang/String;, sg(itf).b_()Ljava/lang/String;
+2) method_3334 <- ac(itf).b_()Ljava/lang/String;, ad(itf).b_()Ljava/lang/String;
+1
+OK!
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.7.10-merged.jar 1.8.9-merged.jar 1.7.10.tiny 1.8.9.tiny 1.7.10-1.8.9.match 
+Read 1836 (1836) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 6450 MethodEntries (0 unique, 1836 classes).
+Collecting additional information...
+- Done. -
+Read 2541 (1628) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 7606 MethodEntries (0 unique, 2541 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Conflict detected - matched same target name!
+1) method_2385 <- rb(itf).e_()Ljava/lang/String;
+2) method_2518 <- ac(itf).e_()Ljava/lang/String;, m(itf).e_()Ljava/lang/String;, pk<-m.e_()Ljava/lang/String;, sa.e_()Ljava/lang/String;
+2
+OK!
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.8.9-merged.jar 1.9.4-merged.jar 1.8.9.tiny 1.9.4.tiny 1.8.9-1.9.4.match 
+Read 2541 (1628) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 7606 MethodEntries (0 unique, 2541 classes).
+Collecting additional information...
+- Done. -
+Read 2939 (1835) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 8374 MethodEntries (0 unique, 2939 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.9.4-merged.jar 1.10.2-merged.jar 1.9.4.tiny 1.10.2.tiny 1.9.4-1.10.2.match 
+Read 2939 (1835) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 8374 MethodEntries (0 unique, 2939 classes).
+Collecting additional information...
+- Done. -
+Read 2980 (1861) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 8471 MethodEntries (0 unique, 2980 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.10.2-merged.jar 1.11.2-merged.jar 1.10.2.tiny 1.11.2.tiny 1.10.2-1.11.2.match 
+Read 2980 (1861) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 8471 MethodEntries (0 unique, 2980 classes).
+Collecting additional information...
+- Done. -
+Read 3122 (1937) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 9020 MethodEntries (0 unique, 3122 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Conflict detected - matched same target name!
+1) method_11290 <- afh$2<-afs$a.a(Lafj;)Ljava/lang/String;
+2) method_11291 <- afh$3<-afs$a.a(Lafj;)Ljava/lang/String;
+3) method_11292 <- afh$4<-afs$a.a(Lafj;)Ljava/lang/String;
+4) method_11293 <- afh$5<-afs$a.a(Lafj;)Ljava/lang/String;
+5) method_11294 <- afh$6<-afs$a.a(Lafj;)Ljava/lang/String;
+6) method_11295 <- afh$7<-afs$a.a(Lafj;)Ljava/lang/String;
+7) method_11296 <- afh$8<-afs$a.a(Lafj;)Ljava/lang/String;
+8) method_11297 <- afh$9<-afs$a.a(Lafj;)Ljava/lang/String;
+9) method_11301 <- afh$17<-afs$a.a(Lafj;)Ljava/lang/String;
+10) method_11302 <- afh$18<-afs$a.a(Lafj;)Ljava/lang/String;
+11) method_11303 <- afh$19<-afs$a.a(Lafj;)Ljava/lang/String;
+12) method_11304 <- afh$20<-afs$a.a(Lafj;)Ljava/lang/String;
+13) method_11305 <- afh$21<-afs$a.a(Lafj;)Ljava/lang/String;
+14) method_11377 <- afh$10<-afs$a.a(Lafj;)Ljava/lang/String;
+15) method_11378 <- afh$11<-afs$a.a(Lafj;)Ljava/lang/String;
+16) method_11379 <- afh$13<-afs$a.a(Lafj;)Ljava/lang/String;
+17) method_11380 <- afh$14<-afs$a.a(Lafj;)Ljava/lang/String;
+18) method_8437 <- afs$1<-afs$a.a(Lafj;)Ljava/lang/String;
+18
+OK!
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.11.2-merged.jar 1.12.2-merged.jar 1.11.2.tiny 1.12.2.tiny 1.11.2-1.12.2.match 
+Read 3122 (1937) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 9020 MethodEntries (0 unique, 3122 classes).
+Collecting additional information...
+- Done. -
+Read 3344 (2066) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 9551 MethodEntries (0 unique, 3344 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Done!
+[cope@arch-pc mappings]$ java -jar stitch-0.6.1+local-all.jar updateIntermediary 1.12.2-merged.jar 1.13.2-merged.jar 1.12.2.tiny 1.13.2.tiny 1.12.2-1.13.2.match 
+Read 3344 (2066) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 9551 MethodEntries (0 unique, 3344 classes).
+Collecting additional information...
+- Done. -
+Read 4027 (2714) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 10316 MethodEntries (0 unique, 4027 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+Conflict detected - matched same target name!
+1) method_13246 <- anw<-ang<-[afg<-afb<-afa<-aer<-[adr,bt],amy<-aeq].s(Z)V
+2) method_14057 <- adg(itf).s(Z)V, anj(itf).s(Z)V
+1
+OK!
+1 is now class_3532
+Conflict detected - matched same target name!
+1) method_11770 <- axw.a_(Lel;)Lblc;, bnj<-bmx<-axk.a_(Lel;)Lblc;
+2) method_8580 <- amy(itf).a_(Lel;)Lblc;, axk(itf).a_(Lel;)Lblc;
+2
+OK!
+Conflict detected - matched same target name!
+1) method_8654 <- aow.a(Lblc;Laxk;Lel;Lcbf;)Z
+2) method_8663 <- aow.a(Lblc;Laxk;Lel;Lcbf;)Z, bcs<-axx.a(Lblc;Laxk;Lel;Lcbf;)Z
+2
+OK!
+Conflict detected - matched same target name!
+1) method_11560 <- aow.f(Lblc;)Z, bcs<-axx.f(Lblc;)Z
+2) method_8671 <- aow.f(Lblc;)Z
+1
+OK!
+Done!
+[cope@arch-pc mappings]$ 
+
