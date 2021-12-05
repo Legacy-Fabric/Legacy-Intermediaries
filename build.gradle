@@ -18,26 +18,12 @@ plugins {
 	id 'maven-publish'
 }
 
-static List<String> getPublishedVersions() {
-	def xml = new URL("https://maven.legacyfabric.net/net/fabricmc/intermediary/maven-metadata.xml").text
-	def metadata = new XmlSlurper().parseText(xml)
-	def versions = metadata.versioning.versions.version*.text();
-	return versions
-}
-
-def publishedVersions = getPublishedVersions()
-
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
 	if (!it.name.endsWith(".tiny")) return
 
 	def mcVer = it.name.replace(".tiny", "")
-
-	if (publishedVersions.contains(mcVer)) {
-		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
-		return
-	}
 
 	File v1MappingFile = it
 	File v2MappingFile = new File("$localMappingsPath/${it.name}")
@@ -87,7 +73,7 @@ file('mappings').eachFile {
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "")
+	def jarFilename = "intermediary2-" + mcVersion + (v2 ? "-v2" : "")
 	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
 		baseName jarFilename
 		from(file(mappings)) {
