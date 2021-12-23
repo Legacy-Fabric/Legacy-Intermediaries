@@ -24,7 +24,7 @@ static def buildTime() {
 	return df.format(new Date())
 }
 
-def build_time = build_time();
+def build_time = buildTime();
 
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
