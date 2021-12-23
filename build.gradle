@@ -82,7 +82,7 @@ file('mappings').eachFile {
 				}
 			}
 
-			create("${mcVer.replace(" ", "")}_timed_mavenJava", MavenPublication) {
+			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
 				groupId 'net.fabricmc'
 				artifactId "intermediary"
 				version mcVerTimed
