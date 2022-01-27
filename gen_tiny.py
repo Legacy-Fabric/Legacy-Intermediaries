@@ -4,16 +4,21 @@ import urllib.request as request
 import os
 import json
 import subprocess
+import invert_match
 
 client_path = "./versions/{}/{}-client.jar"
 server_path = "./versions/{}/{}-server.jar"
 merged_path = "./versions/{}/{}-merged.jar"
+tiny_path = "./mappings/{}.tiny"
+match_path = "./matches/{}-{}.match"
 
-counter_arg = "--stitch.counter=./mappings/counter.txt"
+counter_arg = "-Dstitch.counter=./mappings/counter.txt"
 
 def gen_tiny():
     infos: list[dict] = read_info()["order"]
     check_stitch()
+    if not os.path.exists("./mappings"):
+        os.mkdir("./mappings")
 
     for info in infos:
         i_from: str = None
@@ -26,11 +31,54 @@ def gen_tiny():
         if "conflicts" in info.keys():
             i_conflicts = info["conflicts"]
         
+        i_inverted = False
+        if "inverted" in info.keys():
+            i_inverted = info["inverted"]
+        
         print("Generating from", i_from, "to", i_to)
 
         if not i_from == None:
             get_merged_jar(i_from)
         get_merged_jar(i_to)
+
+        if i_from == None:
+            generate_intermediary(i_to)
+        else:
+            update_intermediary(i_from, i_to, i_conflicts, i_inverted)
+
+def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool):
+    print("Generating", to_name, "tiny from", from_name, "one")
+
+    if os.path.exists(tiny_path.format(to_name)):
+        os.remove(tiny_path.format(to_name))
+    
+    if inverted:
+        invert_match.invert(
+            match_path.format(to_name, from_name),
+            match_path.format(from_name, to_name)
+        )
+    
+    subprocess.run(["java", counter_arg, "-jar", "./stitch.jar", "updateIntermediary",
+                merged_path.format(from_name, from_name),
+                merged_path.format(to_name, to_name),
+                tiny_path.format(from_name),
+                tiny_path.format(to_name),
+                match_path.format(from_name, to_name)
+            ])
+    
+    if inverted:
+        os.remove(match_path.format(to_name, from_name))
+
+def generate_intermediary(version_name: str):
+    print("Generating", version_name, "tiny")
+
+    if os.path.exists(tiny_path.format(version_name)):
+        os.remove(tiny_path.format(version_name))
+    
+    subprocess.run(["java", counter_arg, "-jar", "./stitch.jar", "generateIntermediary",
+                merged_path.format(version_name, version_name),
+                tiny_path.format(version_name)
+            ])
 
 def get_merged_jar(version_name: str):
     if not os.path.exists("./versions"):
