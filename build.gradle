@@ -21,6 +21,15 @@ plugins {
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
+	publishMapping(it, false, localMappingsPath)
+}
+
+// Old intermediary
+file('legacy/mappings').eachFile {
+	publishMapping(it, true, localMappingsPath)
+}
+
+def publishMapping(File it, boolean old, def localMappingsPath) {
 	if (!it.name.endsWith(".tiny")) return
 
 	def mcVer = it.name.replace(".tiny", "")
@@ -28,7 +37,7 @@ file('mappings').eachFile {
 	File v1MappingFile = it
 	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-	def conversionTask = "convert${it.name}ToV2"
+	def conversionTask = "convert${it.name}ToV2" + (old ? "old" : "new")
 	tasks.register(conversionTask) {
 		group = "V2 Conversion"
 		inputs.file(v1MappingFile)
@@ -44,8 +53,8 @@ file('mappings').eachFile {
 		}
 	}
 
-	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false, old)
+	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true, old)
 
 
 	build.dependsOn makeV1Jar
@@ -55,9 +64,9 @@ file('mappings').eachFile {
 
 	publishing {
 		publications {
-			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
+			create("${mcVer.replace(" ", "")}_mavenJava" + (old ? "_old" : ""), MavenPublication) {
 				groupId 'net.fabricmc'
-				artifactId "intermediary"
+				artifactId !old ? "intermediary" : "intermediary-old"
 				version mcVer
 				artifact(makeV1Jar.archiveFile) {
 					builtBy makeV1Jar
@@ -69,12 +78,11 @@ file('mappings').eachFile {
 			}
 		}
 	}
-
 }
 
-def makeJar(String mcVersion, File mappings, boolean v2) {
-	def jarFilename = "intermediary2-" + mcVersion + (v2 ? "-v2" : "")
-	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
+def makeJar(String mcVersion, File mappings, boolean v2, boolean old) {
+	def jarFilename = "intermediary2-" + mcVersion + (v2 ? "-v2" : "") + (old ? "-old" : "")
+	return task("${mcVersion}_makeJar" + (v2 ? "v2" : "") + (old ? "_old" : ""), type: Jar) {
 		baseName jarFilename
 		from(file(mappings)) {
 			into "mappings"
