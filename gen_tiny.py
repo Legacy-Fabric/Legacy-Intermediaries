@@ -67,7 +67,7 @@ def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inve
             ])
     
     if inverted:
-        os.remove(match_path.format(to_name, from_name))
+        os.remove(match_path.format(from_name, to_name))
 
 def generate_intermediary(version_name: str):
     print("Generating", version_name, "tiny")
