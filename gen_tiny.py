@@ -6,6 +6,9 @@ import json
 import subprocess
 import invert_match
 
+# stitch_url = "https://maven.fabricmc.net/net/fabricmc/stitch/{}/stitch-{}-all.jar"
+stitch_url = "https://jitpack.io/com/github/arthurbambou/stitch/{}/stitch-{}-all.jar"
+
 client_path = "./versions/{}/{}-client.jar"
 server_path = "./versions/{}/{}-server.jar"
 merged_path = "./versions/{}/{}-merged.jar"
@@ -57,14 +60,26 @@ def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inve
             match_path.format(to_name, from_name),
             match_path.format(from_name, to_name)
         )
-    
-    subprocess.run(["java", counter_arg, "-jar", "./stitch.jar", "updateIntermediary",
+
+    args = ["java", counter_arg, "-jar", "./stitch.jar", "updateIntermediary",
                 merged_path.format(from_name, from_name),
                 merged_path.format(to_name, to_name),
                 tiny_path.format(from_name),
                 tiny_path.format(to_name),
                 match_path.format(from_name, to_name)
-            ])
+            ]
+    
+    if len(conflicts) > 0:
+        conf = None
+        for i in conflicts:
+            if conf == None:
+                conf = str(i)
+            else:
+                conf = conf + " " + str(i)
+        args.append("-c")
+        args.append(conf)
+    
+    subprocess.run(args)
     
     if inverted:
         os.remove(match_path.format(from_name, to_name))
@@ -130,8 +145,9 @@ def check_stitch():
         print("Downloading stitch")
         with request.urlopen("https://maven.fabricmc.net/net/fabricmc/stitch/maven-metadata.xml") as response:
             metadata = response.read().decode('utf-8')
-            stitch_version = metadata.split("<latest>")[1].split("</latest>")[0]
-            with request.urlopen("https://maven.fabricmc.net/net/fabricmc/stitch/{}/stitch-{}-all.jar".format(stitch_version, stitch_version)) as response:
+            # stitch_version = metadata.split("<latest>")[1].split("</latest>")[0]
+            stitch_version = "55c648c8d8"
+            with request.urlopen(stitch_url.format(stitch_version, stitch_version)) as response:
                 with open("./stitch.jar", 'wb') as stitch:
                     stitch.write(response.read())
                     stitch.close()
