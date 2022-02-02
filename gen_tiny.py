@@ -17,7 +17,14 @@ match_path = "./matches/{}-{}.match"
 
 counter_arg = "-Dstitch.counter=./mappings/counter.txt"
 
+client_fix_target = "CLASS	atv	"
+client_fix_target2 = "CLASS	net/minecraft/client/Minecraft	net/minecraft/client/Minecraft"
+client_fix_fix = "CLASS	net/minecraft/client/Minecraft	{}"
+
+to_fix = []
+
 def gen_tiny():
+    fixed = False
     infos: list[dict] = read_info()["order"]
     check_stitch()
     if not os.path.exists("./mappings"):
@@ -38,6 +45,13 @@ def gen_tiny():
         if "inverted" in info.keys():
             i_inverted = info["inverted"]
         
+        i_client_fix = False
+        if "client_fix" in info.keys():
+            i_client_fix = info["client_fix"]
+            fixed = True
+        elif not fixed:
+            to_fix.append(i_to)
+        
         print("Generating from", i_from, "to", i_to)
 
         if not i_from == None:
@@ -47,9 +61,9 @@ def gen_tiny():
         if i_from == None:
             generate_intermediary(i_to)
         else:
-            update_intermediary(i_from, i_to, i_conflicts, i_inverted)
+            update_intermediary(i_from, i_to, i_conflicts, i_inverted, i_client_fix)
 
-def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool):
+def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool, client_fix: bool):
     print("Generating", to_name, "tiny from", from_name, "one")
 
     if os.path.exists(tiny_path.format(to_name)):
@@ -83,6 +97,26 @@ def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inve
     
     if inverted:
         os.remove(match_path.format(from_name, to_name))
+    
+    if client_fix:
+        fix_clients(to_name)
+
+def fix_clients(version_name: str):
+    with open(tiny_path.format(version_name), 'r') as fixed:
+        fixed = fixed.read()
+        fixed_name = fixed.split(client_fix_target)[1].split("\n")[0]
+        for i in to_fix:
+            fix_client(i, fixed_name)
+
+def fix_client(version_name: str, fix: str):
+    with open(tiny_path.format(version_name), 'r') as tiny:
+        tiny_content = tiny.read()
+        tiny.close()
+        tiny_content = tiny_content.replace(client_fix_target2, client_fix_fix.format(fix))
+
+        with open(tiny_path.format(version_name), 'w') as tiny:
+            tiny.write(tiny_content)
+            tiny.close()
 
 def generate_intermediary(version_name: str):
     print("Generating", version_name, "tiny")
