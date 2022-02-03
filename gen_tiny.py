@@ -18,7 +18,10 @@ match_path = "./matches/{}-{}.match"
 counter_arg = "-Dstitch.counter=./mappings/counter.txt"
 
 def gen_tiny():
-    infos: list[dict] = read_info()["order"]
+    main_info: dict = read_info()
+    infos: list[dict] = main_info["order"]
+    renames: dict = main_info["renames"]
+
     check_stitch()
     if not os.path.exists("./mappings"):
         os.mkdir("./mappings")
@@ -50,6 +53,9 @@ def gen_tiny():
             update_intermediary(i_from, i_to, i_conflicts, i_inverted)
     
     fix_inner_classes_all()
+
+    for i in renames:
+        rename(i, renames[i])
 
 def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool):
     print("Generating", to_name, "tiny from", from_name, "one")
@@ -206,6 +212,11 @@ def fix_inner_classes(file_name: str):
         with open("./mappings/{}".format(file_name), 'w') as writable:
             writable.write(file_content)
             writable.close()
+
+def rename(old_name: str, new_name: str):
+    os.remove(tiny_path.format(new_name))
+    os.rename(tiny_path.format(old_name), tiny_path.format(new_name))
+    print()
 
 if __name__ == '__main__':
     gen_tiny()
