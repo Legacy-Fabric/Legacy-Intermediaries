@@ -48,6 +48,8 @@ def gen_tiny():
             generate_intermediary(i_to)
         else:
             update_intermediary(i_from, i_to, i_conflicts, i_inverted)
+    
+    fix_inner_classes_all()
 
 def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool):
     print("Generating", to_name, "tiny from", from_name, "one")
@@ -152,6 +154,58 @@ def check_stitch():
                     stitch.write(response.read())
                     stitch.close()
                     print("Stitch downloaded")
+
+def fix_inner_classes_all():
+    print("Fixing inner classes...")
+    for i in os.listdir("./mappings"):
+        if i.endswith(".tiny"):
+            fix_inner_classes(i)
+
+def fix_inner_classes(file_name: str):
+    with open("./mappings/{}".format(file_name), 'r') as read_file:
+        content = read_file.read()
+        read_file.close()
+        content_array = content.split("\n")
+        class_array = {}
+        content_array_array = []
+
+        for i in content_array:
+            content_array_array.append(i.split("	"))
+        
+        for i in range(len(content_array_array)):
+            ii = content_array_array[i]
+
+            if ii[0] == "CLASS":
+                class_array[ii[1]] = ii[2]
+        
+        for i in class_array.keys():
+            if "$" in i:
+                o_parts: list[str] = i.split("$")
+                d_full: str = class_array[i]
+
+                d_last = ""
+                if "$" in d_full:
+                    d_last = d_full.split("$").pop()
+                else:
+                    d_last = d_full.split("/").pop()
+                
+                o_parts.pop()
+                class_array[i] = class_array["$".join(o_parts)] + "$" + d_last
+        
+        content_array.clear()
+        for i in range(len(content_array_array)):
+            ii = content_array_array[i]
+
+            if ii[0] == "CLASS":
+                ii[2] = class_array[ii[1]]
+            
+            content_array.append("	".join(ii))
+        
+        file_content = "\n".join(content_array)
+
+        with open("./mappings/{}".format(file_name), 'w') as writable:
+            writable.write(file_content)
+            writable.close()
 
 if __name__ == '__main__':
     gen_tiny()
