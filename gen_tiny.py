@@ -214,7 +214,8 @@ def fix_inner_classes(file_name: str):
             writable.close()
 
 def rename(old_name: str, new_name: str):
-    os.remove(tiny_path.format(new_name))
+    if os.path.exists(tiny_path.format(new_name)):
+        os.remove(tiny_path.format(new_name))
     os.rename(tiny_path.format(old_name), tiny_path.format(new_name))
     print()
 

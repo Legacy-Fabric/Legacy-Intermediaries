@@ -48,6 +48,7 @@
             "to": "1.13.2",
             "conflicts": [1, 2, 2, 1]
         },
+
         
         {
             "from": "1.5.2",
@@ -164,6 +165,7 @@
             "from": "1.8.3",
             "to": "af-2015"
         },
+
         {
             "from": "1.5.1",
             "to": "13w11a",
@@ -173,10 +175,137 @@
             "from": "13w11a",
             "to": "1.5",
             "inverted": true
+        },
+
+        {
+            "from": "1.7.10",
+            "to": "1.7.10-pre4",
+            "inverted": true
+        },
+        {
+            "from": "1.7.10-pre4",
+            "to": "1.7.10-pre3",
+            "inverted": true
+        },
+        {
+            "from": "1.7.10-pre3",
+            "to": "1.7.10-pre2",
+            "inverted": true
+        },
+        {
+            "from": "1.7.10-pre2",
+            "to": "1.7.10-pre1",
+            "inverted": true
+        },
+        {
+            "from": "1.7.10-pre1",
+            "to": "1.7.9",
+            "inverted": true
+        },
+        {
+            "from": "1.7.9",
+            "to": "1.7.8",
+            "inverted": true,
+            "conflicts": [1]
+        },
+        {
+            "from": "1.7.8",
+            "to": "1.7.7-101331",
+            "inverted": true
+        },
+        {
+            "from": "1.7.7-101331",
+            "to": "1.7.6",
+            "inverted": true
+        },
+        {
+            "from": "1.7.6",
+            "to": "1.7.6-pre2",
+            "inverted": true
+        },
+        {
+            "from": "1.7.6-pre2",
+            "to": "1.7.6-pre1",
+            "inverted": true
+        },
+        {
+            "from": "1.7.6-pre1",
+            "to": "1.7.5",
+            "inverted": true
+        },
+        {
+            "from": "1.7.5",
+            "to": "1.7.4",
+            "inverted": true,
+            "conflicts": [1, 2]
+        },
+        {
+            "from": "1.7.4",
+            "to": "1.7.3-pre",
+            "inverted": true
+        },
+        {
+            "from": "1.7.3-pre",
+            "to": "13w49a",
+            "inverted": true
+        },
+        {
+            "from": "13w49a",
+            "to": "13w48b",
+            "inverted": true
+        },
+        {
+            "from": "13w48b",
+            "to": "13w48a",
+            "inverted": true
+        },
+        {
+            "from": "13w48a",
+            "to": "13w47e",
+            "inverted": true
+        },
+        {
+            "from": "13w47e",
+            "to": "13w47d",
+            "inverted": true
+        },
+        {
+            "from": "13w47d",
+            "to": "13w47c",
+            "inverted": true
+        },
+        {
+            "from": "13w47c",
+            "to": "13w47b",
+            "inverted": true
+        },
+        {
+            "from": "13w47b",
+            "to": "13w47a",
+            "inverted": true
+        },
+        {
+            "from": "13w47a",
+            "to": "1.7.2",
+            "inverted": true
+        },
+        {
+            "from": "1.7.2",
+            "to": "1.7.1-pre",
+            "inverted": true
+        },
+        {
+            "from": "1.7.1-pre",
+            "to": "1.7-pre",
+            "inverted": true
         }
     ],
 
     "renames": {
+        "1.7-pre": "1.7",
+        "1.7.1-pre": "1.7.1",
+        "1.7.3-pre": "1.7.3",
+        "1.7.7-101331": "1.7.7",
         "af-2015": "15w14a"
     }
 }
