@@ -298,10 +298,27 @@
             "from": "1.7.1-pre",
             "to": "1.7-pre",
             "inverted": true
+        },
+
+        {
+            "from":"1.5.1",
+            "to":"af-2013-red"
+        },
+        {
+            "from":"af-2013-red",
+            "to":"af-2013-purple"
+        },
+        {
+            "from":"af-2013-purple",
+            "to":"af-2013-blue",
+            "inverted":true
         }
     ],
 
     "renames": {
+        "af-2013-blue": "2point0_blue",
+        "af-2013-purple": "2point0_purple",
+        "af-2013-red": "2point0_red",
         "1.7-pre": "1.7",
         "1.7.1-pre": "1.7.1",
         "1.7.3-pre": "1.7.3",
