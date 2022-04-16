@@ -333,10 +333,65 @@
             "from": "1.6.1",
             "to": "1.6-pre-06251516",
             "inverted": true
+        },
+
+        {
+            "from": "1.4.7",
+            "to": "1.4.6",
+            "inverted": true
+        },
+        {
+            "from": "1.4.6",
+            "to": "12w50b",
+            "inverted": true
+        },
+        {
+            "from": "12w50b",
+            "to": "12w50a",
+            "inverted": true
+        },
+        {
+            "from": "12w50a",
+            "to": "12w49a",
+            "inverted": true
+        },
+        {
+            "from": "12w49a",
+            "to": "1.4.5",
+            "inverted": true
+        },
+        {
+            "from": "1.4.5",
+            "to": "1.4.4",
+            "inverted": true
+        },
+        {
+            "from": "1.4.4",
+            "to": "1.4.3-pre",
+            "inverted": true,
+            "conflicts": [1]
+        },
+        {
+            "from": "1.4.3-pre",
+            "to": "1.4.2",
+            "inverted": true
+        },
+        {
+            "from": "1.4.2",
+            "to": "1.4.1-pre-10231538",
+            "inverted": true
+        },
+        {
+            "from": "1.4.1-pre-10231538",
+            "to": "1.4-pre",
+            "inverted": true
         }
     ],
 
     "renames": {
+        "1.4-pre": "1.4",
+        "1.4.1-pre-10231538": "1.4.1",
+        "1.4.3-pre": "1.4.3",
         "af-2013-blue": "2point0_blue",
         "af-2013-purple": "2point0_purple",
         "af-2013-red": "2point0_red",
