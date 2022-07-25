@@ -65,7 +65,7 @@ def publishMapping(File it, boolean old, def localMappingsPath) {
 	publishing {
 		publications {
 			create("${mcVer.replace(" ", "")}_mavenJava" + (old ? "_old" : ""), MavenPublication) {
-				groupId 'net.fabricmc'
+				groupId 'net.legacyfabric'
 				artifactId !old ? "intermediary" : "intermediary-old"
 				version mcVer
 				artifact(makeV1Jar.archiveFile) {
