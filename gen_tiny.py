@@ -6,8 +6,7 @@ import json
 import subprocess
 import invert_match
 
-# stitch_url = "https://maven.fabricmc.net/net/fabricmc/stitch/{}/stitch-{}-all.jar"
-stitch_url = "https://jitpack.io/com/github/arthurbambou/stitch/{}/stitch-{}-all.jar"
+stitch_url = "https://maven.legacyfabric.net/net/legacyfabric/stitch/{}/stitch-{}-all.jar"
 
 client_path = "./versions/{}/{}-client.jar"
 server_path = "./versions/{}/{}-server.jar"
@@ -151,10 +150,9 @@ def read_info():
 def check_stitch():
     if not os.path.exists("./stitch.jar"):
         print("Downloading stitch")
-        with request.urlopen("https://maven.fabricmc.net/net/fabricmc/stitch/maven-metadata.xml") as response:
+        with request.urlopen("https://maven.legacyfabric.net/net/legacyfabric/stitch/maven-metadata.xml") as response:
             metadata = response.read().decode('utf-8')
-            # stitch_version = metadata.split("<latest>")[1].split("</latest>")[0]
-            stitch_version = "55c648c8d8"
+            stitch_version = metadata.split("<latest>")[1].split("</latest>")[0]
             with request.urlopen(stitch_url.format(stitch_version, stitch_version)) as response:
                 with open("./stitch.jar", 'wb') as stitch:
                     stitch.write(response.read())
