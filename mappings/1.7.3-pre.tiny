@@ -10283,9 +10283,8 @@ FIELD	bvo	I	k	field_12531
 FIELD	bvo	I	l	field_12532
 FIELD	bvo	Ljava/lang/String;	m	field_12533
 FIELD	bvo	Ljava/lang/String;	n	field_12534
-FIELD	bvo	J	o	field_12535
+FIELD	bvo	Z	o	field_12674
 METHOD	bvo	()Ljava/lang/String;	a	method_11685
-METHOD	bvo	(J)Z	a	method_11686
 METHOD	bvo	(Lbvo;)V	a	method_11687
 METHOD	bvo	(Lcom/google/gson/JsonArray;)Ljava/util/List;	a	method_11776
 METHOD	bvo	(Lcom/google/gson/JsonObject;)Lbvo;	a	method_11689
@@ -12600,15 +12599,14 @@ CLASS	mi	net/minecraft/class_791
 FIELD	mi	Lnet/minecraft/server/MinecraftServer;	a	field_2787
 FIELD	mi	Lmm;	b	field_2788
 CLASS	mj	net/minecraft/class_792
-FIELD	mj	Lorg/apache/logging/log4j/Logger;	a	field_8883
-FIELD	mj	Lmm;	b	field_2789
-FIELD	mj	Ljava/util/List;	c	field_2790
-FIELD	mj	Lou;	d	field_2791
-FIELD	mj	Ljava/util/List;	e	field_2792
-FIELD	mj	Ljava/util/List;	f	field_6725
-FIELD	mj	I	g	field_2793
-FIELD	mj	J	h	field_6726
-FIELD	mj	[[I	i	field_2794
+FIELD	mj	Lmm;	a	field_2789
+FIELD	mj	Ljava/util/List;	b	field_2790
+FIELD	mj	Lou;	c	field_2791
+FIELD	mj	Ljava/util/List;	d	field_2792
+FIELD	mj	Ljava/util/List;	e	field_6725
+FIELD	mj	I	f	field_2793
+FIELD	mj	J	g	field_6726
+FIELD	mj	[[I	h	field_2794
 METHOD	mj	()Lmm;	a	method_2103
 METHOD	mj	(I)V	a	method_8115
 METHOD	mj	(III)V	a	method_2105
@@ -12621,7 +12619,6 @@ METHOD	mj	()V	b	method_2111
 METHOD	mj	(I)I	b	method_2104
 METHOD	mj	(Lmj;)Lou;	b	method_2112
 METHOD	mj	(Lmp;)V	b	method_2113
-METHOD	mj	()Lorg/apache/logging/log4j/Logger;	c	method_8117
 METHOD	mj	(Lmj;)Ljava/util/List;	c	method_6063
 METHOD	mj	(Lmp;)V	c	method_2115
 METHOD	mj	(Lmj;)Ljava/util/List;	d	method_2114
@@ -16435,6 +16432,6 @@ METHOD	zy	(Lafs;IIIILxq;Labu;)Z	a	method_3463
 METHOD	zy	(Ljava/lang/String;)Lzy;	b	method_6340
 CLASS	zz	net/minecraft/class_1097
 FIELD	zz	Lahz;	a	field_6953
-# INTERMEDIARY-COUNTER field 12674
+# INTERMEDIARY-COUNTER field 12675
 # INTERMEDIARY-COUNTER method 11841
 # INTERMEDIARY-COUNTER class 2780
