@@ -3087,7 +3087,7 @@ METHOD	apo	(Laha;IIII)Z	i	method_560
 CLASS	app	net/minecraft/class_228
 FIELD	app	Lre;	a	field_5670
 METHOD	app	(Lre;)V	a	method_4844
-METHOD	app	(I)I	b	method_6530
+METHOD	app	(I)I	b	method_11315
 METHOD	app	()V	e	method_565
 CLASS	apq	net/minecraft/class_229
 METHOD	apq	(Laha;IIILajh;FI)Lazs;	a	method_567
@@ -5432,20 +5432,20 @@ METHOD	bbt	(II)V	b	method_980
 METHOD	bbt	()I	c	method_985
 METHOD	bbt	()V	d	method_986
 CLASS	bbu	net/minecraft/class_372
-FIELD	bbu	Lbth;	b	field_22503
-FIELD	bbu	Lbth;	c	field_22504
-FIELD	bbu	Lbth;	d	field_22505
-FIELD	bbu	F	e	field_22506
-METHOD	bbu	(IIFFIIFF)V	a	method_21875
-METHOD	bbu	(IIFFIIIIFF)V	a	method_21876
-METHOD	bbu	(IIII)V	a	method_21877
-METHOD	bbu	(IIIII)V	a	method_21878
-METHOD	bbu	(IIIIII)V	a	method_21879
-METHOD	bbu	(IILre;II)V	a	method_21880
-METHOD	bbu	(Lbbs;Ljava/lang/String;III)V	a	method_21881
-METHOD	bbu	(IIII)V	b	method_21882
-METHOD	bbu	(IIIIII)V	b	method_21883
-METHOD	bbu	(Lbbs;Ljava/lang/String;III)V	b	method_21884
+FIELD	bbu	Lbth;	b	field_6290
+FIELD	bbu	Lbth;	c	field_6291
+FIELD	bbu	Lbth;	d	field_6292
+FIELD	bbu	F	e	field_1172
+METHOD	bbu	(IIFFIIFF)V	a	method_6674
+METHOD	bbu	(IIFFIIIIFF)V	a	method_6675
+METHOD	bbu	(IIII)V	a	method_987
+METHOD	bbu	(IIIII)V	a	method_988
+METHOD	bbu	(IIIIII)V	a	method_989
+METHOD	bbu	(IILre;II)V	a	method_4944
+METHOD	bbu	(Lbbs;Ljava/lang/String;III)V	a	method_990
+METHOD	bbu	(IIII)V	b	method_991
+METHOD	bbu	(IIIIII)V	b	method_992
+METHOD	bbu	(Lbbs;Ljava/lang/String;III)V	b	method_993
 CLASS	bbv	net/minecraft/class_382
 FIELD	bbv	Lbth;	a	field_6296
 FIELD	bbv	Lbsp;	b	field_7707
@@ -5480,25 +5480,25 @@ METHOD	bby	()D	c	method_1047
 METHOD	bby	()D	d	method_1048
 METHOD	bby	()I	e	method_1049
 CLASS	bbz	net/minecraft/class_356
-FIELD	bbz	Lbth;	a	field_22507
-FIELD	bbz	I	f	field_22508
-FIELD	bbz	I	g	field_22509
+FIELD	bbz	Lbth;	a	field_6282
+FIELD	bbz	I	f	field_1049
+FIELD	bbz	I	g	field_1050
 FIELD	bbz	I	h	field_1051
 FIELD	bbz	I	i	field_1052
-FIELD	bbz	Ljava/lang/String;	j	field_22510
+FIELD	bbz	Ljava/lang/String;	j	field_1053
 FIELD	bbz	I	k	field_1054
-FIELD	bbz	Z	l	field_22511
-FIELD	bbz	Z	m	field_22512
-FIELD	bbz	Z	n	field_22513
-METHOD	bbz	()Z	a	method_21885
-METHOD	bbz	(II)V	a	method_21886
-METHOD	bbz	(Lban;II)V	a	method_21887
-METHOD	bbz	(Lbvz;)V	a	method_21888
-METHOD	bbz	(Z)I	a	method_21889
-METHOD	bbz	()I	b	method_21890
-METHOD	bbz	(II)V	b	method_21891
-METHOD	bbz	(Lban;II)V	b	method_21892
-METHOD	bbz	(Lban;II)Z	c	method_21893
+FIELD	bbz	Z	l	field_1055
+FIELD	bbz	Z	m	field_1056
+FIELD	bbz	Z	n	field_5056
+METHOD	bbz	()Z	a	method_4229
+METHOD	bbz	(II)V	a	method_890
+METHOD	bbz	(Lban;II)V	a	method_891
+METHOD	bbz	(Lbvz;)V	a	method_6687
+METHOD	bbz	(Z)I	a	method_892
+METHOD	bbz	()I	b	method_6688
+METHOD	bbz	(II)V	b	method_4230
+METHOD	bbz	(Lban;II)V	b	method_893
+METHOD	bbz	(Lban;II)Z	c	method_894
 CLASS	bc	net/minecraft/class_758
 CLASS	bca	net/minecraft/class_357
 FIELD	bca	Lorg/apache/logging/log4j/Logger;	a	field_7714
@@ -5619,57 +5619,57 @@ FIELD	bcj	Lban;	a	field_7730
 FIELD	bcj	Lbbz;	b	field_7731
 FIELD	bcj	Lbbz;	c	field_7732
 CLASS	bck	net/minecraft/class_390
-FIELD	bck	I	a	field_22514
+FIELD	bck	I	a	field_7733
 FIELD	bck	I	b	field_1242
 FIELD	bck	I	c	field_1243
 FIELD	bck	I	d	field_1249
 FIELD	bck	I	e	field_7734
-FIELD	bck	I	f	field_22515
+FIELD	bck	I	f	field_1244
 FIELD	bck	I	g	field_1245
 FIELD	bck	I	h	field_1246
-FIELD	bck	Z	i	field_22516
-FIELD	bck	I	j	field_22517
-FIELD	bck	Lban;	k	field_22518
-FIELD	bck	I	l	field_22519
-FIELD	bck	I	m	field_22520
-FIELD	bck	I	n	field_22521
-FIELD	bck	F	o	field_22522
-FIELD	bck	F	p	field_22523
+FIELD	bck	Z	i	field_7735
+FIELD	bck	I	j	field_1260
+FIELD	bck	Lban;	k	field_1241
+FIELD	bck	I	l	field_1248
+FIELD	bck	I	m	field_1251
+FIELD	bck	I	n	field_1252
+FIELD	bck	F	o	field_1253
+FIELD	bck	F	p	field_1254
 FIELD	bck	F	q	field_1255
-FIELD	bck	I	r	field_22524
-FIELD	bck	J	s	field_22525
-FIELD	bck	Z	t	field_22526
-FIELD	bck	Z	u	field_22527
-FIELD	bck	Z	v	field_22528
-METHOD	bck	()V	a	method_21894
-METHOD	bck	(I)Z	a	method_21895
-METHOD	bck	(II)V	a	method_21896
-METHOD	bck	(IIF)V	a	method_21897
-METHOD	bck	(IIII)V	a	method_21898
-METHOD	bck	(IIIILbor;II)V	a	method_21899
-METHOD	bck	(IILbor;)V	a	method_21900
-METHOD	bck	(IZII)V	a	method_21901
-METHOD	bck	(Lbbz;)V	a	method_21902
-METHOD	bck	(Z)V	a	method_21903
-METHOD	bck	(ZI)V	a	method_21904
-METHOD	bck	()I	b	method_21905
-METHOD	bck	(II)V	b	method_21906
-METHOD	bck	(IIII)V	b	method_21907
-METHOD	bck	(Z)V	b	method_21908
-METHOD	bck	()I	c	method_21909
-METHOD	bck	(II)I	c	method_21910
-METHOD	bck	(IIII)V	c	method_21911
-METHOD	bck	()I	d	method_21912
-METHOD	bck	(II)V	d	method_21913
-METHOD	bck	()I	e	method_21914
-METHOD	bck	(I)Z	e	method_21915
-METHOD	bck	()I	f	method_21916
-METHOD	bck	(I)V	f	method_21917
-METHOD	bck	()I	g	method_21918
-METHOD	bck	(I)V	g	method_21919
-METHOD	bck	()Z	i	method_21920
-METHOD	bck	()I	j	method_21921
-METHOD	bck	()V	k	method_21922
+FIELD	bck	I	r	field_1256
+FIELD	bck	J	s	field_1257
+FIELD	bck	Z	t	field_7736
+FIELD	bck	Z	u	field_1259
+FIELD	bck	Z	v	field_7737
+METHOD	bck	()V	a	method_1066
+METHOD	bck	(I)Z	a	method_1051
+METHOD	bck	(II)V	a	method_1052
+METHOD	bck	(IIF)V	a	method_1053
+METHOD	bck	(IIII)V	a	method_1054
+METHOD	bck	(IIIILbor;II)V	a	method_1055
+METHOD	bck	(IILbor;)V	a	method_1056
+METHOD	bck	(IZII)V	a	method_1057
+METHOD	bck	(Lbbz;)V	a	method_1058
+METHOD	bck	(Z)V	a	method_1060
+METHOD	bck	(ZI)V	a	method_1061
+METHOD	bck	()I	b	method_1050
+METHOD	bck	(II)V	b	method_1064
+METHOD	bck	(IIII)V	b	method_6704
+METHOD	bck	(Z)V	b	method_6705
+METHOD	bck	()I	c	method_6706
+METHOD	bck	(II)I	c	method_1067
+METHOD	bck	(IIII)V	c	method_1065
+METHOD	bck	()I	d	method_1069
+METHOD	bck	(II)V	d	method_1059
+METHOD	bck	()I	e	method_1062
+METHOD	bck	(I)Z	e	method_6707
+METHOD	bck	()I	f	method_1068
+METHOD	bck	(I)V	f	method_1063
+METHOD	bck	()I	g	method_6708
+METHOD	bck	(I)V	g	method_6709
+METHOD	bck	()Z	i	method_6710
+METHOD	bck	()I	j	method_6711
+METHOD	bck	()V	k	method_1070
 CLASS	bcl	net/minecraft/class_1806
 FIELD	bcl	Z	o	field_7738
 FIELD	bcl	F	p	field_7739
@@ -5903,43 +5903,43 @@ FIELD	bdp	Lbdq;	a	field_1225
 FIELD	bdp	Lbcb;	f	field_1226
 FIELD	bdp	Ljava/lang/String;	g	field_1227
 CLASS	bdq	net/minecraft/class_388
-FIELD	bdq	Lbbz;	a	field_22529
-FIELD	bdq	I	f	field_22530
-FIELD	bdq	J	g	field_22531
-FIELD	bdq	I	h	field_22532
-FIELD	bdq	Lbqi;	j	field_22533
-FIELD	bdq	Lban;	k	field_22534
-FIELD	bdq	I	l	field_22535
-FIELD	bdq	I	m	field_22536
-FIELD	bdq	Ljava/util/List;	n	field_22537
-FIELD	bdq	Ljava/util/List;	o	field_22538
-FIELD	bdq	Z	p	field_22539
-FIELD	bdq	Lbbs;	q	field_22540
-METHOD	bdq	(CI)V	a	method_21924
-METHOD	bdq	(IIF)V	a	method_21925
-METHOD	bdq	(III)V	a	method_21926
-METHOD	bdq	(IIIJ)V	a	method_21927
-METHOD	bdq	(Ladc;II)V	a	method_21928
-METHOD	bdq	(Lban;II)V	a	method_21929
-METHOD	bdq	(Lbbz;)V	a	method_21930
-METHOD	bdq	(Ljava/lang/String;II)V	a	method_21931
-METHOD	bdq	(Ljava/util/List;II)V	a	method_21932
-METHOD	bdq	(ZI)V	a	method_22355
-METHOD	bdq	()V	b	method_21933
-METHOD	bdq	(I)V	b	method_21934
-METHOD	bdq	(III)V	b	method_21935
-METHOD	bdq	()V	c	method_21936
-METHOD	bdq	(I)V	c	method_21937
-METHOD	bdq	()V	d	method_21938
-METHOD	bdq	(Ljava/lang/String;)V	d	method_21939
-METHOD	bdq	()Z	f	method_21940
-METHOD	bdq	()Ljava/lang/String;	j	method_21941
-METHOD	bdq	()V	k	method_21942
-METHOD	bdq	()V	l	method_21943
-METHOD	bdq	()Z	m	method_21944
-METHOD	bdq	()Z	n	method_21945
-METHOD	bdq	()V	q_	method_21946
-METHOD	bdq	()V	r_	method_21947
+FIELD	bdq	Lbbz;	a	field_1228
+FIELD	bdq	I	f	field_5090
+FIELD	bdq	J	g	field_5091
+FIELD	bdq	I	h	field_5092
+FIELD	bdq	Lbqi;	j	field_7770
+FIELD	bdq	Lban;	k	field_1229
+FIELD	bdq	I	l	field_1230
+FIELD	bdq	I	m	field_1231
+FIELD	bdq	Ljava/util/List;	n	field_1232
+FIELD	bdq	Ljava/util/List;	o	field_7771
+FIELD	bdq	Z	p	field_1233
+FIELD	bdq	Lbbs;	q	field_1234
+METHOD	bdq	(CI)V	a	method_1024
+METHOD	bdq	(IIF)V	a	method_1025
+METHOD	bdq	(III)V	a	method_1026
+METHOD	bdq	(IIIJ)V	a	method_4259
+METHOD	bdq	(Ladc;II)V	a	method_6752
+METHOD	bdq	(Lban;II)V	a	method_1028
+METHOD	bdq	(Lbbz;)V	a	method_1027
+METHOD	bdq	(Ljava/lang/String;II)V	a	method_6753
+METHOD	bdq	(Ljava/util/List;II)V	a	method_6754
+METHOD	bdq	(ZI)V	a	method_1029
+METHOD	bdq	()V	b	method_1030
+METHOD	bdq	(I)V	b	method_1031
+METHOD	bdq	(III)V	b	method_1032
+METHOD	bdq	()V	c	method_1033
+METHOD	bdq	(I)V	c	method_1034
+METHOD	bdq	()V	d	method_1035
+METHOD	bdq	(Ljava/lang/String;)V	d	method_1036
+METHOD	bdq	()Z	f	method_1037
+METHOD	bdq	()Ljava/lang/String;	j	method_1038
+METHOD	bdq	()V	k	method_1039
+METHOD	bdq	()V	l	method_6755
+METHOD	bdq	()Z	m	method_1041
+METHOD	bdq	()Z	n	method_1042
+METHOD	bdq	()V	q_	method_1043
+METHOD	bdq	()V	r_	method_1044
 CLASS	bdr	net/minecraft/class_391
 FIELD	bdr	Lbbz;	A	field_1274
 FIELD	bdr	Lbbz;	B	field_5094
@@ -6022,9 +6022,9 @@ FIELD	bdy	I	I	field_5251
 FIELD	bdy	I	J	field_5252
 FIELD	bdy	I	K	field_5253
 FIELD	bdy	Lbth;	L	field_6684
-FIELD	bdy	Lbbz;	M	field_22541
+FIELD	bdy	Lbbz;	M	field_12206
 FIELD	bdy	Ljava/lang/String;	a	field_6027
-FIELD	bdy	Ljava/util/concurrent/atomic/AtomicInteger;	f	field_22542
+FIELD	bdy	Ljava/util/concurrent/atomic/AtomicInteger;	f	field_12207
 FIELD	bdy	Lorg/apache/logging/log4j/Logger;	g	field_7782
 FIELD	bdy	Ljava/util/Random;	h	field_2273
 FIELD	bdy	F	i	field_2274
@@ -6032,24 +6032,24 @@ FIELD	bdy	Ljava/lang/String;	r	field_2275
 FIELD	bdy	Lbbz;	s	field_2276
 FIELD	bdy	I	t	field_2277
 FIELD	bdy	Lbsa;	u	field_6686
-FIELD	bdy	Z	v	field_22543
-FIELD	bdy	Z	w	field_22544
-FIELD	bdy	Z	x	field_22545
+FIELD	bdy	Z	v	field_12208
+FIELD	bdy	Z	w	field_12209
+FIELD	bdy	Z	x	field_12210
 FIELD	bdy	Ljava/lang/Object;	y	field_6031
 FIELD	bdy	Ljava/lang/String;	z	field_5247
 METHOD	bdy	(F)V	a	method_1723
-METHOD	bdy	(Lbdy;)V	a	method_21948
-METHOD	bdy	(Z)Z	a	method_21949
-METHOD	bdy	(II)V	b	method_5997
+METHOD	bdy	(Lbdy;)V	a	method_11316
+METHOD	bdy	(Z)Z	a	method_11317
+METHOD	bdy	(II)V	b	method_11318
 METHOD	bdy	(IIF)V	b	method_1725
 METHOD	bdy	(II)V	c	method_1726
 METHOD	bdy	(IIF)V	c	method_1727
-METHOD	bdy	()Lorg/apache/logging/log4j/Logger;	g	method_21950
-METHOD	bdy	()V	h	method_21951
-METHOD	bdy	()V	i	method_21952
-METHOD	bdy	()V	p	method_21953
-CLASS	bdz	net/minecraft/class_5000
-FIELD	bdz	Lbdy;	a	field_22546
+METHOD	bdy	()Lorg/apache/logging/log4j/Logger;	g	method_11319
+METHOD	bdy	()V	h	method_11320
+METHOD	bdy	()V	i	method_11321
+METHOD	bdy	()V	p	method_11322
+CLASS	bdz	net/minecraft/class_2675
+FIELD	bdz	Lbdy;	a	field_12211
 METHOD	bdz	()V	run	run
 CLASS	be	net/minecraft/class_760
 CLASS	bea	net/minecraft/class_398
@@ -6425,677 +6425,677 @@ CLASS	bft	net/minecraft/class_426
 FIELD	bft	Lapa;	u	field_5733
 FIELD	bft	Lbth;	v	field_6321
 CLASS	bg	net/minecraft/class_761
-CLASS	bga	net/minecraft/class_5001
-FIELD	bga	[Ljava/lang/String;	a	field_22547
-FIELD	bga	[Ljava/lang/String;	f	field_22548
-FIELD	bga	Lbdq;	g	field_22549
-FIELD	bga	I	h	field_22550
-FIELD	bga	Lbxk;	i	field_22551
-METHOD	bga	(Ljava/lang/String;)Ljava/lang/String;	a	method_21954
-METHOD	bga	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	method_21955
-METHOD	bga	(Ljava/lang/String;)Ljava/lang/String;	b	method_21956
-CLASS	bgb	net/minecraft/class_5002
-FIELD	bgb	Lorg/apache/logging/log4j/Logger;	a	field_22552
-FIELD	bgb	Lbth;	f	field_22553
-FIELD	bgb	Lbgi;	g	field_22554
-FIELD	bgb	J	h	field_22555
-FIELD	bgb	Z	i	field_22556
-FIELD	bgb	Ljava/util/List;	r	field_22557
-FIELD	bgb	Ljava/lang/String;	s	field_22558
-FIELD	bgb	Lbgd;	t	field_22559
-FIELD	bgb	I	u	field_22560
-FIELD	bgb	Lbbz;	v	field_22561
-FIELD	bgb	Lbbz;	w	field_22562
-METHOD	bgb	(Lbgb;)Lban;	a	method_21957
-METHOD	bgb	(Lbgb;I)I	a	method_21958
-METHOD	bgb	(Lbgb;Ljava/lang/Long;)Ljava/lang/String;	a	method_21959
-METHOD	bgb	(Lbgb;Ljava/lang/String;)Ljava/lang/String;	a	method_21960
-METHOD	bgb	(Lbgb;Ljava/util/List;)Ljava/util/List;	a	method_21961
-METHOD	bgb	(Ljava/lang/Long;)Ljava/lang/String;	a	method_21962
-METHOD	bgb	(Ljava/lang/String;)V	a	method_21963
-METHOD	bgb	(Lbgb;)J	b	method_21964
-METHOD	bgb	(Ljava/lang/String;II)V	b	method_21965
-METHOD	bgb	(Lbgb;)V	c	method_21966
-METHOD	bgb	(Lbgb;)Lban;	d	method_21967
-METHOD	bgb	(Lbgb;)Lbgi;	e	method_21968
-METHOD	bgb	(Lbgb;)Lban;	f	method_21969
-METHOD	bgb	()Lorg/apache/logging/log4j/Logger;	g	method_21970
-METHOD	bgb	(Lbgb;)Lban;	g	method_21971
-METHOD	bgb	()Lbth;	h	method_21972
-METHOD	bgb	(Lbgb;)Ljava/util/List;	h	method_21973
-METHOD	bgb	()V	i	method_21974
-METHOD	bgb	(Lbgb;)I	i	method_21975
-METHOD	bgb	(Lbgb;)Lban;	j	method_21976
-METHOD	bgb	(Lbgb;)Lbbs;	k	method_21977
-METHOD	bgb	(Lbgb;)Lbbs;	l	method_21978
-METHOD	bgb	(Lbgb;)Lban;	m	method_21979
-METHOD	bgb	()V	p	method_21980
-METHOD	bgb	()V	q	method_21981
-METHOD	bgb	()V	r	method_21982
-METHOD	bgb	()V	s	method_21983
-METHOD	bgb	()V	t	method_21984
-CLASS	bgc	net/minecraft/class_5003
-FIELD	bgc	Lbgb;	a	field_22563
+CLASS	bga	net/minecraft/class_2676
+FIELD	bga	[Ljava/lang/String;	a	field_12212
+FIELD	bga	[Ljava/lang/String;	f	field_12213
+FIELD	bga	Lbdq;	g	field_12214
+FIELD	bga	I	h	field_12215
+FIELD	bga	Lbxk;	i	field_12216
+METHOD	bga	(Ljava/lang/String;)Ljava/lang/String;	a	method_11323
+METHOD	bga	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	method_11324
+METHOD	bga	(Ljava/lang/String;)Ljava/lang/String;	b	method_11325
+CLASS	bgb	net/minecraft/class_2677
+FIELD	bgb	Lorg/apache/logging/log4j/Logger;	a	field_12217
+FIELD	bgb	Lbth;	f	field_12218
+FIELD	bgb	Lbgi;	g	field_12219
+FIELD	bgb	J	h	field_12220
+FIELD	bgb	Z	i	field_12221
+FIELD	bgb	Ljava/util/List;	r	field_12222
+FIELD	bgb	Ljava/lang/String;	s	field_12223
+FIELD	bgb	Lbgd;	t	field_12224
+FIELD	bgb	I	u	field_12225
+FIELD	bgb	Lbbz;	v	field_12226
+FIELD	bgb	Lbbz;	w	field_12227
+METHOD	bgb	(Lbgb;)Lban;	a	method_11326
+METHOD	bgb	(Lbgb;I)I	a	method_11327
+METHOD	bgb	(Lbgb;Ljava/lang/Long;)Ljava/lang/String;	a	method_11328
+METHOD	bgb	(Lbgb;Ljava/lang/String;)Ljava/lang/String;	a	method_11329
+METHOD	bgb	(Lbgb;Ljava/util/List;)Ljava/util/List;	a	method_11330
+METHOD	bgb	(Ljava/lang/Long;)Ljava/lang/String;	a	method_11331
+METHOD	bgb	(Ljava/lang/String;)V	a	method_11332
+METHOD	bgb	(Lbgb;)J	b	method_11333
+METHOD	bgb	(Ljava/lang/String;II)V	b	method_11334
+METHOD	bgb	(Lbgb;)V	c	method_11335
+METHOD	bgb	(Lbgb;)Lban;	d	method_11336
+METHOD	bgb	(Lbgb;)Lbgi;	e	method_11337
+METHOD	bgb	(Lbgb;)Lban;	f	method_11338
+METHOD	bgb	()Lorg/apache/logging/log4j/Logger;	g	method_11339
+METHOD	bgb	(Lbgb;)Lban;	g	method_11340
+METHOD	bgb	()Lbth;	h	method_11341
+METHOD	bgb	(Lbgb;)Ljava/util/List;	h	method_11342
+METHOD	bgb	()V	i	method_11343
+METHOD	bgb	(Lbgb;)I	i	method_11344
+METHOD	bgb	(Lbgb;)Lban;	j	method_11345
+METHOD	bgb	(Lbgb;)Lbbs;	k	method_11346
+METHOD	bgb	(Lbgb;)Lbbs;	l	method_11347
+METHOD	bgb	(Lbgb;)Lban;	m	method_11348
+METHOD	bgb	()V	p	method_11349
+METHOD	bgb	()V	q	method_11350
+METHOD	bgb	()V	r	method_11351
+METHOD	bgb	()V	s	method_11352
+METHOD	bgb	()V	t	method_11353
+CLASS	bgc	net/minecraft/class_2678
+FIELD	bgc	Lbgb;	a	field_12228
 METHOD	bgc	()V	run	run
-CLASS	bgd	net/minecraft/class_5004
-FIELD	bgd	Lbgb;	a	field_22564
-METHOD	bgd	(Ljava/util/Date;)Ljava/lang/String;	a	method_21985
-METHOD	bgd	(IIIILbor;)V	b	method_21986
-METHOD	bgd	(IIII)V	c	method_21987
-CLASS	bge	net/minecraft/class_5005
-FIELD	bge	Lbgb;	a	field_22565
-FIELD	bge	Lbxk;	c	field_22566
+CLASS	bgd	net/minecraft/class_2679
+FIELD	bgd	Lbgb;	a	field_12229
+METHOD	bgd	(Ljava/util/Date;)Ljava/lang/String;	a	method_11354
+METHOD	bgd	(IIIILbor;)V	b	method_11355
+METHOD	bgd	(IIII)V	c	method_11356
+CLASS	bge	net/minecraft/class_2680
+FIELD	bge	Lbgb;	a	field_12230
+FIELD	bge	Lbxk;	c	field_12231
 METHOD	bge	()V	run	run
-CLASS	bgf	net/minecraft/class_5006
-FIELD	bgf	Lorg/apache/logging/log4j/Logger;	a	field_22567
-FIELD	bgf	Lbdq;	f	field_22568
-FIELD	bgf	I	g	field_22569
-FIELD	bgf	Lbxw;	h	field_22570
-FIELD	bgf	Z	i	field_22571
-METHOD	bgf	(Lbgf;Lbxw;)Lbxw;	a	method_21988
-METHOD	bgf	(Ljava/lang/String;)V	a	method_21989
-METHOD	bgf	()Lorg/apache/logging/log4j/Logger;	g	method_21990
-METHOD	bgf	()V	h	method_21991
-CLASS	bgg	net/minecraft/class_5007
-FIELD	bgg	Lbxd;	a	field_22572
-FIELD	bgg	Lbgf;	b	field_22573
+CLASS	bgf	net/minecraft/class_2681
+FIELD	bgf	Lorg/apache/logging/log4j/Logger;	a	field_12232
+FIELD	bgf	Lbdq;	f	field_12233
+FIELD	bgf	I	g	field_12234
+FIELD	bgf	Lbxw;	h	field_12235
+FIELD	bgf	Z	i	field_12236
+METHOD	bgf	(Lbgf;Lbxw;)Lbxw;	a	method_11357
+METHOD	bgf	(Ljava/lang/String;)V	a	method_11358
+METHOD	bgf	()Lorg/apache/logging/log4j/Logger;	g	method_11359
+METHOD	bgf	()V	h	method_11360
+CLASS	bgg	net/minecraft/class_2682
+FIELD	bgg	Lbxd;	a	field_12237
+FIELD	bgg	Lbgf;	b	field_12238
 METHOD	bgg	()V	run	run
-CLASS	bgh	net/minecraft/class_5008
-FIELD	bgh	Lbdq;	a	field_22574
-CLASS	bgi	net/minecraft/class_5009
-FIELD	bgi	Lbbz;	A	field_22575
-FIELD	bgi	Lbbz;	B	field_22576
-FIELD	bgi	Lbbz;	C	field_22577
-FIELD	bgi	Z	D	field_22578
-FIELD	bgi	Z	E	field_22579
-FIELD	bgi	Z	F	field_22580
-FIELD	bgi	Ljava/util/Set;	G	field_22581
-FIELD	bgi	Lorg/apache/logging/log4j/Logger;	a	field_22582
-FIELD	bgi	Lbth;	f	field_22583
-FIELD	bgi	Lbth;	g	field_22584
-FIELD	bgi	Ljava/lang/String;	h	field_22585
-FIELD	bgi	Lbdq;	i	field_22586
-FIELD	bgi	Lbxm;	r	field_22587
-FIELD	bgi	Lbgk;	s	field_22588
-FIELD	bgi	I	t	field_22589
-FIELD	bgi	I	u	field_22590
-FIELD	bgi	I	v	field_22591
-FIELD	bgi	I	w	field_22592
-FIELD	bgi	Ljava/lang/String;	x	field_22593
-FIELD	bgi	Lbbz;	y	field_22594
-FIELD	bgi	Lbbz;	z	field_22595
-METHOD	bgi	(I)I	a	method_21992
-METHOD	bgi	(Lbgi;)Lban;	a	method_21993
-METHOD	bgi	(Lbgi;I)I	a	method_21994
-METHOD	bgi	(Lbgi;IIII)V	a	method_21995
-METHOD	bgi	(Lbgi;Ljava/util/Set;)Ljava/util/Set;	a	method_21996
-METHOD	bgi	(Lbgi;)Lban;	b	method_21997
-METHOD	bgi	(Lbgi;I)I	b	method_21998
-METHOD	bgi	(Lbgi;IIII)V	b	method_21999
-METHOD	bgi	(Ljava/lang/String;II)V	b	method_22000
-METHOD	bgi	(IIII)V	c	method_22001
-METHOD	bgi	(Lbgi;)Lbxm;	c	method_22002
-METHOD	bgi	(Lbgi;IIII)V	c	method_22003
-METHOD	bgi	(I)V	d	method_22004
-METHOD	bgi	(IIII)V	d	method_22005
-METHOD	bgi	(Lbgi;)Lban;	d	method_22006
-METHOD	bgi	(IIII)V	e	method_22007
-METHOD	bgi	(Lbgi;)I	e	method_22008
-METHOD	bgi	(IIII)V	f	method_22009
-METHOD	bgi	(Lbgi;)I	f	method_22010
-METHOD	bgi	()Lorg/apache/logging/log4j/Logger;	g	method_22011
-METHOD	bgi	(IIII)V	g	method_22012
-METHOD	bgi	(Lbgi;)I	g	method_22013
-METHOD	bgi	()V	h	method_22014
-METHOD	bgi	(IIII)V	h	method_22015
-METHOD	bgi	(Lbgi;)Ljava/util/Set;	h	method_22016
-METHOD	bgi	()V	i	method_22017
-METHOD	bgi	(IIII)V	i	method_22018
-METHOD	bgi	(Lbgi;)V	i	method_22019
-METHOD	bgi	(IIII)V	j	method_22020
-METHOD	bgi	(Lbgi;)V	j	method_22021
-METHOD	bgi	(Lbgi;)V	k	method_22022
-METHOD	bgi	(Lbgi;)Lbdq;	l	method_22023
-METHOD	bgi	(Lbgi;)Lban;	m	method_22024
-METHOD	bgi	(Lbgi;)Lbbs;	n	method_22025
-METHOD	bgi	(Lbgi;)Lban;	o	method_22026
-METHOD	bgi	()V	p	method_22027
-METHOD	bgi	()V	q	method_22028
-METHOD	bgi	()V	r	method_22029
-METHOD	bgi	()V	s	method_22030
-METHOD	bgi	()V	t	method_22031
-CLASS	bgj	net/minecraft/class_5010
-FIELD	bgj	Lbgi;	a	field_22596
+CLASS	bgh	net/minecraft/class_2683
+FIELD	bgh	Lbdq;	a	field_12239
+CLASS	bgi	net/minecraft/class_2684
+FIELD	bgi	Lbbz;	A	field_12240
+FIELD	bgi	Lbbz;	B	field_12241
+FIELD	bgi	Lbbz;	C	field_12242
+FIELD	bgi	Z	D	field_12243
+FIELD	bgi	Z	E	field_12244
+FIELD	bgi	Z	F	field_12245
+FIELD	bgi	Ljava/util/Set;	G	field_12246
+FIELD	bgi	Lorg/apache/logging/log4j/Logger;	a	field_12247
+FIELD	bgi	Lbth;	f	field_12248
+FIELD	bgi	Lbth;	g	field_12249
+FIELD	bgi	Ljava/lang/String;	h	field_12250
+FIELD	bgi	Lbdq;	i	field_12251
+FIELD	bgi	Lbxm;	r	field_12252
+FIELD	bgi	Lbgk;	s	field_12253
+FIELD	bgi	I	t	field_12254
+FIELD	bgi	I	u	field_12255
+FIELD	bgi	I	v	field_12256
+FIELD	bgi	I	w	field_12257
+FIELD	bgi	Ljava/lang/String;	x	field_12258
+FIELD	bgi	Lbbz;	y	field_12259
+FIELD	bgi	Lbbz;	z	field_12260
+METHOD	bgi	(I)I	a	method_11361
+METHOD	bgi	(Lbgi;)Lban;	a	method_11362
+METHOD	bgi	(Lbgi;I)I	a	method_11363
+METHOD	bgi	(Lbgi;IIII)V	a	method_11364
+METHOD	bgi	(Lbgi;Ljava/util/Set;)Ljava/util/Set;	a	method_11365
+METHOD	bgi	(Lbgi;)Lban;	b	method_11366
+METHOD	bgi	(Lbgi;I)I	b	method_11367
+METHOD	bgi	(Lbgi;IIII)V	b	method_11368
+METHOD	bgi	(Ljava/lang/String;II)V	b	method_11369
+METHOD	bgi	(IIII)V	c	method_11370
+METHOD	bgi	(Lbgi;)Lbxm;	c	method_11371
+METHOD	bgi	(Lbgi;IIII)V	c	method_11372
+METHOD	bgi	(I)V	d	method_11373
+METHOD	bgi	(IIII)V	d	method_11374
+METHOD	bgi	(Lbgi;)Lban;	d	method_11375
+METHOD	bgi	(IIII)V	e	method_11376
+METHOD	bgi	(Lbgi;)I	e	method_11377
+METHOD	bgi	(IIII)V	f	method_11378
+METHOD	bgi	(Lbgi;)I	f	method_11379
+METHOD	bgi	()Lorg/apache/logging/log4j/Logger;	g	method_11380
+METHOD	bgi	(IIII)V	g	method_11381
+METHOD	bgi	(Lbgi;)I	g	method_11382
+METHOD	bgi	()V	h	method_11383
+METHOD	bgi	(IIII)V	h	method_11384
+METHOD	bgi	(Lbgi;)Ljava/util/Set;	h	method_11385
+METHOD	bgi	()V	i	method_11386
+METHOD	bgi	(IIII)V	i	method_11387
+METHOD	bgi	(Lbgi;)V	i	method_11388
+METHOD	bgi	(IIII)V	j	method_11389
+METHOD	bgi	(Lbgi;)V	j	method_11390
+METHOD	bgi	(Lbgi;)V	k	method_11391
+METHOD	bgi	(Lbgi;)Lbdq;	l	method_11392
+METHOD	bgi	(Lbgi;)Lban;	m	method_11393
+METHOD	bgi	(Lbgi;)Lbbs;	n	method_11394
+METHOD	bgi	(Lbgi;)Lban;	o	method_11395
+METHOD	bgi	()V	p	method_11396
+METHOD	bgi	()V	q	method_11397
+METHOD	bgi	()V	r	method_11398
+METHOD	bgi	()V	s	method_11399
+METHOD	bgi	()V	t	method_11400
+CLASS	bgj	net/minecraft/class_2685
+FIELD	bgj	Lbgi;	a	field_12261
 METHOD	bgj	()V	run	run
-CLASS	bgk	net/minecraft/class_5011
-FIELD	bgk	Lbgi;	a	field_22597
-METHOD	bgk	(IIIILbor;)V	b	method_22032
-CLASS	bgl	net/minecraft/class_5012
-FIELD	bgl	Lorg/apache/logging/log4j/Logger;	a	field_22598
-FIELD	bgl	J	f	field_22599
-FIELD	bgl	Lbdq;	g	field_22600
-FIELD	bgl	Lbcb;	h	field_22601
-FIELD	bgl	Ljava/lang/String;	i	field_22602
-FIELD	bgl	I	r	field_22603
-FIELD	bgl	I	s	field_22604
-FIELD	bgl	I	t	field_22605
-FIELD	bgl	Z	u	field_22606
-FIELD	bgl	Ljava/lang/String;	v	field_22607
-FIELD	bgl	Lbyc;	w	field_22608
-METHOD	bgl	(Lbgl;)Lban;	a	method_22033
-METHOD	bgl	(Lbyc;)V	a	method_22034
-METHOD	bgl	(Lbgl;)Lbdq;	b	method_22035
-METHOD	bgl	(Lbgl;)Lban;	c	method_22036
-METHOD	bgl	()Lorg/apache/logging/log4j/Logger;	g	method_22037
-METHOD	bgl	()V	h	method_22038
-METHOD	bgl	()Z	i	method_22039
-CLASS	bgm	net/minecraft/class_5013
-FIELD	bgm	Lbgl;	a	field_22609
-FIELD	bgm	Ljava/lang/String;	c	field_22610
-FIELD	bgm	Lbyc;	d	field_22611
-FIELD	bgm	J	e	field_22612
+CLASS	bgk	net/minecraft/class_2686
+FIELD	bgk	Lbgi;	a	field_12262
+METHOD	bgk	(IIIILbor;)V	b	method_11401
+CLASS	bgl	net/minecraft/class_2687
+FIELD	bgl	Lorg/apache/logging/log4j/Logger;	a	field_12263
+FIELD	bgl	J	f	field_12264
+FIELD	bgl	Lbdq;	g	field_12265
+FIELD	bgl	Lbcb;	h	field_12266
+FIELD	bgl	Ljava/lang/String;	i	field_12267
+FIELD	bgl	I	r	field_12268
+FIELD	bgl	I	s	field_12269
+FIELD	bgl	I	t	field_12270
+FIELD	bgl	Z	u	field_12271
+FIELD	bgl	Ljava/lang/String;	v	field_12272
+FIELD	bgl	Lbyc;	w	field_12273
+METHOD	bgl	(Lbgl;)Lban;	a	method_11402
+METHOD	bgl	(Lbyc;)V	a	method_11403
+METHOD	bgl	(Lbgl;)Lbdq;	b	method_11404
+METHOD	bgl	(Lbgl;)Lban;	c	method_11405
+METHOD	bgl	()Lorg/apache/logging/log4j/Logger;	g	method_11406
+METHOD	bgl	()V	h	method_11407
+METHOD	bgl	()Z	i	method_11408
+CLASS	bgm	net/minecraft/class_2688
+FIELD	bgm	Lbgl;	a	field_12274
+FIELD	bgm	Ljava/lang/String;	c	field_12275
+FIELD	bgm	Lbyc;	d	field_12276
+FIELD	bgm	J	e	field_12277
 METHOD	bgm	()V	run	run
-CLASS	bgn	net/minecraft/class_5014
-FIELD	bgn	Ljava/lang/String;	a	field_22613
-FIELD	bgn	Lfj;	f	field_22614
-FIELD	bgn	Ljava/util/List;	g	field_22615
-FIELD	bgn	Lbdq;	h	field_22616
-CLASS	bgo	net/minecraft/class_5015
-FIELD	bgo	Lorg/apache/logging/log4j/Logger;	a	field_22617
-FIELD	bgo	Lbdq;	f	field_22618
-FIELD	bgo	Lbdq;	g	field_22619
-FIELD	bgo	Lbcb;	h	field_22620
-FIELD	bgo	Lbcb;	i	field_22621
-FIELD	bgo	Lbxm;	r	field_22622
-FIELD	bgo	Lbbz;	s	field_22623
-FIELD	bgo	I	t	field_22624
-FIELD	bgo	I	u	field_22625
-FIELD	bgo	I	v	field_22626
-FIELD	bgo	Lbhj;	w	field_22627
-METHOD	bgo	()V	g	method_22040
-CLASS	bgr	net/minecraft/class_5016
-FIELD	bgr	Lorg/apache/logging/log4j/Logger;	a	field_22628
-FIELD	bgr	Lbcb;	f	field_22629
-FIELD	bgr	Lbxm;	g	field_22630
-FIELD	bgr	Lbdq;	h	field_22631
-FIELD	bgr	Lbgi;	i	field_22632
-FIELD	bgr	I	r	field_22633
-FIELD	bgr	I	s	field_22634
-FIELD	bgr	Ljava/lang/String;	t	field_22635
-FIELD	bgr	Ljava/lang/String;	u	field_22636
-FIELD	bgr	Z	v	field_22637
-METHOD	bgr	(Ljava/lang/String;)V	a	method_22041
-CLASS	bgs	net/minecraft/class_5017
-FIELD	bgs	Lbdq;	a	field_22638
-FIELD	bgs	Ljava/lang/String;	f	field_22639
-FIELD	bgs	Ljava/lang/String;	g	field_22640
-FIELD	bgs	I	h	field_22641
-FIELD	bgs	Lbgt;	i	field_22642
-FIELD	bgs	Ljava/lang/String;	r	field_22643
-FIELD	bgs	Ljava/lang/String;	s	field_22644
-CLASS	bgt	net/minecraft/class_5018
-FIELD	bgt	Lbgt;	a	field_22645
-FIELD	bgt	Lbgt;	b	field_22646
-FIELD	bgt	I	c	field_22647
-FIELD	bgt	Ljava/lang/String;	d	field_22648
-FIELD	bgt	[Lbgt;	e	field_22649
+CLASS	bgn	net/minecraft/class_2689
+FIELD	bgn	Ljava/lang/String;	a	field_12278
+FIELD	bgn	Lfj;	f	field_12279
+FIELD	bgn	Ljava/util/List;	g	field_12280
+FIELD	bgn	Lbdq;	h	field_12281
+CLASS	bgo	net/minecraft/class_2690
+FIELD	bgo	Lorg/apache/logging/log4j/Logger;	a	field_12282
+FIELD	bgo	Lbdq;	f	field_12283
+FIELD	bgo	Lbdq;	g	field_12284
+FIELD	bgo	Lbcb;	h	field_12285
+FIELD	bgo	Lbcb;	i	field_12286
+FIELD	bgo	Lbxm;	r	field_12287
+FIELD	bgo	Lbbz;	s	field_12288
+FIELD	bgo	I	t	field_12289
+FIELD	bgo	I	u	field_12290
+FIELD	bgo	I	v	field_12291
+FIELD	bgo	Lbhj;	w	field_12292
+METHOD	bgo	()V	g	method_11409
+CLASS	bgr	net/minecraft/class_2691
+FIELD	bgr	Lorg/apache/logging/log4j/Logger;	a	field_12293
+FIELD	bgr	Lbcb;	f	field_12294
+FIELD	bgr	Lbxm;	g	field_12295
+FIELD	bgr	Lbdq;	h	field_12296
+FIELD	bgr	Lbgi;	i	field_12297
+FIELD	bgr	I	r	field_12298
+FIELD	bgr	I	s	field_12299
+FIELD	bgr	Ljava/lang/String;	t	field_12300
+FIELD	bgr	Ljava/lang/String;	u	field_12301
+FIELD	bgr	Z	v	field_12302
+METHOD	bgr	(Ljava/lang/String;)V	a	method_11410
+CLASS	bgs	net/minecraft/class_2692
+FIELD	bgs	Lbdq;	a	field_12303
+FIELD	bgs	Ljava/lang/String;	f	field_12304
+FIELD	bgs	Ljava/lang/String;	g	field_12305
+FIELD	bgs	I	h	field_12306
+FIELD	bgs	Lbgt;	i	field_12307
+FIELD	bgs	Ljava/lang/String;	r	field_12308
+FIELD	bgs	Ljava/lang/String;	s	field_12309
+CLASS	bgt	net/minecraft/class_2693
+FIELD	bgt	Lbgt;	a	field_12310
+FIELD	bgt	Lbgt;	b	field_12311
+FIELD	bgt	I	c	field_12312
+FIELD	bgt	Ljava/lang/String;	d	field_12313
+FIELD	bgt	[Lbgt;	e	field_12314
 METHOD	bgt	(Ljava/lang/String;)Lbgt;	valueOf	valueOf
 METHOD	bgt	()[Lbgt;	values	values
-CLASS	bgu	net/minecraft/class_5019
-FIELD	bgu	[Ljava/lang/String;	a	field_22650
-FIELD	bgu	I	f	field_22651
-FIELD	bgu	I	g	field_22652
-FIELD	bgu	Lbdq;	h	field_22653
-FIELD	bgu	Lbgv;	i	field_22654
-FIELD	bgu	Ljava/lang/String;	r	field_22655
-FIELD	bgu	Z	s	field_22656
-FIELD	bgu	Ljava/lang/String;	t	field_22657
-FIELD	bgu	Z	u	field_22658
-FIELD	bgu	I	v	field_22659
-FIELD	bgu	Lbgv;	w	field_22660
-FIELD	bgu	I	x	field_22661
-METHOD	bgu	(Ljava/lang/String;)V	a	method_22042
-METHOD	bgu	(Ljava/lang/String;)V	b	method_22043
-METHOD	bgu	()V	g	method_22044
-METHOD	bgu	()Lban;	h	method_22045
-METHOD	bgu	()Z	i	method_22046
-METHOD	bgu	()V	p	method_22047
-CLASS	bgv	net/minecraft/class_5020
-FIELD	bgv	Lbgu;	b	field_22662
-METHOD	bgv	()V	a	method_22048
-METHOD	bgv	(Lbbz;)V	a	method_22049
-METHOD	bgv	(Lbgu;)V	a	method_22050
-METHOD	bgv	(Ljava/lang/String;)V	a	method_22051
-METHOD	bgv	()Lban;	b	method_22052
-METHOD	bgv	(Ljava/lang/String;)V	b	method_22053
-METHOD	bgv	()Z	c	method_22054
-METHOD	bgv	()V	d	method_22055
-CLASS	bgw	net/minecraft/class_5021
-FIELD	bgw	Lban;	a	field_22663
-FIELD	bgw	I	b	field_22664
-FIELD	bgw	I	c	field_22665
-FIELD	bgw	I	d	field_22666
-FIELD	bgw	I	e	field_22667
-FIELD	bgw	I	f	field_22668
-FIELD	bgw	I	g	field_22669
-FIELD	bgw	I	h	field_22670
-FIELD	bgw	I	i	field_22671
-FIELD	bgw	I	j	field_22672
-FIELD	bgw	I	k	field_22673
-FIELD	bgw	I	l	field_22674
-FIELD	bgw	F	m	field_22675
-FIELD	bgw	F	n	field_22676
-FIELD	bgw	F	o	field_22677
-FIELD	bgw	I	p	field_22678
-FIELD	bgw	J	q	field_22679
-FIELD	bgw	Z	r	field_22680
-FIELD	bgw	Z	s	field_22681
-FIELD	bgw	I	t	field_22682
-METHOD	bgw	()I	a	method_22056
-METHOD	bgw	(I)Z	a	method_22057
-METHOD	bgw	(II)V	a	method_22058
-METHOD	bgw	(IIF)V	a	method_22059
-METHOD	bgw	(IIII)V	a	method_22060
-METHOD	bgw	(IIIILbor;)V	a	method_22061
-METHOD	bgw	(IILbor;)V	a	method_22062
-METHOD	bgw	(IZ)V	a	method_22063
-METHOD	bgw	(Lbbz;)V	a	method_22064
-METHOD	bgw	()I	b	method_22065
-METHOD	bgw	(II)V	b	method_22066
-METHOD	bgw	(IIII)V	b	method_22067
-METHOD	bgw	()V	c	method_22068
-METHOD	bgw	(IIII)V	c	method_22069
-METHOD	bgw	()I	d	method_22070
-METHOD	bgw	()I	g	method_22071
-METHOD	bgw	()V	h	method_22072
-CLASS	bgx	net/minecraft/class_5022
-FIELD	bgx	Lorg/apache/logging/log4j/Logger;	a	field_22683
-FIELD	bgx	Lbie;	f	field_22684
-FIELD	bgx	Lbyc;	g	field_22685
-FIELD	bgx	Ljava/util/List;	h	field_22686
-FIELD	bgx	Lbgz;	i	field_22687
-FIELD	bgx	I	r	field_22688
-FIELD	bgx	Lbbz;	s	field_22689
-FIELD	bgx	Z	t	field_22690
-METHOD	bgx	(Lbgx;)Lban;	a	method_22073
-METHOD	bgx	(Lbgx;I)I	a	method_22074
-METHOD	bgx	(Lbgx;Lbyc;)Lbyc;	a	method_22075
-METHOD	bgx	(Lbgx;Ljava/util/List;)Ljava/util/List;	a	method_22076
-METHOD	bgx	(Lbgx;)Lban;	b	method_22077
-METHOD	bgx	(Lbgx;)Ljava/util/List;	c	method_22078
-METHOD	bgx	(Lbgx;)Lbyc;	d	method_22079
-METHOD	bgx	(Lbgx;)I	e	method_22080
-METHOD	bgx	(Lbgx;)Lbbs;	f	method_22081
-METHOD	bgx	()Lorg/apache/logging/log4j/Logger;	g	method_22082
-METHOD	bgx	(Lbgx;)Lbbs;	g	method_22083
-METHOD	bgx	()V	h	method_22084
-METHOD	bgx	(Lbgx;)Lbbs;	h	method_22085
-METHOD	bgx	()V	i	method_22086
-METHOD	bgx	(Lbgx;)Lbbs;	i	method_22087
-METHOD	bgx	()V	p	method_22088
-CLASS	bgy	net/minecraft/class_5023
-FIELD	bgy	Z	a	field_22691
-FIELD	bgy	Lbgx;	b	field_22692
+CLASS	bgu	net/minecraft/class_2694
+FIELD	bgu	[Ljava/lang/String;	a	field_12315
+FIELD	bgu	I	f	field_12316
+FIELD	bgu	I	g	field_12317
+FIELD	bgu	Lbdq;	h	field_12318
+FIELD	bgu	Lbgv;	i	field_12319
+FIELD	bgu	Ljava/lang/String;	r	field_12320
+FIELD	bgu	Z	s	field_12321
+FIELD	bgu	Ljava/lang/String;	t	field_12322
+FIELD	bgu	Z	u	field_12323
+FIELD	bgu	I	v	field_12324
+FIELD	bgu	Lbgv;	w	field_12325
+FIELD	bgu	I	x	field_12326
+METHOD	bgu	(Ljava/lang/String;)V	a	method_11411
+METHOD	bgu	(Ljava/lang/String;)V	b	method_11412
+METHOD	bgu	()V	g	method_11413
+METHOD	bgu	()Lban;	h	method_11414
+METHOD	bgu	()Z	i	method_11415
+METHOD	bgu	()V	p	method_11416
+CLASS	bgv	net/minecraft/class_2695
+FIELD	bgv	Lbgu;	b	field_12327
+METHOD	bgv	()V	a	method_11417
+METHOD	bgv	(Lbbz;)V	a	method_11418
+METHOD	bgv	(Lbgu;)V	a	method_11419
+METHOD	bgv	(Ljava/lang/String;)V	a	method_11420
+METHOD	bgv	()Lban;	b	method_11421
+METHOD	bgv	(Ljava/lang/String;)V	b	method_11422
+METHOD	bgv	()Z	c	method_11423
+METHOD	bgv	()V	d	method_11424
+CLASS	bgw	net/minecraft/class_2696
+FIELD	bgw	Lban;	a	field_12328
+FIELD	bgw	I	b	field_12329
+FIELD	bgw	I	c	field_12330
+FIELD	bgw	I	d	field_12331
+FIELD	bgw	I	e	field_12332
+FIELD	bgw	I	f	field_12333
+FIELD	bgw	I	g	field_12334
+FIELD	bgw	I	h	field_12335
+FIELD	bgw	I	i	field_12336
+FIELD	bgw	I	j	field_12337
+FIELD	bgw	I	k	field_12338
+FIELD	bgw	I	l	field_12339
+FIELD	bgw	F	m	field_12340
+FIELD	bgw	F	n	field_12341
+FIELD	bgw	F	o	field_12342
+FIELD	bgw	I	p	field_12343
+FIELD	bgw	J	q	field_12344
+FIELD	bgw	Z	r	field_12345
+FIELD	bgw	Z	s	field_12346
+FIELD	bgw	I	t	field_12347
+METHOD	bgw	()I	a	method_11425
+METHOD	bgw	(I)Z	a	method_11426
+METHOD	bgw	(II)V	a	method_11427
+METHOD	bgw	(IIF)V	a	method_11428
+METHOD	bgw	(IIII)V	a	method_11429
+METHOD	bgw	(IIIILbor;)V	a	method_11430
+METHOD	bgw	(IILbor;)V	a	method_11431
+METHOD	bgw	(IZ)V	a	method_11432
+METHOD	bgw	(Lbbz;)V	a	method_11433
+METHOD	bgw	()I	b	method_11434
+METHOD	bgw	(II)V	b	method_11435
+METHOD	bgw	(IIII)V	b	method_11436
+METHOD	bgw	()V	c	method_11437
+METHOD	bgw	(IIII)V	c	method_11438
+METHOD	bgw	()I	d	method_11439
+METHOD	bgw	()I	g	method_11440
+METHOD	bgw	()V	h	method_11441
+CLASS	bgx	net/minecraft/class_2697
+FIELD	bgx	Lorg/apache/logging/log4j/Logger;	a	field_12348
+FIELD	bgx	Lbie;	f	field_12349
+FIELD	bgx	Lbyc;	g	field_12350
+FIELD	bgx	Ljava/util/List;	h	field_12351
+FIELD	bgx	Lbgz;	i	field_12352
+FIELD	bgx	I	r	field_12353
+FIELD	bgx	Lbbz;	s	field_12354
+FIELD	bgx	Z	t	field_12355
+METHOD	bgx	(Lbgx;)Lban;	a	method_11442
+METHOD	bgx	(Lbgx;I)I	a	method_11443
+METHOD	bgx	(Lbgx;Lbyc;)Lbyc;	a	method_11444
+METHOD	bgx	(Lbgx;Ljava/util/List;)Ljava/util/List;	a	method_11445
+METHOD	bgx	(Lbgx;)Lban;	b	method_11446
+METHOD	bgx	(Lbgx;)Ljava/util/List;	c	method_11447
+METHOD	bgx	(Lbgx;)Lbyc;	d	method_11448
+METHOD	bgx	(Lbgx;)I	e	method_11449
+METHOD	bgx	(Lbgx;)Lbbs;	f	method_11450
+METHOD	bgx	()Lorg/apache/logging/log4j/Logger;	g	method_11451
+METHOD	bgx	(Lbgx;)Lbbs;	g	method_11452
+METHOD	bgx	()V	h	method_11453
+METHOD	bgx	(Lbgx;)Lbbs;	h	method_11454
+METHOD	bgx	()V	i	method_11455
+METHOD	bgx	(Lbgx;)Lbbs;	i	method_11456
+METHOD	bgx	()V	p	method_11457
+CLASS	bgy	net/minecraft/class_2698
+FIELD	bgy	Z	a	field_12356
+FIELD	bgy	Lbgx;	b	field_12357
 METHOD	bgy	()V	run	run
-CLASS	bgz	net/minecraft/class_5024
-FIELD	bgz	Lbgx;	a	field_22693
-METHOD	bgz	(IIIILbor;)V	b	method_22089
+CLASS	bgz	net/minecraft/class_2699
+FIELD	bgz	Lbgx;	a	field_12358
+METHOD	bgz	(IIIILbor;)V	b	method_11458
 CLASS	bh	net/minecraft/class_762
-CLASS	bha	net/minecraft/class_5025
-FIELD	bha	Lorg/apache/logging/log4j/Logger;	a	field_22694
-FIELD	bha	Lbdq;	f	field_22695
-FIELD	bha	Lbxm;	g	field_22696
-FIELD	bha	I	h	field_22697
-FIELD	bha	I	i	field_22698
-FIELD	bha	I	r	field_22699
-METHOD	bha	(Lbha;)Lban;	a	method_22090
-METHOD	bha	(Lbyc;)V	a	method_22091
-METHOD	bha	(Lbha;)Lbxm;	b	method_22092
-METHOD	bha	(Lbha;)Lbdq;	c	method_22093
-METHOD	bha	(Lbha;)Lban;	d	method_22094
-METHOD	bha	()Lorg/apache/logging/log4j/Logger;	g	method_22095
-METHOD	bha	()V	h	method_22096
-CLASS	bhb	net/minecraft/class_5026
-FIELD	bhb	Lbha;	a	field_22700
+CLASS	bha	net/minecraft/class_2700
+FIELD	bha	Lorg/apache/logging/log4j/Logger;	a	field_12359
+FIELD	bha	Lbdq;	f	field_12360
+FIELD	bha	Lbxm;	g	field_12361
+FIELD	bha	I	h	field_12362
+FIELD	bha	I	i	field_12363
+FIELD	bha	I	r	field_12364
+METHOD	bha	(Lbha;)Lban;	a	method_11459
+METHOD	bha	(Lbyc;)V	a	method_11460
+METHOD	bha	(Lbha;)Lbxm;	b	method_11461
+METHOD	bha	(Lbha;)Lbdq;	c	method_11462
+METHOD	bha	(Lbha;)Lban;	d	method_11463
+METHOD	bha	()Lorg/apache/logging/log4j/Logger;	g	method_11464
+METHOD	bha	()V	h	method_11465
+CLASS	bhb	net/minecraft/class_2701
+FIELD	bhb	Lbha;	a	field_12365
 METHOD	bhb	()V	run	run
-CLASS	bhc	net/minecraft/class_5027
-FIELD	bhc	Lban;	a	field_22701
-FIELD	bhc	I	b	field_22702
-FIELD	bhc	I	c	field_22703
-FIELD	bhc	I	d	field_22704
-FIELD	bhc	I	e	field_22705
-FIELD	bhc	I	f	field_22706
-FIELD	bhc	Lbbz;	g	field_22707
-FIELD	bhc	I	h	field_22708
-FIELD	bhc	I	i	field_22709
-FIELD	bhc	I	j	field_22710
-FIELD	bhc	I	k	field_22711
-FIELD	bhc	F	l	field_22712
-FIELD	bhc	F	m	field_22713
-FIELD	bhc	F	n	field_22714
-FIELD	bhc	I	o	field_22715
-FIELD	bhc	J	p	field_22716
-METHOD	bhc	()I	a	method_22097
-METHOD	bhc	(I)Z	a	method_22098
-METHOD	bhc	(IIF)V	a	method_22099
-METHOD	bhc	(IIII)V	a	method_22100
-METHOD	bhc	(IIIILbor;)V	a	method_22101
-METHOD	bhc	(IZ)V	a	method_22102
-METHOD	bhc	()I	b	method_22103
-METHOD	bhc	()V	c	method_22104
-METHOD	bhc	()V	d	method_22105
-METHOD	bhc	()I	e	method_22106
-METHOD	bhc	()I	f	method_22107
-METHOD	bhc	()V	g	method_22108
-CLASS	bhd	net/minecraft/class_5028
-FIELD	bhd	Lorg/apache/logging/log4j/Logger;	a	field_22717
-FIELD	bhd	Lej;	c	field_22718
-FIELD	bhd	Lbxm;	d	field_22719
-FIELD	bhd	Lbdq;	e	field_22720
-METHOD	bhd	(I)V	a	method_22109
-METHOD	bhd	(Lbhd;)Lej;	a	method_22110
-METHOD	bhd	(Lbhd;Lej;)Lej;	a	method_22111
-METHOD	bhd	(Ljava/lang/String;I)V	a	method_22112
-METHOD	bhd	(Lbhd;)Lbdq;	b	method_22113
-METHOD	bhd	()Lorg/apache/logging/log4j/Logger;	e	method_22114
+CLASS	bhc	net/minecraft/class_2702
+FIELD	bhc	Lban;	a	field_12366
+FIELD	bhc	I	b	field_12367
+FIELD	bhc	I	c	field_12368
+FIELD	bhc	I	d	field_12369
+FIELD	bhc	I	e	field_12370
+FIELD	bhc	I	f	field_12371
+FIELD	bhc	Lbbz;	g	field_12372
+FIELD	bhc	I	h	field_12373
+FIELD	bhc	I	i	field_12374
+FIELD	bhc	I	j	field_12375
+FIELD	bhc	I	k	field_12376
+FIELD	bhc	F	l	field_12377
+FIELD	bhc	F	m	field_12378
+FIELD	bhc	F	n	field_12379
+FIELD	bhc	I	o	field_12380
+FIELD	bhc	J	p	field_12381
+METHOD	bhc	()I	a	method_11466
+METHOD	bhc	(I)Z	a	method_11467
+METHOD	bhc	(IIF)V	a	method_11468
+METHOD	bhc	(IIII)V	a	method_11469
+METHOD	bhc	(IIIILbor;)V	a	method_11470
+METHOD	bhc	(IZ)V	a	method_11471
+METHOD	bhc	()I	b	method_11472
+METHOD	bhc	()V	c	method_11473
+METHOD	bhc	()V	d	method_11474
+METHOD	bhc	()I	e	method_11475
+METHOD	bhc	()I	f	method_11476
+METHOD	bhc	()V	g	method_11477
+CLASS	bhd	net/minecraft/class_2703
+FIELD	bhd	Lorg/apache/logging/log4j/Logger;	a	field_12382
+FIELD	bhd	Lej;	c	field_12383
+FIELD	bhd	Lbxm;	d	field_12384
+FIELD	bhd	Lbdq;	e	field_12385
+METHOD	bhd	(I)V	a	method_11478
+METHOD	bhd	(Lbhd;)Lej;	a	method_11479
+METHOD	bhd	(Lbhd;Lej;)Lej;	a	method_11480
+METHOD	bhd	(Ljava/lang/String;I)V	a	method_11481
+METHOD	bhd	(Lbhd;)Lbdq;	b	method_11482
+METHOD	bhd	()Lorg/apache/logging/log4j/Logger;	e	method_11483
 METHOD	bhd	()V	run	run
-CLASS	bhe	net/minecraft/class_1937
-FIELD	bhe	Ljava/lang/String;	a	field_8362
-FIELD	bhe	I	b	field_8363
-FIELD	bhe	Lbhd;	c	field_8364
+CLASS	bhe	net/minecraft/class_2704
+FIELD	bhe	Ljava/lang/String;	a	field_12386
+FIELD	bhe	I	b	field_12387
+FIELD	bhe	Lbhd;	c	field_12388
 METHOD	bhe	()V	run	run
-CLASS	bhf	net/minecraft/class_5029
-FIELD	bhf	Z	A	field_22721
-FIELD	bhf	Ljava/util/List;	B	field_22722
-FIELD	bhf	I	C	field_22723
-FIELD	bhf	I	D	field_22724
-FIELD	bhf	Z	E	field_22725
-FIELD	bhf	Lorg/apache/logging/log4j/Logger;	a	field_22726
-FIELD	bhf	Lbth;	f	field_22727
-FIELD	bhf	Lbth;	g	field_22728
-FIELD	bhf	Lbhp;	h	field_22729
-FIELD	bhf	Lbhv;	i	field_22730
-FIELD	bhf	Ljava/util/concurrent/ThreadPoolExecutor;	r	field_22731
-FIELD	bhf	Lbdq;	s	field_22732
-FIELD	bhf	Lbhh;	t	field_22733
-FIELD	bhf	J	u	field_22734
-FIELD	bhf	Lbbz;	v	field_22735
-FIELD	bhf	Lbbz;	w	field_22736
-FIELD	bhf	Lbbz;	x	field_22737
-FIELD	bhf	Lbbz;	y	field_22738
-FIELD	bhf	Ljava/lang/String;	z	field_22739
-METHOD	bhf	(Lbhf;)Lban;	A	method_22115
-METHOD	bhf	(Lbhf;)Lban;	B	method_22116
-METHOD	bhf	(J)Lbxm;	a	method_22117
-METHOD	bhf	(Lbhf;)J	a	method_22118
-METHOD	bhf	(Lbhf;IIII)V	a	method_22119
-METHOD	bhf	(Lbhf;IIIII)V	a	method_22120
-METHOD	bhf	(Lbhf;J)Lbxm;	a	method_22121
-METHOD	bhf	(Ljava/lang/String;)V	a	method_22122
-METHOD	bhf	(II)V	b	method_22123
-METHOD	bhf	(IIIII)V	b	method_22124
-METHOD	bhf	(J)I	b	method_22125
-METHOD	bhf	(Lbhf;)Lban;	b	method_22126
-METHOD	bhf	(Lbhf;IIII)V	b	method_22127
-METHOD	bhf	(Lbhf;J)J	b	method_22128
-METHOD	bhf	(Ljava/lang/String;II)V	b	method_22129
-METHOD	bhf	(II)V	c	method_22130
-METHOD	bhf	(IIII)V	c	method_22131
-METHOD	bhf	(J)Lbxm;	c	method_22132
-METHOD	bhf	(Lbhf;)Ljava/util/List;	c	method_22133
-METHOD	bhf	(Lbhf;IIII)V	c	method_22134
-METHOD	bhf	(Lbhf;J)V	c	method_22135
-METHOD	bhf	(II)V	d	method_22136
-METHOD	bhf	(IIII)V	d	method_22137
-METHOD	bhf	(J)V	d	method_22138
-METHOD	bhf	(Lbhf;)V	d	method_22139
-METHOD	bhf	(Lbhf;IIII)V	d	method_22140
-METHOD	bhf	(Lbhf;J)I	d	method_22141
-METHOD	bhf	(II)Z	e	method_22142
-METHOD	bhf	(IIII)V	e	method_22143
-METHOD	bhf	(Lbhf;)Lban;	e	method_22144
-METHOD	bhf	(IIII)V	f	method_22145
-METHOD	bhf	(Lbhf;)Lban;	f	method_22146
-METHOD	bhf	()V	g	method_22147
-METHOD	bhf	(Lbhf;)V	g	method_22148
-METHOD	bhf	()V	h	method_22149
-METHOD	bhf	(Lbhf;)Lban;	h	method_22150
-METHOD	bhf	()Lbhp;	i	method_22151
-METHOD	bhf	(Lbhf;)Lbbz;	i	method_22152
-METHOD	bhf	(Lbhf;)Lbbz;	j	method_22153
-METHOD	bhf	(Lbhf;)Lbbz;	k	method_22154
-METHOD	bhf	(Lbhf;)Lban;	m	method_22155
-METHOD	bhf	(Lbhf;)I	n	method_22156
-METHOD	bhf	(Lbhf;)Lbbs;	o	method_22157
-METHOD	bhf	()Lorg/apache/logging/log4j/Logger;	p	method_22158
-METHOD	bhf	(Lbhf;)Lbbs;	p	method_22159
-METHOD	bhf	()Lbth;	q	method_22160
-METHOD	bhf	(Lbhf;)Lbbs;	q	method_22161
-METHOD	bhf	()Lbhv;	r	method_22162
-METHOD	bhf	(Lbhf;)Lbbs;	r	method_22163
-METHOD	bhf	()Ljava/util/concurrent/ThreadPoolExecutor;	s	method_22164
-METHOD	bhf	(Lbhf;)Lbbs;	s	method_22165
-METHOD	bhf	()V	t	method_22166
-METHOD	bhf	(Lbhf;)Lbbs;	t	method_22167
-METHOD	bhf	()V	u	method_22168
-METHOD	bhf	(Lbhf;)Lbbs;	u	method_22169
-METHOD	bhf	()V	v	method_22170
-METHOD	bhf	(Lbhf;)Lbbs;	v	method_22171
-METHOD	bhf	()V	w	method_22172
-METHOD	bhf	(Lbhf;)Lbbs;	w	method_22173
-METHOD	bhf	()V	x	method_22174
-METHOD	bhf	(Lbhf;)Lban;	x	method_22175
-METHOD	bhf	(Lbhf;)Lbbs;	y	method_22176
-METHOD	bhf	(Lbhf;)Lbbs;	z	method_22177
-CLASS	bhg	net/minecraft/class_5030
-FIELD	bhg	Lbhf;	a	field_22740
+CLASS	bhf	net/minecraft/class_2705
+FIELD	bhf	Z	A	field_12389
+FIELD	bhf	Ljava/util/List;	B	field_12390
+FIELD	bhf	I	C	field_12391
+FIELD	bhf	I	D	field_12392
+FIELD	bhf	Z	E	field_12393
+FIELD	bhf	Lorg/apache/logging/log4j/Logger;	a	field_12394
+FIELD	bhf	Lbth;	f	field_12395
+FIELD	bhf	Lbth;	g	field_12396
+FIELD	bhf	Lbhp;	h	field_12397
+FIELD	bhf	Lbhv;	i	field_12398
+FIELD	bhf	Ljava/util/concurrent/ThreadPoolExecutor;	r	field_12399
+FIELD	bhf	Lbdq;	s	field_12400
+FIELD	bhf	Lbhh;	t	field_12401
+FIELD	bhf	J	u	field_12402
+FIELD	bhf	Lbbz;	v	field_12403
+FIELD	bhf	Lbbz;	w	field_12404
+FIELD	bhf	Lbbz;	x	field_12405
+FIELD	bhf	Lbbz;	y	field_12406
+FIELD	bhf	Ljava/lang/String;	z	field_12407
+METHOD	bhf	(Lbhf;)Lban;	A	method_11484
+METHOD	bhf	(Lbhf;)Lban;	B	method_11485
+METHOD	bhf	(J)Lbxm;	a	method_11486
+METHOD	bhf	(Lbhf;)J	a	method_11487
+METHOD	bhf	(Lbhf;IIII)V	a	method_11488
+METHOD	bhf	(Lbhf;IIIII)V	a	method_11489
+METHOD	bhf	(Lbhf;J)Lbxm;	a	method_11490
+METHOD	bhf	(Ljava/lang/String;)V	a	method_11491
+METHOD	bhf	(II)V	b	method_11492
+METHOD	bhf	(IIIII)V	b	method_11493
+METHOD	bhf	(J)I	b	method_11494
+METHOD	bhf	(Lbhf;)Lban;	b	method_11495
+METHOD	bhf	(Lbhf;IIII)V	b	method_11496
+METHOD	bhf	(Lbhf;J)J	b	method_11497
+METHOD	bhf	(Ljava/lang/String;II)V	b	method_11498
+METHOD	bhf	(II)V	c	method_11499
+METHOD	bhf	(IIII)V	c	method_11500
+METHOD	bhf	(J)Lbxm;	c	method_11501
+METHOD	bhf	(Lbhf;)Ljava/util/List;	c	method_11502
+METHOD	bhf	(Lbhf;IIII)V	c	method_11503
+METHOD	bhf	(Lbhf;J)V	c	method_11504
+METHOD	bhf	(II)V	d	method_11505
+METHOD	bhf	(IIII)V	d	method_11506
+METHOD	bhf	(J)V	d	method_11507
+METHOD	bhf	(Lbhf;)V	d	method_11508
+METHOD	bhf	(Lbhf;IIII)V	d	method_11509
+METHOD	bhf	(Lbhf;J)I	d	method_11510
+METHOD	bhf	(II)Z	e	method_11511
+METHOD	bhf	(IIII)V	e	method_11512
+METHOD	bhf	(Lbhf;)Lban;	e	method_11513
+METHOD	bhf	(IIII)V	f	method_11514
+METHOD	bhf	(Lbhf;)Lban;	f	method_11515
+METHOD	bhf	()V	g	method_11516
+METHOD	bhf	(Lbhf;)V	g	method_11517
+METHOD	bhf	()V	h	method_11518
+METHOD	bhf	(Lbhf;)Lban;	h	method_11519
+METHOD	bhf	()Lbhp;	i	method_11520
+METHOD	bhf	(Lbhf;)Lbbz;	i	method_11521
+METHOD	bhf	(Lbhf;)Lbbz;	j	method_11522
+METHOD	bhf	(Lbhf;)Lbbz;	k	method_11523
+METHOD	bhf	(Lbhf;)Lban;	m	method_11524
+METHOD	bhf	(Lbhf;)I	n	method_11525
+METHOD	bhf	(Lbhf;)Lbbs;	o	method_11526
+METHOD	bhf	()Lorg/apache/logging/log4j/Logger;	p	method_11527
+METHOD	bhf	(Lbhf;)Lbbs;	p	method_11528
+METHOD	bhf	()Lbth;	q	method_11529
+METHOD	bhf	(Lbhf;)Lbbs;	q	method_11530
+METHOD	bhf	()Lbhv;	r	method_11531
+METHOD	bhf	(Lbhf;)Lbbs;	r	method_11532
+METHOD	bhf	()Ljava/util/concurrent/ThreadPoolExecutor;	s	method_11533
+METHOD	bhf	(Lbhf;)Lbbs;	s	method_11534
+METHOD	bhf	()V	t	method_11535
+METHOD	bhf	(Lbhf;)Lbbs;	t	method_11536
+METHOD	bhf	()V	u	method_11537
+METHOD	bhf	(Lbhf;)Lbbs;	u	method_11538
+METHOD	bhf	()V	v	method_11539
+METHOD	bhf	(Lbhf;)Lbbs;	v	method_11540
+METHOD	bhf	()V	w	method_11541
+METHOD	bhf	(Lbhf;)Lbbs;	w	method_11542
+METHOD	bhf	()V	x	method_11543
+METHOD	bhf	(Lbhf;)Lban;	x	method_11544
+METHOD	bhf	(Lbhf;)Lbbs;	y	method_11545
+METHOD	bhf	(Lbhf;)Lbbs;	z	method_11546
+CLASS	bhg	net/minecraft/class_2706
+FIELD	bhg	Lbhf;	a	field_12408
 METHOD	bhg	()V	run	run
-CLASS	bhh	net/minecraft/class_5031
-FIELD	bhh	Lbhf;	a	field_22741
-METHOD	bhh	(III)V	a	method_22178
-METHOD	bhh	(IILbxm;)V	a	method_22179
-METHOD	bhh	(Lbxm;)Z	a	method_22180
-CLASS	bhi	net/minecraft/class_5032
-FIELD	bhi	Lbxm;	a	field_22742
-FIELD	bhi	Lbhh;	b	field_22743
+CLASS	bhh	net/minecraft/class_2707
+FIELD	bhh	Lbhf;	a	field_12409
+METHOD	bhh	(III)V	a	method_11547
+METHOD	bhh	(IILbxm;)V	a	method_11548
+METHOD	bhh	(Lbxm;)Z	a	method_11549
+CLASS	bhi	net/minecraft/class_2708
+FIELD	bhi	Lbxm;	a	field_12410
+FIELD	bhi	Lbhh;	b	field_12411
 METHOD	bhi	()V	run	run
-CLASS	bhj	net/minecraft/class_5033
-FIELD	bhj	Ljava/util/List;	a	field_22744
-FIELD	bhj	[Ljava/lang/String;	b	field_22745
-FIELD	bhj	[Ljava/lang/String;	c	field_22746
-FIELD	bhj	[[Ljava/lang/String;	d	field_22747
-FIELD	bhj	I	e	field_22748
-FIELD	bhj	I	f	field_22749
-FIELD	bhj	I	g	field_22750
-FIELD	bhj	I	h	field_22751
-FIELD	bhj	I	i	field_22752
-FIELD	bhj	I	j	field_22753
-METHOD	bhj	()V	a	method_22181
-METHOD	bhj	(Lbbz;)V	a	method_22182
-METHOD	bhj	(Lbdq;Lbbs;)V	a	method_22183
-METHOD	bhj	()V	b	method_22184
-METHOD	bhj	()Ljava/lang/String;	c	method_22185
-METHOD	bhj	()Ljava/lang/String;	d	method_22186
-CLASS	bhk	net/minecraft/class_5034
-FIELD	bhk	Lorg/apache/logging/log4j/Logger;	a	field_22754
-FIELD	bhk	Lbdq;	f	field_22755
-FIELD	bhk	Lbho;	g	field_22756
-FIELD	bhk	Ljava/util/List;	h	field_22757
-FIELD	bhk	I	i	field_22758
-METHOD	bhk	(Lbhk;)Lban;	a	method_22187
-METHOD	bhk	(Lbhk;I)I	a	method_22188
-METHOD	bhk	(Lbhk;Ljava/util/List;)Ljava/util/List;	a	method_22189
-METHOD	bhk	(Lbhk;)Lban;	b	method_22190
-METHOD	bhk	(Lbhk;)I	c	method_22191
-METHOD	bhk	(Lbhk;)Ljava/util/List;	d	method_22192
-METHOD	bhk	(Lbhk;)V	e	method_22193
-METHOD	bhk	(Lbhk;)Lban;	f	method_22194
-METHOD	bhk	()Lorg/apache/logging/log4j/Logger;	g	method_22195
-METHOD	bhk	(Lbhk;)Lban;	g	method_22196
-METHOD	bhk	()V	h	method_22197
-METHOD	bhk	(Lbhk;)Lbbs;	h	method_22198
-METHOD	bhk	()V	i	method_22199
-METHOD	bhk	(Lbhk;)Lbbs;	i	method_22200
-METHOD	bhk	()V	p	method_22201
-METHOD	bhk	()V	q	method_22202
-CLASS	bhl	net/minecraft/class_5035
-FIELD	bhl	Lbhk;	a	field_22759
+CLASS	bhj	net/minecraft/class_2709
+FIELD	bhj	Ljava/util/List;	a	field_12412
+FIELD	bhj	[Ljava/lang/String;	b	field_12413
+FIELD	bhj	[Ljava/lang/String;	c	field_12414
+FIELD	bhj	[[Ljava/lang/String;	d	field_12415
+FIELD	bhj	I	e	field_12416
+FIELD	bhj	I	f	field_12417
+FIELD	bhj	I	g	field_12418
+FIELD	bhj	I	h	field_12419
+FIELD	bhj	I	i	field_12420
+FIELD	bhj	I	j	field_12421
+METHOD	bhj	()V	a	method_11550
+METHOD	bhj	(Lbbz;)V	a	method_11551
+METHOD	bhj	(Lbdq;Lbbs;)V	a	method_11552
+METHOD	bhj	()V	b	method_11553
+METHOD	bhj	()Ljava/lang/String;	c	method_11554
+METHOD	bhj	()Ljava/lang/String;	d	method_11555
+CLASS	bhk	net/minecraft/class_2710
+FIELD	bhk	Lorg/apache/logging/log4j/Logger;	a	field_12422
+FIELD	bhk	Lbdq;	f	field_12423
+FIELD	bhk	Lbho;	g	field_12424
+FIELD	bhk	Ljava/util/List;	h	field_12425
+FIELD	bhk	I	i	field_12426
+METHOD	bhk	(Lbhk;)Lban;	a	method_11556
+METHOD	bhk	(Lbhk;I)I	a	method_11557
+METHOD	bhk	(Lbhk;Ljava/util/List;)Ljava/util/List;	a	method_11558
+METHOD	bhk	(Lbhk;)Lban;	b	method_11559
+METHOD	bhk	(Lbhk;)I	c	method_11560
+METHOD	bhk	(Lbhk;)Ljava/util/List;	d	method_11561
+METHOD	bhk	(Lbhk;)V	e	method_11562
+METHOD	bhk	(Lbhk;)Lban;	f	method_11563
+METHOD	bhk	()Lorg/apache/logging/log4j/Logger;	g	method_11564
+METHOD	bhk	(Lbhk;)Lban;	g	method_11565
+METHOD	bhk	()V	h	method_11566
+METHOD	bhk	(Lbhk;)Lbbs;	h	method_11567
+METHOD	bhk	()V	i	method_11568
+METHOD	bhk	(Lbhk;)Lbbs;	i	method_11569
+METHOD	bhk	()V	p	method_11570
+METHOD	bhk	()V	q	method_11571
+CLASS	bhl	net/minecraft/class_2711
+FIELD	bhl	Lbhk;	a	field_12427
 METHOD	bhl	()V	run	run
-CLASS	bhm	net/minecraft/class_5036
-FIELD	bhm	Lbhk;	a	field_22760
+CLASS	bhm	net/minecraft/class_2712
+FIELD	bhm	Lbhk;	a	field_12428
 METHOD	bhm	()V	run	run
-CLASS	bhn	net/minecraft/class_5037
-FIELD	bhn	Lbhk;	a	field_22761
+CLASS	bhn	net/minecraft/class_2713
+FIELD	bhn	Lbhk;	a	field_12429
 METHOD	bhn	()V	run	run
-CLASS	bho	net/minecraft/class_5038
-FIELD	bho	Lbhk;	a	field_22762
-METHOD	bho	(IIIILbor;)V	b	method_22203
-CLASS	bhp	net/minecraft/class_5039
-FIELD	bhp	Lorg/apache/logging/log4j/Logger;	a	field_22763
-FIELD	bhp	Ljava/util/concurrent/ScheduledExecutorService;	b	field_22764
-FIELD	bhp	Z	c	field_22765
-FIELD	bhp	Lbhs;	d	field_22766
-FIELD	bhp	Lbhr;	e	field_22767
-FIELD	bhp	Ljava/util/Set;	f	field_22768
-FIELD	bhp	Ljava/util/List;	g	field_22769
-FIELD	bhp	I	h	field_22770
-FIELD	bhp	Ljava/util/concurrent/ScheduledFuture;	i	field_22771
-FIELD	bhp	Ljava/util/concurrent/ScheduledFuture;	j	field_22772
-FIELD	bhp	Ljava/util/Map;	k	field_22773
-METHOD	bhp	()V	a	method_22204
-METHOD	bhp	(Lbhp;)Z	a	method_22205
-METHOD	bhp	(Lbhp;I)I	a	method_22206
-METHOD	bhp	(Lbhp;Ljava/util/List;)V	a	method_22207
-METHOD	bhp	(Lbht;)Z	a	method_22208
-METHOD	bhp	(Lbxm;)V	a	method_22209
-METHOD	bhp	(Ljava/util/List;)V	a	method_22210
-METHOD	bhp	()V	b	method_22211
-METHOD	bhp	(Lbhp;)Ljava/util/Map;	b	method_22212
-METHOD	bhp	(Lbhp;Ljava/util/List;)V	b	method_22213
-METHOD	bhp	(Ljava/util/List;)V	b	method_22214
-METHOD	bhp	()Ljava/util/List;	c	method_22215
-METHOD	bhp	()I	d	method_22216
-METHOD	bhp	()V	e	method_22217
-METHOD	bhp	()Lorg/apache/logging/log4j/Logger;	f	method_22218
-METHOD	bhp	()V	g	method_22219
-METHOD	bhp	()V	h	method_22220
-METHOD	bhp	()Z	i	method_22221
-CLASS	bhq	net/minecraft/class_5040
-CLASS	bhr	net/minecraft/class_5041
-FIELD	bhr	Lbhp;	a	field_22774
-METHOD	bhr	()V	a	method_22222
+CLASS	bho	net/minecraft/class_2714
+FIELD	bho	Lbhk;	a	field_12430
+METHOD	bho	(IIIILbor;)V	b	method_11572
+CLASS	bhp	net/minecraft/class_2715
+FIELD	bhp	Lorg/apache/logging/log4j/Logger;	a	field_12431
+FIELD	bhp	Ljava/util/concurrent/ScheduledExecutorService;	b	field_12432
+FIELD	bhp	Z	c	field_12433
+FIELD	bhp	Lbhs;	d	field_12434
+FIELD	bhp	Lbhr;	e	field_12435
+FIELD	bhp	Ljava/util/Set;	f	field_12436
+FIELD	bhp	Ljava/util/List;	g	field_12437
+FIELD	bhp	I	h	field_12438
+FIELD	bhp	Ljava/util/concurrent/ScheduledFuture;	i	field_12439
+FIELD	bhp	Ljava/util/concurrent/ScheduledFuture;	j	field_12440
+FIELD	bhp	Ljava/util/Map;	k	field_12441
+METHOD	bhp	()V	a	method_11573
+METHOD	bhp	(Lbhp;)Z	a	method_11574
+METHOD	bhp	(Lbhp;I)I	a	method_11575
+METHOD	bhp	(Lbhp;Ljava/util/List;)V	a	method_11576
+METHOD	bhp	(Lbht;)Z	a	method_11577
+METHOD	bhp	(Lbxm;)V	a	method_11578
+METHOD	bhp	(Ljava/util/List;)V	a	method_11579
+METHOD	bhp	()V	b	method_11580
+METHOD	bhp	(Lbhp;)Ljava/util/Map;	b	method_11581
+METHOD	bhp	(Lbhp;Ljava/util/List;)V	b	method_11582
+METHOD	bhp	(Ljava/util/List;)V	b	method_11583
+METHOD	bhp	()Ljava/util/List;	c	method_11584
+METHOD	bhp	()I	d	method_11585
+METHOD	bhp	()V	e	method_11586
+METHOD	bhp	()Lorg/apache/logging/log4j/Logger;	f	method_11587
+METHOD	bhp	()V	g	method_11588
+METHOD	bhp	()V	h	method_11589
+METHOD	bhp	()Z	i	method_11590
+CLASS	bhq	net/minecraft/class_2716
+CLASS	bhr	net/minecraft/class_2717
+FIELD	bhr	Lbhp;	a	field_12442
+METHOD	bhr	()V	a	method_11591
 METHOD	bhr	()V	run	run
-CLASS	bhs	net/minecraft/class_5042
-FIELD	bhs	Lbhp;	a	field_22775
-METHOD	bhs	()V	a	method_22223
+CLASS	bhs	net/minecraft/class_2718
+FIELD	bhs	Lbhp;	a	field_12443
+METHOD	bhs	()V	a	method_11592
 METHOD	bhs	()V	run	run
-CLASS	bht	net/minecraft/class_5043
-FIELD	bht	Lbht;	a	field_22776
-FIELD	bht	Lbht;	b	field_22777
-FIELD	bht	[Lbht;	c	field_22778
+CLASS	bht	net/minecraft/class_2719
+FIELD	bht	Lbht;	a	field_12444
+FIELD	bht	Lbht;	b	field_12445
+FIELD	bht	[Lbht;	c	field_12446
 METHOD	bht	(Ljava/lang/String;)Lbht;	valueOf	valueOf
 METHOD	bht	()[Lbht;	values	values
-CLASS	bhu	net/minecraft/class_5044
-FIELD	bhu	Lbyf;	a	field_22779
-FIELD	bhu	Lbdq;	f	field_22780
-FIELD	bhu	Ljava/lang/String;	g	field_22781
-FIELD	bhu	Ljava/lang/String;	h	field_22782
-METHOD	bhu	(Lbyf;)V	a	method_22224
-CLASS	bhv	net/minecraft/class_5045
-FIELD	bhv	Lorg/apache/logging/log4j/Logger;	a	field_22783
-FIELD	bhv	Ljava/util/List;	b	field_22784
-METHOD	bhv	(Lbxm;)V	a	method_22225
-METHOD	bhv	()V	b	method_22226
-METHOD	bhv	()Lorg/apache/logging/log4j/Logger;	c	method_22227
+CLASS	bhu	net/minecraft/class_2720
+FIELD	bhu	Lbyf;	a	field_12447
+FIELD	bhu	Lbdq;	f	field_12448
+FIELD	bhu	Ljava/lang/String;	g	field_12449
+FIELD	bhu	Ljava/lang/String;	h	field_12450
+METHOD	bhu	(Lbyf;)V	a	method_11593
+CLASS	bhv	net/minecraft/class_2721
+FIELD	bhv	Lorg/apache/logging/log4j/Logger;	a	field_12451
+FIELD	bhv	Ljava/util/List;	b	field_12452
+METHOD	bhv	(Lbxm;)V	a	method_11594
+METHOD	bhv	()V	b	method_11595
+METHOD	bhv	()Lorg/apache/logging/log4j/Logger;	c	method_11596
 CLASS	bhw	net/minecraft/class_1938
 FIELD	bhw	Lbxm;	a	field_8365
 FIELD	bhw	Lej;	b	field_8366
 FIELD	bhw	Lbhv;	c	field_8368
 FIELD	bhw	Z	d	field_8369
-CLASS	bhx	net/minecraft/class_5046
-FIELD	bhx	Lorg/apache/logging/log4j/Logger;	a	field_22785
-FIELD	bhx	Lbdq;	f	field_22786
-FIELD	bhx	Lbxm;	g	field_22787
-FIELD	bhx	Lbbz;	h	field_22788
-FIELD	bhx	Z	i	field_22789
-FIELD	bhx	Ljava/lang/String;	r	field_22790
-METHOD	bhx	(Ljava/lang/String;)V	a	method_22228
-METHOD	bhx	()V	g	method_22229
-CLASS	bhy	net/minecraft/class_5047
-FIELD	bhy	Ljava/util/concurrent/ExecutorService;	a	field_22791
-CLASS	bhz	net/minecraft/class_5048
+CLASS	bhx	net/minecraft/class_2722
+FIELD	bhx	Lorg/apache/logging/log4j/Logger;	a	field_12453
+FIELD	bhx	Lbdq;	f	field_12454
+FIELD	bhx	Lbxm;	g	field_12455
+FIELD	bhx	Lbbz;	h	field_12456
+FIELD	bhx	Z	i	field_12457
+FIELD	bhx	Ljava/lang/String;	r	field_12458
+METHOD	bhx	(Ljava/lang/String;)V	a	method_11597
+METHOD	bhx	()V	g	method_11598
+CLASS	bhy	net/minecraft/class_2723
+FIELD	bhy	Ljava/util/concurrent/ExecutorService;	a	field_12459
+CLASS	bhz	net/minecraft/class_2724
 CLASS	bi	net/minecraft/class_763
-CLASS	bia	net/minecraft/class_5049
-FIELD	bia	Lorg/apache/logging/log4j/Logger;	a	field_22792
-FIELD	bia	Ljava/lang/ThreadGroup;	b	field_22793
-FIELD	bia	Ljava/lang/String;	c	field_22794
-METHOD	bia	()Lorg/apache/logging/log4j/Logger;	a	method_22230
+CLASS	bia	net/minecraft/class_2725
+FIELD	bia	Lorg/apache/logging/log4j/Logger;	a	field_12460
+FIELD	bia	Ljava/lang/ThreadGroup;	b	field_12461
+FIELD	bia	Ljava/lang/String;	c	field_12462
+METHOD	bia	()Lorg/apache/logging/log4j/Logger;	a	method_11599
 METHOD	bia	(Ljava/lang/Runnable;)Ljava/lang/Thread;	newThread	newThread
-CLASS	bib	net/minecraft/class_5050
-FIELD	bib	Lbia;	a	field_22795
+CLASS	bib	net/minecraft/class_2726
+FIELD	bib	Lbia;	a	field_12463
 METHOD	bib	(Ljava/lang/Thread;Ljava/lang/Throwable;)V	uncaughtException	uncaughtException
-CLASS	bic	net/minecraft/class_5051
-FIELD	bic	Lorg/apache/logging/log4j/Logger;	a	field_22796
-FIELD	bic	Lbdq;	f	field_22797
-FIELD	bic	Lbxm;	g	field_22798
-FIELD	bic	Lbcb;	h	field_22799
-FIELD	bic	I	i	field_22800
-FIELD	bic	I	r	field_22801
-FIELD	bic	I	s	field_22802
-FIELD	bic	Lbyc;	t	field_22803
-FIELD	bic	Lbbz;	u	field_22804
-METHOD	bic	(Lbic;)Lban;	a	method_22231
-METHOD	bic	(Lbyc;)V	a	method_22232
-METHOD	bic	(Lbic;)Lbdq;	b	method_22233
-METHOD	bic	(Lbic;)Lban;	c	method_22234
-METHOD	bic	()Lorg/apache/logging/log4j/Logger;	g	method_22235
-METHOD	bic	()V	h	method_22236
-CLASS	bid	net/minecraft/class_5052
-FIELD	bid	Lbic;	a	field_22805
-FIELD	bid	J	c	field_22806
-FIELD	bid	Ljava/lang/String;	d	field_22807
-FIELD	bid	Lbyc;	e	field_22808
+CLASS	bic	net/minecraft/class_2727
+FIELD	bic	Lorg/apache/logging/log4j/Logger;	a	field_12464
+FIELD	bic	Lbdq;	f	field_12465
+FIELD	bic	Lbxm;	g	field_12466
+FIELD	bic	Lbcb;	h	field_12467
+FIELD	bic	I	i	field_12468
+FIELD	bic	I	r	field_12469
+FIELD	bic	I	s	field_12470
+FIELD	bic	Lbyc;	t	field_12471
+FIELD	bic	Lbbz;	u	field_12472
+METHOD	bic	(Lbic;)Lban;	a	method_11600
+METHOD	bic	(Lbyc;)V	a	method_11601
+METHOD	bic	(Lbic;)Lbdq;	b	method_11602
+METHOD	bic	(Lbic;)Lban;	c	method_11603
+METHOD	bic	()Lorg/apache/logging/log4j/Logger;	g	method_11604
+METHOD	bic	()V	h	method_11605
+CLASS	bid	net/minecraft/class_2728
+FIELD	bid	Lbic;	a	field_12473
+FIELD	bid	J	c	field_12474
+FIELD	bid	Ljava/lang/String;	d	field_12475
+FIELD	bid	Lbyc;	e	field_12476
 METHOD	bid	()V	run	run
-CLASS	bie	net/minecraft/class_5053
-METHOD	bie	(Ljava/lang/Object;)V	a	method_22237
-CLASS	bif	net/minecraft/class_5054
-FIELD	bif	Lorg/apache/logging/log4j/Logger;	a	field_22809
-FIELD	bif	Lbdq;	f	field_22810
-FIELD	bif	Lbxm;	g	field_22811
-FIELD	bif	I	h	field_22812
-FIELD	bif	I	i	field_22813
-FIELD	bif	I	r	field_22814
-FIELD	bif	Lbyc;	s	field_22815
-FIELD	bif	Lbbz;	t	field_22816
-METHOD	bif	(Lbif;)Lban;	a	method_22238
-METHOD	bif	(Lbyc;)V	a	method_22239
-METHOD	bif	(Lbif;)Lbxm;	b	method_22240
-METHOD	bif	(Lbif;)Lbdq;	c	method_22241
-METHOD	bif	(Lbif;)Lban;	d	method_22242
-METHOD	bif	()Lorg/apache/logging/log4j/Logger;	g	method_22243
-METHOD	bif	()V	h	method_22244
-CLASS	big	net/minecraft/class_5055
-FIELD	big	Lbif;	a	field_22817
-FIELD	big	J	c	field_22818
-FIELD	big	Lbyc;	d	field_22819
+CLASS	bie	net/minecraft/class_2729
+METHOD	bie	(Ljava/lang/Object;)V	a	method_11606
+CLASS	bif	net/minecraft/class_2730
+FIELD	bif	Lorg/apache/logging/log4j/Logger;	a	field_12477
+FIELD	bif	Lbdq;	f	field_12478
+FIELD	bif	Lbxm;	g	field_12479
+FIELD	bif	I	h	field_12480
+FIELD	bif	I	i	field_12481
+FIELD	bif	I	r	field_12482
+FIELD	bif	Lbyc;	s	field_12483
+FIELD	bif	Lbbz;	t	field_12484
+METHOD	bif	(Lbif;)Lban;	a	method_11607
+METHOD	bif	(Lbyc;)V	a	method_11608
+METHOD	bif	(Lbif;)Lbxm;	b	method_11609
+METHOD	bif	(Lbif;)Lbdq;	c	method_11610
+METHOD	bif	(Lbif;)Lban;	d	method_11611
+METHOD	bif	()Lorg/apache/logging/log4j/Logger;	g	method_11612
+METHOD	bif	()V	h	method_11613
+CLASS	big	net/minecraft/class_2731
+FIELD	big	Lbif;	a	field_12485
+FIELD	big	J	c	field_12486
+FIELD	big	Lbyc;	d	field_12487
 METHOD	big	()V	run	run
-CLASS	bih	net/minecraft/class_5056
-FIELD	bih	Lorg/apache/logging/log4j/Logger;	a	field_22820
-FIELD	bih	Lbdq;	f	field_22821
-FIELD	bih	Lbxm;	g	field_22822
-FIELD	bih	I	h	field_22823
-FIELD	bih	I	i	field_22824
-FIELD	bih	Ljava/lang/String;	r	field_22825
-FIELD	bih	Lbya;	s	field_22826
-FIELD	bih	Ljava/lang/String;	t	field_22827
-FIELD	bih	Ljava/lang/String;	u	field_22828
-FIELD	bih	Z	v	field_22829
-METHOD	bih	(I)Ljava/lang/String;	a	method_22245
-METHOD	bih	(J)V	a	method_22246
-METHOD	bih	(Ljava/lang/String;)V	a	method_22247
-METHOD	bih	(J)Ljava/lang/String;	b	method_22248
-METHOD	bih	()Ljava/lang/String;	g	method_22249
-METHOD	bih	()Ljava/lang/String;	h	method_22250
+CLASS	bih	net/minecraft/class_2732
+FIELD	bih	Lorg/apache/logging/log4j/Logger;	a	field_12488
+FIELD	bih	Lbdq;	f	field_12489
+FIELD	bih	Lbxm;	g	field_12490
+FIELD	bih	I	h	field_12491
+FIELD	bih	I	i	field_12492
+FIELD	bih	Ljava/lang/String;	r	field_12493
+FIELD	bih	Lbya;	s	field_12494
+FIELD	bih	Ljava/lang/String;	t	field_12495
+FIELD	bih	Ljava/lang/String;	u	field_12496
+FIELD	bih	Z	v	field_12497
+METHOD	bih	(I)Ljava/lang/String;	a	method_11614
+METHOD	bih	(J)V	a	method_11615
+METHOD	bih	(Ljava/lang/String;)V	a	method_11616
+METHOD	bih	(J)Ljava/lang/String;	b	method_11617
+METHOD	bih	()Ljava/lang/String;	g	method_11618
+METHOD	bih	()Ljava/lang/String;	h	method_11619
 CLASS	bii	net/minecraft/class_376
 FIELD	bii	Lbvn;	A	field_1197
 FIELD	bii	Lbvm;	B	field_1198
@@ -9577,7 +9577,7 @@ FIELD	bsy	Lorg/apache/logging/log4j/Logger;	a	field_8106
 FIELD	bsy	Ljava/util/Map;	b	field_8107
 METHOD	bsy	()Ljava/util/Map;	a	method_7031
 CLASS	bsz	net/minecraft/class_1645
-FIELD	bsz	Ljava/util/Set;	a	field_6606
+FIELD	bsz	Ljava/util/Set;	a	field_12498
 FIELD	bsz	Ljava/util/Map;	b	field_8108
 METHOD	bsz	(Lbth;)Ljava/io/InputStream;	c	method_7032
 METHOD	bsz	(Lbth;)Ljava/io/InputStream;	d	method_5881
@@ -10472,228 +10472,228 @@ METHOD	bxa	()V	run	run
 CLASS	bxb	net/minecraft/class_1936
 FIELD	bxb	Ljava/lang/Throwable;	a	field_8361
 METHOD	bxb	()Ljava/lang/Throwable;	a	method_7279
-CLASS	bxc	net/minecraft/class_5057
-FIELD	bxc	Ljava/util/Map;	a	field_22830
-METHOD	bxc	()Lbxc;	a	method_22251
-METHOD	bxc	(Ljava/lang/Object;Ljava/lang/Object;)Lbxc;	a	method_22252
-METHOD	bxc	(Ljava/lang/String;Ljava/lang/String;)Lbxc;	a	method_22253
-METHOD	bxc	()Ljava/lang/String;	b	method_22254
-METHOD	bxc	(Ljava/lang/String;Ljava/lang/String;)Lbxc;	b	method_22255
-CLASS	bxd	net/minecraft/class_5058
-FIELD	bxd	Lorg/apache/logging/log4j/Logger;	a	field_22831
-FIELD	bxd	Ljava/lang/String;	b	field_22832
-FIELD	bxd	Ljava/lang/String;	c	field_22833
-FIELD	bxd	Ljava/lang/String;	d	field_22834
-FIELD	bxd	Ljava/lang/String;	e	field_22835
-METHOD	bxd	()Lbxr;	a	method_22256
-METHOD	bxd	(J)Lbxm;	a	method_22257
-METHOD	bxd	(JLjava/lang/String;)V	a	method_22258
-METHOD	bxd	(JLjava/lang/String;Ljava/lang/String;)V	a	method_22259
-METHOD	bxd	(JLjava/lang/String;Ljava/lang/String;II)V	a	method_22260
-METHOD	bxd	(Lbxf;)Ljava/lang/String;	a	method_22261
-METHOD	bxd	(Ljava/lang/String;)V	a	method_22262
-METHOD	bxd	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	method_22263
-METHOD	bxd	()Ljava/lang/Boolean;	b	method_22264
-METHOD	bxd	(JLjava/lang/String;)Lbxm;	b	method_22265
-METHOD	bxd	(Ljava/lang/String;)V	b	method_22266
-METHOD	bxd	()Ljava/lang/Boolean;	c	method_22267
-METHOD	bxd	(J)Lbxq;	c	method_22268
-METHOD	bxd	(JLjava/lang/String;)V	c	method_22269
-METHOD	bxd	(Ljava/lang/String;)Ljava/lang/String;	c	method_22270
-METHOD	bxd	()Lbyd;	d	method_22271
-METHOD	bxd	(J)V	d	method_22272
-METHOD	bxd	(JLjava/lang/String;)Ljava/lang/Boolean;	d	method_22273
-METHOD	bxd	()Lbyd;	e	method_22274
-METHOD	bxd	(J)Lbxl;	e	method_22275
-METHOD	bxd	(JLjava/lang/String;)Lbxs;	e	method_22276
-METHOD	bxd	()I	f	method_22277
-METHOD	bxd	(J)Ljava/lang/Boolean;	f	method_22278
-METHOD	bxd	(JLjava/lang/String;)Lbxs;	f	method_22279
-METHOD	bxd	()Lbxu;	g	method_22280
-METHOD	bxd	(J)Lbxs;	g	method_22281
-METHOD	bxd	(JLjava/lang/String;)Ljava/lang/Boolean;	g	method_22282
-METHOD	bxd	()Lbxw;	h	method_22283
-METHOD	bxd	(J)Ljava/lang/Boolean;	h	method_22284
-METHOD	bxd	(JLjava/lang/String;)Ljava/lang/Boolean;	h	method_22285
-METHOD	bxd	()V	i	method_22286
-METHOD	bxd	(J)Ljava/lang/Boolean;	i	method_22287
-METHOD	bxd	(J)Lbxz;	j	method_22288
-METHOD	bxd	(J)Ljava/lang/String;	k	method_22289
-CLASS	bxe	net/minecraft/class_5059
-FIELD	bxe	Ljava/net/Proxy;	a	field_22836
-METHOD	bxe	()Ljava/net/Proxy;	a	method_22290
-METHOD	bxe	(Ljava/net/Proxy;)V	a	method_22291
-CLASS	bxf	net/minecraft/class_5060
-FIELD	bxf	Ljava/net/HttpURLConnection;	a	field_22837
-FIELD	bxf	Ljava/lang/String;	b	field_22838
-FIELD	bxf	Z	c	field_22839
-METHOD	bxf	()I	a	method_22292
-METHOD	bxf	(Ljava/io/InputStream;)Ljava/lang/String;	a	method_22293
-METHOD	bxf	(Ljava/lang/String;)Lbxf;	a	method_22294
-METHOD	bxf	(Ljava/lang/String;II)Lbxf;	a	method_22295
-METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;)V	a	method_22296
-METHOD	bxf	()I	b	method_22297
-METHOD	bxf	(Ljava/lang/String;)Lbxf;	b	method_22298
-METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;II)Lbxf;	b	method_22299
-METHOD	bxf	()Ljava/lang/String;	c	method_22300
-METHOD	bxf	(Ljava/lang/String;)Ljava/lang/String;	c	method_22301
-METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;)Lbxf;	c	method_22302
-METHOD	bxf	()Lbxf;	d	method_22303
-METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;)Lbxf;	d	method_22304
-METHOD	bxf	()Lbxf;	e	method_22305
-METHOD	bxf	()I	f	method_22306
-METHOD	bxf	()Ljava/lang/String;	g	method_22307
-METHOD	bxf	()V	h	method_22308
-CLASS	bxg	net/minecraft/class_5061
-METHOD	bxg	()Lbxg;	h	method_22309
-CLASS	bxh	net/minecraft/class_5062
-METHOD	bxh	()Lbxh;	h	method_22310
-CLASS	bxi	net/minecraft/class_5063
-FIELD	bxi	[B	c	field_22840
-METHOD	bxi	()Lbxi;	h	method_22311
-CLASS	bxj	net/minecraft/class_5064
-FIELD	bxj	[B	c	field_22841
-METHOD	bxj	()Lbxj;	h	method_22312
-CLASS	bxk	net/minecraft/class_5065
-FIELD	bxk	Ljava/lang/String;	a	field_22842
-FIELD	bxk	Ljava/util/Date;	b	field_22843
-FIELD	bxk	J	c	field_22844
-FIELD	bxk	Ljava/util/Map;	d	field_22845
-FIELD	bxk	Ljava/util/Map;	e	field_22846
-FIELD	bxk	Lorg/apache/logging/log4j/Logger;	f	field_22847
-METHOD	bxk	(Lcom/google/gson/JsonElement;)Lbxk;	a	method_22313
-METHOD	bxk	(Ljava/lang/String;)Ljava/lang/String;	a	method_22314
-CLASS	bxl	net/minecraft/class_5066
-FIELD	bxl	Ljava/util/List;	a	field_22848
-FIELD	bxl	Lorg/apache/logging/log4j/Logger;	b	field_22849
-METHOD	bxl	(Ljava/lang/String;)Lbxl;	a	method_22315
-CLASS	bxm	net/minecraft/class_5067
-FIELD	bxm	J	a	field_22850
-FIELD	bxm	Ljava/lang/String;	b	field_22851
-FIELD	bxm	Ljava/lang/String;	c	field_22852
-FIELD	bxm	Ljava/lang/String;	d	field_22853
-FIELD	bxm	Lbxp;	e	field_22854
-FIELD	bxm	Ljava/lang/String;	f	field_22855
-FIELD	bxm	Ljava/util/List;	g	field_22856
-FIELD	bxm	Ljava/lang/String;	h	field_22857
-FIELD	bxm	Z	i	field_22858
-FIELD	bxm	Z	j	field_22859
-FIELD	bxm	I	k	field_22860
-FIELD	bxm	I	l	field_22861
-FIELD	bxm	I	m	field_22862
-FIELD	bxm	I	n	field_22863
-FIELD	bxm	Ljava/lang/String;	o	field_22864
-FIELD	bxm	Ljava/lang/String;	p	field_22865
-FIELD	bxm	J	q	field_22866
-FIELD	bxm	Lorg/apache/logging/log4j/Logger;	r	field_22867
-METHOD	bxm	()Ljava/lang/String;	a	method_22316
-METHOD	bxm	(J)Z	a	method_22317
-METHOD	bxm	(Lbxm;)V	a	method_22318
-METHOD	bxm	(Lcom/google/gson/JsonArray;)Ljava/util/List;	a	method_22319
-METHOD	bxm	(Lcom/google/gson/JsonObject;)Lbxm;	a	method_22320
-METHOD	bxm	(Ljava/lang/String;)V	a	method_22321
-METHOD	bxm	()Ljava/lang/String;	b	method_22322
-METHOD	bxm	(Lbxm;)V	b	method_22323
-METHOD	bxm	(Ljava/lang/String;)V	b	method_22324
-METHOD	bxm	(Ljava/lang/String;)Lbxm;	c	method_22325
-METHOD	bxm	(Ljava/lang/String;)Lbxp;	d	method_22326
+CLASS	bxc	net/minecraft/class_2733
+FIELD	bxc	Ljava/util/Map;	a	field_12499
+METHOD	bxc	()Lbxc;	a	method_11620
+METHOD	bxc	(Ljava/lang/Object;Ljava/lang/Object;)Lbxc;	a	method_11621
+METHOD	bxc	(Ljava/lang/String;Ljava/lang/String;)Lbxc;	a	method_11622
+METHOD	bxc	()Ljava/lang/String;	b	method_11623
+METHOD	bxc	(Ljava/lang/String;Ljava/lang/String;)Lbxc;	b	method_11624
+CLASS	bxd	net/minecraft/class_2734
+FIELD	bxd	Lorg/apache/logging/log4j/Logger;	a	field_12500
+FIELD	bxd	Ljava/lang/String;	b	field_12501
+FIELD	bxd	Ljava/lang/String;	c	field_12502
+FIELD	bxd	Ljava/lang/String;	d	field_12503
+FIELD	bxd	Ljava/lang/String;	e	field_12504
+METHOD	bxd	()Lbxr;	a	method_11625
+METHOD	bxd	(J)Lbxm;	a	method_11626
+METHOD	bxd	(JLjava/lang/String;)V	a	method_11627
+METHOD	bxd	(JLjava/lang/String;Ljava/lang/String;)V	a	method_11628
+METHOD	bxd	(JLjava/lang/String;Ljava/lang/String;II)V	a	method_11629
+METHOD	bxd	(Lbxf;)Ljava/lang/String;	a	method_11630
+METHOD	bxd	(Ljava/lang/String;)V	a	method_11631
+METHOD	bxd	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	a	method_11632
+METHOD	bxd	()Ljava/lang/Boolean;	b	method_11633
+METHOD	bxd	(JLjava/lang/String;)Lbxm;	b	method_11634
+METHOD	bxd	(Ljava/lang/String;)V	b	method_11635
+METHOD	bxd	()Ljava/lang/Boolean;	c	method_11636
+METHOD	bxd	(J)Lbxq;	c	method_11637
+METHOD	bxd	(JLjava/lang/String;)V	c	method_11638
+METHOD	bxd	(Ljava/lang/String;)Ljava/lang/String;	c	method_11639
+METHOD	bxd	()Lbyd;	d	method_11640
+METHOD	bxd	(J)V	d	method_11641
+METHOD	bxd	(JLjava/lang/String;)Ljava/lang/Boolean;	d	method_11642
+METHOD	bxd	()Lbyd;	e	method_11643
+METHOD	bxd	(J)Lbxl;	e	method_11644
+METHOD	bxd	(JLjava/lang/String;)Lbxs;	e	method_11645
+METHOD	bxd	()I	f	method_11646
+METHOD	bxd	(J)Ljava/lang/Boolean;	f	method_11647
+METHOD	bxd	(JLjava/lang/String;)Lbxs;	f	method_11648
+METHOD	bxd	()Lbxu;	g	method_11649
+METHOD	bxd	(J)Lbxs;	g	method_11650
+METHOD	bxd	(JLjava/lang/String;)Ljava/lang/Boolean;	g	method_11651
+METHOD	bxd	()Lbxw;	h	method_11652
+METHOD	bxd	(J)Ljava/lang/Boolean;	h	method_11653
+METHOD	bxd	(JLjava/lang/String;)Ljava/lang/Boolean;	h	method_11654
+METHOD	bxd	()V	i	method_11655
+METHOD	bxd	(J)Ljava/lang/Boolean;	i	method_11656
+METHOD	bxd	(J)Lbxz;	j	method_11657
+METHOD	bxd	(J)Ljava/lang/String;	k	method_11658
+CLASS	bxe	net/minecraft/class_2735
+FIELD	bxe	Ljava/net/Proxy;	a	field_12505
+METHOD	bxe	()Ljava/net/Proxy;	a	method_11659
+METHOD	bxe	(Ljava/net/Proxy;)V	a	method_11660
+CLASS	bxf	net/minecraft/class_2736
+FIELD	bxf	Ljava/net/HttpURLConnection;	a	field_12506
+FIELD	bxf	Ljava/lang/String;	b	field_12507
+FIELD	bxf	Z	c	field_12508
+METHOD	bxf	()I	a	method_11661
+METHOD	bxf	(Ljava/io/InputStream;)Ljava/lang/String;	a	method_11662
+METHOD	bxf	(Ljava/lang/String;)Lbxf;	a	method_11663
+METHOD	bxf	(Ljava/lang/String;II)Lbxf;	a	method_11664
+METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;)V	a	method_11665
+METHOD	bxf	()I	b	method_11666
+METHOD	bxf	(Ljava/lang/String;)Lbxf;	b	method_11667
+METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;II)Lbxf;	b	method_11668
+METHOD	bxf	()Ljava/lang/String;	c	method_11669
+METHOD	bxf	(Ljava/lang/String;)Ljava/lang/String;	c	method_11670
+METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;)Lbxf;	c	method_11671
+METHOD	bxf	()Lbxf;	d	method_11672
+METHOD	bxf	(Ljava/lang/String;Ljava/lang/String;)Lbxf;	d	method_11673
+METHOD	bxf	()Lbxf;	e	method_11674
+METHOD	bxf	()I	f	method_11675
+METHOD	bxf	()Ljava/lang/String;	g	method_11676
+METHOD	bxf	()V	h	method_11677
+CLASS	bxg	net/minecraft/class_2737
+METHOD	bxg	()Lbxg;	h	method_11678
+CLASS	bxh	net/minecraft/class_2738
+METHOD	bxh	()Lbxh;	h	method_11679
+CLASS	bxi	net/minecraft/class_2739
+FIELD	bxi	[B	c	field_12509
+METHOD	bxi	()Lbxi;	h	method_11680
+CLASS	bxj	net/minecraft/class_2740
+FIELD	bxj	[B	c	field_12510
+METHOD	bxj	()Lbxj;	h	method_11681
+CLASS	bxk	net/minecraft/class_2741
+FIELD	bxk	Ljava/lang/String;	a	field_12511
+FIELD	bxk	Ljava/util/Date;	b	field_12512
+FIELD	bxk	J	c	field_12513
+FIELD	bxk	Ljava/util/Map;	d	field_12514
+FIELD	bxk	Ljava/util/Map;	e	field_12515
+FIELD	bxk	Lorg/apache/logging/log4j/Logger;	f	field_12516
+METHOD	bxk	(Lcom/google/gson/JsonElement;)Lbxk;	a	method_11682
+METHOD	bxk	(Ljava/lang/String;)Ljava/lang/String;	a	method_11683
+CLASS	bxl	net/minecraft/class_2742
+FIELD	bxl	Ljava/util/List;	a	field_12517
+FIELD	bxl	Lorg/apache/logging/log4j/Logger;	b	field_12518
+METHOD	bxl	(Ljava/lang/String;)Lbxl;	a	method_11684
+CLASS	bxm	net/minecraft/class_2743
+FIELD	bxm	J	a	field_12519
+FIELD	bxm	Ljava/lang/String;	b	field_12520
+FIELD	bxm	Ljava/lang/String;	c	field_12521
+FIELD	bxm	Ljava/lang/String;	d	field_12522
+FIELD	bxm	Lbxp;	e	field_12523
+FIELD	bxm	Ljava/lang/String;	f	field_12524
+FIELD	bxm	Ljava/util/List;	g	field_12525
+FIELD	bxm	Ljava/lang/String;	h	field_12526
+FIELD	bxm	Z	i	field_12527
+FIELD	bxm	Z	j	field_12528
+FIELD	bxm	I	k	field_12529
+FIELD	bxm	I	l	field_12530
+FIELD	bxm	I	m	field_12531
+FIELD	bxm	I	n	field_12532
+FIELD	bxm	Ljava/lang/String;	o	field_12533
+FIELD	bxm	Ljava/lang/String;	p	field_12534
+FIELD	bxm	J	q	field_12535
+FIELD	bxm	Lorg/apache/logging/log4j/Logger;	r	field_12536
+METHOD	bxm	()Ljava/lang/String;	a	method_11685
+METHOD	bxm	(J)Z	a	method_11686
+METHOD	bxm	(Lbxm;)V	a	method_11687
+METHOD	bxm	(Lcom/google/gson/JsonArray;)Ljava/util/List;	a	method_11688
+METHOD	bxm	(Lcom/google/gson/JsonObject;)Lbxm;	a	method_11689
+METHOD	bxm	(Ljava/lang/String;)V	a	method_11690
+METHOD	bxm	()Ljava/lang/String;	b	method_11691
+METHOD	bxm	(Lbxm;)V	b	method_11692
+METHOD	bxm	(Ljava/lang/String;)V	b	method_11693
+METHOD	bxm	(Ljava/lang/String;)Lbxm;	c	method_11694
+METHOD	bxm	(Ljava/lang/String;)Lbxp;	d	method_11695
 METHOD	bxm	(Ljava/lang/Object;)Z	equals	equals
 METHOD	bxm	()I	hashCode	hashCode
-CLASS	bxn	net/minecraft/class_5068
-METHOD	bxn	(Lbxv;Lbxv;)I	a	method_22327
+CLASS	bxn	net/minecraft/class_2744
+METHOD	bxn	(Lbxv;Lbxv;)I	a	method_11696
 METHOD	bxn	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
-CLASS	bxo	net/minecraft/class_5069
-FIELD	bxo	Ljava/lang/String;	a	field_22868
-METHOD	bxo	(Lbxm;Lbxm;)I	a	method_22328
+CLASS	bxo	net/minecraft/class_2745
+FIELD	bxo	Ljava/lang/String;	a	field_12537
+METHOD	bxo	(Lbxm;Lbxm;)I	a	method_11697
 METHOD	bxo	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
-CLASS	bxp	net/minecraft/class_5070
-FIELD	bxp	Lbxp;	a	field_22869
-FIELD	bxp	Lbxp;	b	field_22870
-FIELD	bxp	Lbxp;	c	field_22871
-FIELD	bxp	Lbxp;	d	field_22872
-FIELD	bxp	[Lbxp;	e	field_22873
+CLASS	bxp	net/minecraft/class_2746
+FIELD	bxp	Lbxp;	a	field_12538
+FIELD	bxp	Lbxp;	b	field_12539
+FIELD	bxp	Lbxp;	c	field_12540
+FIELD	bxp	Lbxp;	d	field_12541
+FIELD	bxp	[Lbxp;	e	field_12542
 METHOD	bxp	(Ljava/lang/String;)Lbxp;	valueOf	valueOf
 METHOD	bxp	()[Lbxp;	values	values
-CLASS	bxq	net/minecraft/class_5071
-FIELD	bxq	Ljava/lang/String;	a	field_22874
-FIELD	bxq	Lorg/apache/logging/log4j/Logger;	b	field_22875
-METHOD	bxq	(Ljava/lang/String;)Lbxq;	a	method_22329
-CLASS	bxr	net/minecraft/class_5072
-FIELD	bxr	Ljava/util/List;	a	field_22876
-FIELD	bxr	Lorg/apache/logging/log4j/Logger;	b	field_22877
-METHOD	bxr	(Ljava/lang/String;)Lbxr;	a	method_22330
-CLASS	bxs	net/minecraft/class_5073
-FIELD	bxs	Ljava/util/Set;	a	field_22878
-METHOD	bxs	(Ljava/lang/String;)Lbxs;	a	method_22331
-CLASS	bxt	net/minecraft/class_5074
-FIELD	bxt	Ljava/lang/String;	a	field_22879
-FIELD	bxt	Ljava/lang/String;	b	field_22880
-FIELD	bxt	Ljava/lang/String;	c	field_22881
-FIELD	bxt	Lorg/apache/logging/log4j/Logger;	d	field_22882
-METHOD	bxt	(Lcom/google/gson/JsonObject;)Lbxt;	a	method_22332
-CLASS	bxu	net/minecraft/class_5075
-FIELD	bxu	Ljava/util/List;	a	field_22883
-FIELD	bxu	Lorg/apache/logging/log4j/Logger;	b	field_22884
-METHOD	bxu	(Ljava/lang/String;)Lbxu;	a	method_22333
-CLASS	bxv	net/minecraft/class_5076
-FIELD	bxv	Ljava/lang/String;	a	field_22885
-FIELD	bxv	Ljava/lang/String;	b	field_22886
-FIELD	bxv	Z	c	field_22887
-METHOD	bxv	()Ljava/lang/String;	a	method_22334
-METHOD	bxv	(Ljava/lang/String;)V	a	method_22335
-METHOD	bxv	(Z)V	a	method_22336
-METHOD	bxv	()Ljava/lang/String;	b	method_22337
-METHOD	bxv	(Ljava/lang/String;)V	b	method_22338
-CLASS	bxw	net/minecraft/class_5077
-FIELD	bxw	Lorg/apache/logging/log4j/Logger;	a	field_22888
-FIELD	bxw	Ljava/lang/String;	b	field_22889
-FIELD	bxw	Ljava/lang/String;	c	field_22890
-METHOD	bxw	()Ljava/lang/String;	a	method_22339
-METHOD	bxw	(Ljava/lang/String;)Lbxw;	a	method_22340
-METHOD	bxw	()Ljava/lang/String;	b	method_22341
-CLASS	bxz	net/minecraft/class_5078
-FIELD	bxz	J	a	field_22891
-FIELD	bxz	I	b	field_22892
-FIELD	bxz	Lbya;	c	field_22893
-FIELD	bxz	Lorg/apache/logging/log4j/Logger;	d	field_22894
-METHOD	bxz	(Ljava/lang/String;)Lbxz;	a	method_22342
-METHOD	bxz	(Ljava/lang/String;)Lbya;	b	method_22343
+CLASS	bxq	net/minecraft/class_2747
+FIELD	bxq	Ljava/lang/String;	a	field_12543
+FIELD	bxq	Lorg/apache/logging/log4j/Logger;	b	field_12544
+METHOD	bxq	(Ljava/lang/String;)Lbxq;	a	method_11698
+CLASS	bxr	net/minecraft/class_2748
+FIELD	bxr	Ljava/util/List;	a	field_12545
+FIELD	bxr	Lorg/apache/logging/log4j/Logger;	b	field_12546
+METHOD	bxr	(Ljava/lang/String;)Lbxr;	a	method_11699
+CLASS	bxs	net/minecraft/class_2749
+FIELD	bxs	Ljava/util/Set;	a	field_12547
+METHOD	bxs	(Ljava/lang/String;)Lbxs;	a	method_11700
+CLASS	bxt	net/minecraft/class_2750
+FIELD	bxt	Ljava/lang/String;	a	field_12548
+FIELD	bxt	Ljava/lang/String;	b	field_12549
+FIELD	bxt	Ljava/lang/String;	c	field_12550
+FIELD	bxt	Lorg/apache/logging/log4j/Logger;	d	field_12551
+METHOD	bxt	(Lcom/google/gson/JsonObject;)Lbxt;	a	method_11701
+CLASS	bxu	net/minecraft/class_2751
+FIELD	bxu	Ljava/util/List;	a	field_12552
+FIELD	bxu	Lorg/apache/logging/log4j/Logger;	b	field_12553
+METHOD	bxu	(Ljava/lang/String;)Lbxu;	a	method_11702
+CLASS	bxv	net/minecraft/class_2752
+FIELD	bxv	Ljava/lang/String;	a	field_12554
+FIELD	bxv	Ljava/lang/String;	b	field_12555
+FIELD	bxv	Z	c	field_12556
+METHOD	bxv	()Ljava/lang/String;	a	method_11703
+METHOD	bxv	(Ljava/lang/String;)V	a	method_11704
+METHOD	bxv	(Z)V	a	method_11705
+METHOD	bxv	()Ljava/lang/String;	b	method_11706
+METHOD	bxv	(Ljava/lang/String;)V	b	method_11707
+CLASS	bxw	net/minecraft/class_2753
+FIELD	bxw	Lorg/apache/logging/log4j/Logger;	a	field_12557
+FIELD	bxw	Ljava/lang/String;	b	field_12558
+FIELD	bxw	Ljava/lang/String;	c	field_12559
+METHOD	bxw	()Ljava/lang/String;	a	method_11708
+METHOD	bxw	(Ljava/lang/String;)Lbxw;	a	method_11709
+METHOD	bxw	()Ljava/lang/String;	b	method_11710
+CLASS	bxz	net/minecraft/class_2754
+FIELD	bxz	J	a	field_12560
+FIELD	bxz	I	b	field_12561
+FIELD	bxz	Lbya;	c	field_12562
+FIELD	bxz	Lorg/apache/logging/log4j/Logger;	d	field_12563
+METHOD	bxz	(Ljava/lang/String;)Lbxz;	a	method_11711
+METHOD	bxz	(Ljava/lang/String;)Lbya;	b	method_11712
 CLASS	by	net/minecraft/class_1547
-CLASS	bya	net/minecraft/class_5079
-FIELD	bya	Lbya;	a	field_22895
-FIELD	bya	Lbya;	b	field_22896
-FIELD	bya	[Lbya;	c	field_22897
+CLASS	bya	net/minecraft/class_2755
+FIELD	bya	Lbya;	a	field_12564
+FIELD	bya	Lbya;	b	field_12565
+FIELD	bya	[Lbya;	c	field_12566
 METHOD	bya	(Ljava/lang/String;)Lbya;	valueOf	valueOf
 METHOD	bya	()[Lbya;	values	values
-CLASS	byb	net/minecraft/class_5080
-METHOD	byb	(Ljava/lang/reflect/Field;)Z	a	method_22344
+CLASS	byb	net/minecraft/class_2756
+METHOD	byb	(Ljava/lang/reflect/Field;)Z	a	method_11713
 METHOD	byb	()Ljava/lang/String;	toString	toString
-CLASS	byc	net/minecraft/class_5081
-FIELD	byc	Ljava/lang/String;	a	field_22898
-FIELD	byc	Ljava/lang/String;	b	field_22899
-FIELD	byc	Ljava/lang/String;	c	field_22900
-FIELD	byc	Ljava/lang/String;	d	field_22901
-FIELD	byc	Lorg/apache/logging/log4j/Logger;	e	field_22902
-METHOD	byc	(Lcom/google/gson/JsonObject;)Lbyc;	a	method_22345
-CLASS	byd	net/minecraft/class_5082
-FIELD	byd	Ljava/util/List;	a	field_22903
-FIELD	byd	Lorg/apache/logging/log4j/Logger;	b	field_22904
-METHOD	byd	(Ljava/lang/String;)Lbyd;	a	method_22346
-CLASS	bye	net/minecraft/class_5083
-CLASS	byf	net/minecraft/class_5084
-FIELD	byf	I	a	field_22905
-FIELD	byf	Ljava/lang/String;	b	field_22906
-FIELD	byf	I	c	field_22907
-FIELD	byf	Ljava/lang/String;	d	field_22908
+CLASS	byc	net/minecraft/class_2757
+FIELD	byc	Ljava/lang/String;	a	field_12567
+FIELD	byc	Ljava/lang/String;	b	field_12568
+FIELD	byc	Ljava/lang/String;	c	field_12569
+FIELD	byc	Ljava/lang/String;	d	field_12570
+FIELD	byc	Lorg/apache/logging/log4j/Logger;	e	field_12571
+METHOD	byc	(Lcom/google/gson/JsonObject;)Lbyc;	a	method_11714
+CLASS	byd	net/minecraft/class_2758
+FIELD	byd	Ljava/util/List;	a	field_12572
+FIELD	byd	Lorg/apache/logging/log4j/Logger;	b	field_12573
+METHOD	byd	(Ljava/lang/String;)Lbyd;	a	method_11715
+CLASS	bye	net/minecraft/class_2759
+CLASS	byf	net/minecraft/class_2760
+FIELD	byf	I	a	field_12574
+FIELD	byf	Ljava/lang/String;	b	field_12575
+FIELD	byf	I	c	field_12576
+FIELD	byf	Ljava/lang/String;	d	field_12577
 METHOD	byf	()Ljava/lang/String;	toString	toString
-CLASS	byg	net/minecraft/class_5085
-FIELD	byg	I	e	field_22909
-CLASS	byh	net/minecraft/class_5086
-METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/util/Date;	a	method_22347
-METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;I)I	a	method_22348
-METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;J)J	a	method_22349
-METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/String;	a	method_22350
-METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;Z)Z	a	method_22351
+CLASS	byg	net/minecraft/class_2761
+FIELD	byg	I	e	field_12578
+CLASS	byh	net/minecraft/class_2762
+METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/util/Date;	a	method_11716
+METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;I)I	a	method_11717
+METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;J)J	a	method_11718
+METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/String;	a	method_11719
+METHOD	byh	(Ljava/lang/String;Lcom/google/gson/JsonObject;Z)Z	a	method_11720
 CLASS	bym	net/minecraft/class_629
 FIELD	bym	Z	A	field_8370
 FIELD	bym	Ljava/lang/String;	B	field_8371
@@ -10835,12 +10835,12 @@ METHOD	cr	(Ljava/lang/String;)Lcr;	valueOf	valueOf
 METHOD	cr	()[Lcr;	values	values
 CLASS	cs	net/minecraft/class_1941
 CLASS	ct	net/minecraft/class_1942
-FIELD	ct	Lgnu/trove/map/hash/TIntIntHashMap;	a	field_8397
+FIELD	ct	Lgnu/trove/map/hash/TIntIntHashMap;	a	field_12579
 FIELD	ct	Ljava/util/List;	b	field_8398
 METHOD	ct	(I)Ljava/lang/Object;	a	method_7322
 METHOD	ct	(Ljava/lang/Object;I)V	a	method_7323
 METHOD	ct	(I)Z	b	method_7324
-METHOD	ct	(Ljava/lang/Object;)I	b	method_7325
+METHOD	ct	(Ljava/lang/Object;)I	b	method_11721
 METHOD	ct	()Ljava/util/Iterator;	iterator	iterator
 CLASS	cu	net/minecraft/class_1360
 CLASS	cv	net/minecraft/class_1363
@@ -11014,7 +11014,7 @@ METHOD	dy	(Ljava/io/DataOutput;)V	a	method_1650
 METHOD	dy	()Ljava/lang/String;	a_	method_7370
 METHOD	dy	()Ldy;	b	method_1651
 METHOD	dy	(Ljava/lang/Object;)Z	equals	equals
-METHOD	dy	(I)Ljava/lang/String;	g	method_22352
+METHOD	dy	(I)Ljava/lang/String;	g	method_11722
 METHOD	dy	()I	hashCode	hashCode
 METHOD	dy	()Ljava/lang/String;	toString	toString
 CLASS	dz	net/minecraft/class_1947
@@ -13012,7 +13012,7 @@ FIELD	mv	I	bT	field_2830
 FIELD	mv	I	bU	field_2831
 FIELD	mv	Lza;	bV	field_8895
 FIELD	mv	Z	bW	field_2834
-FIELD	mv	J	bX	field_6733
+FIELD	mv	J	bX	field_12580
 FIELD	mv	I	bY	field_2836
 FIELD	mv	Lmw;	c	field_2825
 FIELD	mv	D	d	field_2837
@@ -13482,8 +13482,8 @@ METHOD	ny	(Llp;)Z	c	method_8215
 METHOD	ny	(Lnet/minecraft/server/MinecraftServer;)Z	c	method_8216
 METHOD	ny	(Llp;)Ljava/io/File;	d	method_8217
 METHOD	ny	(Lnet/minecraft/server/MinecraftServer;)Z	d	method_8218
-CLASS	nz	net/minecraft/class_5088
-METHOD	nz	(Ljava/lang/String;)Z	a	method_22356
+CLASS	nz	net/minecraft/class_2764
+METHOD	nz	(Ljava/lang/String;)Z	a	method_11725
 METHOD	nz	(Ljava/lang/Object;)Z	apply	apply
 CLASS	o	net/minecraft/class_1403
 FIELD	o	Ljava/lang/String;	a	field_5366
@@ -16822,6 +16822,6 @@ FIELD	zy	Laax;	f	field_4093
 FIELD	zy	I	g	field_4094
 CLASS	zz	net/minecraft/class_1004
 FIELD	zz	Lzy;	a	field_4095
-# INTERMEDIARY-COUNTER field 22910
-# INTERMEDIARY-COUNTER method 22357
-# INTERMEDIARY-COUNTER class 5089
+# INTERMEDIARY-COUNTER field 12581
+# INTERMEDIARY-COUNTER method 11726
+# INTERMEDIARY-COUNTER class 2765
