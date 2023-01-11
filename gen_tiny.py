@@ -14,7 +14,7 @@ merged_path = "./versions/{}/{}-merged.jar"
 tiny_path = "./mappings/{}.tiny"
 match_path = "./matches/{}-{}.match"
 
-match_url = "https://raw.githubusercontent.com/skyrising/matches/tree/main/matches/merged/{}/{}#{}.match"
+match_url = "https://raw.githubusercontent.com/skyrising/matches/main/matches/merged/{}/{}%23{}.match"
 
 counter_arg = "-Dstitch.counter=./mappings/counter.txt"
 
@@ -26,6 +26,9 @@ def gen_tiny():
     check_stitch()
     if not os.path.exists("./mappings"):
         os.mkdir("./mappings")
+
+    if os.path.exists("./mappings/counter.txt"):
+        os.remove("./mappings/counter.txt")
 
     for info in infos:
         i_from: str = None
@@ -77,7 +80,7 @@ def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inve
     if not os.path.exists(matchPath):
         with request.urlopen(matchUrl) as response:
                 with open(matchPath, 'w') as match_data:
-                    match_data.write(response.read())
+                    match_data.write(response.read().decode('utf-8'))
                     match_data.close()
                     print("Match file downloaded")
 
@@ -233,8 +236,9 @@ def fix_inner_classes(file_name: str):
 def rename(old_name: str, new_name: str):
     if os.path.exists(tiny_path.format(new_name)):
         os.remove(tiny_path.format(new_name))
-    os.rename(tiny_path.format(old_name), tiny_path.format(new_name))
-    print()
+    if os.path.exists(tiny_path.format(old_name)):
+        os.rename(tiny_path.format(old_name), tiny_path.format(new_name))
+        print()
 
 if __name__ == '__main__':
     gen_tiny()
