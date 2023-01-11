@@ -14,6 +14,8 @@ merged_path = "./versions/{}/{}-merged.jar"
 tiny_path = "./mappings/{}.tiny"
 match_path = "./matches/{}-{}.match"
 
+match_url = "https://raw.githubusercontent.com/skyrising/matches/tree/main/matches/merged/{}/{}#{}.match"
+
 counter_arg = "-Dstitch.counter=./mappings/counter.txt"
 
 def gen_tiny():
@@ -49,19 +51,36 @@ def gen_tiny():
         if i_from == None:
             generate_intermediary(i_to)
         else:
-            update_intermediary(i_from, i_to, i_conflicts, i_inverted)
+            i_fol = "april-fools"
+            if "fol" in info.keys():
+                i_fol = info["fol"]
+            update_intermediary(i_from, i_to, i_conflicts, i_inverted, i_fol)
     
     fix_inner_classes_all()
 
     for i in renames:
         rename(i, renames[i])
 
-def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool):
+def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool, fol: str):
     print("Generating", to_name, "tiny from", from_name, "one")
 
     if os.path.exists(tiny_path.format(to_name)):
         os.remove(tiny_path.format(to_name))
     
+    matchPath = match_path.format(from_name, to_name)
+    matchUrl = match_url.format(fol, from_name, to_name)
+
+    if inverted:
+        matchPath = match_path.format(to_name, from_name)
+        matchUrl = match_url.format(fol, to_name, from_name)
+
+    if not os.path.exists(matchPath):
+        with request.urlopen(matchUrl) as response:
+                with open(matchPath, 'w') as match_data:
+                    match_data.write(response.read())
+                    match_data.close()
+                    print("Match file downloaded")
+
     if inverted:
         invert_match.invert(
             match_path.format(to_name, from_name),
