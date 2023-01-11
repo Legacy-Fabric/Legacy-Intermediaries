@@ -14,4 +14,4 @@ jobs:
       - uses: gradle/wrapper-validation-action@v1
       - run: ./gradlew build publish --stacktrace
         env:
-          MAVEN_PUBLISH_TOKEN: ${{ secrets.MAVEN_PUBLISH_TOKEN }}
+          MAVEN_PUBLISH_CREDENTIALS: ${{ secrets.MAVEN_PUBLISH_CREDENTIALS }}
