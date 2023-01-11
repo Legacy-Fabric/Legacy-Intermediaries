@@ -131,7 +131,11 @@ def get_merged_jar(version_name: str):
         os.mkdir("./versions/{}".format(version_name))
     
     if not os.path.exists(merged_path.format(version_name, version_name)):
-        with request.urlopen('https://skyrising.github.io/mc-versions/version/{}.json'.format(version_name)) as response:
+        with request.urlopen('https://skyrising.github.io/mc-versions/version/{}.json'.format(version_name
+        .replace("13w03a", "13w03a-1647")
+        .replace("13w05a", "13w05a-1538")
+        .replace("13w06a", "13w06a-1636")
+        )) as response:
             versionStr = response.read().decode('utf-8');
             versionJson = json.loads(versionStr)
             downloads = versionJson["downloads"]
