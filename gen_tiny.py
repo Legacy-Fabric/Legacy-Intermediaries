@@ -12,9 +12,9 @@ client_path = "./versions/{}/{}-client.jar"
 server_path = "./versions/{}/{}-server.jar"
 merged_path = "./versions/{}/{}-merged.jar"
 tiny_path = "./mappings/{}.tiny"
-match_path = "./matches/{}-{}.match"
+match_path = "./temp/{}-{}.match"
 
-match_url = "https://raw.githubusercontent.com/skyrising/matches/main/matches/merged/{}/{}%23{}.match"
+match_url = "./matches/matches/merged/{}/{}#{}.match"
 
 counter_arg = "-Dstitch.counter=./mappings/counter.txt"
 
@@ -29,6 +29,9 @@ def gen_tiny():
 
     if os.path.exists("./mappings/counter.txt"):
         os.remove("./mappings/counter.txt")
+    
+    if not os.path.exists("./temp"):
+        os.mkdir("./temp")
 
     for info in infos:
         i_from: str = None
@@ -70,23 +73,14 @@ def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inve
     if os.path.exists(tiny_path.format(to_name)):
         os.remove(tiny_path.format(to_name))
     
-    matchPath = match_path.format(from_name, to_name)
-    matchUrl = match_url.format(fol, from_name, to_name)
+    matchPath = match_url.format(fol, from_name, to_name)
 
     if inverted:
-        matchPath = match_path.format(to_name, from_name)
-        matchUrl = match_url.format(fol, to_name, from_name)
-
-    if not os.path.exists(matchPath):
-        with request.urlopen(matchUrl) as response:
-                with open(matchPath, 'w') as match_data:
-                    match_data.write(response.read().decode('utf-8'))
-                    match_data.close()
-                    print("Match file downloaded")
+        matchPath = match_path.format(from_name, to_name)
 
     if inverted:
         invert_match.invert(
-            match_path.format(to_name, from_name),
+            match_url.format(fol, to_name, from_name),
             match_path.format(from_name, to_name)
         )
 
@@ -95,7 +89,7 @@ def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inve
                 merged_path.format(to_name, to_name),
                 tiny_path.format(from_name),
                 tiny_path.format(to_name),
-                match_path.format(from_name, to_name)
+                matchPath
             ]
     
     if len(conflicts) > 0:
@@ -131,11 +125,11 @@ def get_merged_jar(version_name: str):
         os.mkdir("./versions/{}".format(version_name))
     
     if not os.path.exists(merged_path.format(version_name, version_name)):
-        with request.urlopen('https://skyrising.github.io/mc-versions/version/{}.json'.format(version_name
+        with open("./matches/mc-versions/data/version/{}.json".format(version_name
         .replace("13w03a", "13w03a-1647")
         .replace("13w05a", "13w05a-1538")
         .replace("13w06a", "13w06a-1636")
-        )) as response:
+        ), 'r') as response:
             versionStr = response.read().decode('utf-8');
             versionJson = json.loads(versionStr)
             downloads = versionJson["downloads"]
