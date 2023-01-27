@@ -18,7 +18,12 @@
             "from":"12w32a",
             "to":"12w34a",
             "fol":"1.4",
-            "conflicts": [1]
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_1250 <- auk<-vg<-vq.a(I)Ljr;",
+                "2) method_0_2133 <- gv<-vg<-vq.a(I)Ljr;"
+            ]
         },
         {
             "from":"12w34a",
@@ -59,7 +64,12 @@
             "from":"12w39b",
             "to":"12w40a",
             "fol":"1.4",
-            "conflicts": [1]
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_3222 <- qd<-[kw,qi].c(DDDFF)V",
+                "2) method_0_3231 <- ql<-[kw,qi].c(DDDFF)V"
+            ]
         },
         {
             "from":"12w40a",
@@ -356,7 +366,12 @@
             "from": "1.6.1",
             "to": "1.6.2-091847",
             "fol": "1.6",
-            "conflicts": [1]
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_1425 <- bjf(itf).a(Lbjm;)V, bjn(itf).a(Lbjm;)V",
+                "2) method_0_5412 <- avf<-bjn.a(Lbjm;)V"
+            ]
         },
         {
             "from": "1.6.2-091847",
@@ -384,6 +399,9 @@
         "1.7.1-pre": "1.7.1",
         "1.7.3-pre": "1.7.3",
         "1.7.7-101331": "1.7.7",
-        "af-2015": "15w14a"
+        "af-2015": "15w14a",
+        "13w16a-04192037": "13w16a",
+        "13w16b-04232151": "13w16b",
+        "13w23b-06080101": "13w23b"
     }
 }
