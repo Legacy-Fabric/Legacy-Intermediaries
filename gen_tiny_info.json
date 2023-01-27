@@ -382,6 +382,240 @@
             "from": "1.6.3-pre-171231",
             "to": "1.6.4",
             "fol": "1.6"
+        },
+
+        {
+            "from": "1.6.2-091847",
+            "to": "13w36a-09051446",
+            "fol": "1.7",
+            "conflicts": [1, 1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2517 <- nm.d_()Ljava/lang/String;, oc.d_()Ljava/lang/String;, sf(itf).d_()Ljava/lang/String;",
+                "2) method_0_3332 <- ad(itf).d_()Ljava/lang/String;",
+
+                "Conflict detected - matched same target name!",
+                "1) method_0_2517 <- nm.ay()Ljava/lang/String;, sf(itf).ay()Ljava/lang/String;, sv(itf).ay()Ljava/lang/String;",
+                "2) method_0_5295 <- oc.ay()Ljava/lang/String;"
+            ]
+        },
+        {
+            "from": "13w36a-09051446",
+            "to": "13w36b-09061310",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w36b-09061310",
+            "to": "13w37a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w37a",
+            "to": "13w37b",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w37b",
+            "to": "13w38a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w38a",
+            "to": "13w38b",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w38b",
+            "to": "13w38c",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w38c",
+            "to": "13w39a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w39a",
+            "to": "13w39b",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w39b",
+            "to": "13w41a",
+            "fol": "1.7",
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2192 <- mx<-jk<-eq.a()V",
+                "2) method_0_2200 <- ms<-ic<-eq.a()V"
+            ]
+        },
+        {
+            "from": "13w41a",
+            "to": "13w41b-1523",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w41b-1523",
+            "to": "13w42a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w42a",
+            "to": "13w42b",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w42b",
+            "to": "13w43a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w43a",
+            "to": "1.7-pre",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7-pre",
+            "to": "1.7.1-pre",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.1-pre",
+            "to": "1.7.2",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.2",
+            "to": "13w47a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w47a",
+            "to": "13w47b",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w47b",
+            "to": "13w47c",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w47c",
+            "to": "13w47d",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w47d",
+            "to": "13w47e",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w47e",
+            "to": "13w48a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w48a",
+            "to": "13w48b",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w48b",
+            "to": "13w49a",
+            "fol": "1.7"
+        },
+        {
+            "from": "13w49a",
+            "to": "1.7.3-pre",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.3-pre",
+            "to": "1.7.4",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.4",
+            "to": "1.7.5",
+            "fol": "1.7",
+            "conflicts": [1, 2],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2497 <- qr.a(Ldh;)V, qx.a(Ldh;)V",
+                "2) method_0_2527 <- qr.a(Ldh;)V",
+
+                "Conflict detected - matched same target name!",
+                "1) method_0_2497 <- qr.b(Ldh;)V",
+                "2) method_0_2527 <- qr.b(Ldh;)V, qx.b(Ldh;)V"
+            ]
+        },
+        {
+            "from": "1.7.5",
+            "to": "1.7.6-pre1",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.6-pre1",
+            "to": "1.7.6-pre2",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.6-pre2",
+            "to": "1.7.6",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.6",
+            "to": "1.7.7-101331",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.7-101331",
+            "to": "1.7.8",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.8",
+            "to": "1.7.9",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.9",
+            "to": "1.7.10-pre1",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.10-pre1",
+            "to": "1.7.10-pre2",
+            "fol": "1.7"
+        },
+        {
+            "from": "1.7.10-pre2",
+            "to": "1.7.10-pre3",
+            "fol": "1.7",
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) renderItem <- bcr<-bcm.a(IZII)V",
+                "2) selectItem <- bcm.a(IZII)V"
+            ]
+        },
+        {
+            "from": "1.7.10-pre3",
+            "to": "1.7.10-pre4",
+            "fol": "1.7",
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) confirmResult <- bdw<-bbw.a(ZI)V",
+                "2) method_0_8414 <- bcv(itf).a(ZI)V"
+            ]
+        },
+        {
+            "from": "1.7.10-pre4",
+            "to": "1.7.10",
+            "fol": "1.7"
         }
     ],
 
@@ -402,6 +636,9 @@
         "af-2015": "15w14a",
         "13w16a-04192037": "13w16a",
         "13w16b-04232151": "13w16b",
-        "13w23b-06080101": "13w23b"
+        "13w23b-06080101": "13w23b",
+        "13w36a-09051446": "13w36a",
+        "13w36b-09061310": "13w36b",
+        "13w41b-1523": "13w41b"
     }
 }
