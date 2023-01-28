@@ -638,6 +638,338 @@
             "from": "1.7.10-pre4",
             "to": "1.7.10",
             "fol": "1.7"
+        },
+
+        {
+            "from": "1.7.4",
+            "to": "14w02a",
+            "fol": "1.8",
+            "conflicts": [2, 1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2385 <- ps(itf).b_()Ljava/lang/String;",
+                "2) method_0_2517 <- ab(itf).b_()Ljava/lang/String;, ac(itf).b_()Ljava/lang/String;, qr.b_()Ljava/lang/String;, rj.b_()Ljava/lang/String;",
+                "3) method_0_5275 <- ape<-[aos,ql<-qp].b_()Ljava/lang/String;",
+
+                "Conflict detected - matched same target name!",
+                "1) method_0_5277 <- ape<-[aos,ql<-qp].d()Z",
+                "2) method_0_5361 <- ps(itf).d()Z, wc<-qr.d()Z, wu<-[rj,qp].d()Z"
+            ]
+        },
+        {
+            "from": "14w02a",
+            "to": "14w02b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w02b",
+            "to": "14w02c",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w02c",
+            "to": "14w03a",
+            "fol": "1.8",
+            "conflicts": [1, 2],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2497 <- rj.a(Ldw;)V, rk.a(Ldw;)V",
+                "2) method_0_2527 <- rj.a(Ldw;)V",
+
+                "Conflict detected - matched same target name!",
+                "1) method_0_2497 <- rj.b(Ldw;)V",
+                "2) method_0_2527 <- rj.b(Ldw;)V, rk.b(Ldw;)V"
+            ]
+        },
+        {
+            "from": "14w03a",
+            "to": "14w03b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w03b",
+            "to": "14w04b-1554",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w04b-1554",
+            "to": "14w05a",
+            "fol": "1.8",
+            "conflicts": [1, 2],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_4745 <- btm<-bua<-btx<-bte.e()V, bud<-bur<-buo<-btv.e()V",
+                "2) method_0_4831 <- bvj<-bur<-buo<-btv.e()V",
+
+                "Conflict detected - matched same target name!",
+                "1) method_0_6210 <- sy<-sx<-rz.q(I)Ladu;",
+                "2) method_0_6325 <- zn<-[sx<-rz,aa].q(I)Ladu;"
+            ]
+        },
+        {
+            "from": "14w05a",
+            "to": "14w05b",
+            "fol": "1.8",
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_9495 <- bvo<-bwd.a(Lsx;FFFFFFF)V(bridge)",
+                "2) method_0_9504 <- bvu<-bwd.a(Lsx;FFFFFFF)V(bridge)",
+                "3) method_0_9511 <- bwa<-bwd.a(Lsx;FFFFFFF)V(bridge)"
+            ]
+        },
+        {
+            "from": "14w05b",
+            "to": "14w06a",
+            "fol": "1.8",
+            "conflicts": [2],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2632 <- sx<-rz.bt()V",
+                "2) method_0_2634 <- sx<-rz.bt()V, sy<-sb.bt()V"
+            ]
+        },
+        {
+            "from": "14w06a",
+            "to": "14w06b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w06b",
+            "to": "14w07a",
+            "fol": "1.8",
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_439 <- alc.f(Lajj;Lde;Ldp;)Lrk;, alj.f(Lajj;Lde;Ldp;)Lrk;",
+                "2) method_0_5254 <- amb<-[amq<-alj,alp].f(Lajj;Lde;Ldp;)Lrk;"
+            ]
+        },
+        {
+            "from": "14w07a",
+            "to": "14w08a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w08a",
+            "to": "14w10a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w10a",
+            "to": "14w10b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w10b",
+            "to": "14w10c",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w10c",
+            "to": "14w11a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w11a",
+            "to": "14w11b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w11b",
+            "to": "14w17a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w17a",
+            "to": "14w18a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w18a",
+            "to": "14w18b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w18b",
+            "to": "14w19a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w19a",
+            "to": "14w20a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w20a",
+            "to": "14w20b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w20b",
+            "to": "14w21a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w21a",
+            "to": "14w21b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w21b",
+            "to": "14w25a",
+            "fol": "1.8",
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_2633 <- uv<-ub.z()V",
+                "2) method_0_2634 <- uv<-ub.z()V"
+            ]
+        },
+        {
+            "from": "14w25a",
+            "to": "14w25b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w25b",
+            "to": "14w26a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w26a",
+            "to": "14w26b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w26b",
+            "to": "14w26c",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w26c",
+            "to": "14w27a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w27a",
+            "to": "14w27b-07021646",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w27b-07021646",
+            "to": "14w28a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w28a",
+            "to": "14w28b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w28b",
+            "to": "14w29a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w29a",
+            "to": "14w29b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w29b",
+            "to": "14w30a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w30a",
+            "to": "14w30b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w30b",
+            "to": "14w30c",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w30c",
+            "to": "14w31a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w31a",
+            "to": "14w32a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w32a",
+            "to": "14w32b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w32b",
+            "to": "14w32c",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w32c",
+            "to": "14w32d",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w32d",
+            "to": "14w33a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w33a",
+            "to": "14w33b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w33b",
+            "to": "14w33c",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w33c",
+            "to": "14w34a",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w34a",
+            "to": "14w34b",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w34b",
+            "to": "14w34c-08191549",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w34c-08191549",
+            "to": "14w34d",
+            "fol": "1.8"
+        },
+        {
+            "from": "14w34d",
+            "to": "1.8-pre1",
+            "fol": "1.8"
+        },
+        {
+            "from": "1.8-pre1",
+            "to": "1.8-pre2",
+            "fol": "1.8"
+        },
+        {
+            "from": "1.8-pre2",
+            "to": "1.8-pre3",
+            "fol": "1.8"
+        },
+        {
+            "from": "1.8-pre3",
+            "to": "1.8",
+            "fol": "1.8"
         }
     ],
 
@@ -665,6 +997,9 @@
         "13w03a-1647": "13w03a",
         "13w05a-1538": "13w05a",
         "13w06a-1636": "13w06a",
-        "1.3-pre-07261249": "1.3"
+        "1.3-pre-07261249": "1.3",
+        "14w04b-1554": "14w04b",
+        "14w27b-07021646": "14w27b",
+        "14w34c-08191549": "14w34c"
     }
 }
