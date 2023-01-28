@@ -5,6 +5,18 @@
         },
         {
             "from":"1.3.1",
+            "to":"1.3-pre-07261249",
+            "fol":"1.3",
+            "inverted": true,
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_3340 <- qq<-ai.a()Ljava/lang/String;, rg.a()Ljava/lang/String;",
+                "2) method_0_3505 <- tb<-ai.a()Ljava/lang/String;, tr.a()Ljava/lang/String;"
+            ]
+        },
+        {
+            "from":"1.3.1",
             "to":"1.3.2",
             "fol":"1.3"
         },
@@ -649,6 +661,10 @@
         "13w23b-06080101": "13w23b",
         "13w36a-09051446": "13w36a",
         "13w36b-09061310": "13w36b",
-        "13w41b-1523": "13w41b"
+        "13w41b-1523": "13w41b",
+        "13w03a-1647": "13w03a",
+        "13w05a-1538": "13w05a",
+        "13w06a-1636": "13w06a",
+        "1.3-pre-07261249": "1.3"
     }
 }

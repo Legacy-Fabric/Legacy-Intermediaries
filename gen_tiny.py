@@ -27,9 +27,9 @@ def gen_tiny():
     check_stitch()
     if not os.path.exists("./mappings"):
         os.mkdir("./mappings")
-
-    if os.path.exists("./mappings/counter.txt"):
-        os.remove("./mappings/counter.txt")
+    
+    for a in os.listdir("./mappings"):
+        os.remove("./mappings/{}".format(a))
 
     if not os.path.exists("./temp"):
         os.mkdir("./temp")
