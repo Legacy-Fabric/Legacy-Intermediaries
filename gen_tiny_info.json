@@ -1495,6 +1495,577 @@
             "from": "1.10.1",
             "to": "1.10.2",
             "fol": "1.10"
+        },
+
+        {
+            "from": "1.10.2",
+            "to": "16w32a",
+            "fol": "1.11",
+            "conflicts": [18],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_10071 <- aeo$6<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "2) method_0_10072 <- aeo$7<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "3) method_0_10073 <- aeo$10<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "4) method_0_10074 <- aeo$11<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "5) method_0_10075 <- aeo$19<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "6) method_0_10076 <- aeo$3<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "7) method_0_10077 <- aeo$8<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "8) method_0_10078 <- aeo$9<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "9) method_0_10079 <- aeo$13<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "10) method_0_10760 <- aeo$5<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "11) method_0_10761 <- aeo$4<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "12) method_0_12037 <- aeo$14<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "13) method_0_9959 <- aeo$17<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "14) method_0_9960 <- aeo$18<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "15) method_0_9961 <- aeo$21<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "16) method_0_9962 <- aeo$20<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "17) method_0_9963 <- aeo$2<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "18) method_0_9964 <- aez$1<-aez$a.a(Laeq;)Ljava/lang/String;"
+            ]
+        },
+        {
+            "from": "16w32a",
+            "to": "16w32b",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w32b",
+            "to": "16w33a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w33a",
+            "to": "16w35a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w35a",
+            "to": "16w36a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w36a",
+            "to": "16w38a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w38a",
+            "to": "16w39a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w39a",
+            "to": "16w39b",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w39b",
+            "to": "16w39c",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w39c",
+            "to": "16w40a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w40a",
+            "to": "16w41a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w41a",
+            "to": "16w42a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w42a",
+            "to": "16w43a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w43a",
+            "to": "16w44a",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w44a",
+            "to": "1.11-pre1",
+            "fol": "1.11"
+        },
+        {
+            "from": "1.11-pre1",
+            "to": "1.11",
+            "fol": "1.11"
+        },
+        {
+            "from": "1.11",
+            "to": "16w50a-1438",
+            "fol": "1.11"
+        },
+        {
+            "from": "16w50a-1438",
+            "to": "1.11.1",
+            "fol": "1.11"
+        },
+        {
+            "from": "1.11.1",
+            "to": "1.11.2",
+            "fol": "1.11"
+        },
+
+        {
+            "from": "1.11.2",
+            "to": "17w06a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w06a",
+            "to": "17w13a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w13a",
+            "to": "17w13b",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w13b",
+            "to": "17w14a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w14a",
+            "to": "17w15a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w15a",
+            "to": "17w16a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w16a",
+            "to": "17w16b",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w16b",
+            "to": "17w17a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w17a",
+            "to": "17w17b",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w17b",
+            "to": "17w18a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w18a",
+            "to": "17w18b",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w18b",
+            "to": "1.12-pre1",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12-pre1",
+            "to": "1.12-pre2",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12-pre2",
+            "to": "1.12-pre3",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12-pre3",
+            "to": "1.12-pre4",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12-pre4",
+            "to": "1.12-pre5",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12-pre5",
+            "to": "1.12-pre6",
+            "fol": "1.12",
+            "conflicts": [2],
+            "_comments": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_14985 <- bnl$a<-biy<-bip.a(Lbhz;IIF)V",
+                "2) method_0_891 <- bix<-bio.a(Lbhz;IIF)V, biy<-bip.a(Lbhz;IIF)V"
+            ]
+        },
+        {
+            "from": "1.12-pre6",
+            "to": "1.12-pre7",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12-pre7",
+            "to": "1.12",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12",
+            "to": "17w31a",
+            "fol": "1.12"
+        },
+        {
+            "from": "17w31a",
+            "to": "1.12.1-pre1",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12.1-pre1",
+            "to": "1.12.1",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12.1",
+            "to": "1.12.2-pre1",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12.2-pre1",
+            "to": "1.12.2-pre2",
+            "fol": "1.12"
+        },
+        {
+            "from": "1.12.2-pre2",
+            "to": "1.12.2",
+            "fol": "1.12"
+        },
+
+        {
+            "from": "1.12.2",
+            "to": "17w43a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w43a",
+            "to": "17w43b",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w43b",
+            "to": "17w45a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w45a",
+            "to": "17w45b",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w45b",
+            "to": "17w46a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w46a",
+            "to": "17w47a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w47a",
+            "to": "17w47b",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w47b",
+            "to": "17w48a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w48a",
+            "to": "17w49a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w49a",
+            "to": "17w49b",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w49b",
+            "to": "17w50a",
+            "fol": "1.13"
+        },
+        {
+            "from": "17w50a",
+            "to": "18w01a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w01a",
+            "to": "18w02a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w02a",
+            "to": "18w03a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w03a",
+            "to": "18w03b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w03b",
+            "to": "18w05a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w05a",
+            "to": "18w06a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w06a",
+            "to": "18w07a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w07a",
+            "to": "18w07b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w07b",
+            "to": "18w07c",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w07c",
+            "to": "18w08a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w08a",
+            "to": "18w08b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w08b",
+            "to": "18w09a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w09a",
+            "to": "18w10a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w10a",
+            "to": "18w10b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w10b",
+            "to": "18w10c",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w10c",
+            "to": "18w10d",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w10d",
+            "to": "18w11a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w11a",
+            "to": "18w14a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w14a",
+            "to": "18w14b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w14b",
+            "to": "18w15a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w15a",
+            "to": "18w16a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w16a",
+            "to": "18w19a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w19a",
+            "to": "18w19b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w19b",
+            "to": "18w20a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w20a",
+            "to": "18w20b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w20b",
+            "to": "18w20c",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w20c",
+            "to": "18w21a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w21a",
+            "to": "18w21b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w21b",
+            "to": "18w22a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w22a",
+            "to": "18w22b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w22b",
+            "to": "18w22c",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w22c",
+            "to": "1.13-pre1",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre1",
+            "to": "1.13-pre2",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre2",
+            "to": "1.13-pre3",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre3",
+            "to": "1.13-pre4",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre4",
+            "to": "1.13-pre5",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre5",
+            "to": "1.13-pre6",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre6",
+            "to": "1.13-pre7",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre7",
+            "to": "1.13-pre8",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre8",
+            "to": "1.13-pre9",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre9",
+            "to": "1.13-pre10",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13-pre10",
+            "to": "1.13",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13",
+            "to": "18w30a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w30a",
+            "to": "18w30b",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w30b",
+            "to": "18w31a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w31a",
+            "to": "18w32a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w32a",
+            "to": "18w33a",
+            "fol": "1.13"
+        },
+        {
+            "from": "18w33a",
+            "to": "1.13.1-pre1",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13.1-pre1",
+            "to": "1.13.1-pre2",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13.1-pre2",
+            "to": "1.13.1",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13.1",
+            "to": "1.13.2-pre1",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13.2-pre1",
+            "to": "1.13.2-pre2",
+            "fol": "1.13"
+        },
+        {
+            "from": "1.13.2-pre2",
+            "to": "1.13.2",
+            "fol": "1.13"
         }
     ],
 
@@ -1526,6 +2097,7 @@
         "14w04b-1554": "14w04b",
         "14w27b-07021646": "14w27b",
         "14w34c-08191549": "14w34c",
-        "af-2016": "1.RV-Pre1"
+        "af-2016": "1.RV-Pre1",
+        "16w50a-1438": "16w50a"
     }
 }
