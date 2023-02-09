@@ -2,30 +2,30 @@ v1	official	intermediary
 CLASS	a	net/minecraft/class_0_1
 FIELD	a	Ljava/lang/String;	a	field_0_1
 FIELD	a	Ljava/lang/Throwable;	b	field_0_2
-FIELD	a	Ll;	c	field_0_5524
-FIELD	a	Ljava/util/List;	d	field_0_5525
+FIELD	a	Ll;	c	field_0_5346
+FIELD	a	Ljava/util/List;	d	field_0_5347
 FIELD	a	Ljava/io/File;	e	field_0_4
-FIELD	a	Z	f	field_0_5526
-FIELD	a	[Ljava/lang/StackTraceElement;	g	field_0_5527
+FIELD	a	Z	f	field_0_5348
+FIELD	a	[Ljava/lang/StackTraceElement;	g	field_0_5349
 METHOD	a	()Ljava/lang/String;	a	method_0_1
 METHOD	a	(Ljava/io/File;)Z	a	method_0_2
-METHOD	a	(Ljava/lang/String;)Ll;	a	method_0_5011
-METHOD	a	(Ljava/lang/String;I)Ll;	a	method_0_5012
-METHOD	a	(Ljava/lang/StringBuilder;)V	a	method_0_5013
-METHOD	a	(Ljava/lang/Throwable;Ljava/lang/String;)La;	a	method_0_5014
+METHOD	a	(Ljava/lang/String;)Ll;	a	method_0_4551
+METHOD	a	(Ljava/lang/String;I)Ll;	a	method_0_4552
+METHOD	a	(Ljava/lang/StringBuilder;)V	a	method_0_4553
+METHOD	a	(Ljava/lang/Throwable;Ljava/lang/String;)La;	a	method_0_4554
 METHOD	a	()Ljava/lang/Throwable;	b	method_0_7
-METHOD	a	()Ljava/lang/String;	c	method_0_5109
+METHOD	a	()Ljava/lang/String;	c	method_0_4649
 METHOD	a	()Ljava/lang/String;	d	method_0_9
 METHOD	a	()Ljava/lang/String;	e	method_0_10
 METHOD	a	()Ljava/io/File;	f	method_0_11
-METHOD	a	()Ll;	g	method_0_5015
+METHOD	a	()Ll;	g	method_0_4555
 METHOD	a	()V	h	method_0_12
 METHOD	a	()Ljava/lang/String;	i	method_0_13
 CLASS	aa	net/minecraft/class_0_1045
 METHOD	aa	(ILjava/lang/String;)Z	a	method_0_3331
 METHOD	aa	(Ljava/lang/String;)V	a	method_0_3329
 METHOD	aa	(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;	a	method_0_3330
-METHOD	aa	()Ls;	b	method_0_4615
+METHOD	aa	()Ls;	b	method_0_4155
 METHOD	aa	()Ljava/lang/String;	c_	method_0_3332
 CLASS	aaa	net/minecraft/class_0_1183
 METHOD	aaa	(Laab;Lbq;Lyw;)V	a	method_0_3954
@@ -89,7 +89,7 @@ FIELD	aag	Lbq;	b	field_0_4780
 CLASS	aaj	net/minecraft/class_0_1191
 FIELD	aaj	Lxv;	a	field_0_4781
 FIELD	aaj	Lyg;	b	field_0_4782
-FIELD	aaj	Ljava/lang/String;	c	field_0_5280
+FIELD	aaj	Ljava/lang/String;	c	field_0_5102
 FIELD	aaj	Lyw;	d	field_0_4783
 FIELD	aaj	Z	e	field_0_4784
 FIELD	aaj	Z	f	field_0_4785
@@ -115,7 +115,7 @@ METHOD	aaj	()Ls;	h	method_0_3989
 METHOD	aaj	()I	i	method_0_3990
 METHOD	aaj	()Z	j	method_0_3991
 METHOD	aaj	()D	k	method_0_3992
-METHOD	aaj	()Ljava/lang/String;	l	method_0_4637
+METHOD	aaj	()Ljava/lang/String;	l	method_0_4177
 CLASS	aak	net/minecraft/class_0_1192
 CLASS	aal	net/minecraft/class_0_1193
 CLASS	aam	net/minecraft/class_0_1194
@@ -125,14 +125,14 @@ METHOD	aan	(JII[BDDDFFFIID)V	a	method_0_3993
 CLASS	aap	net/minecraft/class_0_1196
 FIELD	aap	Lxv;	a	field_0_4790
 FIELD	aap	Ljava/util/Random;	b	field_0_4791
-FIELD	aap	[B	c	field_0_5326
-FIELD	aap	[B	d	field_0_5327
-FIELD	aap	Lacd;	e	field_0_5328
-FIELD	aap	Ljava/util/List;	f	field_0_5447
+FIELD	aap	[B	c	field_0_5148
+FIELD	aap	[B	d	field_0_5149
+FIELD	aap	Lacd;	e	field_0_5150
+FIELD	aap	Ljava/util/List;	f	field_0_5269
 FIELD	aap	Z	g	field_0_4792
-FIELD	aap	Z	h	field_0_5448
-FIELD	aap	Labn;	i	field_0_5449
-FIELD	aap	Labn;	j	field_0_5450
+FIELD	aap	Z	h	field_0_5270
+FIELD	aap	Labn;	i	field_0_5271
+FIELD	aap	Labn;	j	field_0_5272
 CLASS	aaq	net/minecraft/class_0_1197
 FIELD	aaq	Lafs;	a	field_0_4794
 FIELD	aaq	Lafs;	b	field_0_4795
@@ -250,22 +250,22 @@ CLASS	aay	net/minecraft/class_0_1204
 CLASS	aaz	net/minecraft/class_0_1205
 FIELD	aaz	[Lkw;	a	field_0_4873
 FIELD	aaz	I	b	field_0_4874
-CLASS	ab	net/minecraft/class_0_1426
-FIELD	ab	Ljava/util/regex/Pattern;	a	field_0_5363
-FIELD	ab	Ljava/util/regex/Pattern;	b	field_0_5364
-FIELD	ab	Ljava/util/regex/Pattern;	c	field_0_5365
-METHOD	ab	(Laa;Ljava/lang/String;)Liq;	a	method_0_4848
-METHOD	ab	(Ljava/lang/String;)Z	a	method_0_4846
-METHOD	ab	(Ljava/lang/String;Ljava/lang/String;)Z	a	method_0_4847
-METHOD	ab	(Laa;Ljava/lang/String;)Ljava/lang/String;	b	method_0_4850
-METHOD	ab	(Ljava/lang/String;)Z	b	method_0_4849
-METHOD	ab	(Laa;Ljava/lang/String;)[Liq;	c	method_0_4852
-METHOD	ab	(Ljava/lang/String;)I	c	method_0_4851
-METHOD	ab	(Ljava/lang/String;)I	d	method_0_4872
-METHOD	ab	(Ljava/lang/String;)I	e	method_0_4873
-METHOD	ab	(Ljava/lang/String;)I	f	method_0_4874
-METHOD	ab	(Ljava/lang/String;)I	g	method_0_4853
-METHOD	ab	(Ljava/lang/String;)Ljava/util/Map;	h	method_0_4854
+CLASS	ab	net/minecraft/class_0_1338
+FIELD	ab	Ljava/util/regex/Pattern;	a	field_0_5185
+FIELD	ab	Ljava/util/regex/Pattern;	b	field_0_5186
+FIELD	ab	Ljava/util/regex/Pattern;	c	field_0_5187
+METHOD	ab	(Laa;Ljava/lang/String;)Liq;	a	method_0_4388
+METHOD	ab	(Ljava/lang/String;)Z	a	method_0_4386
+METHOD	ab	(Ljava/lang/String;Ljava/lang/String;)Z	a	method_0_4387
+METHOD	ab	(Laa;Ljava/lang/String;)Ljava/lang/String;	b	method_0_4390
+METHOD	ab	(Ljava/lang/String;)Z	b	method_0_4389
+METHOD	ab	(Laa;Ljava/lang/String;)[Liq;	c	method_0_4392
+METHOD	ab	(Ljava/lang/String;)I	c	method_0_4391
+METHOD	ab	(Ljava/lang/String;)I	d	method_0_4412
+METHOD	ab	(Ljava/lang/String;)I	e	method_0_4413
+METHOD	ab	(Ljava/lang/String;)I	f	method_0_4414
+METHOD	ab	(Ljava/lang/String;)I	g	method_0_4393
+METHOD	ab	(Ljava/lang/String;)Ljava/util/Map;	h	method_0_4394
 CLASS	aba	net/minecraft/class_0_1206
 CLASS	abc	net/minecraft/class_0_1207
 FIELD	abc	I	a	field_0_4875
@@ -275,7 +275,7 @@ FIELD	abd	I	a	field_0_4877
 CLASS	abe	net/minecraft/class_0_1209
 CLASS	abf	net/minecraft/class_0_1210
 FIELD	abf	Z	a	field_0_4878
-FIELD	abf	I	b	field_0_5387
+FIELD	abf	I	b	field_0_5209
 METHOD	abf	(DDD)V	a	method_0_4022
 METHOD	abf	(Lxv;IIII)V	a	method_0_4023
 METHOD	abf	(Lxv;IIIII)V	a	method_0_4024
@@ -285,15 +285,15 @@ FIELD	abg	I	a	field_0_4879
 CLASS	abh	net/minecraft/class_0_1212
 FIELD	abh	I	a	field_0_4880
 FIELD	abh	I	b	field_0_4881
-CLASS	abi	net/minecraft/class_0_1428
-CLASS	abj	net/minecraft/class_0_1429
-CLASS	abk	net/minecraft/class_0_1430
-FIELD	abk	I	a	field_0_5388
+CLASS	abi	net/minecraft/class_0_1340
+CLASS	abj	net/minecraft/class_0_1341
+CLASS	abk	net/minecraft/class_0_1342
+FIELD	abk	I	a	field_0_5210
 CLASS	abm	net/minecraft/class_0_1217
 FIELD	abm	I	a	field_0_4883
 CLASS	abn	net/minecraft/class_0_1218
 FIELD	abn	I	a	field_0_4884
-CLASS	abo	net/minecraft/class_0_1431
+CLASS	abo	net/minecraft/class_0_1343
 CLASS	abp	net/minecraft/class_0_1220
 FIELD	abp	I	a	field_0_4885
 FIELD	abp	I	b	field_0_4886
@@ -330,30 +330,30 @@ FIELD	acb	I	c	field_0_4898
 FIELD	acb	I	d	field_0_4899
 METHOD	acb	(Lxv;IIII)V	b	method_0_4030
 CLASS	acc	net/minecraft/class_0_1233
-CLASS	acd	net/minecraft/class_0_1415
-FIELD	acd	Ljava/util/List;	a	field_0_5329
-FIELD	acd	Ljava/util/Map;	b	field_0_5389
-FIELD	acd	I	c	field_0_5330
-METHOD	acd	()I	a	method_0_4809
-METHOD	acd	(I)V	a	method_0_4810
-METHOD	acd	(Ljava/lang/String;)Lacd;	a	method_0_4811
-METHOD	acd	(Ljava/lang/String;I)Lace;	a	method_0_4812
-METHOD	acd	()Ljava/util/Map;	b	method_0_4888
-METHOD	acd	(Ljava/lang/String;)Ljava/util/List;	b	method_0_4814
-METHOD	acd	()Ljava/util/List;	c	method_0_4813
-METHOD	acd	()V	d	method_0_4815
-METHOD	acd	()Lacd;	e	method_0_4816
+CLASS	acd	net/minecraft/class_0_1327
+FIELD	acd	Ljava/util/List;	a	field_0_5151
+FIELD	acd	Ljava/util/Map;	b	field_0_5211
+FIELD	acd	I	c	field_0_5152
+METHOD	acd	()I	a	method_0_4349
+METHOD	acd	(I)V	a	method_0_4350
+METHOD	acd	(Ljava/lang/String;)Lacd;	a	method_0_4351
+METHOD	acd	(Ljava/lang/String;I)Lace;	a	method_0_4352
+METHOD	acd	()Ljava/util/Map;	b	method_0_4428
+METHOD	acd	(Ljava/lang/String;)Ljava/util/List;	b	method_0_4354
+METHOD	acd	()Ljava/util/List;	c	method_0_4353
+METHOD	acd	()V	d	method_0_4355
+METHOD	acd	()Lacd;	e	method_0_4356
 METHOD	acd	()Ljava/lang/String;	toString	toString
-CLASS	ace	net/minecraft/class_0_1416
-FIELD	ace	I	a	field_0_5331
-FIELD	ace	I	b	field_0_5332
-FIELD	ace	I	c	field_0_5333
-FIELD	ace	I	d	field_0_5334
-METHOD	ace	()I	a	method_0_4817
-METHOD	ace	()I	b	method_0_4818
-METHOD	ace	()I	c	method_0_4819
-METHOD	ace	()I	d	method_0_4820
-METHOD	ace	(I)V	d	method_0_4821
+CLASS	ace	net/minecraft/class_0_1328
+FIELD	ace	I	a	field_0_5153
+FIELD	ace	I	b	field_0_5154
+FIELD	ace	I	c	field_0_5155
+FIELD	ace	I	d	field_0_5156
+METHOD	ace	()I	a	method_0_4357
+METHOD	ace	()I	b	method_0_4358
+METHOD	ace	()I	c	method_0_4359
+METHOD	ace	()I	d	method_0_4360
+METHOD	ace	(I)V	d	method_0_4361
 METHOD	ace	()Ljava/lang/String;	toString	toString
 CLASS	acg	net/minecraft/class_0_1234
 FIELD	acg	I	a	field_0_4900
@@ -377,7 +377,7 @@ METHOD	acg	()I	f	method_0_4042
 METHOD	acg	()I	g	method_0_4043
 METHOD	acg	()Ljava/lang/String;	toString	toString
 CLASS	ach	net/minecraft/class_0_1235
-FIELD	ach	D	e	field_0_5390
+FIELD	ach	D	e	field_0_5212
 CLASS	aci	net/minecraft/class_0_1236
 FIELD	aci	[Lkw;	a	field_0_4906
 METHOD	aci	()[Lkw;	a	method_0_4044
@@ -429,8 +429,8 @@ CLASS	acy	net/minecraft/class_0_1252
 METHOD	acy	(Ljava/util/List;Ljava/util/Random;IIIII)Lacy;	a	method_0_4063
 CLASS	acz	net/minecraft/class_0_1253
 METHOD	acz	(Ljava/util/List;Ljava/util/Random;IIIII)Lacz;	a	method_0_4064
-CLASS	ad	net/minecraft/class_0_1500
-METHOD	ad	()[Ljava/lang/String;	d	method_0_5110
+CLASS	ad	net/minecraft/class_0_1412
+METHOD	ad	()[Ljava/lang/String;	d	method_0_4650
 CLASS	ada	net/minecraft/class_0_1254
 METHOD	ada	(Ljava/util/List;Ljava/util/Random;IIIII)Lada;	a	method_0_4065
 CLASS	adb	net/minecraft/class_0_1255
@@ -465,10 +465,10 @@ FIELD	adh	Ljava/util/List;	c	field_0_4926
 FIELD	adh	Ljava/util/ArrayList;	d	field_0_4927
 CLASS	adi	net/minecraft/class_0_1262
 FIELD	adi	Ljava/util/List;	e	field_0_4928
-FIELD	adi	Ljava/util/List;	f	field_0_5391
-FIELD	adi	I	g	field_0_5392
-FIELD	adi	I	h	field_0_5393
-METHOD	adi	()Ljava/util/List;	a	method_0_4889
+FIELD	adi	Ljava/util/List;	f	field_0_5213
+FIELD	adi	I	g	field_0_5214
+FIELD	adi	I	h	field_0_5215
+METHOD	adi	()Ljava/util/List;	a	method_0_4429
 CLASS	adj	net/minecraft/class_0_1263
 CLASS	adl	net/minecraft/class_0_3
 CLASS	adm	net/minecraft/class_0_4
@@ -489,14 +489,14 @@ FIELD	adp	I	b	field_0_15
 FIELD	adp	I	c	field_0_16
 FIELD	adp	I	d	field_0_17
 METHOD	adp	(Lxv;Lacg;I)Z	a	method_0_16
-CLASS	adq	net/minecraft/class_0_1432
-FIELD	adq	Z	h	field_0_5394
+CLASS	adq	net/minecraft/class_0_1344
+FIELD	adq	Z	h	field_0_5216
 CLASS	adr	net/minecraft/class_0_8
 FIELD	adr	[Lyr;	e	field_0_18
 FIELD	adr	Z	f	field_0_19
 FIELD	adr	[Lxo;	g	field_0_20
-FIELD	adr	D	h	field_0_5395
-FIELD	adr	I	i	field_0_5396
+FIELD	adr	D	h	field_0_5217
+FIELD	adr	I	i	field_0_5218
 CLASS	ads	net/minecraft/class_0_9
 CLASS	adt	net/minecraft/class_0_10
 FIELD	adt	I	a	field_0_21
@@ -600,21 +600,21 @@ METHOD	aeo	(Lxv;III)Lyo;	a	method_0_47
 METHOD	aeo	(Lxv;Ljava/util/Random;II)Z	a	method_0_48
 METHOD	aeo	(II)Laeu;	b	method_0_49
 METHOD	aeo	()Ljava/util/List;	p_	method_0_50
-CLASS	aep	net/minecraft/class_0_1473
-FIELD	aep	I	a	field_0_5528
-FIELD	aep	I	b	field_0_5529
-FIELD	aep	Laeo;	c	field_0_5530
-METHOD	aep	()Ljava/lang/String;	a	method_0_5016
+CLASS	aep	net/minecraft/class_0_1385
+FIELD	aep	I	a	field_0_5350
+FIELD	aep	I	b	field_0_5351
+FIELD	aep	Laeo;	c	field_0_5352
+METHOD	aep	()Ljava/lang/String;	a	method_0_4556
 METHOD	aep	()Ljava/lang/Object;	call	call
-CLASS	aeq	net/minecraft/class_0_1474
-FIELD	aeq	I	a	field_0_5531
-FIELD	aeq	I	b	field_0_5532
-FIELD	aeq	Laeo;	c	field_0_5533
-METHOD	aeq	()Ljava/lang/String;	a	method_0_5017
+CLASS	aeq	net/minecraft/class_0_1386
+FIELD	aeq	I	a	field_0_5353
+FIELD	aeq	I	b	field_0_5354
+FIELD	aeq	Laeo;	c	field_0_5355
+METHOD	aeq	()Ljava/lang/String;	a	method_0_4557
 METHOD	aeq	()Ljava/lang/Object;	call	call
-CLASS	aer	net/minecraft/class_0_1475
-FIELD	aer	Laeo;	a	field_0_5534
-METHOD	aer	()Ljava/lang/String;	a	method_0_5018
+CLASS	aer	net/minecraft/class_0_1387
+FIELD	aer	Laeo;	a	field_0_5356
+METHOD	aer	()Ljava/lang/String;	a	method_0_4558
 METHOD	aer	()Ljava/lang/Object;	call	call
 CLASS	aes	net/minecraft/class_0_33
 FIELD	aes	Lacg;	e	field_0_64
@@ -663,9 +663,9 @@ METHOD	aeu	()V	c	method_0_84
 METHOD	aeu	()Z	d	method_0_85
 CLASS	aev	net/minecraft/class_0_36
 FIELD	aev	Ljava/util/List;	e	field_0_71
-FIELD	aev	I	f	field_0_5397
-FIELD	aev	I	g	field_0_5398
-FIELD	aev	I	h	field_0_5399
+FIELD	aev	I	f	field_0_5219
+FIELD	aev	I	g	field_0_5220
+FIELD	aev	I	h	field_0_5221
 CLASS	aew	net/minecraft/class_0_37
 FIELD	aew	Z	c	field_0_73
 CLASS	aex	net/minecraft/class_0_38
@@ -682,21 +682,21 @@ FIELD	aey	I	a	field_0_74
 METHOD	aey	(Lafi;Ljava/util/List;Ljava/util/Random;IIIII)Laey;	a	method_0_94
 CLASS	aez	net/minecraft/class_0_40
 FIELD	aez	I	a	field_0_75
-FIELD	aez	I	b	field_0_5251
-FIELD	aez	I	c	field_0_5252
-FIELD	aez	I	d	field_0_5253
-FIELD	aez	I	h	field_0_5254
+FIELD	aez	I	b	field_0_5073
+FIELD	aez	I	c	field_0_5074
+FIELD	aez	I	d	field_0_5075
+FIELD	aez	I	h	field_0_5076
 METHOD	aez	(Lafi;Ljava/util/List;Ljava/util/Random;IIIII)Laez;	a	method_0_95
-METHOD	aez	(Ljava/util/Random;)I	a	method_0_4735
-CLASS	af	net/minecraft/class_0_1371
-FIELD	af	[Ljava/lang/String;	a	field_0_5172
-METHOD	af	(Laa;Ljava/lang/String;)I	d	method_0_4618
+METHOD	aez	(Ljava/util/Random;)I	a	method_0_4275
+CLASS	af	net/minecraft/class_0_1283
+FIELD	af	[Ljava/lang/String;	a	field_0_4994
+METHOD	af	(Laa;Ljava/lang/String;)I	d	method_0_4158
 CLASS	afa	net/minecraft/class_0_41
 FIELD	afa	I	a	field_0_76
-FIELD	afa	I	b	field_0_5255
-FIELD	afa	I	c	field_0_5256
+FIELD	afa	I	b	field_0_5077
+FIELD	afa	I	c	field_0_5078
 METHOD	afa	(Lafi;Ljava/util/List;Ljava/util/Random;IIIII)Lafa;	a	method_0_96
-METHOD	afa	(Ljava/util/Random;)I	a	method_0_4736
+METHOD	afa	(Ljava/util/Random;)I	a	method_0_4276
 CLASS	afb	net/minecraft/class_0_42
 FIELD	afb	I	a	field_0_77
 METHOD	afb	(Lafi;Ljava/util/List;Ljava/util/Random;IIII)Lacg;	a	method_0_97
@@ -791,14 +791,14 @@ FIELD	agb	Z	I	field_0_119
 FIELD	agb	Z	J	field_0_120
 FIELD	agb	Z	K	field_0_121
 FIELD	agb	I	L	field_0_122
-FIELD	agb	Z	M	field_0_5535
+FIELD	agb	Z	M	field_0_5357
 FIELD	agb	Lagb;	a	field_0_123
 FIELD	agb	Lagb;	b	field_0_124
 FIELD	agb	Lagb;	c	field_0_125
 FIELD	agb	Lagb;	d	field_0_126
 FIELD	agb	Lagb;	e	field_0_127
 FIELD	agb	Lagb;	f	field_0_128
-FIELD	agb	Lagb;	g	field_0_5451
+FIELD	agb	Lagb;	g	field_0_5273
 FIELD	agb	Lagb;	h	field_0_129
 FIELD	agb	Lagb;	i	field_0_130
 FIELD	agb	Lagb;	j	field_0_131
@@ -832,8 +832,8 @@ METHOD	agb	()Z	l	method_0_133
 METHOD	agb	()I	m	method_0_134
 METHOD	agb	()Lagb;	n	method_0_135
 METHOD	agb	()Lagb;	o	method_0_136
-METHOD	agb	()Lagb;	p	method_0_5019
-METHOD	agb	()Z	q	method_0_5020
+METHOD	agb	()Lagb;	p	method_0_4559
+METHOD	agb	()Z	q	method_0_4560
 METHOD	agb	()Lagb;	r	method_0_137
 CLASS	agc	net/minecraft/class_0_63
 CLASS	agd	net/minecraft/class_0_64
@@ -871,7 +871,7 @@ FIELD	agn	Ljava/util/List;	d	field_0_170
 FIELD	agn	Ljava/util/List;	e	field_0_171
 METHOD	agn	()V	a	method_0_140
 METHOD	agn	(I)[I	a	method_0_141
-METHOD	agn	()Ljava/lang/String;	b	method_0_5021
+METHOD	agn	()Ljava/lang/String;	b	method_0_4561
 CLASS	ago	net/minecraft/class_0_73
 CLASS	agp	net/minecraft/class_0_74
 FIELD	agp	Lagp;	a	field_0_172
@@ -892,8 +892,8 @@ FIELD	agt	Lagp;	c	field_0_177
 CLASS	agu	net/minecraft/class_0_79
 CLASS	agv	net/minecraft/class_0_80
 CLASS	agx	net/minecraft/class_0_81
-CLASS	ah	net/minecraft/class_0_1374
-METHOD	ah	()Lxs;	d	method_0_4636
+CLASS	ah	net/minecraft/class_0_1286
+METHOD	ah	()Lxs;	d	method_0_4176
 CLASS	aha	net/minecraft/class_0_82
 CLASS	ahb	net/minecraft/class_0_83
 METHOD	ahb	(II)I	a	method_0_147
@@ -958,7 +958,7 @@ METHOD	ahf	(Llq;DDDF)Lahe;	a	method_0_175
 METHOD	ahf	(Llq;IIIF)Lahe;	a	method_0_176
 METHOD	ahf	(Llq;IIILahd;)I	a	method_0_177
 METHOD	ahf	(Llq;IIILahd;I)Lahd;	a	method_0_178
-METHOD	ahf	(Llq;IIILahd;ZZZ)I	a	method_0_4757
+METHOD	ahf	(Llq;IIILahd;ZZZ)I	a	method_0_4297
 METHOD	ahf	(Llq;Lahd;Lahd;Lahd;F)Lahe;	a	method_0_179
 METHOD	ahf	(Llq;Llq;F)Lahe;	a	method_0_180
 METHOD	ahf	(Llq;Lahd;Lahd;Lahd;F)I	b	method_0_181
@@ -972,8 +972,8 @@ FIELD	ahg	Ljava/util/List;	f	field_0_207
 FIELD	ahg	Ljava/util/Map;	g	field_0_208
 FIELD	ahg	Ljava/util/Map;	i	field_0_209
 METHOD	ahg	(III)V	a	method_0_182
-METHOD	ahg	(ILxv;Ljava/lang/String;DDD)V	a	method_0_4638
-METHOD	ahg	(Lqx;)Lahh;	a	method_0_4639
+METHOD	ahg	(ILxv;Ljava/lang/String;DDD)V	a	method_0_4178
+METHOD	ahg	(Lqx;)Lahh;	a	method_0_4179
 METHOD	ahg	(Lqx;Lum;)V	a	method_0_183
 METHOD	ahg	(Lum;Lxv;Lqx;)[B	a	method_0_184
 METHOD	ahg	([B)V	a	method_0_185
@@ -981,12 +981,12 @@ CLASS	ahh	net/minecraft/class_0_89
 FIELD	ahh	Lqx;	a	field_0_210
 FIELD	ahh	[I	b	field_0_211
 FIELD	ahh	[I	c	field_0_212
-FIELD	ahh	I	d	field_0_5180
+FIELD	ahh	I	d	field_0_5002
 FIELD	ahh	Lahg;	e	field_0_213
 FIELD	ahh	I	f	field_0_214
 FIELD	ahh	I	g	field_0_215
 FIELD	ahh	[B	h	field_0_216
-FIELD	ahh	Z	i	field_0_5181
+FIELD	ahh	Z	i	field_0_5003
 METHOD	ahh	(Lum;)[B	a	method_0_186
 CLASS	ahi	net/minecraft/class_0_90
 FIELD	ahi	B	a	field_0_217
@@ -1030,12 +1030,12 @@ METHOD	ahp	([Ljava/io/File;)Z	a	method_0_200
 CLASS	ahq	net/minecraft/class_0_99
 FIELD	ahq	J	a	field_0_233
 FIELD	ahq	Lyg;	b	field_0_234
-FIELD	ahq	Ljava/lang/String;	c	field_0_5257
+FIELD	ahq	Ljava/lang/String;	c	field_0_5079
 FIELD	ahq	I	d	field_0_235
 FIELD	ahq	I	e	field_0_236
 FIELD	ahq	I	f	field_0_237
 FIELD	ahq	J	g	field_0_238
-FIELD	ahq	J	h	field_0_5111
+FIELD	ahq	J	h	field_0_4933
 FIELD	ahq	J	i	field_0_239
 FIELD	ahq	J	j	field_0_240
 FIELD	ahq	Lbq;	k	field_0_241
@@ -1051,102 +1051,102 @@ FIELD	ahq	Z	t	field_0_250
 FIELD	ahq	Z	u	field_0_251
 FIELD	ahq	Z	v	field_0_252
 FIELD	ahq	Z	w	field_0_253
-FIELD	ahq	Lxs;	x	field_0_5112
+FIELD	ahq	Lxs;	x	field_0_4934
 METHOD	ahq	()Lbq;	a	method_0_201
 METHOD	ahq	(I)V	a	method_0_202
 METHOD	ahq	(III)V	a	method_0_203
-METHOD	ahq	(Lahq;)Lyg;	a	method_0_5022
+METHOD	ahq	(Lahq;)Lyg;	a	method_0_4562
 METHOD	ahq	(Lbq;)Lbq;	a	method_0_204
 METHOD	ahq	(Lbq;Lbq;)V	a	method_0_205
 METHOD	ahq	(Ljava/lang/String;)V	a	method_0_206
-METHOD	ahq	(Ll;)V	a	method_0_5023
+METHOD	ahq	(Ll;)V	a	method_0_4563
 METHOD	ahq	(Lye;)V	a	method_0_207
 METHOD	ahq	(Lyg;)V	a	method_0_208
 METHOD	ahq	(Z)V	a	method_0_209
 METHOD	ahq	()J	b	method_0_210
 METHOD	ahq	(I)V	b	method_0_211
 METHOD	ahq	(J)V	b	method_0_212
-METHOD	ahq	(Lahq;)Z	b	method_0_5024
+METHOD	ahq	(Lahq;)Z	b	method_0_4564
 METHOD	ahq	(Z)V	b	method_0_213
 METHOD	ahq	()I	c	method_0_214
 METHOD	ahq	(I)V	c	method_0_215
-METHOD	ahq	(J)V	c	method_0_4542
-METHOD	ahq	(Lahq;)Ljava/lang/String;	c	method_0_5025
+METHOD	ahq	(J)V	c	method_0_4082
+METHOD	ahq	(Lahq;)Ljava/lang/String;	c	method_0_4565
 METHOD	ahq	()I	d	method_0_216
-METHOD	ahq	(Lahq;)I	d	method_0_5026
+METHOD	ahq	(Lahq;)I	d	method_0_4566
 METHOD	ahq	(Z)V	d	method_0_217
 METHOD	ahq	()I	e	method_0_218
 METHOD	ahq	(I)V	e	method_0_219
-METHOD	ahq	(Lahq;)I	e	method_0_5027
+METHOD	ahq	(Lahq;)I	e	method_0_4567
 METHOD	ahq	()J	f	method_0_220
 METHOD	ahq	(I)V	f	method_0_221
-METHOD	ahq	(Lahq;)I	f	method_0_5028
-METHOD	ahq	()J	g	method_0_4543
+METHOD	ahq	(Lahq;)I	f	method_0_4568
+METHOD	ahq	()J	g	method_0_4083
 METHOD	ahq	(I)V	g	method_0_223
-METHOD	ahq	(Lahq;)J	g	method_0_5029
+METHOD	ahq	(Lahq;)J	g	method_0_4569
 METHOD	ahq	()J	h	method_0_222
-METHOD	ahq	(Lahq;)J	h	method_0_5030
+METHOD	ahq	(Lahq;)J	h	method_0_4570
 METHOD	ahq	()Lbq;	i	method_0_224
-METHOD	ahq	(Lahq;)I	i	method_0_5031
+METHOD	ahq	(Lahq;)I	i	method_0_4571
 METHOD	ahq	()I	j	method_0_225
-METHOD	ahq	(Lahq;)I	j	method_0_5032
+METHOD	ahq	(Lahq;)I	j	method_0_4572
 METHOD	ahq	()Ljava/lang/String;	k	method_0_226
-METHOD	ahq	(Lahq;)I	k	method_0_5033
+METHOD	ahq	(Lahq;)I	k	method_0_4573
 METHOD	ahq	()I	l	method_0_227
-METHOD	ahq	(Lahq;)Z	l	method_0_5034
+METHOD	ahq	(Lahq;)Z	l	method_0_4574
 METHOD	ahq	()J	m	method_0_228
-METHOD	ahq	(Lahq;)I	m	method_0_5035
+METHOD	ahq	(Lahq;)I	m	method_0_4575
 METHOD	ahq	()Z	n	method_0_229
-METHOD	ahq	(Lahq;)Z	n	method_0_5036
+METHOD	ahq	(Lahq;)Z	n	method_0_4576
 METHOD	ahq	()I	o	method_0_230
-METHOD	ahq	(Lahq;)Lye;	o	method_0_5037
+METHOD	ahq	(Lahq;)Lye;	o	method_0_4577
 METHOD	ahq	()Z	p	method_0_231
-METHOD	ahq	(Lahq;)Z	p	method_0_5038
+METHOD	ahq	(Lahq;)Z	p	method_0_4578
 METHOD	ahq	()I	q	method_0_232
-METHOD	ahq	(Lahq;)Z	q	method_0_5039
+METHOD	ahq	(Lahq;)Z	q	method_0_4579
 METHOD	ahq	()Lye;	r	method_0_233
 METHOD	ahq	()Z	s	method_0_234
 METHOD	ahq	()Z	t	method_0_235
 METHOD	ahq	()Lyg;	u	method_0_236
 METHOD	ahq	()Z	v	method_0_237
 METHOD	ahq	()Z	w	method_0_238
-METHOD	ahq	()Lxs;	x	method_0_4544
-METHOD	ahq	()Ljava/lang/String;	y	method_0_4737
-CLASS	ahr	net/minecraft/class_0_1476
-FIELD	ahr	Lahq;	a	field_0_5536
-METHOD	ahr	()Ljava/lang/String;	a	method_0_5040
+METHOD	ahq	()Lxs;	x	method_0_4084
+METHOD	ahq	()Ljava/lang/String;	y	method_0_4277
+CLASS	ahr	net/minecraft/class_0_1388
+FIELD	ahr	Lahq;	a	field_0_5358
+METHOD	ahr	()Ljava/lang/String;	a	method_0_4580
 METHOD	ahr	()Ljava/lang/Object;	call	call
-CLASS	ahs	net/minecraft/class_0_1477
-FIELD	ahs	Lahq;	a	field_0_5537
-METHOD	ahs	()Ljava/lang/String;	a	method_0_5041
+CLASS	ahs	net/minecraft/class_0_1389
+FIELD	ahs	Lahq;	a	field_0_5359
+METHOD	ahs	()Ljava/lang/String;	a	method_0_4581
 METHOD	ahs	()Ljava/lang/Object;	call	call
-CLASS	aht	net/minecraft/class_0_1478
-FIELD	aht	Lahq;	a	field_0_5538
-METHOD	aht	()Ljava/lang/String;	a	method_0_5042
+CLASS	aht	net/minecraft/class_0_1390
+FIELD	aht	Lahq;	a	field_0_5360
+METHOD	aht	()Ljava/lang/String;	a	method_0_4582
 METHOD	aht	()Ljava/lang/Object;	call	call
-CLASS	ahu	net/minecraft/class_0_1479
-FIELD	ahu	Lahq;	a	field_0_5539
-METHOD	ahu	()Ljava/lang/String;	a	method_0_5043
+CLASS	ahu	net/minecraft/class_0_1391
+FIELD	ahu	Lahq;	a	field_0_5361
+METHOD	ahu	()Ljava/lang/String;	a	method_0_4583
 METHOD	ahu	()Ljava/lang/Object;	call	call
-CLASS	ahv	net/minecraft/class_0_1480
-FIELD	ahv	Lahq;	a	field_0_5540
-METHOD	ahv	()Ljava/lang/String;	a	method_0_5044
+CLASS	ahv	net/minecraft/class_0_1392
+FIELD	ahv	Lahq;	a	field_0_5362
+METHOD	ahv	()Ljava/lang/String;	a	method_0_4584
 METHOD	ahv	()Ljava/lang/Object;	call	call
-CLASS	ahw	net/minecraft/class_0_1481
-FIELD	ahw	Lahq;	a	field_0_5541
-METHOD	ahw	()Ljava/lang/String;	a	method_0_5045
+CLASS	ahw	net/minecraft/class_0_1393
+FIELD	ahw	Lahq;	a	field_0_5363
+METHOD	ahw	()Ljava/lang/String;	a	method_0_4585
 METHOD	ahw	()Ljava/lang/Object;	call	call
-CLASS	ahx	net/minecraft/class_0_1482
-FIELD	ahx	Lahq;	a	field_0_5542
-METHOD	ahx	()Ljava/lang/String;	a	method_0_5046
+CLASS	ahx	net/minecraft/class_0_1394
+FIELD	ahx	Lahq;	a	field_0_5364
+METHOD	ahx	()Ljava/lang/String;	a	method_0_4586
 METHOD	ahx	()Ljava/lang/Object;	call	call
-CLASS	ahy	net/minecraft/class_0_1483
-FIELD	ahy	Lahq;	a	field_0_5543
-METHOD	ahy	()Ljava/lang/String;	a	method_0_5047
+CLASS	ahy	net/minecraft/class_0_1395
+FIELD	ahy	Lahq;	a	field_0_5365
+METHOD	ahy	()Ljava/lang/String;	a	method_0_4587
 METHOD	ahy	()Ljava/lang/Object;	call	call
-CLASS	ahz	net/minecraft/class_0_1484
-FIELD	ahz	Lahq;	a	field_0_5544
-METHOD	ahz	()Ljava/lang/String;	a	method_0_5048
+CLASS	ahz	net/minecraft/class_0_1396
+FIELD	ahz	Lahq;	a	field_0_5366
+METHOD	ahz	()Ljava/lang/String;	a	method_0_4588
 METHOD	ahz	()Ljava/lang/Object;	call	call
 CLASS	ai	net/minecraft/class_0_1143
 METHOD	ai	()[Ljava/lang/String;	d	method_0_3793
@@ -1169,7 +1169,7 @@ METHOD	aic	(Ljava/lang/String;)Z	b	method_0_252
 METHOD	aic	(Ljava/lang/String;)Lahq;	c	method_0_253
 METHOD	aic	()V	d	method_0_254
 METHOD	aic	(Ljava/lang/String;)Z	e	method_0_255
-METHOD	aic	(Ljava/lang/String;)Z	f	method_0_5111
+METHOD	aic	(Ljava/lang/String;)Z	f	method_0_4651
 CLASS	aid	net/minecraft/class_0_102
 FIELD	aid	Ljava/lang/String;	a	field_0_254
 FIELD	aid	Ljava/lang/String;	b	field_0_255
@@ -1216,10 +1216,10 @@ METHOD	aip	()V	b	method_0_275
 METHOD	aip	()V	run	run
 CLASS	aiq	net/minecraft/class_0_107
 METHOD	aiq	()Z	c	method_0_276
-CLASS	ais	net/minecraft/class_0_1461
-FIELD	ais	[Ljava/lang/String;	a	field_0_5452
-FIELD	ais	I	b	field_0_5453
-CLASS	ait	net/minecraft/class_0_1354
+CLASS	ais	net/minecraft/class_0_1373
+FIELD	ais	[Ljava/lang/String;	a	field_0_5274
+FIELD	ais	I	b	field_0_5275
+CLASS	ait	net/minecraft/class_0_1266
 CLASS	aiu	net/minecraft/class_0_108
 FIELD	aiu	[[I	a	field_0_271
 METHOD	aiu	(Lxv;IIIZ)V	a	method_0_277
@@ -1234,19 +1234,19 @@ CLASS	aix	net/minecraft/class_0_111
 METHOD	aix	(Lxv;III)V	c	method_0_282
 METHOD	aix	(I)Z	d_	method_0_283
 CLASS	aiy	net/minecraft/class_0_112
-FIELD	aiy	Z	a	field_0_5182
-METHOD	aiy	(Lxv;IIII)V	d	method_0_4641
-METHOD	aiy	(I)V	e	method_0_4640
+FIELD	aiy	Z	a	field_0_5004
+METHOD	aiy	(Lxv;IIII)V	d	method_0_4181
+METHOD	aiy	(I)V	e	method_0_4180
 METHOD	aiy	(Lxv;III)I	l	method_0_284
 METHOD	aiy	(Lxv;III)Z	n	method_0_285
-METHOD	aiy	(Lxv;III)V	o	method_0_4642
+METHOD	aiy	(Lxv;III)V	o	method_0_4182
 CLASS	aiz	net/minecraft/class_0_114
 CLASS	aj	net/minecraft/class_0_1169
 METHOD	aj	()Ljava/util/Map;	d	method_0_3860
 METHOD	aj	(Laa;)Ljava/util/List;	d	method_0_3861
 CLASS	aja	net/minecraft/class_0_115
 METHOD	aja	(Lxv;IIILqx;)V	b	method_0_286
-CLASS	ajb	net/minecraft/class_0_1375
+CLASS	ajb	net/minecraft/class_0_1287
 CLASS	ajc	net/minecraft/class_0_116
 CLASS	ajd	net/minecraft/class_0_117
 FIELD	ajd	Ljava/util/Random;	a	field_0_273
@@ -1259,11 +1259,11 @@ METHOD	ajf	(I)I	d	method_0_290
 METHOD	ajf	(I)I	e_	method_0_291
 CLASS	ajg	net/minecraft/class_0_120
 METHOD	ajg	(I)I	c	method_0_292
-CLASS	ajh	net/minecraft/class_0_1355
+CLASS	ajh	net/minecraft/class_0_1267
 CLASS	ajj	net/minecraft/class_0_121
 METHOD	ajj	(Lxv;III)V	c_	method_0_293
-METHOD	ajj	()I	h	method_0_4643
-METHOD	ajj	()I	j	method_0_4644
+METHOD	ajj	()I	h	method_0_4183
+METHOD	ajj	()I	j	method_0_4184
 METHOD	ajj	(Lxv;III)F	l	method_0_294
 CLASS	ajk	net/minecraft/class_0_122
 CLASS	ajl	net/minecraft/class_0_123
@@ -1272,19 +1272,19 @@ CLASS	ajm	net/minecraft/class_0_124
 FIELD	ajm	[D	a	field_0_274
 FIELD	ajm	[I	b	field_0_275
 FIELD	ajm	Z	c	field_0_276
-METHOD	ajm	(I)Z	c	method_0_4965
-METHOD	ajm	(Lxv;IIII)Z	d	method_0_4996
-METHOD	ajm	(Lyf;IIII)Z	e	method_0_4966
+METHOD	ajm	(I)Z	c	method_0_4505
+METHOD	ajm	(Lxv;IIII)Z	d	method_0_4536
+METHOD	ajm	(Lyf;IIII)Z	e	method_0_4506
 METHOD	ajm	(Lxv;IIII)Z	i	method_0_296
 CLASS	ajn	net/minecraft/class_0_125
 METHOD	ajn	(I)I	e	method_0_297
 CLASS	ajo	net/minecraft/class_0_126
 CLASS	ajp	net/minecraft/class_0_127
-FIELD	ajp	Lbi;	a	field_0_5400
+FIELD	ajp	Lbi;	a	field_0_5222
 FIELD	ajp	Ljava/util/Random;	b	field_0_277
-METHOD	ajp	(Lax;)Lbg;	a	method_0_4890
+METHOD	ajp	(Lax;)Lbg;	a	method_0_4430
 METHOD	ajp	(Lxv;III)V	l	method_0_301
-METHOD	ajp	(Lxv;III)V	n	method_0_4891
+METHOD	ajp	(Lxv;III)V	n	method_0_4431
 CLASS	ajq	net/minecraft/class_0_128
 METHOD	ajq	(Lxv;IIIZ)V	a	method_0_302
 METHOD	ajq	(Lyf;III)Z	a_	method_0_303
@@ -1315,9 +1315,9 @@ METHOD	ajy	(Lxv;IIII)I	d	method_0_318
 METHOD	ajy	(Lyf;III)Z	d	method_0_317
 METHOD	ajy	(Lxv;III)Z	l	method_0_319
 METHOD	ajy	(Lxv;III)I	n	method_0_320
-CLASS	ajz	net/minecraft/class_0_1376
-METHOD	ajz	(Lum;)I	a	method_0_4645
-METHOD	ajz	(I)Lum;	c	method_0_4646
+CLASS	ajz	net/minecraft/class_0_1288
+METHOD	ajz	(Lum;)I	a	method_0_4185
+METHOD	ajz	(I)Lum;	c	method_0_4186
 CLASS	ak	net/minecraft/class_0_1190
 CLASS	aka	net/minecraft/class_0_137
 FIELD	aka	Ljava/util/Random;	a	field_0_280
@@ -1336,9 +1336,9 @@ CLASS	akf	net/minecraft/class_0_143
 FIELD	akf	Z	a	field_0_284
 CLASS	akg	net/minecraft/class_0_181
 FIELD	akg	Z	c	field_0_318
-METHOD	akg	(Lpw;)V	a	method_0_4967
+METHOD	akg	(Lpw;)V	a	method_0_4507
 METHOD	akg	(Lxv;III)Z	a_	method_0_380
-METHOD	akg	(Lxv;IIII)V	a_	method_0_4977
+METHOD	akg	(Lxv;IIII)V	a_	method_0_4517
 METHOD	akg	(Lxv;III)V	l	method_0_381
 CLASS	akh	net/minecraft/class_0_144
 CLASS	aki	net/minecraft/class_0_145
@@ -1346,7 +1346,7 @@ CLASS	akj	net/minecraft/class_0_146
 FIELD	akj	I	a	field_0_285
 CLASS	akk	net/minecraft/class_0_147
 CLASS	akl	net/minecraft/class_0_148
-METHOD	akl	(I)V	d	method_0_5049
+METHOD	akl	(I)V	d	method_0_4589
 CLASS	akm	net/minecraft/class_0_149
 FIELD	akm	[Ljava/lang/String;	a	field_0_286
 FIELD	akm	[I	b	field_0_287
@@ -1403,7 +1403,7 @@ CLASS	ald	net/minecraft/class_0_166
 CLASS	ale	net/minecraft/class_0_167
 CLASS	alf	net/minecraft/class_0_168
 METHOD	alf	(Lxv;III)Z	i_	method_0_348
-CLASS	alg	net/minecraft/class_0_1377
+CLASS	alg	net/minecraft/class_0_1289
 CLASS	alh	net/minecraft/class_0_169
 FIELD	alh	Lali;	a	field_0_298
 METHOD	alh	(Lxv;III)V	l	method_0_349
@@ -1476,26 +1476,26 @@ METHOD	alt	(Lxv;IIII)Z	d	method_0_383
 CLASS	alu	net/minecraft/class_0_183
 FIELD	alu	Ljava/lang/Class;	a	field_0_320
 FIELD	alu	Z	b	field_0_321
-CLASS	alv	net/minecraft/class_0_1400
-METHOD	alv	(Lxv;IIILano;)V	a	method_0_4738
-METHOD	alv	(Lxv;IIII)Z	d	method_0_4739
+CLASS	alv	net/minecraft/class_0_1312
+METHOD	alv	(Lxv;IIILano;)V	a	method_0_4278
+METHOD	alv	(Lxv;IIII)Z	d	method_0_4279
 CLASS	alw	net/minecraft/class_0_184
 FIELD	alw	[Ljava/lang/String;	a	field_0_322
 CLASS	alx	net/minecraft/class_0_185
 CLASS	aly	net/minecraft/class_0_186
 CLASS	ama	net/minecraft/class_0_187
 FIELD	ama	[[I	a	field_0_323
-FIELD	ama	[I	b	field_0_5183
+FIELD	ama	[I	b	field_0_5005
 FIELD	ama	Lamj;	cD	field_0_324
 FIELD	ama	I	cE	field_0_325
 FIELD	ama	Z	cF	field_0_326
 FIELD	ama	I	cG	field_0_327
-FIELD	ama	[I	c	field_0_5184
-METHOD	ama	(Lyf;III)V	d	method_0_4647
-METHOD	ama	(I)Z	e	method_0_4648
-METHOD	ama	(Lyf;IIII)Z	f	method_0_4649
-METHOD	ama	(Lyf;III)Z	g	method_0_4650
-METHOD	ama	(Lyf;III)Z	h	method_0_4651
+FIELD	ama	[I	c	field_0_5006
+METHOD	ama	(Lyf;III)V	d	method_0_4187
+METHOD	ama	(I)Z	e	method_0_4188
+METHOD	ama	(Lyf;IIII)Z	f	method_0_4189
+METHOD	ama	(Lyf;III)Z	g	method_0_4190
+METHOD	ama	(Lyf;III)Z	h	method_0_4191
 CLASS	amb	net/minecraft/class_0_188
 FIELD	amb	Lamj;	a	field_0_328
 METHOD	amb	(Lyf;III)I	d	method_0_384
@@ -1656,15 +1656,15 @@ FIELD	amj	Lagb;	cB	field_0_481
 FIELD	amj	F	cC	field_0_482
 FIELD	amj	Lamj;	ca	field_0_437
 FIELD	amj	Lamj;	cb	field_0_438
-FIELD	amj	Lamj;	cc	field_0_5113
-FIELD	amj	Lamj;	cd	field_0_5114
-FIELD	amj	Lamj;	ce	field_0_5185
-FIELD	amj	Lamj;	cf	field_0_5186
-FIELD	amj	Lamj;	cg	field_0_5187
-FIELD	amj	Lamj;	ch	field_0_5188
-FIELD	amj	Lamj;	ci	field_0_5189
-FIELD	amj	Lamj;	cj	field_0_5258
-FIELD	amj	Lamj;	ck	field_0_5454
+FIELD	amj	Lamj;	cc	field_0_4935
+FIELD	amj	Lamj;	cd	field_0_4936
+FIELD	amj	Lamj;	ce	field_0_5007
+FIELD	amj	Lamj;	cf	field_0_5008
+FIELD	amj	Lamj;	cg	field_0_5009
+FIELD	amj	Lamj;	ch	field_0_5010
+FIELD	amj	Lamj;	ci	field_0_5011
+FIELD	amj	Lamj;	cj	field_0_5080
+FIELD	amj	Lamj;	ck	field_0_5276
 FIELD	amj	I	cl	field_0_439
 FIELD	amj	I	cm	field_0_466
 FIELD	amj	F	cn	field_0_467
@@ -1689,21 +1689,21 @@ FIELD	amj	Lamn;	i	field_0_488
 FIELD	amj	Lamn;	j	field_0_489
 FIELD	amj	Lamn;	k	field_0_490
 FIELD	amj	Lamn;	l	field_0_491
-FIELD	amj	Lamn;	m	field_0_5335
-FIELD	amj	Lamn;	n	field_0_5336
-FIELD	amj	Lamn;	o	field_0_5502
+FIELD	amj	Lamn;	m	field_0_5157
+FIELD	amj	Lamn;	n	field_0_5158
+FIELD	amj	Lamn;	o	field_0_5324
 FIELD	amj	[Lamj;	p	field_0_492
 FIELD	amj	[Z	q	field_0_493
 FIELD	amj	[I	r	field_0_494
 FIELD	amj	[Z	s	field_0_495
 FIELD	amj	[I	t	field_0_496
 FIELD	amj	[Z	u	field_0_497
-FIELD	amj	[Z	v	field_0_5401
+FIELD	amj	[Z	v	field_0_5223
 FIELD	amj	Lamj;	w	field_0_499
 FIELD	amj	Lakc;	x	field_0_500
 FIELD	amj	Lamj;	y	field_0_501
 FIELD	amj	Lamj;	z	field_0_502
-METHOD	amj	()D	A	method_0_4997
+METHOD	amj	()D	A	method_0_4537
 METHOD	amj	()Ljava/lang/String;	B	method_0_480
 METHOD	amj	()Z	C	method_0_481
 METHOD	amj	()Lamj;	D	method_0_482
@@ -1723,7 +1723,7 @@ METHOD	amj	(Ljava/util/Random;)I	a	method_0_403
 METHOD	amj	(Llq;)F	a	method_0_404
 METHOD	amj	(Lqx;Lxv;III)F	a	method_0_405
 METHOD	amj	(Lth;)Lamj;	a	method_0_406
-METHOD	amj	(Lxq;)Z	a	method_0_5050
+METHOD	amj	(Lxq;)Z	a	method_0_4590
 METHOD	amj	(Lxv;III)I	a	method_0_407
 METHOD	amj	(Lxv;IIII)V	a	method_0_408
 METHOD	amj	(Lxv;IIIIFFFI)I	a	method_0_409
@@ -1776,7 +1776,7 @@ METHOD	amj	(Lxv;IIII)V	f	method_0_461
 METHOD	amj	(Lyf;III)F	f	method_0_458
 METHOD	amj	(I)Lum;	f_	method_0_448
 METHOD	amj	(Lxv;III)V	g	method_0_460
-METHOD	amj	(Lxv;IIII)V	g	method_0_5051
+METHOD	amj	(Lxv;IIII)V	g	method_0_4591
 METHOD	amj	(I)I	g_	method_0_459
 METHOD	amj	(I)Lamj;	h	method_0_462
 METHOD	amj	(Lxv;III)I	h	method_0_463
@@ -1785,7 +1785,7 @@ METHOD	amj	()Z	i	method_0_466
 METHOD	amj	(I)Z	i	method_0_467
 METHOD	amj	(Lyf;III)F	j	method_0_465
 METHOD	amj	(Lxv;III)V	k	method_0_468
-METHOD	amj	()Z	l	method_0_4868
+METHOD	amj	()Z	l	method_0_4408
 METHOD	amj	()Z	m	method_0_469
 METHOD	amj	(Lxv;III)F	m	method_0_471
 METHOD	amj	()I	n	method_0_479
@@ -1798,21 +1798,21 @@ METHOD	amj	()Z	s_	method_0_475
 METHOD	amj	()Z	t	method_0_476
 METHOD	amj	()V	t_	method_0_477
 METHOD	amj	()Z	u	method_0_478
-METHOD	amj	()Z	u_	method_0_4652
-METHOD	amj	()D	v	method_0_4998
-METHOD	amj	()D	w	method_0_4999
-METHOD	amj	()D	x	method_0_5000
-METHOD	amj	()D	y	method_0_5001
-METHOD	amj	()D	z	method_0_5002
+METHOD	amj	()Z	u_	method_0_4192
+METHOD	amj	()D	v	method_0_4538
+METHOD	amj	()D	w	method_0_4539
+METHOD	amj	()D	x	method_0_4540
+METHOD	amj	()D	y	method_0_4541
+METHOD	amj	()D	z	method_0_4542
 CLASS	amk	net/minecraft/class_0_197
 CLASS	aml	net/minecraft/class_0_198
-CLASS	amm	net/minecraft/class_0_1467
+CLASS	amm	net/minecraft/class_0_1379
 CLASS	amn	net/minecraft/class_0_199
 FIELD	amn	Ljava/lang/String;	a	field_0_506
 FIELD	amn	F	b	field_0_507
 FIELD	amn	F	c	field_0_508
 METHOD	amn	()Ljava/lang/String;	a	method_0_484
-METHOD	amn	()Ljava/lang/String;	b	method_0_4869
+METHOD	amn	()Ljava/lang/String;	b	method_0_4409
 METHOD	amn	()F	c	method_0_485
 METHOD	amn	()F	d	method_0_486
 METHOD	amn	()Ljava/lang/String;	e	method_0_487
@@ -1844,9 +1844,9 @@ METHOD	amv	(Lxv;III)V	l	method_0_502
 CLASS	amw	net/minecraft/class_0_208
 METHOD	amw	(I)Z	e	method_0_503
 METHOD	amw	(Lxv;III)Z	l	method_0_504
-CLASS	amx	net/minecraft/class_0_1378
-FIELD	amx	[Ljava/lang/String;	a	field_0_5190
-METHOD	amx	(Lyf;III)Z	d	method_0_4653
+CLASS	amx	net/minecraft/class_0_1290
+FIELD	amx	[Ljava/lang/String;	a	field_0_5012
+METHOD	amx	(Lyf;III)Z	d	method_0_4193
 CLASS	amy	net/minecraft/class_0_209
 CLASS	amz	net/minecraft/class_0_210
 CLASS	an	net/minecraft/class_0_2
@@ -1857,24 +1857,24 @@ FIELD	ana	[Ljava/lang/String;	a	field_0_511
 CLASS	anb	net/minecraft/class_0_212
 FIELD	anb	[Ljava/lang/String;	a	field_0_512
 CLASS	anc	net/minecraft/class_0_213
-CLASS	and	net/minecraft/class_0_1356
-FIELD	and	[[Lll;	a	field_0_5115
-FIELD	and	J	b	field_0_5116
-FIELD	and	F	c	field_0_5117
-FIELD	and	Z	d	field_0_5118
-FIELD	and	I	e	field_0_5119
-FIELD	and	I	f	field_0_5120
-FIELD	and	I	g	field_0_5121
-FIELD	and	Lum;	h	field_0_5122
-METHOD	and	(I)V	c	method_0_4545
-METHOD	and	(I)V	d	method_0_4546
-METHOD	and	(I)V	e	method_0_4547
-METHOD	and	()I	i	method_0_4548
-METHOD	and	()I	j	method_0_4549
-METHOD	and	()I	k	method_0_4550
-METHOD	and	()V	u	method_0_4551
-METHOD	and	()V	v	method_0_4553
-METHOD	and	()F	v_	method_0_4552
+CLASS	and	net/minecraft/class_0_1268
+FIELD	and	[[Lll;	a	field_0_4937
+FIELD	and	J	b	field_0_4938
+FIELD	and	F	c	field_0_4939
+FIELD	and	Z	d	field_0_4940
+FIELD	and	I	e	field_0_4941
+FIELD	and	I	f	field_0_4942
+FIELD	and	I	g	field_0_4943
+FIELD	and	Lum;	h	field_0_4944
+METHOD	and	(I)V	c	method_0_4085
+METHOD	and	(I)V	d	method_0_4086
+METHOD	and	(I)V	e	method_0_4087
+METHOD	and	()I	i	method_0_4088
+METHOD	and	()I	j	method_0_4089
+METHOD	and	()I	k	method_0_4090
+METHOD	and	()V	u	method_0_4091
+METHOD	and	()V	v	method_0_4093
+METHOD	and	()F	v_	method_0_4092
 CLASS	ane	net/minecraft/class_0_214
 FIELD	ane	[Lum;	a	field_0_513
 FIELD	ane	I	b	field_0_514
@@ -1897,13 +1897,13 @@ FIELD	anf	F	g	field_0_523
 FIELD	anf	I	h	field_0_524
 FIELD	anf	[Lum;	i	field_0_525
 FIELD	anf	I	j	field_0_526
-METHOD	anf	(Lanf;I)V	a	method_0_5112
+METHOD	anf	(Lanf;I)V	a	method_0_4652
 METHOD	anf	()V	i	method_0_511
-CLASS	ang	net/minecraft/class_0_1357
-FIELD	ang	Ljava/lang/String;	a	field_0_5123
-METHOD	ang	(Lxv;)V	a	method_0_4554
-METHOD	ang	(Ljava/lang/String;)V	b	method_0_4555
-METHOD	ang	()Ljava/lang/String;	c	method_0_4556
+CLASS	ang	net/minecraft/class_0_1269
+FIELD	ang	Ljava/lang/String;	a	field_0_4945
+METHOD	ang	(Lxv;)V	a	method_0_4094
+METHOD	ang	(Ljava/lang/String;)V	b	method_0_4095
+METHOD	ang	()Ljava/lang/String;	c	method_0_4096
 CLASS	anh	net/minecraft/class_0_216
 FIELD	anh	[Lum;	a	field_0_527
 FIELD	anh	Ljava/util/Random;	b	field_0_528
@@ -1951,9 +1951,9 @@ FIELD	anl	I	f	field_0_554
 FIELD	anl	I	g	field_0_555
 FIELD	anl	I	h	field_0_556
 FIELD	anl	Llq;	i	field_0_557
-FIELD	anl	I	j	field_0_5382
-FIELD	anl	I	r	field_0_5383
-FIELD	anl	I	s	field_0_5483
+FIELD	anl	I	j	field_0_5204
+FIELD	anl	I	r	field_0_5205
+FIELD	anl	I	s	field_0_5305
 METHOD	anl	()Ljava/lang/String;	a	method_0_526
 METHOD	anl	(Ljava/lang/String;)V	a	method_0_527
 METHOD	anl	(Llq;)V	a	method_0_528
@@ -1971,15 +1971,15 @@ FIELD	ann	I	b	field_0_561
 FIELD	ann	Z	c	field_0_562
 METHOD	ann	()Z	a	method_0_534
 METHOD	ann	(Z)V	a	method_0_535
-CLASS	ano	net/minecraft/class_0_1401
-FIELD	ano	I	a	field_0_5259
-FIELD	ano	I	b	field_0_5260
-FIELD	ano	Ljava/lang/String;	c	field_0_5282
-METHOD	ano	()I	a	method_0_4740
-METHOD	ano	(I)V	a	method_0_4743
-METHOD	ano	(ILjava/lang/String;)V	a	method_0_4741
-METHOD	ano	()I	b	method_0_4742
-METHOD	ano	()Ljava/lang/String;	c	method_0_4758
+CLASS	ano	net/minecraft/class_0_1313
+FIELD	ano	I	a	field_0_5081
+FIELD	ano	I	b	field_0_5082
+FIELD	ano	Ljava/lang/String;	c	field_0_5104
+METHOD	ano	()I	a	method_0_4280
+METHOD	ano	(I)V	a	method_0_4283
+METHOD	ano	(ILjava/lang/String;)V	a	method_0_4281
+METHOD	ano	()I	b	method_0_4282
+METHOD	ano	()Ljava/lang/String;	c	method_0_4298
 CLASS	anp	net/minecraft/class_0_224
 CLASS	anq	net/minecraft/class_0_225
 FIELD	anq	Ljava/util/Map;	a	field_0_563
@@ -1994,7 +1994,7 @@ FIELD	anq	Lamj;	q	field_0_571
 METHOD	anq	(DDD)D	a	method_0_536
 METHOD	anq	(Lbq;)V	a	method_0_537
 METHOD	anq	(Ljava/lang/Class;Ljava/lang/String;)V	a	method_0_538
-METHOD	anq	(Ll;)V	a	method_0_5052
+METHOD	anq	(Ll;)V	a	method_0_4592
 METHOD	anq	(II)V	b	method_0_540
 METHOD	anq	(Lbq;)V	b	method_0_541
 METHOD	anq	(Lxv;)V	b	method_0_539
@@ -2003,18 +2003,18 @@ METHOD	anq	()V	d	method_0_543
 METHOD	anq	()V	g	method_0_545
 METHOD	anq	()V	h	method_0_546
 METHOD	anq	()Leg;	l	method_0_544
-METHOD	anq	()D	m	method_0_4557
+METHOD	anq	()D	m	method_0_4097
 METHOD	anq	()Lxv;	n	method_0_548
 METHOD	anq	()Z	o	method_0_549
 METHOD	anq	()I	p	method_0_550
 METHOD	anq	()Lamj;	q	method_0_551
 METHOD	anq	()Z	r	method_0_552
 METHOD	anq	()V	s	method_0_553
-METHOD	anq	()Ljava/util/Map;	t	method_0_5053
+METHOD	anq	()Ljava/util/Map;	t	method_0_4593
 METHOD	anq	()V	w_	method_0_547
-CLASS	anr	net/minecraft/class_0_1485
-FIELD	anr	Lanq;	a	field_0_5545
-METHOD	anr	()Ljava/lang/String;	a	method_0_5054
+CLASS	anr	net/minecraft/class_0_1397
+FIELD	anr	Lanq;	a	field_0_5367
+METHOD	anr	()Ljava/lang/String;	a	method_0_4594
 METHOD	anr	()Ljava/lang/Object;	call	call
 CLASS	ans	net/minecraft/class_0_226
 FIELD	ans	Z	a	field_0_572
@@ -2097,8 +2097,8 @@ FIELD	any	I	f	field_0_594
 METHOD	any	()V	a	method_0_600
 METHOD	any	(DDDDDD)Lanw;	a	method_0_601
 METHOD	any	()V	b	method_0_602
-METHOD	any	()I	c	method_0_5003
-METHOD	any	()I	d	method_0_5004
+METHOD	any	()I	c	method_0_4543
+METHOD	any	()I	d	method_0_4544
 CLASS	anz	net/minecraft/class_0_233
 FIELD	anz	Laoa;	a	field_0_595
 FIELD	anz	I	b	field_0_596
@@ -2116,8 +2116,8 @@ FIELD	aoa	[Laoa;	c	field_0_604
 METHOD	aoa	(Ljava/lang/String;)Laoa;	valueOf	valueOf
 METHOD	aoa	()[Laoa;	values	values
 CLASS	aob	net/minecraft/class_0_235
-FIELD	aob	Laoc;	a	field_0_5283
-FIELD	aob	Laoc;	b	field_0_5284
+FIELD	aob	Laoc;	a	field_0_5105
+FIELD	aob	Laoc;	b	field_0_5106
 FIELD	aob	D	c	field_0_605
 FIELD	aob	D	d	field_0_606
 FIELD	aob	D	e	field_0_607
@@ -2149,9 +2149,9 @@ FIELD	aoc	I	f	field_0_614
 METHOD	aoc	()V	a	method_0_622
 METHOD	aoc	(DDD)Laob;	a	method_0_623
 METHOD	aoc	()V	b	method_0_624
-METHOD	aoc	()I	c	method_0_4978
-METHOD	aoc	()I	d	method_0_4979
-METHOD	aoc	()Z	e	method_0_4759
+METHOD	aoc	()I	c	method_0_4518
+METHOD	aoc	()I	d	method_0_4519
+METHOD	aoc	()Z	e	method_0_4299
 CLASS	aod	net/minecraft/class_0_238
 METHOD	aod	()Laog;	a	method_0_625
 CLASS	aoe	net/minecraft/class_0_239
@@ -2422,7 +2422,7 @@ FIELD	aoz	[B	a	field_0_814
 FIELD	aoz	Laon;	b	field_0_815
 METHOD	aoz	()[B	a	method_0_672
 METHOD	aoz	()Laon;	b	method_0_673
-CLASS	ap	net/minecraft/class_0_1353
+CLASS	ap	net/minecraft/class_0_1265
 CLASS	apa	net/minecraft/class_0_260
 CLASS	apb	net/minecraft/class_0_261
 CLASS	apc	net/minecraft/class_0_262
@@ -2757,8 +2757,8 @@ METHOD	arn	()Z	c	method_0_841
 METHOD	arn	()V	d	method_0_842
 CLASS	aro	net/minecraft/class_0_327
 FIELD	aro	Ljava/nio/FloatBuffer;	a	field_0_910
-FIELD	aro	Laob;	b	field_0_5285
-FIELD	aro	Laob;	c	field_0_5286
+FIELD	aro	Laob;	b	field_0_5107
+FIELD	aro	Laob;	c	field_0_5108
 METHOD	aro	()V	a	method_0_843
 METHOD	aro	(DDDD)Ljava/nio/FloatBuffer;	a	method_0_844
 METHOD	aro	(FFFF)Ljava/nio/FloatBuffer;	a	method_0_845
@@ -2793,9 +2793,9 @@ CLASS	aru	net/minecraft/class_0_330
 FIELD	aru	Lnet/minecraft/client/Minecraft;	a	field_0_914
 METHOD	aru	()Ljava/lang/String;	a	method_0_855
 METHOD	aru	()Ljava/lang/Object;	call	call
-CLASS	arv	net/minecraft/class_0_1468
-FIELD	arv	Lnet/minecraft/client/Minecraft;	a	field_0_5503
-METHOD	arv	()Ljava/lang/String;	a	method_0_4987
+CLASS	arv	net/minecraft/class_0_1380
+FIELD	arv	Lnet/minecraft/client/Minecraft;	a	field_0_5325
+METHOD	arv	()Ljava/lang/String;	a	method_0_4527
 METHOD	arv	()Ljava/lang/Object;	call	call
 CLASS	arw	net/minecraft/class_0_331
 FIELD	arw	[I	a	field_0_915
@@ -2807,18 +2807,18 @@ METHOD	arx	(Ljava/lang/String;)Ljava/lang/String;	getParameter	getParameter
 METHOD	arx	()Z	isActive	isActive
 CLASS	ary	net/minecraft/class_0_333
 FIELD	ary	Lnet/minecraft/client/Minecraft;	a	field_0_917
-CLASS	arz	net/minecraft/class_0_1501
-FIELD	arz	Lnet/minecraft/client/Minecraft;	a	field_0_5595
-METHOD	arz	()Ljava/lang/String;	a	method_0_5113
+CLASS	arz	net/minecraft/class_0_1413
+FIELD	arz	Lnet/minecraft/client/Minecraft;	a	field_0_5417
+METHOD	arz	()Ljava/lang/String;	a	method_0_4653
 METHOD	arz	()Ljava/lang/Object;	call	call
 CLASS	as	net/minecraft/class_0_96
-CLASS	asa	net/minecraft/class_0_1502
-FIELD	asa	Lnet/minecraft/client/Minecraft;	a	field_0_5596
-METHOD	asa	()Ljava/lang/String;	a	method_0_5114
+CLASS	asa	net/minecraft/class_0_1414
+FIELD	asa	Lnet/minecraft/client/Minecraft;	a	field_0_5418
+METHOD	asa	()Ljava/lang/String;	a	method_0_4654
 METHOD	asa	()Ljava/lang/Object;	call	call
-CLASS	asb	net/minecraft/class_0_1503
-FIELD	asb	Lnet/minecraft/client/Minecraft;	a	field_0_5597
-METHOD	asb	()Ljava/lang/String;	a	method_0_5115
+CLASS	asb	net/minecraft/class_0_1415
+FIELD	asb	Lnet/minecraft/client/Minecraft;	a	field_0_5419
+METHOD	asb	()Ljava/lang/String;	a	method_0_4655
 METHOD	asb	()Ljava/lang/Object;	call	call
 CLASS	asc	net/minecraft/class_0_334
 METHOD	asc	(Ljava/awt/event/WindowEvent;)V	windowClosing	windowClosing
@@ -2851,14 +2851,14 @@ CLASS	asj	net/minecraft/class_0_344
 FIELD	asj	I	a	field_0_931
 FIELD	asj	I	b	field_0_932
 FIELD	asj	Ljava/awt/Component;	c	field_0_933
-FIELD	asj	Lasl;	d	field_0_5546
+FIELD	asj	Lasl;	d	field_0_5368
 METHOD	asj	()V	a	method_0_861
 METHOD	asj	()V	b	method_0_862
 METHOD	asj	()V	c	method_0_863
 CLASS	ask	net/minecraft/class_0_345
 METHOD	ask	()Z	a	method_0_864
 CLASS	asl	net/minecraft/class_0_346
-FIELD	asl	Z	A	field_0_5547
+FIELD	asl	Z	A	field_0_5369
 FIELD	asl	Larn;	B	field_0_991
 FIELD	asl	Larn;	C	field_0_992
 FIELD	asl	Larn;	D	field_0_993
@@ -2920,10 +2920,10 @@ FIELD	asl	Z	s	field_0_987
 FIELD	asl	Z	t	field_0_988
 FIELD	asl	Z	u	field_0_989
 FIELD	asl	Z	v	field_0_990
-FIELD	asl	Z	w	field_0_5124
-FIELD	asl	Z	x	field_0_5196
-FIELD	asl	Z	y	field_0_5197
-FIELD	asl	Z	z	field_0_5455
+FIELD	asl	Z	w	field_0_4946
+FIELD	asl	Z	x	field_0_5018
+FIELD	asl	Z	y	field_0_5019
+FIELD	asl	Z	z	field_0_5277
 METHOD	asl	()V	a	method_0_865
 METHOD	asl	(I)Ljava/lang/String;	a	method_0_866
 METHOD	asl	(II)V	a	method_0_867
@@ -2935,15 +2935,15 @@ METHOD	asl	([Ljava/lang/String;I)Ljava/lang/String;	a	method_0_872
 METHOD	asl	()V	b	method_0_873
 METHOD	asl	(I)Ljava/lang/String;	b	method_0_874
 METHOD	asl	(Lasn;)Z	b	method_0_875
-METHOD	asl	()V	c	method_0_4940
+METHOD	asl	()V	c	method_0_4480
 METHOD	asl	(I)Ljava/lang/String;	c	method_0_877
 METHOD	asl	(Lasn;)Ljava/lang/String;	c	method_0_878
 METHOD	asl	()Z	d	method_0_876
 CLASS	asm	net/minecraft/class_0_347
 FIELD	asm	[I	a	field_0_995
 CLASS	asn	net/minecraft/class_0_349
-FIELD	asn	Lasn;	A	field_0_5456
-FIELD	asn	Lasn;	B	field_0_5548
+FIELD	asn	Lasn;	A	field_0_5278
+FIELD	asn	Lasn;	B	field_0_5370
 FIELD	asn	Z	C	field_0_997
 FIELD	asn	Z	D	field_0_998
 FIELD	asn	Ljava/lang/String;	E	field_0_999
@@ -3022,12 +3022,12 @@ FIELD	ast	Ljava/lang/String;	e	field_0_1052
 FIELD	ast	I	f	field_0_1053
 FIELD	ast	Z	g	field_0_1054
 FIELD	ast	Z	h	field_0_1055
-FIELD	ast	Z	i	field_0_5125
-METHOD	ast	()Z	a	method_0_4558
+FIELD	ast	Z	i	field_0_4947
+METHOD	ast	()Z	a	method_0_4098
 METHOD	ast	(II)V	a	method_0_890
 METHOD	ast	(Lnet/minecraft/client/Minecraft;II)V	a	method_0_891
 METHOD	ast	(Z)I	a	method_0_892
-METHOD	ast	(II)V	b	method_0_4559
+METHOD	ast	(II)V	b	method_0_4099
 METHOD	ast	(Lnet/minecraft/client/Minecraft;II)V	b	method_0_893
 METHOD	ast	(Lnet/minecraft/client/Minecraft;II)Z	c	method_0_894
 CLASS	asu	net/minecraft/class_0_356
@@ -3050,12 +3050,12 @@ METHOD	asu	(I)V	c	method_0_905
 METHOD	asu	()Z	d	method_0_906
 CLASS	asv	net/minecraft/class_0_357
 FIELD	asv	[Lasn;	a	field_0_1061
-FIELD	asv	[Lasn;	b	field_0_5457
+FIELD	asv	[Lasn;	b	field_0_5279
 FIELD	asv	Laue;	c	field_0_1062
 FIELD	asv	Lasl;	d	field_0_1063
 FIELD	asv	Ljava/lang/String;	n	field_0_1064
-FIELD	asv	Ljava/lang/String;	o	field_0_5458
-FIELD	asv	I	p	field_0_5459
+FIELD	asv	Ljava/lang/String;	o	field_0_5280
+FIELD	asv	I	p	field_0_5281
 CLASS	asw	net/minecraft/class_0_358
 FIELD	asw	Latg;	a	field_0_1065
 FIELD	asw	Ljava/lang/String;	b	field_0_1066
@@ -3088,40 +3088,40 @@ FIELD	asz	Lasl;	c	field_0_1084
 FIELD	asz	I	d	field_0_1085
 METHOD	asz	()I	g	method_0_912
 CLASS	at	net/minecraft/class_0_113
-CLASS	ata	net/minecraft/class_0_1409
-FIELD	ata	Lbbt;	a	field_0_5287
-FIELD	ata	Latc;	b	field_0_5288
-FIELD	ata	Lacd;	c	field_0_5289
-FIELD	ata	Ljava/lang/String;	d	field_0_5290
-FIELD	ata	Ljava/lang/String;	n	field_0_5291
-FIELD	ata	Ljava/lang/String;	o	field_0_5292
-FIELD	ata	Latb;	p	field_0_5293
-FIELD	ata	Last;	q	field_0_5294
-FIELD	ata	Last;	r	field_0_5295
-FIELD	ata	Last;	s	field_0_5296
-METHOD	ata	(Lata;)Lacd;	a	method_0_4760
-METHOD	ata	(Ljava/lang/String;)V	a	method_0_4761
-METHOD	ata	()Ljava/lang/String;	e	method_0_4762
-METHOD	ata	()V	g	method_0_4763
-METHOD	ata	()Lbbt;	h	method_0_4764
-METHOD	ata	()Z	i	method_0_4765
-CLASS	atb	net/minecraft/class_0_1410
-FIELD	atb	I	a	field_0_5297
-FIELD	atb	Lata;	b	field_0_5298
-METHOD	atb	(IILum;)V	a	method_0_4766
-METHOD	atb	(IIII)V	b	method_0_4767
-METHOD	atb	(II)V	d	method_0_4768
+CLASS	ata	net/minecraft/class_0_1321
+FIELD	ata	Lbbt;	a	field_0_5109
+FIELD	ata	Latc;	b	field_0_5110
+FIELD	ata	Lacd;	c	field_0_5111
+FIELD	ata	Ljava/lang/String;	d	field_0_5112
+FIELD	ata	Ljava/lang/String;	n	field_0_5113
+FIELD	ata	Ljava/lang/String;	o	field_0_5114
+FIELD	ata	Latb;	p	field_0_5115
+FIELD	ata	Last;	q	field_0_5116
+FIELD	ata	Last;	r	field_0_5117
+FIELD	ata	Last;	s	field_0_5118
+METHOD	ata	(Lata;)Lacd;	a	method_0_4300
+METHOD	ata	(Ljava/lang/String;)V	a	method_0_4301
+METHOD	ata	()Ljava/lang/String;	e	method_0_4302
+METHOD	ata	()V	g	method_0_4303
+METHOD	ata	()Lbbt;	h	method_0_4304
+METHOD	ata	()Z	i	method_0_4305
+CLASS	atb	net/minecraft/class_0_1322
+FIELD	atb	I	a	field_0_5119
+FIELD	atb	Lata;	b	field_0_5120
+METHOD	atb	(IILum;)V	a	method_0_4306
+METHOD	atb	(IIII)V	b	method_0_4307
+METHOD	atb	(II)V	d	method_0_4308
 CLASS	atc	net/minecraft/class_0_362
 FIELD	atc	Last;	A	field_0_1108
 FIELD	atc	Last;	B	field_0_1109
-FIELD	atc	Last;	C	field_0_5299
+FIELD	atc	Last;	C	field_0_5121
 FIELD	atc	Ljava/lang/String;	D	field_0_1086
 FIELD	atc	Ljava/lang/String;	E	field_0_1087
 FIELD	atc	Ljava/lang/String;	F	field_0_1088
 FIELD	atc	Ljava/lang/String;	G	field_0_1089
 FIELD	atc	I	H	field_0_1090
 FIELD	atc	[Ljava/lang/String;	I	field_0_1091
-FIELD	atc	Ljava/lang/String;	a	field_0_5300
+FIELD	atc	Ljava/lang/String;	a	field_0_5122
 FIELD	atc	Laue;	b	field_0_1092
 FIELD	atc	Latg;	c	field_0_1093
 FIELD	atc	Latg;	d	field_0_1094
@@ -3138,12 +3138,12 @@ FIELD	atc	Last;	w	field_0_1104
 FIELD	atc	Last;	x	field_0_1105
 FIELD	atc	Last;	y	field_0_1106
 FIELD	atc	Last;	z	field_0_1107
-METHOD	atc	(Lahq;)V	a	method_0_4769
+METHOD	atc	(Lahq;)V	a	method_0_4309
 METHOD	atc	(Laic;Ljava/lang/String;)Ljava/lang/String;	a	method_0_913
-METHOD	atc	(Z)V	a	method_0_4770
+METHOD	atc	(Z)V	a	method_0_4310
 METHOD	atc	()V	g	method_0_914
 METHOD	atc	()V	h	method_0_915
-METHOD	atc	()V	i	method_0_4771
+METHOD	atc	()V	i	method_0_4311
 CLASS	atd	net/minecraft/class_0_363
 FIELD	atd	I	a	field_0_1110
 CLASS	ate	net/minecraft/class_0_364
@@ -3186,7 +3186,7 @@ METHOD	atg	(Z)V	b	method_0_927
 METHOD	atg	()Ljava/lang/String;	c	method_0_928
 METHOD	atg	(I)I	c	method_0_929
 METHOD	atg	(IIII)V	c	method_0_930
-METHOD	atg	(Z)V	c	method_0_4941
+METHOD	atg	(Z)V	c	method_0_4481
 METHOD	atg	()V	d	method_0_931
 METHOD	atg	(I)V	d	method_0_932
 METHOD	atg	(Z)V	d	method_0_933
@@ -3198,7 +3198,7 @@ METHOD	atg	(I)V	f	method_0_938
 METHOD	atg	()I	g	method_0_939
 METHOD	atg	(I)V	g	method_0_940
 METHOD	atg	()I	h	method_0_941
-METHOD	atg	(I)V	h	method_0_4942
+METHOD	atg	(I)V	h	method_0_4482
 METHOD	atg	()Z	i	method_0_942
 METHOD	atg	(I)V	i	method_0_943
 METHOD	atg	()Z	l	method_0_944
@@ -3237,7 +3237,7 @@ FIELD	atj	Z	t	field_0_1158
 FIELD	atj	Z	u	field_0_1159
 FIELD	atj	Z	v	field_0_1160
 FIELD	atj	Z	w	field_0_1161
-METHOD	atj	()Z	a	method_0_4988
+METHOD	atj	()Z	a	method_0_4528
 METHOD	atj	(C)I	a	method_0_949
 METHOD	atj	(CZ)F	a	method_0_950
 METHOD	atj	(I)V	a	method_0_951
@@ -3248,7 +3248,7 @@ METHOD	atj	(Ljava/lang/String;I)Ljava/lang/String;	a	method_0_955
 METHOD	atj	(Ljava/lang/String;III)I	a	method_0_956
 METHOD	atj	(Ljava/lang/String;IIII)V	a	method_0_965
 METHOD	atj	(Ljava/lang/String;IIIIZ)I	a	method_0_966
-METHOD	atj	(Ljava/lang/String;IIIZ)I	a	method_0_5055
+METHOD	atj	(Ljava/lang/String;IIIZ)I	a	method_0_4595
 METHOD	atj	(Ljava/lang/String;IZ)Ljava/lang/String;	a	method_0_958
 METHOD	atj	(Ljava/lang/String;Z)V	a	method_0_959
 METHOD	atj	(Z)V	a	method_0_960
@@ -3387,35 +3387,35 @@ CLASS	atx	net/minecraft/class_0_383
 CLASS	aty	net/minecraft/class_0_384
 FIELD	aty	I	a	field_0_1218
 FIELD	aty	I	b	field_0_1219
-CLASS	atz	net/minecraft/class_0_1411
-FIELD	atz	Lbbt;	a	field_0_5301
-FIELD	atz	Ljava/util/List;	b	field_0_5302
-FIELD	atz	Lata;	c	field_0_5303
-FIELD	atz	Ljava/lang/String;	d	field_0_5304
-FIELD	atz	Ljava/lang/String;	n	field_0_5305
-FIELD	atz	Ljava/lang/String;	o	field_0_5306
-FIELD	atz	Laub;	p	field_0_5307
-FIELD	atz	Last;	q	field_0_5308
-FIELD	atz	Latg;	r	field_0_5309
-METHOD	atz	(Latz;)Laub;	a	method_0_4772
-METHOD	atz	(Ljava/lang/String;ILyr;Ljava/util/List;[Lace;)V	a	method_0_4773
-METHOD	atz	(Ljava/lang/String;ILyr;[Lace;)V	a	method_0_4903
-METHOD	atz	(Latz;)Latg;	b	method_0_4774
-METHOD	atz	()V	g	method_0_4775
-METHOD	atz	()Lbbt;	h	method_0_4776
-METHOD	atz	()Ljava/util/List;	i	method_0_4777
-METHOD	atz	()Z	j	method_0_4778
+CLASS	atz	net/minecraft/class_0_1323
+FIELD	atz	Lbbt;	a	field_0_5123
+FIELD	atz	Ljava/util/List;	b	field_0_5124
+FIELD	atz	Lata;	c	field_0_5125
+FIELD	atz	Ljava/lang/String;	d	field_0_5126
+FIELD	atz	Ljava/lang/String;	n	field_0_5127
+FIELD	atz	Ljava/lang/String;	o	field_0_5128
+FIELD	atz	Laub;	p	field_0_5129
+FIELD	atz	Last;	q	field_0_5130
+FIELD	atz	Latg;	r	field_0_5131
+METHOD	atz	(Latz;)Laub;	a	method_0_4312
+METHOD	atz	(Ljava/lang/String;ILyr;Ljava/util/List;[Lace;)V	a	method_0_4313
+METHOD	atz	(Ljava/lang/String;ILyr;[Lace;)V	a	method_0_4443
+METHOD	atz	(Latz;)Latg;	b	method_0_4314
+METHOD	atz	()V	g	method_0_4315
+METHOD	atz	()Lbbt;	h	method_0_4316
+METHOD	atz	()Ljava/util/List;	i	method_0_4317
+METHOD	atz	()Z	j	method_0_4318
 CLASS	au	net/minecraft/class_0_139
-CLASS	aua	net/minecraft/class_0_1412
-FIELD	aua	I	a	field_0_5310
-FIELD	aua	Ljava/lang/String;	b	field_0_5311
-FIELD	aua	Ljava/lang/String;	c	field_0_5312
-CLASS	aub	net/minecraft/class_0_1413
-FIELD	aub	I	a	field_0_5313
-FIELD	aub	Latz;	b	field_0_5314
-METHOD	aub	(III)V	a	method_0_4779
-METHOD	aub	(IIII)V	b	method_0_4780
-METHOD	aub	(II)V	d	method_0_4781
+CLASS	aua	net/minecraft/class_0_1324
+FIELD	aua	I	a	field_0_5132
+FIELD	aua	Ljava/lang/String;	b	field_0_5133
+FIELD	aua	Ljava/lang/String;	c	field_0_5134
+CLASS	aub	net/minecraft/class_0_1325
+FIELD	aub	I	a	field_0_5135
+FIELD	aub	Latz;	b	field_0_5136
+METHOD	aub	(III)V	a	method_0_4319
+METHOD	aub	(IIII)V	b	method_0_4320
+METHOD	aub	(II)V	d	method_0_4321
 CLASS	auc	net/minecraft/class_0_385
 FIELD	auc	Ljava/lang/String;	a	field_0_1220
 FIELD	auc	Ljava/lang/String;	b	field_0_1221
@@ -3427,9 +3427,9 @@ FIELD	aud	Latg;	b	field_0_1225
 FIELD	aud	Ljava/lang/String;	c	field_0_1226
 CLASS	aue	net/minecraft/class_0_387
 FIELD	aue	Last;	a	field_0_1227
-FIELD	aue	I	b	field_0_5549
-FIELD	aue	J	c	field_0_5550
-FIELD	aue	Z	e	field_0_5598
+FIELD	aue	I	b	field_0_5371
+FIELD	aue	J	c	field_0_5372
+FIELD	aue	Z	e	field_0_5420
 FIELD	aue	Lnet/minecraft/client/Minecraft;	f	field_0_1228
 FIELD	aue	I	g	field_0_1229
 FIELD	aue	I	h	field_0_1230
@@ -3441,7 +3441,7 @@ METHOD	aue	()V	A_	method_0_1044
 METHOD	aue	(CI)V	a	method_0_1024
 METHOD	aue	(IIF)V	a	method_0_1025
 METHOD	aue	(III)V	a	method_0_1026
-METHOD	aue	(IIIJ)V	a	method_0_5056
+METHOD	aue	(IIIJ)V	a	method_0_4596
 METHOD	aue	(Last;)V	a	method_0_1027
 METHOD	aue	(Lnet/minecraft/client/Minecraft;II)V	a	method_0_1028
 METHOD	aue	(ZI)V	a	method_0_1029
@@ -3527,7 +3527,7 @@ FIELD	auh	Z	t	field_0_1270
 FIELD	auh	Last;	u	field_0_1271
 FIELD	auh	Last;	v	field_0_1272
 FIELD	auh	Last;	w	field_0_1273
-FIELD	auh	Last;	x	field_0_5315
+FIELD	auh	Last;	x	field_0_5137
 METHOD	auh	(I)Ljava/lang/String;	a	method_0_1071
 METHOD	auh	(Laue;Ljava/lang/String;I)Lasy;	a	method_0_1072
 METHOD	auh	(Lauh;)Ljava/util/List;	a	method_0_1073
@@ -3538,7 +3538,7 @@ METHOD	auh	(I)Ljava/lang/String;	d	method_0_1077
 METHOD	auh	(Lauh;)Last;	d	method_0_1078
 METHOD	auh	(I)V	e	method_0_1079
 METHOD	auh	(Lauh;)Last;	e	method_0_1080
-METHOD	auh	(Lauh;)Last;	f	method_0_4782
+METHOD	auh	(Lauh;)Last;	f	method_0_4322
 METHOD	auh	()V	g	method_0_1082
 METHOD	auh	(Lauh;)Ljava/lang/String;	g	method_0_1081
 METHOD	auh	()V	h	method_0_1084
@@ -3680,46 +3680,46 @@ FIELD	auy	I	c	field_0_1347
 FIELD	auy	Lrp;	d	field_0_1348
 FIELD	auy	I	n	field_0_1349
 FIELD	auy	I	o	field_0_1350
-FIELD	auy	Lsq;	p	field_0_5421
-FIELD	auy	Lsq;	q	field_0_5551
-FIELD	auy	Z	r	field_0_5599
-FIELD	auy	Lum;	s	field_0_5552
-FIELD	auy	I	t	field_0_5553
-FIELD	auy	I	u	field_0_5554
-FIELD	auy	Lsq;	v	field_0_5555
-FIELD	auy	J	w	field_0_5556
-FIELD	auy	Lum;	x	field_0_5557
+FIELD	auy	Lsq;	p	field_0_5243
+FIELD	auy	Lsq;	q	field_0_5373
+FIELD	auy	Z	r	field_0_5421
+FIELD	auy	Lum;	s	field_0_5374
+FIELD	auy	I	t	field_0_5375
+FIELD	auy	I	u	field_0_5376
+FIELD	auy	Lsq;	v	field_0_5377
+FIELD	auy	J	w	field_0_5378
+FIELD	auy	Lum;	x	field_0_5379
 METHOD	auy	(FII)V	a	method_0_1127
-METHOD	auy	(I)Z	a	method_0_4907
+METHOD	auy	(I)Z	a	method_0_4447
 METHOD	auy	(Ljava/lang/String;II)V	a	method_0_1128
 METHOD	auy	(Lsq;)V	a	method_0_1129
 METHOD	auy	(Lsq;II)Z	a	method_0_1130
 METHOD	auy	(Lsq;III)V	a	method_0_1131
 METHOD	auy	(Lum;II)V	a	method_0_1132
 METHOD	auy	(II)V	b	method_0_1135
-METHOD	auy	(Lum;II)V	b	method_0_5057
+METHOD	auy	(Lum;II)V	b	method_0_4597
 METHOD	auy	(II)Lsq;	c	method_0_1133
 METHOD	auy	(IIIIII)Z	c	method_0_1134
-CLASS	auz	net/minecraft/class_0_1358
-FIELD	auz	Land;	p	field_0_5126
-FIELD	auz	Lavb;	q	field_0_5127
-FIELD	auz	Z	r	field_0_5128
+CLASS	auz	net/minecraft/class_0_1270
+FIELD	auz	Land;	p	field_0_4948
+FIELD	auz	Lavb;	q	field_0_4949
+FIELD	auz	Z	r	field_0_4950
 CLASS	av	net/minecraft/class_0_165
-CLASS	ava	net/minecraft/class_0_1359
-FIELD	ava	Lauz;	k	field_0_5129
-CLASS	avb	net/minecraft/class_0_1360
-FIELD	avb	Lauz;	k	field_0_5130
-CLASS	avc	net/minecraft/class_0_1361
-FIELD	avc	Lauz;	k	field_0_5131
-FIELD	avc	I	l	field_0_5132
-FIELD	avc	I	m	field_0_5133
-CLASS	avd	net/minecraft/class_0_1362
-FIELD	avd	Ljava/lang/String;	k	field_0_5134
-FIELD	avd	I	l	field_0_5135
-FIELD	avd	I	m	field_0_5136
-FIELD	avd	Z	n	field_0_5137
-METHOD	avd	()Z	b	method_0_4560
-METHOD	avd	(Z)V	b	method_0_4561
+CLASS	ava	net/minecraft/class_0_1271
+FIELD	ava	Lauz;	k	field_0_4951
+CLASS	avb	net/minecraft/class_0_1272
+FIELD	avb	Lauz;	k	field_0_4952
+CLASS	avc	net/minecraft/class_0_1273
+FIELD	avc	Lauz;	k	field_0_4953
+FIELD	avc	I	l	field_0_4954
+FIELD	avc	I	m	field_0_4955
+CLASS	avd	net/minecraft/class_0_1274
+FIELD	avd	Ljava/lang/String;	k	field_0_4956
+FIELD	avd	I	l	field_0_4957
+FIELD	avd	I	m	field_0_4958
+FIELD	avd	Z	n	field_0_4959
+METHOD	avd	()Z	b	method_0_4100
+METHOD	avd	(Z)V	b	method_0_4101
 CLASS	ave	net/minecraft/class_0_409
 FIELD	ave	Last;	A	field_0_1368
 FIELD	ave	Lqx;	a	field_0_1351
@@ -3751,16 +3751,16 @@ CLASS	avf	net/minecraft/class_0_410
 FIELD	avf	Z	k	field_0_1369
 CLASS	avg	net/minecraft/class_0_411
 FIELD	avg	Lane;	p	field_0_1370
-CLASS	avh	net/minecraft/class_0_1363
-FIELD	avh	Latg;	a	field_0_5138
-FIELD	avh	Lang;	b	field_0_5139
+CLASS	avh	net/minecraft/class_0_1275
+FIELD	avh	Latg;	a	field_0_4960
+FIELD	avh	Lang;	b	field_0_4961
 CLASS	avi	net/minecraft/class_0_412
 FIELD	avi	Lla;	p	field_0_1371
 FIELD	avi	Lla;	q	field_0_1372
 FIELD	avi	I	r	field_0_1373
 CLASS	avj	net/minecraft/class_0_413
-CLASS	avk	net/minecraft/class_0_1440
-FIELD	avk	Lnet/minecraft/client/Minecraft;	a	field_0_5422
+CLASS	avk	net/minecraft/class_0_1352
+FIELD	avk	Lnet/minecraft/client/Minecraft;	a	field_0_5244
 CLASS	avl	net/minecraft/class_0_414
 FIELD	avl	Lld;	p	field_0_1374
 FIELD	avl	I	q	field_0_1375
@@ -3771,7 +3771,7 @@ FIELD	avl	Latg;	u	field_0_1379
 FIELD	avl	Ljava/util/List;	v	field_0_1380
 FIELD	avl	Lsq;	w	field_0_1381
 FIELD	avl	Z	x	field_0_1382
-FIELD	avl	Lavk;	y	field_0_5423
+FIELD	avl	Lavk;	y	field_0_5245
 METHOD	avl	(Lth;)V	a	method_0_1144
 METHOD	avl	(Lth;II)Z	a	method_0_1145
 METHOD	avl	(Lth;)V	b	method_0_1146
@@ -3824,10 +3824,10 @@ FIELD	avt	I	s	field_0_1407
 METHOD	avt	()Lxl;	g	method_0_1160
 CLASS	avu	net/minecraft/class_0_423
 FIELD	avu	Z	k	field_0_1408
-CLASS	avv	net/minecraft/class_0_1462
-FIELD	avv	Lsl;	p	field_0_5460
-FIELD	avv	Latg;	q	field_0_5461
-FIELD	avv	Lqw;	r	field_0_5486
+CLASS	avv	net/minecraft/class_0_1374
+FIELD	avv	Lsl;	p	field_0_5282
+FIELD	avv	Latg;	q	field_0_5283
+FIELD	avv	Lqw;	r	field_0_5308
 CLASS	avw	net/minecraft/class_0_424
 FIELD	avw	Ljava/lang/String;	a	field_0_1409
 FIELD	avw	Ljava/lang/String;	b	field_0_1410
@@ -3870,14 +3870,14 @@ FIELD	awa	I	c	field_0_1438
 FIELD	awa	F	d	field_0_1439
 METHOD	awa	(IIF)V	b	method_0_1166
 METHOD	awa	()V	g	method_0_1167
-CLASS	awf	net/minecraft/class_0_1417
-FIELD	awf	Laxx;	a	field_0_5337
-FIELD	awf	Laxx;	b	field_0_5338
-FIELD	awf	Laxx;	c	field_0_5339
-FIELD	awf	Laxx;	d	field_0_5340
-FIELD	awf	Laxx;	e	field_0_5341
-FIELD	awf	Laxx;	f	field_0_5342
-METHOD	awf	()I	a	method_0_4822
+CLASS	awf	net/minecraft/class_0_1329
+FIELD	awf	Laxx;	a	field_0_5159
+FIELD	awf	Laxx;	b	field_0_5160
+FIELD	awf	Laxx;	c	field_0_5161
+FIELD	awf	Laxx;	d	field_0_5162
+FIELD	awf	Laxx;	e	field_0_5163
+FIELD	awf	Laxx;	f	field_0_5164
+METHOD	awf	()I	a	method_0_4362
 CLASS	awg	net/minecraft/class_0_430
 FIELD	awg	[Laxx;	a	field_0_1440
 FIELD	awg	Laxx;	b	field_0_1441
@@ -3955,7 +3955,7 @@ FIELD	awt	I	u	field_0_1494
 METHOD	awt	(FFFFFFLlq;)V	a	method_0_1173
 METHOD	awt	(Ljava/lang/String;)Laxy;	a	method_0_1174
 METHOD	awt	(Ljava/lang/String;II)V	a	method_0_1175
-METHOD	awt	(Ljava/util/Random;)Laxx;	a	method_0_5058
+METHOD	awt	(Ljava/util/Random;)Laxx;	a	method_0_4598
 METHOD	awt	(Llq;FFFFFF)V	a	method_0_1176
 METHOD	awt	(Lmd;FFF)V	a	method_0_1177
 CLASS	awu	net/minecraft/class_0_444
@@ -3988,12 +3988,12 @@ CLASS	awy	net/minecraft/class_0_448
 FIELD	awy	F	i	field_0_1515
 CLASS	awz	net/minecraft/class_0_449
 FIELD	awz	F	i	field_0_1516
-CLASS	ax	net/minecraft/class_0_1433
-METHOD	ax	()I	d	method_0_4892
-METHOD	ax	()I	e	method_0_4893
-METHOD	ax	()I	f	method_0_4894
-METHOD	ax	()I	h	method_0_4895
-METHOD	ax	()Lanq;	j	method_0_4896
+CLASS	ax	net/minecraft/class_0_1345
+METHOD	ax	()I	d	method_0_4432
+METHOD	ax	()I	e	method_0_4433
+METHOD	ax	()I	f	method_0_4434
+METHOD	ax	()I	h	method_0_4435
+METHOD	ax	()Lanq;	j	method_0_4436
 CLASS	axa	net/minecraft/class_0_450
 FIELD	axa	Laxx;	a	field_0_1517
 FIELD	axa	Laxx;	b	field_0_1518
@@ -4004,8 +4004,8 @@ FIELD	axb	[Laxx;	b	field_0_1521
 FIELD	axb	[F	c	field_0_1522
 FIELD	axb	[[I	d	field_0_1523
 FIELD	axb	[[I	e	field_0_1524
-CLASS	axc	net/minecraft/class_0_1383
-FIELD	axc	Laxx;	a	field_0_5206
+CLASS	axc	net/minecraft/class_0_1295
+FIELD	axc	Laxx;	a	field_0_5028
 CLASS	axd	net/minecraft/class_0_453
 CLASS	axe	net/minecraft/class_0_454
 FIELD	axe	Laxx;	a	field_0_1525
@@ -4052,18 +4052,18 @@ FIELD	axk	Laxx;	b	field_0_1557
 FIELD	axk	Laxx;	c	field_0_1558
 FIELD	axk	Laxx;	d	field_0_1559
 FIELD	axk	Laxx;	e	field_0_1560
-FIELD	axk	Laxx;	f	field_0_5343
-CLASS	axl	net/minecraft/class_0_1364
-METHOD	axl	()I	a	method_0_4562
-CLASS	axm	net/minecraft/class_0_1418
-FIELD	axm	Z	g	field_0_5344
-FIELD	axm	Laxx;	h	field_0_5345
-FIELD	axm	Laxx;	i	field_0_5346
-METHOD	axm	()I	a	method_0_4823
-CLASS	axn	net/minecraft/class_0_1379
-FIELD	axn	[Laxx;	a	field_0_5198
-FIELD	axn	[Laxx;	b	field_0_5199
-METHOD	axn	()I	a	method_0_4656
+FIELD	axk	Laxx;	f	field_0_5165
+CLASS	axl	net/minecraft/class_0_1276
+METHOD	axl	()I	a	method_0_4102
+CLASS	axm	net/minecraft/class_0_1330
+FIELD	axm	Z	g	field_0_5166
+FIELD	axm	Laxx;	h	field_0_5167
+FIELD	axm	Laxx;	i	field_0_5168
+METHOD	axm	()I	a	method_0_4363
+CLASS	axn	net/minecraft/class_0_1291
+FIELD	axn	[Laxx;	a	field_0_5020
+FIELD	axn	[Laxx;	b	field_0_5021
+METHOD	axn	()I	a	method_0_4196
 CLASS	axo	net/minecraft/class_0_461
 FIELD	axo	Laxx;	a	field_0_1561
 FIELD	axo	Laxx;	b	field_0_1562
@@ -4120,9 +4120,9 @@ FIELD	axx	Z	k	field_0_1604
 FIELD	axx	Ljava/util/List;	l	field_0_1605
 FIELD	axx	Ljava/util/List;	m	field_0_1606
 FIELD	axx	Ljava/lang/String;	n	field_0_1607
-FIELD	axx	F	o	field_0_5347
-FIELD	axx	F	p	field_0_5348
-FIELD	axx	F	q	field_0_5349
+FIELD	axx	F	o	field_0_5169
+FIELD	axx	F	p	field_0_5170
+FIELD	axx	F	q	field_0_5171
 FIELD	axx	I	r	field_0_1608
 FIELD	axx	I	s	field_0_1609
 FIELD	axx	Z	t	field_0_1610
@@ -4163,11 +4163,11 @@ METHOD	axz	(Leg;)V	c	method_0_1202
 METHOD	axz	()V	d	method_0_1203
 METHOD	axz	()V	e	method_0_1204
 METHOD	axz	()Lce;	f	method_0_1205
-CLASS	ay	net/minecraft/class_0_1434
-FIELD	ay	Lxv;	a	field_0_5402
-FIELD	ay	I	b	field_0_5403
-FIELD	ay	I	c	field_0_5404
-FIELD	ay	I	d	field_0_5405
+CLASS	ay	net/minecraft/class_0_1346
+FIELD	ay	Lxv;	a	field_0_5224
+FIELD	ay	I	b	field_0_5225
+FIELD	ay	I	c	field_0_5226
+FIELD	ay	I	d	field_0_5227
 CLASS	aya	net/minecraft/class_0_469
 FIELD	aya	Ljava/lang/String;	a	field_0_1626
 FIELD	aya	Laxz;	b	field_0_1627
@@ -4209,7 +4209,7 @@ FIELD	ayg	Laxz;	b	field_0_1646
 FIELD	ayg	I	c	field_0_1647
 FIELD	ayg	I	d	field_0_1648
 FIELD	ayg	I	e	field_0_1649
-FIELD	ayg	Lum;	f	field_0_5558
+FIELD	ayg	Lum;	f	field_0_5380
 FIELD	ayg	F	g	field_0_1650
 FIELD	ayg	F	h	field_0_1651
 FIELD	ayg	F	i	field_0_1652
@@ -4219,7 +4219,7 @@ FIELD	ayg	Lye;	l	field_0_1655
 FIELD	ayg	I	m	field_0_1656
 METHOD	ayg	()Z	a	method_0_1221
 METHOD	ayg	(II)V	a	method_0_1222
-METHOD	ayg	(III)Z	a	method_0_5059
+METHOD	ayg	(III)Z	a	method_0_4599
 METHOD	ayg	(IIII)Z	a	method_0_1223
 METHOD	ayg	(IIIILqx;)Lum;	a	method_0_1224
 METHOD	ayg	(Lnet/minecraft/client/Minecraft;Layg;IIII)V	a	method_0_1225
@@ -4307,19 +4307,19 @@ FIELD	ayo	Ljava/lang/String;	b	field_0_1686
 FIELD	ayo	Ljava/lang/String;	c	field_0_1687
 FIELD	ayo	Ljava/lang/String;	d	field_0_1688
 FIELD	ayo	J	e	field_0_1689
-FIELD	ayo	I	f	field_0_5497
-FIELD	ayo	Ljava/lang/String;	g	field_0_5498
+FIELD	ayo	I	f	field_0_5319
+FIELD	ayo	Ljava/lang/String;	g	field_0_5320
 FIELD	ayo	Z	h	field_0_1690
 FIELD	ayo	Z	i	field_0_1691
 FIELD	ayo	Z	j	field_0_1692
-FIELD	ayo	Z	k	field_0_5487
+FIELD	ayo	Z	k	field_0_5309
 METHOD	ayo	()Lbq;	a	method_0_1268
 METHOD	ayo	(Lbq;)Layo;	a	method_0_1269
 METHOD	ayo	(Z)V	a	method_0_1270
 METHOD	ayo	()Z	b	method_0_1271
-METHOD	ayo	(Z)V	b	method_0_4968
+METHOD	ayo	(Z)V	b	method_0_4508
 METHOD	ayo	()Z	c	method_0_1272
-METHOD	ayo	()Z	d	method_0_4969
+METHOD	ayo	()Z	d	method_0_4509
 CLASS	ayp	net/minecraft/class_0_485
 FIELD	ayp	Lnet/minecraft/client/Minecraft;	a	field_0_1693
 FIELD	ayp	Ljava/util/List;	b	field_0_1694
@@ -4358,12 +4358,12 @@ FIELD	ayy	I	aw	field_0_1708
 FIELD	ayy	Lbap;	ax	field_0_1709
 CLASS	ayz	net/minecraft/class_0_495
 FIELD	ayz	F	a	field_0_1710
-CLASS	az	net/minecraft/class_0_1435
-METHOD	az	(Lax;)V	a	method_0_4897
-METHOD	az	(Lax;Lbd;)V	a	method_0_4898
-METHOD	az	(Lbd;)I	a	method_0_4899
-METHOD	az	(Lxv;Lum;ILbd;Lbg;)V	a	method_0_4900
-METHOD	az	(Lax;Lum;)Lum;	b	method_0_4901
+CLASS	az	net/minecraft/class_0_1347
+METHOD	az	(Lax;)V	a	method_0_4437
+METHOD	az	(Lax;Lbd;)V	a	method_0_4438
+METHOD	az	(Lbd;)I	a	method_0_4439
+METHOD	az	(Lxv;Lum;ILbd;Lbg;)V	a	method_0_4440
+METHOD	az	(Lax;Lum;)Lum;	b	method_0_4441
 CLASS	aza	net/minecraft/class_0_496
 FIELD	aza	I	a	field_0_1711
 FIELD	aza	I	aw	field_0_1712
@@ -4378,7 +4378,7 @@ CLASS	azd	net/minecraft/class_0_499
 FIELD	azd	F	a	field_0_1718
 CLASS	aze	net/minecraft/class_0_500
 FIELD	aze	I	a	field_0_1719
-FIELD	aze	F	as	field_0_5463
+FIELD	aze	F	as	field_0_5285
 FIELD	aze	D	at	field_0_1720
 FIELD	aze	D	au	field_0_1721
 FIELD	aze	D	av	field_0_1722
@@ -4400,7 +4400,7 @@ METHOD	aze	()F	d	method_0_1288
 METHOD	aze	(F)Laze;	e	method_0_1287
 METHOD	aze	()F	f	method_0_1290
 METHOD	aze	(F)Laze;	f	method_0_1289
-METHOD	aze	(F)V	g	method_0_4943
+METHOD	aze	(F)V	g	method_0_4483
 METHOD	aze	()I	h	method_0_1291
 CLASS	azf	net/minecraft/class_0_502
 FIELD	azf	Lxv;	a	field_0_1733
@@ -4415,10 +4415,10 @@ METHOD	azf	(Llq;F)V	a	method_0_1296
 METHOD	azf	(Lxv;)V	a	method_0_1297
 METHOD	azf	()Ljava/lang/String;	b	method_0_1298
 METHOD	azf	(Llq;F)V	b	method_0_1299
-CLASS	azg	net/minecraft/class_0_1504
-FIELD	azg	Laze;	a	field_0_5601
-FIELD	azg	Lazf;	b	field_0_5602
-METHOD	azg	()Ljava/lang/String;	a	method_0_5117
+CLASS	azg	net/minecraft/class_0_1416
+FIELD	azg	Laze;	a	field_0_5423
+FIELD	azg	Lazf;	b	field_0_5424
+METHOD	azg	()Ljava/lang/String;	a	method_0_4657
 METHOD	azg	()Ljava/lang/Object;	call	call
 CLASS	azh	net/minecraft/class_0_503
 FIELD	azh	F	a	field_0_1737
@@ -4448,7 +4448,7 @@ FIELD	azq	F	az	field_0_1750
 CLASS	azr	net/minecraft/class_0_513
 FIELD	azr	Lamj;	a	field_0_1751
 METHOD	azr	(III)Lazr;	a	method_0_1301
-METHOD	azr	(I)Lazr;	g	method_0_5118
+METHOD	azr	(I)Lazr;	g	method_0_4658
 CLASS	azs	net/minecraft/class_0_514
 CLASS	azt	net/minecraft/class_0_515
 FIELD	azt	F	a	field_0_1752
@@ -4461,7 +4461,7 @@ FIELD	azu	Lasl;	e	field_0_1756
 CLASS	azv	net/minecraft/class_0_517
 FIELD	azv	Lazt;	b	field_0_1757
 FIELD	azv	Lnet/minecraft/client/Minecraft;	c	field_0_1758
-FIELD	azv	F	cj	field_0_5200
+FIELD	azv	F	cj	field_0_5022
 FIELD	azv	Lkl;	cm	field_0_1759
 FIELD	azv	Lkl;	cn	field_0_1760
 FIELD	azv	Lkl;	co	field_0_1761
@@ -4471,7 +4471,7 @@ FIELD	azv	F	f	field_0_1764
 FIELD	azv	F	g	field_0_1765
 FIELD	azv	F	h	field_0_1766
 FIELD	azv	F	i	field_0_1767
-FIELD	azv	F	j	field_0_5201
+FIELD	azv	F	j	field_0_5023
 METHOD	azv	(FII)V	a	method_0_1303
 METHOD	azv	()F	f	method_0_1305
 METHOD	azv	(III)Z	g	method_0_1306
@@ -4484,12 +4484,12 @@ FIELD	azw	D	d	field_0_1771
 FIELD	azw	D	e	field_0_1772
 FIELD	azw	D	f	field_0_1773
 FIELD	azw	D	g	field_0_1774
-CLASS	azx	net/minecraft/class_0_1399
-FIELD	azx	F	a	field_0_5246
-FIELD	azx	I	b	field_0_5247
-FIELD	azx	Ljava/lang/String;	c	field_0_5248
-FIELD	azx	Z	d	field_0_5261
-METHOD	azx	(Lpl;Z)V	a	method_0_4731
+CLASS	azx	net/minecraft/class_0_1311
+FIELD	azx	F	a	field_0_5068
+FIELD	azx	I	b	field_0_5069
+FIELD	azx	Ljava/lang/String;	c	field_0_5070
+FIELD	azx	Z	d	field_0_5083
+METHOD	azx	(Lpl;Z)V	a	method_0_4271
 CLASS	azy	net/minecraft/class_0_519
 FIELD	azy	Z	A	field_0_1775
 FIELD	azy	Ljava/util/List;	B	field_0_1776
@@ -4539,8 +4539,8 @@ CLASS	b	net/minecraft/class_0_630
 FIELD	b	La;	a	field_0_2302
 METHOD	b	()Ljava/lang/String;	a	method_0_1774
 METHOD	b	()Ljava/lang/Object;	call	call
-CLASS	ba	net/minecraft/class_0_1436
-FIELD	ba	Ljava/lang/Object;	b	field_0_5406
+CLASS	ba	net/minecraft/class_0_1348
+FIELD	ba	Ljava/lang/Object;	b	field_0_5228
 CLASS	baa	net/minecraft/class_0_521
 FIELD	baa	D	a	field_0_1805
 FIELD	baa	D	b	field_0_1806
@@ -4573,8 +4573,8 @@ FIELD	bac	[I	Q	field_0_1827
 FIELD	bac	F	R	field_0_1828
 FIELD	bac	F	S	field_0_1829
 FIELD	bac	F	T	field_0_1830
-FIELD	bac	F	U	field_0_5262
-FIELD	bac	F	V	field_0_5263
+FIELD	bac	F	U	field_0_5084
+FIELD	bac	F	V	field_0_5085
 FIELD	bac	Z	W	field_0_1831
 FIELD	bac	D	X	field_0_1832
 FIELD	bac	D	Y	field_0_1833
@@ -4621,9 +4621,9 @@ METHOD	bac	(FJ)V	a	method_0_1326
 METHOD	bac	(FZ)F	a	method_0_1327
 METHOD	bac	(I)I	a	method_0_1328
 METHOD	bac	(IF)V	a	method_0_1329
-METHOD	bac	(Lbac;)Lnet/minecraft/client/Minecraft;	a	method_0_5119
-METHOD	bac	(Lbak;F)V	a	method_0_4563
-METHOD	bac	(Lqx;F)F	a	method_0_4564
+METHOD	bac	(Lbac;)Lnet/minecraft/client/Minecraft;	a	method_0_4659
+METHOD	bac	(Lbak;F)V	a	method_0_4103
+METHOD	bac	(Lqx;F)F	a	method_0_4104
 METHOD	bac	(D)V	b	method_0_1330
 METHOD	bac	(F)V	b	method_0_1331
 METHOD	bac	(FI)V	b	method_0_1332
@@ -4637,20 +4637,20 @@ METHOD	bac	()V	g	method_0_1341
 METHOD	bac	(F)V	g	method_0_1340
 METHOD	bac	(F)V	h	method_0_1339
 METHOD	bac	(F)V	i	method_0_1342
-CLASS	bad	net/minecraft/class_0_1505
-FIELD	bad	Lbac;	a	field_0_5603
-METHOD	bad	()Ljava/lang/String;	a	method_0_5120
+CLASS	bad	net/minecraft/class_0_1417
+FIELD	bad	Lbac;	a	field_0_5425
+METHOD	bad	()Ljava/lang/String;	a	method_0_4660
 METHOD	bad	()Ljava/lang/Object;	call	call
-CLASS	bae	net/minecraft/class_0_1506
-FIELD	bae	I	a	field_0_5604
-FIELD	bae	I	b	field_0_5605
-FIELD	bae	Lbac;	c	field_0_5606
-METHOD	bae	()Ljava/lang/String;	a	method_0_5121
+CLASS	bae	net/minecraft/class_0_1418
+FIELD	bae	I	a	field_0_5426
+FIELD	bae	I	b	field_0_5427
+FIELD	bae	Lbac;	c	field_0_5428
+METHOD	bae	()Ljava/lang/String;	a	method_0_4661
 METHOD	bae	()Ljava/lang/Object;	call	call
-CLASS	baf	net/minecraft/class_0_1507
-FIELD	baf	Lauf;	a	field_0_5607
-FIELD	baf	Lbac;	b	field_0_5608
-METHOD	baf	()Ljava/lang/String;	a	method_0_5122
+CLASS	baf	net/minecraft/class_0_1419
+FIELD	baf	Lauf;	a	field_0_5429
+FIELD	baf	Lbac;	b	field_0_5430
+METHOD	baf	()Ljava/lang/String;	a	method_0_4662
 METHOD	baf	()Ljava/lang/Object;	call	call
 CLASS	bag	net/minecraft/class_0_524
 FIELD	bag	Ljava/awt/image/BufferedImage;	a	field_0_1868
@@ -4753,12 +4753,12 @@ METHOD	bak	()Ljava/lang/String;	d	method_0_1384
 METHOD	bak	()V	e	method_0_1385
 METHOD	bak	()V	f	method_0_1386
 METHOD	bak	()V	g	method_0_1387
-CLASS	bal	net/minecraft/class_0_1486
-FIELD	bal	D	a	field_0_5559
-FIELD	bal	D	b	field_0_5560
-FIELD	bal	D	c	field_0_5561
-FIELD	bal	Lbak;	d	field_0_5562
-METHOD	bal	()Ljava/lang/String;	a	method_0_5060
+CLASS	bal	net/minecraft/class_0_1398
+FIELD	bal	D	a	field_0_5381
+FIELD	bal	D	b	field_0_5382
+FIELD	bal	D	c	field_0_5383
+FIELD	bal	Lbak;	d	field_0_5384
+METHOD	bal	()Ljava/lang/String;	a	method_0_4600
 METHOD	bal	()Ljava/lang/Object;	call	call
 CLASS	bam	net/minecraft/class_0_530
 FIELD	bam	[I	a	field_0_1927
@@ -4848,7 +4848,7 @@ FIELD	bap	Ljava/awt/image/BufferedImage;	l	field_0_1981
 METHOD	bap	()V	a	method_0_1414
 METHOD	bap	(I)V	a	method_0_1415
 METHOD	bap	(Lbcv;)V	a	method_0_1416
-METHOD	bap	(Lbcv;I)I	a	method_0_4657
+METHOD	bap	(Lbcv;I)I	a	method_0_4197
 METHOD	bap	(Ljava/awt/image/BufferedImage;)I	a	method_0_1417
 METHOD	bap	(Ljava/awt/image/BufferedImage;I)V	a	method_0_1418
 METHOD	bap	(Ljava/awt/image/BufferedImage;[I)[I	a	method_0_1419
@@ -4862,7 +4862,7 @@ METHOD	bap	(I)V	b	method_0_1426
 METHOD	bap	(Ljava/awt/image/BufferedImage;)[I	b	method_0_1427
 METHOD	bap	(Ljava/lang/String;)I	b	method_0_1428
 METHOD	bap	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	c	method_0_1429
-METHOD	bap	(Ljava/lang/String;)Z	c	method_0_4783
+METHOD	bap	(Ljava/lang/String;)Z	c	method_0_4323
 METHOD	bap	(Ljava/lang/String;)V	d	method_0_1430
 CLASS	baq	net/minecraft/class_0_534
 FIELD	baq	F	A	field_0_2064
@@ -4941,13 +4941,13 @@ FIELD	baq	Z	c	field_0_2047
 FIELD	baq	I	d	field_0_2048
 FIELD	baq	Z	e	field_0_2049
 FIELD	baq	Z	f	field_0_2050
-FIELD	baq	D	g	field_0_5512
-FIELD	baq	D	h	field_0_5513
-FIELD	baq	D	i	field_0_5514
-FIELD	baq	D	j	field_0_5515
-FIELD	baq	D	k	field_0_5516
-FIELD	baq	D	l	field_0_5517
-FIELD	baq	Z	m	field_0_5518
+FIELD	baq	D	g	field_0_5334
+FIELD	baq	D	h	field_0_5335
+FIELD	baq	D	i	field_0_5336
+FIELD	baq	D	j	field_0_5337
+FIELD	baq	D	k	field_0_5338
+FIELD	baq	D	l	field_0_5339
+FIELD	baq	Z	m	field_0_5340
 FIELD	baq	I	n	field_0_2051
 FIELD	baq	I	o	field_0_2052
 FIELD	baq	I	p	field_0_2053
@@ -4962,27 +4962,27 @@ FIELD	baq	F	x	field_0_2061
 FIELD	baq	F	y	field_0_2062
 FIELD	baq	F	z	field_0_2063
 METHOD	baq	()V	a	method_0_1431
-METHOD	baq	(DDDDDD)V	a	method_0_5005
+METHOD	baq	(DDDDDD)V	a	method_0_4545
 METHOD	baq	(DDDDDDFD)V	a	method_0_1432
-METHOD	baq	(I)V	a	method_0_4658
+METHOD	baq	(I)V	a	method_0_4198
 METHOD	baq	(IIII)I	a	method_0_1433
 METHOD	baq	(IIILagb;)F	a	method_0_1434
-METHOD	baq	(Lais;III)Z	a	method_0_5061
-METHOD	baq	(Lais;IIII)Z	a	method_0_4944
-METHOD	baq	(Lais;IIIIFFFFZZI)F	a	method_0_4945
-METHOD	baq	(Lais;IIIIZ)Z	a	method_0_4946
-METHOD	baq	(Lait;III)Z	a	method_0_4744
+METHOD	baq	(Lais;III)Z	a	method_0_4601
+METHOD	baq	(Lais;IIII)Z	a	method_0_4484
+METHOD	baq	(Lais;IIIIFFFFZZI)F	a	method_0_4485
+METHOD	baq	(Lais;IIIIZ)Z	a	method_0_4486
+METHOD	baq	(Lait;III)Z	a	method_0_4284
 METHOD	baq	(Laiw;III)Z	a	method_0_1435
 METHOD	baq	(Lajc;III)Z	a	method_0_1436
 METHOD	baq	(Lajg;III)Z	a	method_0_1437
 METHOD	baq	(Lajr;III)Z	a	method_0_1438
 METHOD	baq	(Lajw;III)Z	a	method_0_1439
 METHOD	baq	(Lajx;III)Z	a	method_0_1440
-METHOD	baq	(Lajz;III)Z	a	method_0_4659
+METHOD	baq	(Lajz;III)Z	a	method_0_4199
 METHOD	baq	(Lalk;III)Z	a	method_0_1441
-METHOD	baq	(Lama;III)Z	a	method_0_4660
+METHOD	baq	(Lama;III)Z	a	method_0_4200
 METHOD	baq	(Lami;III)Z	a	method_0_1442
-METHOD	baq	(Lamj;)V	a	method_0_5006
+METHOD	baq	(Lamj;)V	a	method_0_4546
 METHOD	baq	(Lamj;DDDDD)V	a	method_0_1443
 METHOD	baq	(Lamj;DDDI)V	a	method_0_1444
 METHOD	baq	(Lamj;IDDD)V	a	method_0_1457
@@ -4995,9 +4995,9 @@ METHOD	baq	(Lamj;IIIFFF)Z	a	method_0_1450
 METHOD	baq	(Lamj;IIII)V	a	method_0_1451
 METHOD	baq	(Lamj;IIIZ)V	a	method_0_1452
 METHOD	baq	(Lamj;Lxv;IIII)V	a	method_0_1453
-METHOD	baq	(Lamx;III)Z	a	method_0_4661
-METHOD	baq	()V	b	method_0_5007
-METHOD	baq	(DDDDDD)V	b	method_0_5008
+METHOD	baq	(Lamx;III)Z	a	method_0_4201
+METHOD	baq	()V	b	method_0_4547
+METHOD	baq	(DDDDDD)V	b	method_0_4548
 METHOD	baq	(DDDDDDFD)V	b	method_0_1454
 METHOD	baq	(I)Z	b	method_0_1455
 METHOD	baq	(Lamj;DDDI)V	b	method_0_1456
@@ -5057,15 +5057,15 @@ FIELD	bav	[F	d	field_0_2082
 METHOD	bav	(DDDDDD)Z	b	method_0_1496
 CLASS	bay	net/minecraft/class_0_539
 METHOD	bay	(Lqz;DDDFF)V	a	method_0_1497
-CLASS	baz	net/minecraft/class_0_1419
-FIELD	baz	I	a	field_0_5350
-METHOD	baz	(Low;DDD)V	a	method_0_4824
-METHOD	baz	(Low;DDDFF)V	a	method_0_4825
-METHOD	baz	(Low;F)V	a	method_0_4826
-METHOD	baz	(Low;FFF)V	a	method_0_4827
-CLASS	bb	net/minecraft/class_0_1437
-FIELD	bb	Lbb;	a	field_0_5407
-METHOD	bb	(Lax;Lum;)Lum;	a	method_0_4902
+CLASS	baz	net/minecraft/class_0_1331
+FIELD	baz	I	a	field_0_5172
+METHOD	baz	(Low;DDD)V	a	method_0_4364
+METHOD	baz	(Low;DDDFF)V	a	method_0_4365
+METHOD	baz	(Low;F)V	a	method_0_4366
+METHOD	baz	(Low;FFF)V	a	method_0_4367
+CLASS	bb	net/minecraft/class_0_1349
+FIELD	bb	Lbb;	a	field_0_5229
+METHOD	bb	(Lax;Lum;)Lum;	a	method_0_4442
 CLASS	bba	net/minecraft/class_0_540
 FIELD	bba	I	a	field_0_2083
 METHOD	bba	(Lqa;DDDFF)V	a	method_0_1498
@@ -5117,7 +5117,7 @@ FIELD	bbj	Lasl;	k	field_0_2103
 FIELD	bbj	D	l	field_0_2104
 FIELD	bbj	D	m	field_0_2105
 FIELD	bbj	D	n	field_0_2106
-FIELD	bbj	Z	o	field_0_5563
+FIELD	bbj	Z	o	field_0_5385
 FIELD	bbj	Ljava/util/Map;	p	field_0_2107
 FIELD	bbj	Latj;	q	field_0_2108
 METHOD	bbj	()Latj;	a	method_0_1516
@@ -5128,7 +5128,7 @@ METHOD	bbj	(Llq;DDDFF)V	a	method_0_1520
 METHOD	bbj	(Llq;F)V	a	method_0_1521
 METHOD	bbj	(Lxv;)V	a	method_0_1522
 METHOD	bbj	(Lxv;Lbap;Latj;Lmd;Lasl;F)V	a	method_0_1523
-METHOD	bbj	(Llq;DDDFF)V	b	method_0_5062
+METHOD	bbj	(Llq;DDDFF)V	b	method_0_4602
 CLASS	bbk	net/minecraft/class_0_550
 FIELD	bbk	Lawt;	a	field_0_2109
 FIELD	bbk	Lbbj;	b	field_0_2110
@@ -5165,21 +5165,21 @@ METHOD	bbq	(Lqh;F)V	a	method_0_1541
 CLASS	bbr	net/minecraft/class_0_558
 FIELD	bbr	Lawp;	a	field_0_2120
 FIELD	bbr	F	f	field_0_2121
-FIELD	bbr	Lawp;	g	field_0_5140
-FIELD	bbr	Lawp;	h	field_0_5141
-FIELD	bbr	[Ljava/lang/String;	k	field_0_5142
-METHOD	bbr	(Lmd;Lum;)V	a	method_0_4828
-METHOD	bbr	()V	b	method_0_4565
-METHOD	bbr	()V	c	method_0_4745
-CLASS	bbs	net/minecraft/class_0_1380
-FIELD	bbs	Lbaq;	a	field_0_5202
-METHOD	bbs	(Lmc;)V	a	method_0_4662
-METHOD	bbs	(Lmc;DDDFF)V	a	method_0_4663
-METHOD	bbs	(Lmc;)V	b	method_0_4664
+FIELD	bbr	Lawp;	g	field_0_4962
+FIELD	bbr	Lawp;	h	field_0_4963
+FIELD	bbr	[Ljava/lang/String;	k	field_0_4964
+METHOD	bbr	(Lmd;Lum;)V	a	method_0_4368
+METHOD	bbr	()V	b	method_0_4105
+METHOD	bbr	()V	c	method_0_4285
+CLASS	bbs	net/minecraft/class_0_1292
+FIELD	bbs	Lbaq;	a	field_0_5024
+METHOD	bbs	(Lmc;)V	a	method_0_4202
+METHOD	bbs	(Lmc;DDDFF)V	a	method_0_4203
+METHOD	bbs	(Lmc;)V	b	method_0_4204
 CLASS	bbt	net/minecraft/class_0_559
 FIELD	bbt	Z	a	field_0_2122
 FIELD	bbt	F	f	field_0_2123
-FIELD	bbt	Z	g	field_0_5203
+FIELD	bbt	Z	g	field_0_5025
 FIELD	bbt	Lbaq;	h	field_0_2124
 FIELD	bbt	Ljava/util/Random;	i	field_0_2125
 METHOD	bbt	(II)V	a	method_0_1542
@@ -5220,13 +5220,13 @@ METHOD	bby	(Lmd;DDD)V	b	method_0_1566
 METHOD	bby	(Lmd;F)F	b	method_0_1560
 METHOD	bby	(Lmd;IF)I	b	method_0_1568
 METHOD	bby	(Lmd;F)V	c	method_0_1569
-METHOD	bby	(Lmd;IF)V	c	method_0_4784
+METHOD	bby	(Lmd;IF)V	c	method_0_4324
 METHOD	bby	(Lmd;F)F	d	method_0_1570
-METHOD	bby	(Lmd;F)V	e	method_0_5063
+METHOD	bby	(Lmd;F)V	e	method_0_4603
 CLASS	bbz	net/minecraft/class_0_565
 METHOD	bbz	(Lpb;DDDFF)V	a	method_0_1571
 METHOD	bbz	(Lpb;F)V	a	method_0_1572
-CLASS	bc	net/minecraft/class_0_1438
+CLASS	bc	net/minecraft/class_0_1350
 CLASS	bca	net/minecraft/class_0_566
 METHOD	bca	(Lpc;DDDFF)V	a	method_0_1573
 METHOD	bca	(Lpc;F)V	a	method_0_1574
@@ -5250,15 +5250,15 @@ METHOD	bcd	(Lqx;FFF)V	a	method_0_1583
 METHOD	bcd	(Lqx;IF)I	a	method_0_1584
 METHOD	bcd	(Lqx;DDD)V	b	method_0_1586
 METHOD	bcd	(Lqx;F)V	b	method_0_1587
-METHOD	bcd	(Lqx;IF)V	b	method_0_4785
+METHOD	bcd	(Lqx;IF)V	b	method_0_4325
 CLASS	bce	net/minecraft/class_0_570
 METHOD	bce	(Lpe;IF)I	a	method_0_1589
 CLASS	bcf	net/minecraft/class_0_571
 METHOD	bcf	(Lqm;)F	a	method_0_1590
 METHOD	bcf	(Lqm;DDDFF)V	a	method_0_1591
 METHOD	bcf	(Lqm;IF)I	a	method_0_1592
-CLASS	bcg	net/minecraft/class_0_1402
-METHOD	bcg	(Lqn;F)V	a	method_0_4746
+CLASS	bcg	net/minecraft/class_0_1314
+METHOD	bcg	(Lqn;F)V	a	method_0_4286
 CLASS	bch	net/minecraft/class_0_572
 FIELD	bch	Lawt;	a	field_0_2136
 METHOD	bch	(Lqo;F)V	a	method_0_1593
@@ -5289,39 +5289,39 @@ METHOD	bcn	(Lqu;DDDFF)V	a	method_0_1607
 METHOD	bcn	(Lqu;F)V	a	method_0_1608
 METHOD	bcn	(Lqu;IF)I	a	method_0_1609
 METHOD	bcn	(Lqu;F)V	b	method_0_1610
-CLASS	bco	net/minecraft/class_0_1420
-FIELD	bco	Laxm;	a	field_0_5351
-FIELD	bco	I	f	field_0_5352
-METHOD	bco	(Lqq;DDDFF)V	a	method_0_4829
-METHOD	bco	(Lqq;F)V	a	method_0_4830
-METHOD	bco	()V	b	method_0_4831
-METHOD	bco	(Lqq;F)V	b	method_0_4832
-CLASS	bcp	net/minecraft/class_0_1381
-FIELD	bcp	I	a	field_0_5204
-METHOD	bcp	(Lpr;DDDFF)V	a	method_0_4666
-METHOD	bcp	(Lpr;F)V	a	method_0_4667
-METHOD	bcp	(Lpr;IF)I	a	method_0_4732
-METHOD	bcp	(Lpr;IF)I	b	method_0_4733
-CLASS	bcq	net/minecraft/class_0_1382
-FIELD	bcq	Laxc;	a	field_0_5205
-METHOD	bcq	(FFF)F	a	method_0_4668
-METHOD	bcq	(Lrm;DDDFF)V	a	method_0_4669
+CLASS	bco	net/minecraft/class_0_1332
+FIELD	bco	Laxm;	a	field_0_5173
+FIELD	bco	I	f	field_0_5174
+METHOD	bco	(Lqq;DDDFF)V	a	method_0_4369
+METHOD	bco	(Lqq;F)V	a	method_0_4370
+METHOD	bco	()V	b	method_0_4371
+METHOD	bco	(Lqq;F)V	b	method_0_4372
+CLASS	bcp	net/minecraft/class_0_1293
+FIELD	bcp	I	a	field_0_5026
+METHOD	bcp	(Lpr;DDDFF)V	a	method_0_4206
+METHOD	bcp	(Lpr;F)V	a	method_0_4207
+METHOD	bcp	(Lpr;IF)I	a	method_0_4272
+METHOD	bcp	(Lpr;IF)I	b	method_0_4273
+CLASS	bcq	net/minecraft/class_0_1294
+FIELD	bcq	Laxc;	a	field_0_5027
+METHOD	bcq	(FFF)F	a	method_0_4208
+METHOD	bcq	(Lrm;DDDFF)V	a	method_0_4209
 CLASS	bcr	net/minecraft/class_0_580
 METHOD	bcr	(Lpk;F)F	a	method_0_1612
-METHOD	bcr	(Lpk;IF)I	a	method_0_4670
-CLASS	bcs	net/minecraft/class_0_1365
-FIELD	bcs	Lawp;	k	field_0_5143
-FIELD	bcs	Lawp;	l	field_0_5144
-FIELD	bcs	Lawp;	m	field_0_5145
-FIELD	bcs	Lawp;	n	field_0_5146
-FIELD	bcs	Lawp;	o	field_0_5147
-FIELD	bcs	Laxl;	p	field_0_5148
-FIELD	bcs	I	q	field_0_5149
-METHOD	bcs	(Lqr;)V	a	method_0_4566
-METHOD	bcs	(Lqr;DDDFF)V	a	method_0_4567
-METHOD	bcs	(Lqr;F)V	a	method_0_4568
-METHOD	bcs	(Lqr;FFF)V	a	method_0_4569
-METHOD	bcs	(Lqr;IF)I	a	method_0_4570
+METHOD	bcr	(Lpk;IF)I	a	method_0_4210
+CLASS	bcs	net/minecraft/class_0_1277
+FIELD	bcs	Lawp;	k	field_0_4965
+FIELD	bcs	Lawp;	l	field_0_4966
+FIELD	bcs	Lawp;	m	field_0_4967
+FIELD	bcs	Lawp;	n	field_0_4968
+FIELD	bcs	Lawp;	o	field_0_4969
+FIELD	bcs	Laxl;	p	field_0_4970
+FIELD	bcs	I	q	field_0_4971
+METHOD	bcs	(Lqr;)V	a	method_0_4106
+METHOD	bcs	(Lqr;DDDFF)V	a	method_0_4107
+METHOD	bcs	(Lqr;F)V	a	method_0_4108
+METHOD	bcs	(Lqr;FFF)V	a	method_0_4109
+METHOD	bcs	(Lqr;IF)I	a	method_0_4110
 CLASS	bct	net/minecraft/class_0_581
 FIELD	bct	Lnet/minecraft/client/Minecraft;	a	field_0_2142
 FIELD	bct	[I	b	field_0_2143
@@ -5331,10 +5331,10 @@ FIELD	bct	D	k	field_0_2146
 CLASS	bcu	net/minecraft/class_0_582
 FIELD	bcu	D	a	field_0_2149
 FIELD	bcu	D	b	field_0_2150
-FIELD	bcu	Lbcu;	c	field_0_5207
+FIELD	bcu	Lbcu;	c	field_0_5029
 FIELD	bcu	Lnet/minecraft/client/Minecraft;	j	field_0_2147
 FIELD	bcu	[I	k	field_0_2148
-METHOD	bcu	(DDDZZ)V	a	method_0_4671
+METHOD	bcu	(DDDZZ)V	a	method_0_4211
 CLASS	bcv	net/minecraft/class_0_583
 FIELD	bcv	[B	d	field_0_2151
 FIELD	bcv	I	e	field_0_2152
@@ -5361,23 +5361,23 @@ FIELD	bcy	[F	j	field_0_2167
 CLASS	bcz	net/minecraft/class_0_587
 FIELD	bcz	I	a	field_0_2168
 FIELD	bcz	[[B	b	field_0_2169
-CLASS	bd	net/minecraft/class_0_1439
-FIELD	bd	Lbd;	a	field_0_5408
-FIELD	bd	Lbd;	b	field_0_5409
-FIELD	bd	Lbd;	c	field_0_5410
-FIELD	bd	Lbd;	d	field_0_5411
-FIELD	bd	Lbd;	e	field_0_5412
-FIELD	bd	Lbd;	f	field_0_5413
-FIELD	bd	I	g	field_0_5414
-FIELD	bd	I	h	field_0_5415
-FIELD	bd	I	i	field_0_5416
-FIELD	bd	I	j	field_0_5417
-FIELD	bd	I	k	field_0_5418
-FIELD	bd	[Lbd;	l	field_0_5419
-FIELD	bd	[Lbd;	m	field_0_5420
-METHOD	bd	(I)Lbd;	a	method_0_4904
-METHOD	bd	()I	c	method_0_4905
-METHOD	bd	()I	e	method_0_4906
+CLASS	bd	net/minecraft/class_0_1351
+FIELD	bd	Lbd;	a	field_0_5230
+FIELD	bd	Lbd;	b	field_0_5231
+FIELD	bd	Lbd;	c	field_0_5232
+FIELD	bd	Lbd;	d	field_0_5233
+FIELD	bd	Lbd;	e	field_0_5234
+FIELD	bd	Lbd;	f	field_0_5235
+FIELD	bd	I	g	field_0_5236
+FIELD	bd	I	h	field_0_5237
+FIELD	bd	I	i	field_0_5238
+FIELD	bd	I	j	field_0_5239
+FIELD	bd	I	k	field_0_5240
+FIELD	bd	[Lbd;	l	field_0_5241
+FIELD	bd	[Lbd;	m	field_0_5242
+METHOD	bd	(I)Lbd;	a	method_0_4444
+METHOD	bd	()I	c	method_0_4445
+METHOD	bd	()I	e	method_0_4446
 METHOD	bd	(Ljava/lang/String;)Lbd;	valueOf	valueOf
 METHOD	bd	()[Lbd;	values	values
 CLASS	bda	net/minecraft/class_0_588
@@ -5392,8 +5392,8 @@ FIELD	bdb	[F	b	field_0_2176
 FIELD	bdb	[F	c	field_0_2177
 FIELD	bdb	[F	j	field_0_2178
 FIELD	bdb	I	k	field_0_2179
-CLASS	bdc	net/minecraft/class_0_1366
-METHOD	bdc	(Land;DDDF)V	a	method_0_4571
+CLASS	bdc	net/minecraft/class_0_1278
+METHOD	bdc	(Land;DDDF)V	a	method_0_4111
 CLASS	bdd	net/minecraft/class_0_590
 FIELD	bdd	Lawj;	a	field_0_2180
 FIELD	bdd	Lawj;	c	field_0_2181
@@ -5412,12 +5412,12 @@ METHOD	bdh	(Lanv;DDDF)V	a	method_0_1619
 CLASS	bdi	net/minecraft/class_0_595
 FIELD	bdi	Laxa;	a	field_0_2185
 METHOD	bdi	(Lann;DDDF)V	a	method_0_1620
-CLASS	bdj	net/minecraft/class_0_1403
-FIELD	bdj	Lbdj;	a	field_0_5265
-FIELD	bdj	Laxc;	c	field_0_5266
-FIELD	bdj	Laxc;	d	field_0_5267
-METHOD	bdj	(FFFIFILjava/lang/String;)V	a	method_0_4747
-METHOD	bdj	(Lano;DDDF)V	a	method_0_4748
+CLASS	bdj	net/minecraft/class_0_1315
+FIELD	bdj	Lbdj;	a	field_0_5087
+FIELD	bdj	Laxc;	c	field_0_5088
+FIELD	bdj	Laxc;	d	field_0_5089
+METHOD	bdj	(FFFIFILjava/lang/String;)V	a	method_0_4287
+METHOD	bdj	(Lano;DDDF)V	a	method_0_4288
 CLASS	bdk	net/minecraft/class_0_596
 FIELD	bdk	Ljava/nio/FloatBuffer;	a	field_0_2186
 METHOD	bdk	(FFFF)Ljava/nio/FloatBuffer;	a	method_0_1621
@@ -5450,7 +5450,7 @@ FIELD	bdm	Lbdl;	b	field_0_2201
 METHOD	bdm	(Lanq;DDDF)V	a	method_0_1631
 METHOD	bdm	(Lbdl;)V	a	method_0_1632
 METHOD	bdm	(Ljava/lang/String;)V	a	method_0_1633
-METHOD	bdm	(Ljava/lang/String;Ljava/lang/String;)V	a	method_0_4786
+METHOD	bdm	(Ljava/lang/String;Ljava/lang/String;)V	a	method_0_4326
 METHOD	bdm	(Lxv;)V	a	method_0_1634
 METHOD	bdm	()Latj;	b	method_0_1635
 CLASS	bdn	net/minecraft/class_0_599
@@ -5528,7 +5528,7 @@ CLASS	bdy	net/minecraft/class_0_610
 CLASS	bdz	net/minecraft/class_0_611
 FIELD	bdz	Ljava/util/zip/ZipFile;	e	field_0_2237
 METHOD	bdz	()V	g	method_0_1668
-CLASS	be	net/minecraft/class_0_1441
+CLASS	be	net/minecraft/class_0_1353
 CLASS	bea	net/minecraft/class_0_612
 CLASS	beb	net/minecraft/class_0_613
 METHOD	beb	(Lbap;)V	a	method_0_1669
@@ -5596,18 +5596,18 @@ FIELD	beh	I	c	field_0_2254
 FIELD	beh	Ljava/io/InputStream;	d	field_0_2255
 METHOD	beh	()I	read	read
 METHOD	beh	([BII)I	read	read
-CLASS	bei	net/minecraft/class_0_1427
-FIELD	bei	Lbek;	a	field_0_5368
-FIELD	bei	Lpy;	b	field_0_5369
-FIELD	bei	Lazv;	c	field_0_5370
-FIELD	bei	Z	d	field_0_5371
-FIELD	bei	Z	e	field_0_5372
-FIELD	bei	Z	f	field_0_5373
-FIELD	bei	Z	g	field_0_5374
-FIELD	bei	F	h	field_0_5375
-FIELD	bei	F	i	field_0_5376
-FIELD	bei	F	j	field_0_5377
-FIELD	bei	D	k	field_0_5378
+CLASS	bei	net/minecraft/class_0_1339
+FIELD	bei	Lbek;	a	field_0_5190
+FIELD	bei	Lpy;	b	field_0_5191
+FIELD	bei	Lazv;	c	field_0_5192
+FIELD	bei	Z	d	field_0_5193
+FIELD	bei	Z	e	field_0_5194
+FIELD	bei	Z	f	field_0_5195
+FIELD	bei	Z	g	field_0_5196
+FIELD	bei	F	h	field_0_5197
+FIELD	bei	F	i	field_0_5198
+FIELD	bei	F	j	field_0_5199
+FIELD	bei	D	k	field_0_5200
 CLASS	bej	net/minecraft/class_0_620
 FIELD	bej	Ljava/lang/String;	a	field_0_2256
 FIELD	bej	Ljava/net/URL;	b	field_0_2257
@@ -5618,7 +5618,7 @@ FIELD	bek	Lbel;	c	field_0_2260
 FIELD	bek	Lbel;	d	field_0_2261
 FIELD	bek	I	e	field_0_2262
 FIELD	bek	Lasl;	f	field_0_2263
-FIELD	bek	Ljava/util/Set;	g	field_0_5379
+FIELD	bek	Ljava/util/Set;	g	field_0_5201
 FIELD	bek	Z	h	field_0_2264
 FIELD	bek	Ljava/util/Random;	i	field_0_2265
 FIELD	bek	I	j	field_0_2266
@@ -5628,21 +5628,21 @@ METHOD	bek	(Ljava/lang/String;FF)V	a	method_0_1710
 METHOD	bek	(Ljava/lang/String;FFF)V	a	method_0_1711
 METHOD	bek	(Ljava/lang/String;FFFFF)V	a	method_0_1715
 METHOD	bek	(Ljava/lang/String;Ljava/io/File;)V	a	method_0_1712
-METHOD	bek	(Ljava/lang/String;Llq;FFZ)V	a	method_0_4855
-METHOD	bek	(Llq;)V	a	method_0_4856
-METHOD	bek	(Llq;F)V	a	method_0_4857
-METHOD	bek	(Llq;Llq;)V	a	method_0_4858
+METHOD	bek	(Ljava/lang/String;Llq;FFZ)V	a	method_0_4395
+METHOD	bek	(Llq;)V	a	method_0_4396
+METHOD	bek	(Llq;F)V	a	method_0_4397
+METHOD	bek	(Llq;Llq;)V	a	method_0_4398
 METHOD	bek	(Lmd;F)V	a	method_0_1713
 METHOD	bek	()V	b	method_0_1714
 METHOD	bek	(Ljava/lang/String;Ljava/io/File;)V	b	method_0_1716
-METHOD	bek	(Llq;)Z	b	method_0_4859
-METHOD	bek	(Llq;F)V	b	method_0_4860
+METHOD	bek	(Llq;)Z	b	method_0_4399
+METHOD	bek	(Llq;F)V	b	method_0_4400
 METHOD	bek	()V	c	method_0_1717
 METHOD	bek	(Ljava/lang/String;Ljava/io/File;)V	c	method_0_1718
-METHOD	bek	(Llq;)V	c	method_0_4861
-METHOD	bek	()V	d	method_0_4862
-METHOD	bek	()V	e	method_0_4863
-METHOD	bek	()V	f	method_0_4864
+METHOD	bek	(Llq;)V	c	method_0_4401
+METHOD	bek	()V	d	method_0_4402
+METHOD	bek	()V	e	method_0_4403
+METHOD	bek	()V	f	method_0_4404
 METHOD	bek	()V	g	method_0_1719
 CLASS	bel	net/minecraft/class_0_622
 FIELD	bel	I	a	field_0_2267
@@ -5733,21 +5733,21 @@ METHOD	bes	()V	a	method_0_1761
 METHOD	bes	(I)V	a	method_0_1762
 METHOD	bes	(IFF)V	a	method_0_1763
 METHOD	bes	(I)V	b	method_0_1764
-CLASS	bf	net/minecraft/class_0_1442
-METHOD	bf	()Lxv;	k	method_0_4908
-CLASS	bg	net/minecraft/class_0_1443
-METHOD	bg	()D	a	method_0_4909
-METHOD	bg	()D	b	method_0_4910
-METHOD	bg	()D	c	method_0_4911
-CLASS	bh	net/minecraft/class_0_1444
-FIELD	bh	D	a	field_0_5424
-FIELD	bh	D	b	field_0_5425
-FIELD	bh	D	c	field_0_5426
-CLASS	bi	net/minecraft/class_0_1445
-METHOD	bi	(Ljava/lang/Object;)Ljava/lang/Object;	a	method_0_4912
-METHOD	bi	(Ljava/lang/Object;Ljava/lang/Object;)V	a	method_0_4913
-CLASS	bj	net/minecraft/class_0_1446
-FIELD	bj	Ljava/util/Map;	a	field_0_5427
+CLASS	bf	net/minecraft/class_0_1354
+METHOD	bf	()Lxv;	k	method_0_4448
+CLASS	bg	net/minecraft/class_0_1355
+METHOD	bg	()D	a	method_0_4449
+METHOD	bg	()D	b	method_0_4450
+METHOD	bg	()D	c	method_0_4451
+CLASS	bh	net/minecraft/class_0_1356
+FIELD	bh	D	a	field_0_5246
+FIELD	bh	D	b	field_0_5247
+FIELD	bh	D	c	field_0_5248
+CLASS	bi	net/minecraft/class_0_1357
+METHOD	bi	(Ljava/lang/Object;)Ljava/lang/Object;	a	method_0_4452
+METHOD	bi	(Ljava/lang/Object;Ljava/lang/Object;)V	a	method_0_4453
+CLASS	bj	net/minecraft/class_0_1358
+FIELD	bj	Ljava/util/Map;	a	field_0_5249
 CLASS	bm	net/minecraft/class_0_217
 FIELD	bm	Lbn;	a	field_0_529
 METHOD	bm	(Ljava/lang/String;)Ljava/lang/String;	a	method_0_514
@@ -5777,13 +5777,13 @@ FIELD	bp	B	a	field_0_858
 METHOD	bp	()Ljava/lang/String;	toString	toString
 CLASS	bq	net/minecraft/class_0_322
 FIELD	bq	Ljava/util/Map;	a	field_0_899
-METHOD	bq	(Lbq;)Ljava/util/Map;	a	method_0_4989
+METHOD	bq	(Lbq;)Ljava/util/Map;	a	method_0_4529
 METHOD	bq	(Ljava/lang/String;)Lcd;	a	method_0_807
 METHOD	bq	(Ljava/lang/String;B)V	a	method_0_808
 METHOD	bq	(Ljava/lang/String;D)V	a	method_0_809
 METHOD	bq	(Ljava/lang/String;F)V	a	method_0_810
 METHOD	bq	(Ljava/lang/String;I)V	a	method_0_811
-METHOD	bq	(Ljava/lang/String;ILjava/lang/ClassCastException;)La;	a	method_0_4990
+METHOD	bq	(Ljava/lang/String;ILjava/lang/ClassCastException;)La;	a	method_0_4530
 METHOD	bq	(Ljava/lang/String;J)V	a	method_0_812
 METHOD	bq	(Ljava/lang/String;Lbq;)V	a	method_0_813
 METHOD	bq	(Ljava/lang/String;Lcd;)V	a	method_0_814
@@ -5795,7 +5795,7 @@ METHOD	bq	(Ljava/lang/String;[I)V	a	method_0_819
 METHOD	bq	(Ljava/lang/String;)Z	b	method_0_820
 METHOD	bq	()Ljava/util/Collection;	c	method_0_821
 METHOD	bq	(Ljava/lang/String;)B	c	method_0_822
-METHOD	bq	()Z	d	method_0_4654
+METHOD	bq	()Z	d	method_0_4194
 METHOD	bq	(Ljava/lang/String;)S	d	method_0_823
 METHOD	bq	(Ljava/lang/String;)I	e	method_0_824
 METHOD	bq	(Ljava/lang/String;)J	f	method_0_825
@@ -5807,17 +5807,17 @@ METHOD	bq	(Ljava/lang/String;)[I	k	method_0_830
 METHOD	bq	(Ljava/lang/String;)Lbq;	l	method_0_831
 METHOD	bq	(Ljava/lang/String;)Lby;	m	method_0_832
 METHOD	bq	(Ljava/lang/String;)Z	n	method_0_833
-METHOD	bq	(Ljava/lang/String;)V	o	method_0_4655
+METHOD	bq	(Ljava/lang/String;)V	o	method_0_4195
 METHOD	bq	()Ljava/lang/String;	toString	toString
-CLASS	br	net/minecraft/class_0_1469
-FIELD	br	Ljava/lang/String;	a	field_0_5504
-FIELD	br	Lbq;	b	field_0_5505
-METHOD	br	()Ljava/lang/String;	a	method_0_4991
+CLASS	br	net/minecraft/class_0_1381
+FIELD	br	Ljava/lang/String;	a	field_0_5326
+FIELD	br	Lbq;	b	field_0_5327
+METHOD	br	()Ljava/lang/String;	a	method_0_4531
 METHOD	br	()Ljava/lang/Object;	call	call
-CLASS	bs	net/minecraft/class_0_1470
-FIELD	bs	I	a	field_0_5506
-FIELD	bs	Lbq;	b	field_0_5507
-METHOD	bs	()Ljava/lang/String;	a	method_0_4992
+CLASS	bs	net/minecraft/class_0_1382
+FIELD	bs	I	a	field_0_5328
+FIELD	bs	Lbq;	b	field_0_5329
+METHOD	bs	()Ljava/lang/String;	a	method_0_4532
 METHOD	bs	()Ljava/lang/Object;	call	call
 CLASS	bt	net/minecraft/class_0_348
 FIELD	bt	D	a	field_0_996
@@ -5866,7 +5866,7 @@ FIELD	cc	Ljava/lang/String;	a	field_0_2141
 METHOD	cc	()Ljava/lang/String;	toString	toString
 CLASS	cd	net/minecraft/class_0_605
 FIELD	cd	Ljava/lang/String;	a	field_0_2219
-FIELD	cd	[Ljava/lang/String;	b	field_0_5508
+FIELD	cd	[Ljava/lang/String;	b	field_0_5330
 METHOD	cd	()B	a	method_0_1648
 METHOD	cd	(B)Ljava/lang/String;	a	method_0_1649
 METHOD	cd	(BLjava/lang/String;)Lcd;	a	method_0_1650
@@ -5992,7 +5992,7 @@ FIELD	co	I	d	field_0_2365
 FIELD	co	B	e	field_0_2366
 FIELD	co	B	f	field_0_2367
 FIELD	co	B	g	field_0_2368
-FIELD	co	Lum;	h	field_0_5249
+FIELD	co	Lum;	h	field_0_5071
 CLASS	com/jcraft/jogg/Buffer	com/jcraft/jogg/Buffer
 FIELD	com/jcraft/jogg/Buffer	I	BUFFER_INCREMENT	BUFFER_INCREMENT
 FIELD	com/jcraft/jogg/Buffer	[B	buffer	buffer
@@ -6768,13 +6768,13 @@ FIELD	cy	I	b	field_0_2416
 FIELD	cy	I	c	field_0_2417
 FIELD	cy	Z	d	field_0_2418
 FIELD	cy	I	e	field_0_2419
-FIELD	cy	Z	f	field_0_5464
+FIELD	cy	Z	f	field_0_5286
 METHOD	cy	()Ljava/lang/String;	d	method_0_1802
 METHOD	cy	()I	f	method_0_1803
 METHOD	cy	()I	g	method_0_1804
 METHOD	cy	()Z	h	method_0_1805
 METHOD	cy	()I	i	method_0_1806
-METHOD	cy	()Z	j	method_0_4947
+METHOD	cy	()Z	j	method_0_4487
 CLASS	cz	net/minecraft/class_0_651
 FIELD	cz	I	a	field_0_2420
 FIELD	cz	Ljava/lang/String;	b	field_0_2421
@@ -6803,7 +6803,7 @@ FIELD	dd	I	b	field_0_2433
 FIELD	dd	I	c	field_0_2434
 FIELD	dd	S	d	field_0_2435
 FIELD	dd	Lum;	e	field_0_2436
-FIELD	dd	I	f	field_0_5428
+FIELD	dd	I	f	field_0_5250
 CLASS	de	net/minecraft/class_0_656
 FIELD	de	I	a	field_0_2438
 CLASS	df	net/minecraft/class_0_658
@@ -6854,7 +6854,7 @@ FIELD	do	[Ljava/lang/String;	a	field_0_2471
 FIELD	do	I	b	field_0_2472
 FIELD	do	I	c	field_0_2473
 CLASS	dp	net/minecraft/class_0_668
-FIELD	dp	I	a	field_0_5499
+FIELD	dp	I	a	field_0_5321
 CLASS	dq	net/minecraft/class_0_669
 FIELD	dq	I	a	field_0_2474
 FIELD	dq	I	b	field_0_2475
@@ -6896,8 +6896,8 @@ FIELD	dv	I	b	field_0_2538
 FIELD	dv	I	c	field_0_2539
 FIELD	dv	I	d	field_0_2540
 FIELD	dv	I	e	field_0_2541
-FIELD	dv	Z	f	field_0_5500
-METHOD	dv	()Z	d	method_0_4980
+FIELD	dv	Z	f	field_0_5322
+METHOD	dv	()Z	d	method_0_4520
 CLASS	dw	net/minecraft/class_0_675
 FIELD	dw	Ljava/lang/String;	a	field_0_2542
 FIELD	dw	I	b	field_0_2543
@@ -7072,7 +7072,7 @@ METHOD	ei	()Z	f	method_0_1926
 METHOD	ei	()Z	g	method_0_1927
 METHOD	ei	()Z	h	method_0_1928
 METHOD	ei	()F	i	method_0_1929
-METHOD	ei	()F	j	method_0_4981
+METHOD	ei	()F	j	method_0_4521
 CLASS	ej	net/minecraft/class_0_689
 FIELD	ej	I	a	field_0_2589
 FIELD	ej	I	b	field_0_2590
@@ -7147,7 +7147,7 @@ FIELD	fa	I	b	field_0_2633
 FIELD	fa	I	c	field_0_2634
 CLASS	fb	net/minecraft/class_0_706
 FIELD	fb	J	a	field_0_2635
-FIELD	fb	J	b	field_0_5150
+FIELD	fb	J	b	field_0_4972
 CLASS	fc	net/minecraft/class_0_707
 FIELD	fc	[B	a	field_0_2636
 FIELD	fc	[B	b	field_0_2637
@@ -7222,10 +7222,10 @@ METHOD	fl	()Lum;	i	method_0_1948
 METHOD	fl	()F	j	method_0_1949
 METHOD	fl	()F	l	method_0_1950
 METHOD	fl	()F	m	method_0_1951
-CLASS	fm	net/minecraft/class_0_1447
-METHOD	fm	()F	a	method_0_4914
-METHOD	fm	(Lxv;Lbg;)Lre;	a	method_0_4915
-METHOD	fm	()F	b	method_0_4916
+CLASS	fm	net/minecraft/class_0_1359
+METHOD	fm	()F	a	method_0_4454
+METHOD	fm	(Lxv;Lbg;)Lre;	a	method_0_4455
+METHOD	fm	()F	b	method_0_4456
 CLASS	fn	net/minecraft/class_0_718
 FIELD	fn	Ljava/text/SimpleDateFormat;	a	field_0_2685
 FIELD	fn	Ljava/util/logging/Logger;	b	field_0_2686
@@ -7269,14 +7269,14 @@ METHOD	fr	()V	a	method_0_1974
 CLASS	fs	net/minecraft/class_0_722
 FIELD	fs	Ljava/text/SimpleDateFormat;	a	field_0_2698
 METHOD	fs	(Ljava/util/logging/LogRecord;)Ljava/lang/String;	format	format
-CLASS	ft	net/minecraft/class_0_1448
-FIELD	ft	Lnet/minecraft/server/MinecraftServer;	b	field_0_5429
-CLASS	fu	net/minecraft/class_0_1449
-FIELD	fu	Lnet/minecraft/server/MinecraftServer;	b	field_0_5430
-FIELD	fu	Laz;	c	field_0_5488
-CLASS	fv	net/minecraft/class_0_1450
-FIELD	fv	Lnet/minecraft/server/MinecraftServer;	b	field_0_5431
-FIELD	fv	Laz;	c	field_0_5489
+CLASS	ft	net/minecraft/class_0_1360
+FIELD	ft	Lnet/minecraft/server/MinecraftServer;	b	field_0_5251
+CLASS	fu	net/minecraft/class_0_1361
+FIELD	fu	Lnet/minecraft/server/MinecraftServer;	b	field_0_5252
+FIELD	fu	Laz;	c	field_0_5310
+CLASS	fv	net/minecraft/class_0_1362
+FIELD	fv	Lnet/minecraft/server/MinecraftServer;	b	field_0_5253
+FIELD	fv	Laz;	c	field_0_5311
 CLASS	fw	net/minecraft/class_0_723
 FIELD	fw	Lnet/minecraft/server/MinecraftServer;	a	field_0_2699
 FIELD	fw	J	b	field_0_2700
@@ -7294,39 +7294,39 @@ CLASS	g	net/minecraft/class_0_763
 FIELD	g	La;	a	field_0_2754
 METHOD	g	()Ljava/lang/String;	a	method_0_2085
 METHOD	g	()Ljava/lang/Object;	call	call
-CLASS	ga	net/minecraft/class_0_1471
-FIELD	ga	Lnet/minecraft/server/MinecraftServer;	a	field_0_5509
-METHOD	ga	()Ljava/lang/String;	a	method_0_4993
+CLASS	ga	net/minecraft/class_0_1383
+FIELD	ga	Lnet/minecraft/server/MinecraftServer;	a	field_0_5331
+METHOD	ga	()Ljava/lang/String;	a	method_0_4533
 METHOD	ga	()Ljava/lang/Object;	call	call
 CLASS	gb	net/minecraft/class_0_728
 FIELD	gb	Lnet/minecraft/server/MinecraftServer;	a	field_0_2705
 METHOD	gb	()Ljava/lang/String;	a	method_0_1977
 METHOD	gb	()Ljava/lang/Object;	call	call
-CLASS	gc	net/minecraft/class_0_1451
-FIELD	gc	Lnet/minecraft/server/MinecraftServer;	b	field_0_5432
-CLASS	gd	net/minecraft/class_0_1452
-FIELD	gd	Lnet/minecraft/server/MinecraftServer;	b	field_0_5433
-CLASS	ge	net/minecraft/class_0_1453
-FIELD	ge	Lnet/minecraft/server/MinecraftServer;	b	field_0_5434
-CLASS	gf	net/minecraft/class_0_1454
-FIELD	gf	Lnet/minecraft/server/MinecraftServer;	b	field_0_5435
-FIELD	gf	Laz;	c	field_0_5436
-CLASS	gg	net/minecraft/class_0_1455
-FIELD	gg	Lum;	b	field_0_5437
-FIELD	gg	Lgf;	c	field_0_5438
-CLASS	gh	net/minecraft/class_0_1456
-FIELD	gh	Lnet/minecraft/server/MinecraftServer;	b	field_0_5439
-CLASS	gi	net/minecraft/class_0_1457
-FIELD	gi	Lnet/minecraft/server/MinecraftServer;	b	field_0_5440
-CLASS	gj	net/minecraft/class_0_1458
-FIELD	gj	Lnet/minecraft/server/MinecraftServer;	b	field_0_5441
-FIELD	gj	Laz;	c	field_0_5490
-CLASS	gk	net/minecraft/class_0_1459
-FIELD	gk	Lnet/minecraft/server/MinecraftServer;	b	field_0_5442
-FIELD	gk	Laz;	c	field_0_5491
-CLASS	gl	net/minecraft/class_0_1421
-FIELD	gl	Ls;	a	field_0_5353
-METHOD	gl	(Liq;Liq;)I	a	method_0_4833
+CLASS	gc	net/minecraft/class_0_1363
+FIELD	gc	Lnet/minecraft/server/MinecraftServer;	b	field_0_5254
+CLASS	gd	net/minecraft/class_0_1364
+FIELD	gd	Lnet/minecraft/server/MinecraftServer;	b	field_0_5255
+CLASS	ge	net/minecraft/class_0_1365
+FIELD	ge	Lnet/minecraft/server/MinecraftServer;	b	field_0_5256
+CLASS	gf	net/minecraft/class_0_1366
+FIELD	gf	Lnet/minecraft/server/MinecraftServer;	b	field_0_5257
+FIELD	gf	Laz;	c	field_0_5258
+CLASS	gg	net/minecraft/class_0_1367
+FIELD	gg	Lum;	b	field_0_5259
+FIELD	gg	Lgf;	c	field_0_5260
+CLASS	gh	net/minecraft/class_0_1368
+FIELD	gh	Lnet/minecraft/server/MinecraftServer;	b	field_0_5261
+CLASS	gi	net/minecraft/class_0_1369
+FIELD	gi	Lnet/minecraft/server/MinecraftServer;	b	field_0_5262
+CLASS	gj	net/minecraft/class_0_1370
+FIELD	gj	Lnet/minecraft/server/MinecraftServer;	b	field_0_5263
+FIELD	gj	Laz;	c	field_0_5312
+CLASS	gk	net/minecraft/class_0_1371
+FIELD	gk	Lnet/minecraft/server/MinecraftServer;	b	field_0_5264
+FIELD	gk	Laz;	c	field_0_5313
+CLASS	gl	net/minecraft/class_0_1333
+FIELD	gl	Ls;	a	field_0_5175
+METHOD	gl	(Liq;Liq;)I	a	method_0_4373
 METHOD	gl	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
 CLASS	gm	net/minecraft/class_0_729
 FIELD	gm	Ljava/util/logging/Logger;	a	field_0_2706
@@ -7356,9 +7356,9 @@ METHOD	gm	(Liq;Lin;)V	a	method_0_1986
 METHOD	gm	(Liq;Liq;Lxv;)V	a	method_0_1987
 METHOD	gm	(Ljava/lang/String;)Liq;	a	method_0_1988
 METHOD	gm	(Ljava/net/SocketAddress;Ljava/lang/String;)Ljava/lang/String;	a	method_0_1989
-METHOD	gm	(Llq;ILin;Lin;)V	a	method_0_4672
+METHOD	gm	(Llq;ILin;Lin;)V	a	method_0_4212
 METHOD	gm	(Lqx;DDDDILeg;)V	a	method_0_1990
-METHOD	gm	(Ls;IIIIII)Ljava/util/List;	a	method_0_4834
+METHOD	gm	(Ls;IIIIII)Ljava/util/List;	a	method_0_4374
 METHOD	gm	(Lye;)V	a	method_0_1991
 METHOD	gm	(Z)V	a	method_0_1992
 METHOD	gm	([Lin;)V	a	method_0_1993
@@ -7433,8 +7433,8 @@ FIELD	gq	Ljava/util/regex/Pattern;	a	field_0_2724
 METHOD	gq	(Laa;Ljava/lang/String;Ljava/lang/String;)V	a	method_0_2054
 CLASS	gr	net/minecraft/class_0_734
 CLASS	gs	net/minecraft/class_0_735
-CLASS	gt	net/minecraft/class_0_1414
-METHOD	gt	()[Ljava/lang/String;	d	method_0_4787
+CLASS	gt	net/minecraft/class_0_1326
+METHOD	gt	()[Ljava/lang/String;	d	method_0_4327
 CLASS	gu	net/minecraft/class_0_737
 CLASS	gv	net/minecraft/class_0_738
 FIELD	gv	J	a	field_0_2726
@@ -7447,11 +7447,11 @@ CLASS	gw	net/minecraft/class_0_739
 CLASS	gx	net/minecraft/class_0_740
 CLASS	gy	net/minecraft/class_0_741
 CLASS	gz	net/minecraft/class_0_742
-CLASS	h	net/minecraft/class_0_1472
-FIELD	h	La;	a	field_0_5519
-METHOD	h	()Ljava/lang/String;	a	method_0_5009
+CLASS	h	net/minecraft/class_0_1384
+FIELD	h	La;	a	field_0_5341
+METHOD	h	()Ljava/lang/String;	a	method_0_4549
 METHOD	h	()Ljava/lang/Object;	call	call
-CLASS	ha	net/minecraft/class_0_1367
+CLASS	ha	net/minecraft/class_0_1279
 CLASS	hb	net/minecraft/class_0_743
 CLASS	hc	net/minecraft/class_0_744
 CLASS	hd	net/minecraft/class_0_745
@@ -7460,11 +7460,11 @@ CLASS	hf	net/minecraft/class_0_747
 CLASS	hg	net/minecraft/class_0_748
 CLASS	hh	net/minecraft/class_0_749
 CLASS	hi	net/minecraft/class_0_750
-CLASS	hj	net/minecraft/class_0_1368
+CLASS	hj	net/minecraft/class_0_1280
 CLASS	hk	net/minecraft/class_0_751
 CLASS	hl	net/minecraft/class_0_752
-METHOD	hl	(Laa;DLjava/lang/String;)D	a	method_0_4936
-METHOD	hl	(Laa;DLjava/lang/String;II)D	a	method_0_4937
+METHOD	hl	(Laa;DLjava/lang/String;)D	a	method_0_4476
+METHOD	hl	(Laa;DLjava/lang/String;II)D	a	method_0_4477
 CLASS	hm	net/minecraft/class_0_753
 CLASS	hn	net/minecraft/class_0_754
 FIELD	hn	Ljava/io/File;	e	field_0_2728
@@ -7545,9 +7545,9 @@ METHOD	hy	(Ljava/awt/event/FocusEvent;)V	focusGained	focusGained
 CLASS	hz	net/minecraft/class_0_766
 FIELD	hz	Lnet/minecraft/server/MinecraftServer;	a	field_0_2758
 FIELD	hz	I	b	field_0_2759
-CLASS	i	net/minecraft/class_0_1487
-FIELD	i	La;	a	field_0_5564
-METHOD	i	()Ljava/lang/String;	a	method_0_5064
+CLASS	i	net/minecraft/class_0_1399
+FIELD	i	La;	a	field_0_5386
+METHOD	i	()Ljava/lang/String;	a	method_0_4604
 METHOD	i	()Ljava/lang/Object;	call	call
 CLASS	ia	net/minecraft/class_0_767
 FIELD	ia	Ljava/text/DecimalFormat;	a	field_0_2760
@@ -7579,14 +7579,14 @@ FIELD	ie	I	b	field_0_2772
 FIELD	ie	I	c	field_0_2773
 FIELD	ie	I	d	field_0_2774
 FIELD	ie	I	e	field_0_2775
-FIELD	ie	I	f	field_0_5510
+FIELD	ie	I	f	field_0_5332
 METHOD	ie	(I)V	a	method_0_2089
 METHOD	ie	()I	b	method_0_2090
-METHOD	ie	(I)V	b	method_0_4994
+METHOD	ie	(I)V	b	method_0_4534
 METHOD	ie	()I	c	method_0_2091
 METHOD	ie	()I	d	method_0_2092
 METHOD	ie	()I	e	method_0_2093
-METHOD	ie	()I	f	method_0_4995
+METHOD	ie	()I	f	method_0_4535
 CLASS	if	net/minecraft/class_0_772
 FIELD	if	J	K	field_0_2776
 FIELD	if	Lyd;	a	field_0_2777
@@ -7604,7 +7604,7 @@ FIELD	ii	Ljz;	c	field_0_2784
 FIELD	ii	I	d	field_0_2785
 METHOD	ii	()V	a	method_0_2095
 METHOD	ii	(Liq;)V	a	method_0_2096
-METHOD	ii	(Liq;Lzs;)V	a	method_0_5065
+METHOD	ii	(Liq;Lzs;)V	a	method_0_4605
 METHOD	ii	(Llq;)V	a	method_0_2097
 METHOD	ii	(Llq;II)V	a	method_0_2098
 METHOD	ii	(Llq;IIZ)V	a	method_0_2099
@@ -7670,8 +7670,8 @@ FIELD	in	Lik;	L	field_0_2809
 FIELD	in	Ljava/util/Set;	M	field_0_2810
 FIELD	in	Ljava/util/TreeSet;	N	field_0_2811
 FIELD	in	Z	O	field_0_2812
-FIELD	in	I	P	field_0_5208
-FIELD	in	Lyj;	Q	field_0_5565
+FIELD	in	I	P	field_0_5030
+FIELD	in	Lyj;	Q	field_0_5387
 FIELD	in	[Lip;	R	field_0_2813
 FIELD	in	I	S	field_0_2814
 FIELD	in	[Lkw;	T	field_0_2815
@@ -7690,14 +7690,14 @@ METHOD	in	(Llq;Z)V	b	method_0_2139
 METHOD	in	(Lyd;)V	b	method_0_2140
 METHOD	in	()V	d	method_0_2141
 METHOD	in	()Z	e	method_0_2142
-METHOD	in	()V	i	method_0_4673
+METHOD	in	()V	i	method_0_4213
 METHOD	in	()V	k	method_0_2143
 METHOD	in	()Ls;	l	method_0_2144
 METHOD	in	()V	m	method_0_2145
 METHOD	in	()Lnet/minecraft/server/MinecraftServer;	o	method_0_2146
 METHOD	in	()Lii;	p	method_0_2147
 METHOD	in	()Lik;	r	method_0_2148
-METHOD	in	()Lyj;	s	method_0_5066
+METHOD	in	()Lyj;	s	method_0_4606
 CLASS	io	net/minecraft/class_0_781
 CLASS	ip	net/minecraft/class_0_782
 CLASS	iq	net/minecraft/class_0_783
@@ -7788,7 +7788,7 @@ FIELD	is	Z	s	field_0_2875
 FIELD	is	Z	t	field_0_2876
 FIELD	is	I	u	field_0_2877
 FIELD	is	Llq;	v	field_0_2878
-FIELD	is	Z	w	field_0_5566
+FIELD	is	Z	w	field_0_5388
 METHOD	is	()V	a	method_0_2178
 METHOD	is	(Leg;)V	a	method_0_2179
 METHOD	is	(Liq;)V	a	method_0_2180
@@ -7881,9 +7881,9 @@ FIELD	iz	Liz;	a	field_0_2925
 FIELD	iz	Ljava/lang/StringBuffer;	b	field_0_2926
 METHOD	iz	()V	c	method_0_2218
 METHOD	iz	()Ljava/lang/String;	d	method_0_2219
-CLASS	j	net/minecraft/class_0_1488
-FIELD	j	Li;	a	field_0_5567
-METHOD	j	(Ljava/lang/Class;Ljava/lang/Class;)I	a	method_0_5067
+CLASS	j	net/minecraft/class_0_1400
+FIELD	j	Li;	a	field_0_5389
+METHOD	j	(Ljava/lang/Class;Ljava/lang/Class;)I	a	method_0_4607
 METHOD	j	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
 CLASS	ja	net/minecraft/class_0_794
 FIELD	ja	Z	a	field_0_2927
@@ -8111,7 +8111,7 @@ METHOD	ju	(Ljava/lang/String;)Ljava/lang/String;	a	method_0_2293
 CLASS	jv	net/minecraft/class_0_813
 METHOD	jv	()I	a	method_0_2294
 METHOD	jv	(Ljava/io/File;Ljava/lang/String;Ljx;Ljava/util/Map;ILkj;)V	a	method_0_2295
-METHOD	jv	(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;	a	method_0_4970
+METHOD	jv	(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;	a	method_0_4510
 METHOD	jv	(Ljava/net/URL;Ljava/lang/String;Z)Ljava/lang/String;	a	method_0_2296
 METHOD	jv	(Ljava/net/URL;Ljava/util/Map;Z)Ljava/lang/String;	a	method_0_2297
 METHOD	jv	(Ljava/util/Map;)Ljava/lang/String;	a	method_0_2298
@@ -8161,9 +8161,9 @@ METHOD	jz	(I)Lka;	e	method_0_2311
 METHOD	jz	(I)I	f	method_0_2312
 METHOD	jz	(I)I	g	method_0_2313
 METHOD	jz	(I)V	h	method_0_2314
-CLASS	k	net/minecraft/class_0_1489
-FIELD	k	La;	a	field_0_5568
-METHOD	k	()Ljava/lang/String;	a	method_0_5068
+CLASS	k	net/minecraft/class_0_1401
+FIELD	k	La;	a	field_0_5390
+METHOD	k	()Ljava/lang/String;	a	method_0_4608
 METHOD	k	()Ljava/lang/Object;	call	call
 CLASS	ka	net/minecraft/class_0_819
 FIELD	ka	I	a	field_0_3070
@@ -8215,11 +8215,11 @@ METHOD	ke	(I)I	a	method_0_2337
 METHOD	ke	(II)I	a	method_0_2338
 METHOD	ke	(III)I	a	method_0_2339
 METHOD	ke	(Ljava/lang/String;)Z	a	method_0_2340
-METHOD	ke	(Ljava/lang/String;D)D	a	method_0_4917
-METHOD	ke	(Ljava/lang/String;DD)D	a	method_0_4918
-METHOD	ke	(Ljava/lang/String;I)I	a	method_0_4788
-METHOD	ke	(Ljava/lang/String;II)I	a	method_0_4919
-METHOD	ke	(Ljava/util/Random;DD)D	a	method_0_4789
+METHOD	ke	(Ljava/lang/String;D)D	a	method_0_4457
+METHOD	ke	(Ljava/lang/String;DD)D	a	method_0_4458
+METHOD	ke	(Ljava/lang/String;I)I	a	method_0_4328
+METHOD	ke	(Ljava/lang/String;II)I	a	method_0_4459
+METHOD	ke	(Ljava/util/Random;DD)D	a	method_0_4329
 METHOD	ke	(Ljava/util/Random;II)I	a	method_0_2341
 METHOD	ke	([J)D	a	method_0_2342
 METHOD	ke	(D)I	b	method_0_2343
@@ -8298,22 +8298,22 @@ CLASS	kz	net/minecraft/class_0_833
 FIELD	kz	Ljava/lang/String;	a	field_0_3107
 FIELD	kz	Lla;	b	field_0_3108
 FIELD	kz	Lla;	c	field_0_3109
-METHOD	kz	(Lla;)Z	a	method_0_5123
-CLASS	l	net/minecraft/class_0_1490
-FIELD	l	La;	a	field_0_5569
-FIELD	l	Ljava/lang/String;	b	field_0_5570
-FIELD	l	Ljava/util/List;	c	field_0_5571
-FIELD	l	[Ljava/lang/StackTraceElement;	d	field_0_5572
-METHOD	l	(DDD)Ljava/lang/String;	a	method_0_5069
-METHOD	l	(I)I	a	method_0_5070
-METHOD	l	(III)Ljava/lang/String;	a	method_0_5071
-METHOD	l	(Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z	a	method_0_5072
-METHOD	l	(Ljava/lang/String;Ljava/lang/Object;)V	a	method_0_5073
-METHOD	l	(Ljava/lang/String;Ljava/lang/Throwable;)V	a	method_0_5074
-METHOD	l	(Ljava/lang/String;Ljava/util/concurrent/Callable;)V	a	method_0_5075
-METHOD	l	(Ljava/lang/StringBuilder;)V	a	method_0_5076
-METHOD	l	(Ll;IIIII)V	a	method_0_5077
-METHOD	l	(I)V	b	method_0_5078
+METHOD	kz	(Lla;)Z	a	method_0_4663
+CLASS	l	net/minecraft/class_0_1402
+FIELD	l	La;	a	field_0_5391
+FIELD	l	Ljava/lang/String;	b	field_0_5392
+FIELD	l	Ljava/util/List;	c	field_0_5393
+FIELD	l	[Ljava/lang/StackTraceElement;	d	field_0_5394
+METHOD	l	(DDD)Ljava/lang/String;	a	method_0_4609
+METHOD	l	(I)I	a	method_0_4610
+METHOD	l	(III)Ljava/lang/String;	a	method_0_4611
+METHOD	l	(Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z	a	method_0_4612
+METHOD	l	(Ljava/lang/String;Ljava/lang/Object;)V	a	method_0_4613
+METHOD	l	(Ljava/lang/String;Ljava/lang/Throwable;)V	a	method_0_4614
+METHOD	l	(Ljava/lang/String;Ljava/util/concurrent/Callable;)V	a	method_0_4615
+METHOD	l	(Ljava/lang/StringBuilder;)V	a	method_0_4616
+METHOD	l	(Ll;IIIII)V	a	method_0_4617
+METHOD	l	(I)V	b	method_0_4618
 CLASS	la	net/minecraft/class_0_834
 METHOD	la	(I)Lum;	a	method_0_2381
 METHOD	la	(II)Lum;	a	method_0_2382
@@ -8353,7 +8353,7 @@ METHOD	le	()Z	d	method_0_2402
 METHOD	le	(Lle;)I	d	method_0_2403
 METHOD	le	()V	e	method_0_2404
 METHOD	le	(Lle;)Ljava/net/URL;	e	method_0_2405
-METHOD	le	()Ljava/lang/String;	f	method_0_4576
+METHOD	le	()Ljava/lang/String;	f	method_0_4116
 METHOD	le	()V	g	method_0_2406
 METHOD	le	()V	h	method_0_2407
 CLASS	lf	net/minecraft/class_0_839
@@ -8377,9 +8377,9 @@ FIELD	lh	Llh;	j	field_0_3135
 FIELD	lh	Llh;	k	field_0_3136
 FIELD	lh	Llh;	l	field_0_3137
 FIELD	lh	Llh;	m	field_0_3138
-FIELD	lh	Llh;	n	field_0_5209
-FIELD	lh	Llh;	o	field_0_5465
-FIELD	lh	Llh;	p	field_0_5492
+FIELD	lh	Llh;	n	field_0_5031
+FIELD	lh	Llh;	o	field_0_5287
+FIELD	lh	Llh;	p	field_0_5314
 FIELD	lh	Ljava/lang/String;	q	field_0_3139
 FIELD	lh	Z	r	field_0_3140
 FIELD	lh	Z	s	field_0_3141
@@ -8387,7 +8387,7 @@ FIELD	lh	F	t	field_0_3142
 FIELD	lh	Z	u	field_0_3143
 FIELD	lh	Z	v	field_0_3144
 FIELD	lh	Z	w	field_0_3145
-FIELD	lh	Z	x	field_0_5355
+FIELD	lh	Z	x	field_0_5177
 METHOD	lh	()Z	a	method_0_2411
 METHOD	lh	(Llq;Llq;)Llh;	a	method_0_2412
 METHOD	lh	(Lmd;)Llh;	a	method_0_2413
@@ -8409,8 +8409,8 @@ METHOD	lh	()Z	k	method_0_2428
 METHOD	lh	()Ljava/lang/String;	l	method_0_2429
 METHOD	lh	()Llh;	m	method_0_2430
 METHOD	lh	()Z	n	method_0_2431
-METHOD	lh	()Z	o	method_0_4837
-METHOD	lh	()Llh;	p	method_0_4838
+METHOD	lh	()Z	o	method_0_4377
+METHOD	lh	()Llh;	p	method_0_4378
 CLASS	li	net/minecraft/class_0_842
 FIELD	li	Llq;	r	field_0_3146
 CLASS	lj	net/minecraft/class_0_843
@@ -8477,18 +8477,18 @@ CLASS	lm	net/minecraft/class_0_846
 FIELD	lm	I	a	field_0_3188
 FIELD	lm	I	b	field_0_3189
 FIELD	lm	I	c	field_0_3190
-FIELD	lm	Z	d	field_0_5210
-FIELD	lm	Z	e	field_0_5466
+FIELD	lm	Z	d	field_0_5032
+FIELD	lm	Z	e	field_0_5288
 METHOD	lm	()I	a	method_0_2449
-METHOD	lm	(Lbq;)Lbq;	a	method_0_4870
+METHOD	lm	(Lbq;)Lbq;	a	method_0_4410
 METHOD	lm	(Llm;)V	a	method_0_2450
 METHOD	lm	(Lmd;)Z	a	method_0_2451
-METHOD	lm	(Z)V	a	method_0_4674
+METHOD	lm	(Z)V	a	method_0_4214
 METHOD	lm	()I	b	method_0_2452
-METHOD	lm	(Lbq;)Llm;	b	method_0_4871
+METHOD	lm	(Lbq;)Llm;	b	method_0_4411
 METHOD	lm	(Lmd;)V	b	method_0_2453
 METHOD	lm	()I	c	method_0_2454
-METHOD	lm	()Z	e	method_0_4948
+METHOD	lm	()Z	e	method_0_4488
 METHOD	lm	(Ljava/lang/Object;)Z	equals	equals
 METHOD	lm	()Ljava/lang/String;	f	method_0_2455
 METHOD	lm	()I	g	method_0_2456
@@ -8496,7 +8496,7 @@ METHOD	lm	()I	hashCode	hashCode
 METHOD	lm	()Ljava/lang/String;	toString	toString
 CLASS	ln	net/minecraft/class_0_847
 METHOD	ln	(I)V	a	method_0_2457
-METHOD	ln	(Lln;)Lln;	a	method_0_5124
+METHOD	ln	(Lln;)Lln;	a	method_0_4664
 METHOD	ln	()I	b	method_0_2458
 CLASS	lo	net/minecraft/class_0_848
 CLASS	lq	net/minecraft/class_0_849
@@ -8517,7 +8517,7 @@ FIELD	lq	F	N	field_0_3204
 FIELD	lq	F	O	field_0_3205
 FIELD	lq	F	P	field_0_3206
 FIELD	lq	F	Q	field_0_3207
-FIELD	lq	F	R	field_0_5356
+FIELD	lq	F	R	field_0_5178
 FIELD	lq	F	S	field_0_3208
 FIELD	lq	D	T	field_0_3209
 FIELD	lq	D	U	field_0_3210
@@ -8539,10 +8539,10 @@ FIELD	lq	I	aj	field_0_3226
 FIELD	lq	I	ak	field_0_3227
 FIELD	lq	Z	al	field_0_3228
 FIELD	lq	Z	am	field_0_3229
-FIELD	lq	I	an	field_0_5211
-FIELD	lq	Z	ao	field_0_5212
-FIELD	lq	I	ap	field_0_5213
-FIELD	lq	I	aq	field_0_5357
+FIELD	lq	I	an	field_0_5033
+FIELD	lq	Z	ao	field_0_5034
+FIELD	lq	I	ap	field_0_5035
+FIELD	lq	I	aq	field_0_5179
 FIELD	lq	Llt;	ar	field_0_3230
 FIELD	lq	I	b	field_0_3217
 FIELD	lq	I	c	field_0_3231
@@ -8555,8 +8555,8 @@ FIELD	lq	I	d	field_0_3232
 FIELD	lq	Z	e	field_0_3238
 FIELD	lq	D	f	field_0_3239
 FIELD	lq	D	g	field_0_3240
-FIELD	lq	I	h	field_0_5214
-FIELD	lq	Z	i	field_0_5573
+FIELD	lq	I	h	field_0_5036
+FIELD	lq	Z	i	field_0_5395
 FIELD	lq	I	k	field_0_3241
 FIELD	lq	D	l	field_0_3242
 FIELD	lq	Z	m	field_0_3243
@@ -8612,22 +8612,22 @@ METHOD	lq	(IZ)V	a	method_0_2494
 METHOD	lq	(Lagb;)Z	a	method_0_2495
 METHOD	lq	(Laob;)Z	a	method_0_2496
 METHOD	lq	(Lbq;)V	a	method_0_2497
-METHOD	lq	(Ljava/lang/String;FF)V	a	method_0_5079
-METHOD	lq	(Ll;)V	a	method_0_5080
+METHOD	lq	(Ljava/lang/String;FF)V	a	method_0_4619
+METHOD	lq	(Ll;)V	a	method_0_4620
 METHOD	lq	(Llh;I)Z	a	method_0_2498
 METHOD	lq	(Llq;)V	a	method_0_2499
-METHOD	lq	(Llq;Z)V	a	method_0_4675
+METHOD	lq	(Llq;Z)V	a	method_0_4215
 METHOD	lq	(Lmd;)V	a	method_0_2500
 METHOD	lq	(Lpu;)V	a	method_0_2501
 METHOD	lq	(Lqx;)Z	a	method_0_2536
 METHOD	lq	(Lum;F)Lpx;	a	method_0_2502
-METHOD	lq	(Lxq;Lamj;III)F	a	method_0_4790
+METHOD	lq	(Lxq;Lamj;III)F	a	method_0_4330
 METHOD	lq	(Lxv;)V	a	method_0_2503
 METHOD	lq	(Z)V	a	method_0_2504
 METHOD	lq	([D)Lby;	a	method_0_2505
 METHOD	lq	([F)Lby;	a	method_0_2506
-METHOD	lq	()V	aa	method_0_4676
-METHOD	lq	()I	ab	method_0_4677
+METHOD	lq	()V	aa	method_0_4216
+METHOD	lq	()I	ab	method_0_4217
 METHOD	lq	()V	ac	method_0_2508
 METHOD	lq	()V	ad	method_0_2509
 METHOD	lq	()[Lum;	ae	method_0_2530
@@ -8635,7 +8635,7 @@ METHOD	lq	()Z	af	method_0_2510
 METHOD	lq	()Z	ag	method_0_2511
 METHOD	lq	()Z	ah	method_0_2512
 METHOD	lq	()Z	ai	method_0_2513
-METHOD	lq	()Z	aj	method_0_4678
+METHOD	lq	()Z	aj	method_0_4218
 METHOD	lq	()Z	ak	method_0_2514
 METHOD	lq	()I	al	method_0_2515
 METHOD	lq	()V	am	method_0_2516
@@ -8643,16 +8643,16 @@ METHOD	lq	()Ljava/lang/String;	an	method_0_2517
 METHOD	lq	()[Llq;	ao	method_0_2518
 METHOD	lq	()F	ap	method_0_2519
 METHOD	lq	()Z	aq	method_0_2520
-METHOD	lq	()Z	ar	method_0_5081
-METHOD	lq	()I	as	method_0_4791
-METHOD	lq	()I	at	method_0_4839
-METHOD	lq	()Z	au	method_0_4971
+METHOD	lq	()Z	ar	method_0_4621
+METHOD	lq	()I	as	method_0_4331
+METHOD	lq	()I	at	method_0_4379
+METHOD	lq	()Z	au	method_0_4511
 METHOD	lq	()Z	av	method_0_2510
 METHOD	lq	(DDD)V	b	method_0_2521
 METHOD	lq	(DDDFF)V	b	method_0_2522
 METHOD	lq	(F)I	b	method_0_2523
 METHOD	lq	(FF)V	b	method_0_2524
-METHOD	lq	(I)V	b	method_0_4679
+METHOD	lq	(I)V	b	method_0_4219
 METHOD	lq	(II)Lpx;	b	method_0_2525
 METHOD	lq	(ILum;)V	b	method_0_2526
 METHOD	lq	(Lbq;)V	b	method_0_2527
@@ -8663,7 +8663,7 @@ METHOD	lq	(FF)V	c	method_0_2533
 METHOD	lq	(I)V	c	method_0_2540
 METHOD	lq	(Lbq;)Z	c	method_0_2534
 METHOD	lq	(Llq;I)V	c	method_0_2535
-METHOD	lq	(Z)V	c	method_0_4680
+METHOD	lq	(Z)V	c	method_0_4220
 METHOD	lq	(Lqx;)V	c_	method_0_2529
 METHOD	lq	(DDD)V	d	method_0_2538
 METHOD	lq	(F)V	d	method_0_2539
@@ -8688,18 +8688,18 @@ METHOD	lq	(Llq;)V	h	method_0_2556
 METHOD	lq	()I	hashCode	hashCode
 METHOD	lq	(DDD)Z	i	method_0_2558
 METHOD	lq	(Llq;)Z	i	method_0_2559
-METHOD	lq	(Llq;)Z	j	method_0_5082
+METHOD	lq	(Llq;)Z	j	method_0_4622
 METHOD	lq	()V	j_	method_0_2557
-METHOD	lq	(Llq;)V	k	method_0_4577
+METHOD	lq	(Llq;)V	k	method_0_4117
 METHOD	lq	()Ljava/lang/String;	toString	toString
 METHOD	lq	()Lmj;	v	method_0_2560
 METHOD	lq	()V	w	method_0_2561
 METHOD	lq	()V	x	method_0_2562
 METHOD	lq	()V	y	method_0_2563
-METHOD	lq	()I	z	method_0_4681
-CLASS	lr	net/minecraft/class_0_1491
-FIELD	lr	Llq;	a	field_0_5574
-METHOD	lr	()Ljava/lang/String;	a	method_0_5083
+METHOD	lq	()I	z	method_0_4221
+CLASS	lr	net/minecraft/class_0_1403
+FIELD	lr	Llq;	a	field_0_5396
+METHOD	lr	()Ljava/lang/String;	a	method_0_4623
 METHOD	lr	()Ljava/lang/Object;	call	call
 CLASS	ls	net/minecraft/class_0_850
 FIELD	ls	[I	a	field_0_3257
@@ -8721,7 +8721,7 @@ FIELD	lv	Ljava/util/Map;	c	field_0_3267
 FIELD	lv	Ljava/util/Map;	d	field_0_3268
 FIELD	lv	Ljava/util/Map;	e	field_0_3269
 FIELD	lv	Ljava/util/Map;	f	field_0_3270
-METHOD	lv	(I)Ljava/lang/Class;	a	method_0_5125
+METHOD	lv	(I)Ljava/lang/Class;	a	method_0_4665
 METHOD	lv	(ILxv;)Llq;	a	method_0_2566
 METHOD	lv	(Lbq;Lxv;)Llq;	a	method_0_2567
 METHOD	lv	(Ljava/lang/Class;Ljava/lang/String;I)V	a	method_0_2568
@@ -8734,42 +8734,42 @@ CLASS	lw	net/minecraft/class_0_853
 FIELD	lw	I	a	field_0_3271
 FIELD	lw	I	b	field_0_3272
 FIELD	lw	I	c	field_0_3273
-CLASS	ly	net/minecraft/class_0_1384
-METHOD	ly	(Llq;)Z	a	method_0_4682
+CLASS	ly	net/minecraft/class_0_1296
+METHOD	ly	(Llq;)Z	a	method_0_4222
 CLASS	lz	net/minecraft/class_0_854
 FIELD	lz	I	a	field_0_3274
 FIELD	lz	I	b	field_0_3275
 FIELD	lz	I	c	field_0_3276
 FIELD	lz	I	d	field_0_3277
 FIELD	lz	I	e	field_0_3278
-FIELD	lz	Lqx;	f	field_0_5151
-FIELD	lz	I	g	field_0_5152
+FIELD	lz	Lqx;	f	field_0_4973
+FIELD	lz	I	g	field_0_4974
 METHOD	lz	(I)I	a	method_0_2573
 METHOD	lz	()I	c	method_0_2574
 METHOD	lz	()I	d	method_0_2575
-CLASS	m	net/minecraft/class_0_1492
-FIELD	m	I	a	field_0_5575
-METHOD	m	()Ljava/lang/String;	a	method_0_5084
+CLASS	m	net/minecraft/class_0_1404
+FIELD	m	I	a	field_0_5397
+METHOD	m	()Ljava/lang/String;	a	method_0_4624
 METHOD	m	()Ljava/lang/Object;	call	call
 CLASS	ma	net/minecraft/class_0_855
-CLASS	mb	net/minecraft/class_0_1385
-FIELD	mb	I	a	field_0_5215
-FIELD	mb	I	b	field_0_5216
-FIELD	mb	I	c	field_0_5217
-FIELD	mb	I	d	field_0_5218
-FIELD	mb	I	e	field_0_5219
-METHOD	mb	(I)V	a	method_0_4683
-METHOD	mb	()Z	c	method_0_4684
-METHOD	mb	()I	d	method_0_4685
-METHOD	mb	()I	g	method_0_4686
-METHOD	mb	(I)F	g	method_0_4687
-METHOD	mb	()V	h	method_0_4688
-CLASS	mc	net/minecraft/class_0_1386
-FIELD	mc	F	e	field_0_5220
-METHOD	mc	(Lum;)V	a	method_0_4689
-METHOD	mc	(I)V	g	method_0_4690
-METHOD	mc	()Lum;	i	method_0_4691
-METHOD	mc	()I	j	method_0_4692
+CLASS	mb	net/minecraft/class_0_1297
+FIELD	mb	I	a	field_0_5037
+FIELD	mb	I	b	field_0_5038
+FIELD	mb	I	c	field_0_5039
+FIELD	mb	I	d	field_0_5040
+FIELD	mb	I	e	field_0_5041
+METHOD	mb	(I)V	a	method_0_4223
+METHOD	mb	()Z	c	method_0_4224
+METHOD	mb	()I	d	method_0_4225
+METHOD	mb	()I	g	method_0_4226
+METHOD	mb	(I)F	g	method_0_4227
+METHOD	mb	()V	h	method_0_4228
+CLASS	mc	net/minecraft/class_0_1298
+FIELD	mc	F	e	field_0_5042
+METHOD	mc	(Lum;)V	a	method_0_4229
+METHOD	mc	(I)V	g	method_0_4230
+METHOD	mc	()Lum;	i	method_0_4231
+METHOD	mc	()I	j	method_0_4232
 CLASS	md	net/minecraft/class_0_856
 FIELD	md	F	aA	field_0_3313
 FIELD	md	F	aB	field_0_3314
@@ -8797,7 +8797,7 @@ FIELD	md	F	aW	field_0_3295
 FIELD	md	I	aX	field_0_3296
 FIELD	md	I	aY	field_0_3297
 FIELD	md	F	aZ	field_0_3298
-FIELD	md	[F	as	field_0_5221
+FIELD	md	[F	as	field_0_5043
 FIELD	md	I	at	field_0_3306
 FIELD	md	F	au	field_0_3307
 FIELD	md	F	av	field_0_3308
@@ -8822,12 +8822,12 @@ FIELD	md	Loo;	bN	field_0_3319
 FIELD	md	F	bO	field_0_3320
 FIELD	md	Ls;	bP	field_0_3321
 FIELD	md	F	bQ	field_0_3322
-FIELD	md	[Lum;	bR	field_0_5154
-FIELD	md	[Lum;	bS	field_0_5155
-FIELD	md	Z	bT	field_0_5484
+FIELD	md	[Lum;	bR	field_0_4976
+FIELD	md	[Lum;	bS	field_0_4977
+FIELD	md	Z	bT	field_0_5306
 FIELD	md	I	bU	field_0_3323
 FIELD	md	Llq;	bV	field_0_3324
-FIELD	md	[F	b	field_0_5153
+FIELD	md	[F	b	field_0_4975
 FIELD	md	F	ba	field_0_3299
 FIELD	md	Z	bb	field_0_3300
 FIELD	md	I	bc	field_0_3301
@@ -8842,10 +8842,10 @@ FIELD	md	I	bk	field_0_3330
 FIELD	md	Ljava/util/HashMap;	bl	field_0_3331
 FIELD	md	Lnd;	bm	field_0_3332
 FIELD	md	Lnd;	bn	field_0_3333
-FIELD	md	[F	bo	field_0_5268
-FIELD	md	Z	bp	field_0_5157
-FIELD	md	I	bq	field_0_5158
-FIELD	md	Z	br	field_0_5222
+FIELD	md	[F	bo	field_0_5090
+FIELD	md	Z	bp	field_0_4979
+FIELD	md	I	bq	field_0_4980
+FIELD	md	Z	br	field_0_5044
 FIELD	md	I	bs	field_0_3334
 FIELD	md	D	bt	field_0_3335
 FIELD	md	D	bu	field_0_3336
@@ -8854,8 +8854,8 @@ FIELD	md	D	bw	field_0_3338
 FIELD	md	D	bx	field_0_3339
 FIELD	md	F	by	field_0_3340
 FIELD	md	I	bz	field_0_3341
-FIELD	md	[F	c	field_0_5156
-FIELD	md	[F	d	field_0_5159
+FIELD	md	[F	c	field_0_4978
+FIELD	md	[F	d	field_0_4981
 FIELD	md	Lmd;	e	field_0_3325
 FIELD	md	I	f	field_0_3352
 FIELD	md	Lmd;	g	field_0_3353
@@ -8864,13 +8864,13 @@ FIELD	md	I	i	field_0_3355
 FIELD	md	Lmp;	j	field_0_3356
 METHOD	md	(DDD)V	a	method_0_2576
 METHOD	md	(DF)Lanz;	a	method_0_2577
-METHOD	md	(II)Luk;	a	method_0_4578
+METHOD	md	(II)Luk;	a	method_0_4118
 METHOD	md	(Ljava/lang/Class;)Z	a	method_0_2578
 METHOD	md	(Llh;)V	a	method_0_2579
 METHOD	md	(Lll;)Z	a	method_0_2580
 METHOD	md	(Llm;)V	a	method_0_2581
 METHOD	md	(Llq;FF)V	a	method_0_2582
-METHOD	md	(Llq;I)V	a	method_0_4693
+METHOD	md	(Llq;I)V	a	method_0_4233
 METHOD	md	(Llq;IDD)V	a	method_0_2583
 METHOD	md	(Lum;)V	a	method_0_2585
 METHOD	md	(ZI)V	a	method_0_2586
@@ -8909,23 +8909,23 @@ METHOD	md	(Llh;I)I	b	method_0_2625
 METHOD	md	(Lll;)Llm;	b	method_0_2626
 METHOD	md	(Llm;)V	b	method_0_2627
 METHOD	md	(Lmd;)V	b	method_0_2628
-METHOD	md	(Lum;)I	b	method_0_4694
+METHOD	md	(Lum;)I	b	method_0_4234
 METHOD	md	(Lum;I)I	b	method_0_2629
-METHOD	md	(ZI)V	b	method_0_4588
+METHOD	md	(ZI)V	b	method_0_4128
 METHOD	md	()Z	bA	method_0_2644
 METHOD	md	()F	bB	method_0_2645
 METHOD	md	()Lmf;	bC	method_0_2646
 METHOD	md	()Lum;	bD	method_0_2639
-METHOD	md	()V	bE	method_0_4580
-METHOD	md	()V	bF	method_0_4581
-METHOD	md	()V	bG	method_0_4582
-METHOD	md	()V	bH	method_0_4583
-METHOD	md	()Z	bI	method_0_4749
-METHOD	md	()I	bJ	method_0_5085
+METHOD	md	()V	bE	method_0_4120
+METHOD	md	()V	bF	method_0_4121
+METHOD	md	()V	bG	method_0_4122
+METHOD	md	()V	bH	method_0_4123
+METHOD	md	()Z	bI	method_0_4289
+METHOD	md	()I	bJ	method_0_4625
 METHOD	md	()Ljava/lang/String;	ba	method_0_2604
 METHOD	md	()I	bb	method_0_2605
 METHOD	md	()Z	bc	method_0_2606
-METHOD	md	()V	bd	method_0_5086
+METHOD	md	()V	bd	method_0_4626
 METHOD	md	()Z	be	method_0_2607
 METHOD	md	()Z	bf	method_0_2608
 METHOD	md	()Z	bg	method_0_2609
@@ -8936,7 +8936,7 @@ METHOD	md	()V	bk	method_0_2631
 METHOD	md	()V	bl	method_0_2632
 METHOD	md	()V	bm	method_0_2633
 METHOD	md	()V	bn	method_0_2634
-METHOD	md	()V	bo	method_0_4579
+METHOD	md	()V	bo	method_0_4119
 METHOD	md	()I	bp	method_0_2635
 METHOD	md	()Z	bs	method_0_2636
 METHOD	md	()F	bt	method_0_2637
@@ -8961,7 +8961,7 @@ METHOD	md	(F)V	f	method_0_2658
 METHOD	md	(F)F	g	method_0_2660
 METHOD	md	(I)I	g	method_0_2663
 METHOD	md	()Z	g_	method_0_2659
-METHOD	md	()I	h	method_0_4584
+METHOD	md	()I	h	method_0_4124
 METHOD	md	(F)Laob;	h	method_0_2662
 METHOD	md	()Z	h_	method_0_2661
 METHOD	md	(F)Laob;	i	method_0_2665
@@ -8970,31 +8970,31 @@ METHOD	md	(I)V	j	method_0_2667
 METHOD	md	(I)V	k	method_0_2669
 METHOD	md	(I)V	l	method_0_2671
 METHOD	md	(Llq;)V	l	method_0_2668
-METHOD	md	(I)Z	m	method_0_4696
+METHOD	md	(I)Z	m	method_0_4236
 METHOD	md	(Llq;)Z	m	method_0_2670
 METHOD	md	(I)V	n	method_0_2673
 METHOD	md	(Llq;)Z	n	method_0_2672
-METHOD	md	(I)V	o	method_0_4586
-METHOD	md	(Llq;)V	o	method_0_4585
+METHOD	md	(I)V	o	method_0_4126
+METHOD	md	(Llq;)V	o	method_0_4125
 METHOD	md	(I)Lum;	p	method_0_2155
-METHOD	md	(I)Lum;	q	method_0_4587
-METHOD	md	(I)V	r	method_0_5087
+METHOD	md	(I)Lum;	q	method_0_4127
+METHOD	md	(I)V	r	method_0_4627
 CLASS	me	net/minecraft/class_0_857
 FIELD	me	Lme;	a	field_0_3360
 FIELD	me	Lme;	b	field_0_3361
-FIELD	me	Lme;	c	field_0_5358
+FIELD	me	Lme;	c	field_0_5180
 FIELD	me	Lme;	d	field_0_3362
 FIELD	me	Ljava/lang/Class;	e	field_0_3363
 FIELD	me	I	f	field_0_3364
 FIELD	me	Lagb;	g	field_0_3365
 FIELD	me	Z	h	field_0_3366
-FIELD	me	Z	i	field_0_5359
+FIELD	me	Z	i	field_0_5181
 FIELD	me	[Lme;	j	field_0_3367
 METHOD	me	()Ljava/lang/Class;	a	method_0_2674
 METHOD	me	()I	b	method_0_2675
 METHOD	me	()Lagb;	c	method_0_2676
 METHOD	me	()Z	d	method_0_2677
-METHOD	me	()Z	e	method_0_4840
+METHOD	me	()Z	e	method_0_4380
 METHOD	me	(Ljava/lang/String;)Lme;	valueOf	valueOf
 METHOD	me	()[Lme;	values	values
 CLASS	mf	net/minecraft/class_0_858
@@ -9033,7 +9033,7 @@ FIELD	mh	Lmh;	p	field_0_3399
 FIELD	mh	Lmh;	q	field_0_3400
 FIELD	mh	Lmh;	r	field_0_3401
 FIELD	mh	Lmh;	s	field_0_3402
-FIELD	mh	Lmh;	t	field_0_5521
+FIELD	mh	Lmh;	t	field_0_5343
 FIELD	mh	Lmh;	u	field_0_3403
 FIELD	mh	Lmh;	v	field_0_3404
 FIELD	mh	Lmh;	w	field_0_3405
@@ -9063,7 +9063,7 @@ FIELD	mj	Z	c	field_0_3417
 FIELD	mj	Ljava/util/concurrent/locks/ReadWriteLock;	d	field_0_3418
 METHOD	mj	()Z	a	method_0_2691
 METHOD	mj	(I)B	a	method_0_2692
-METHOD	mj	(II)V	a	method_0_4697
+METHOD	mj	(II)V	a	method_0_4237
 METHOD	mj	(ILjava/lang/Object;)V	a	method_0_2693
 METHOD	mj	(Ljava/io/DataInputStream;)Ljava/util/List;	a	method_0_2694
 METHOD	mj	(Ljava/io/DataOutputStream;)V	a	method_0_2695
@@ -9076,8 +9076,8 @@ METHOD	mj	(ILjava/lang/Object;)V	b	method_0_2701
 METHOD	mj	()Ljava/util/List;	c	method_0_2702
 METHOD	mj	(I)I	c	method_0_2703
 METHOD	mj	(I)Ljava/lang/String;	e	method_0_2704
-METHOD	mj	(I)Lum;	f	method_0_4698
-METHOD	mj	(I)V	h	method_0_4699
+METHOD	mj	(I)Lum;	f	method_0_4238
+METHOD	mj	(I)V	h	method_0_4239
 METHOD	mj	(I)Lmk;	i	method_0_2705
 CLASS	mk	net/minecraft/class_0_864
 FIELD	mk	I	a	field_0_3419
@@ -9086,7 +9086,7 @@ FIELD	mk	Ljava/lang/Object;	c	field_0_3421
 FIELD	mk	Z	d	field_0_3422
 METHOD	mk	()I	a	method_0_2706
 METHOD	mk	(Ljava/lang/Object;)V	a	method_0_2707
-METHOD	mk	(Lmk;Z)Z	a	method_0_4700
+METHOD	mk	(Lmk;Z)Z	a	method_0_4240
 METHOD	mk	(Z)V	a	method_0_2708
 METHOD	mk	()Ljava/lang/Object;	b	method_0_2709
 METHOD	mk	()I	c	method_0_2710
@@ -9164,16 +9164,16 @@ FIELD	mu	Lox;	d	field_0_3468
 FIELD	mu	Lox;	e	field_0_3469
 METHOD	mu	()Lox;	f	method_0_2736
 METHOD	mu	()V	g	method_0_2737
-CLASS	mv	net/minecraft/class_0_1404
-FIELD	mv	Lmd;	a	field_0_5269
-FIELD	mv	F	b	field_0_5270
-FIELD	mv	F	c	field_0_5271
-FIELD	mv	Z	d	field_0_5316
-FIELD	mv	I	e	field_0_5317
-FIELD	mv	I	f	field_0_5318
-METHOD	mv	()Z	f	method_0_4792
-METHOD	mv	()V	g	method_0_4793
-METHOD	mv	()Z	h	method_0_4794
+CLASS	mv	net/minecraft/class_0_1316
+FIELD	mv	Lmd;	a	field_0_5091
+FIELD	mv	F	b	field_0_5092
+FIELD	mv	F	c	field_0_5093
+FIELD	mv	Z	d	field_0_5138
+FIELD	mv	I	e	field_0_5139
+FIELD	mv	I	f	field_0_5140
+METHOD	mv	()Z	f	method_0_4332
+METHOD	mv	()V	g	method_0_4333
+METHOD	mv	()Z	h	method_0_4334
 CLASS	mw	net/minecraft/class_0_875
 FIELD	mw	Lmd;	a	field_0_3470
 FIELD	mw	I	b	field_0_3471
@@ -9199,9 +9199,9 @@ FIELD	my	Lxv;	f	field_0_3486
 METHOD	my	()Laob;	f	method_0_2740
 CLASS	mz	net/minecraft/class_0_878
 FIELD	mz	Lmd;	a	field_0_3487
-CLASS	n	net/minecraft/class_0_1493
-FIELD	n	I	a	field_0_5576
-METHOD	n	()Ljava/lang/String;	a	method_0_5089
+CLASS	n	net/minecraft/class_0_1405
+FIELD	n	I	a	field_0_5398
+METHOD	n	()Ljava/lang/String;	a	method_0_4629
 METHOD	n	()Ljava/lang/Object;	call	call
 CLASS	na	net/minecraft/class_0_879
 FIELD	na	Lxv;	a	field_0_3488
@@ -9236,7 +9236,7 @@ FIELD	nd	I	d	field_0_3505
 FIELD	nd	I	e	field_0_3506
 METHOD	nd	()V	a	method_0_2749
 METHOD	nd	(ILnc;)V	a	method_0_2750
-METHOD	nd	(Lnc;)V	a	method_0_5090
+METHOD	nd	(Lnc;)V	a	method_0_4630
 METHOD	nd	(Lne;)Z	a	method_0_2751
 METHOD	nd	(Lne;Lne;)Z	a	method_0_2752
 METHOD	nd	(Lne;)Z	b	method_0_2753
@@ -9286,7 +9286,7 @@ FIELD	net/minecraft/client/Minecraft	I	ai	field_0_3790
 FIELD	net/minecraft/client/Minecraft	Z	aj	field_0_3791
 FIELD	net/minecraft/client/Minecraft	Lce;	ak	field_0_3792
 FIELD	net/minecraft/client/Minecraft	Z	al	field_0_3793
-FIELD	net/minecraft/client/Minecraft	J	am	field_0_5522
+FIELD	net/minecraft/client/Minecraft	J	am	field_0_5344
 FIELD	net/minecraft/client/Minecraft	Ljava/io/File;	an	field_0_3794
 FIELD	net/minecraft/client/Minecraft	Ljava/lang/String;	ao	field_0_3795
 FIELD	net/minecraft/client/Minecraft	Layg;	b	field_0_3796
@@ -9324,7 +9324,7 @@ METHOD	net/minecraft/client/Minecraft	()Z	G	method_0_2912
 METHOD	net/minecraft/client/Minecraft	()V	H	method_0_2913
 METHOD	net/minecraft/client/Minecraft	()V	I	method_0_2914
 METHOD	net/minecraft/client/Minecraft	()V	J	method_0_2915
-METHOD	net/minecraft/client/Minecraft	()I	K	method_0_5126
+METHOD	net/minecraft/client/Minecraft	()I	K	method_0_4666
 METHOD	net/minecraft/client/Minecraft	()V	L	method_0_2916
 METHOD	net/minecraft/client/Minecraft	()V	M	method_0_2917
 METHOD	net/minecraft/client/Minecraft	()V	N	method_0_2918
@@ -9458,7 +9458,7 @@ METHOD	net/minecraft/server/MinecraftServer	()Z	V	method_0_2984
 METHOD	net/minecraft/server/MinecraftServer	()Z	W	method_0_2985
 METHOD	net/minecraft/server/MinecraftServer	()Z	X	method_0_2986
 METHOD	net/minecraft/server/MinecraftServer	()Z	Y	method_0_2987
-METHOD	net/minecraft/server/MinecraftServer	()Z	Z	method_0_4601
+METHOD	net/minecraft/server/MinecraftServer	()Z	Z	method_0_4141
 METHOD	net/minecraft/server/MinecraftServer	(I)Lin;	a	method_0_2990
 METHOD	net/minecraft/server/MinecraftServer	(La;)V	a	method_0_2991
 METHOD	net/minecraft/server/MinecraftServer	(Laa;Ljava/lang/String;)Ljava/util/List;	a	method_0_2997
@@ -9480,9 +9480,9 @@ METHOD	net/minecraft/server/MinecraftServer	()Z	af	method_0_3005
 METHOD	net/minecraft/server/MinecraftServer	()Z	ag	method_0_3006
 METHOD	net/minecraft/server/MinecraftServer	()I	ah	method_0_3007
 METHOD	net/minecraft/server/MinecraftServer	()V	ai	method_0_3008
-METHOD	net/minecraft/server/MinecraftServer	()Lle;	aj	method_0_4602
-METHOD	net/minecraft/server/MinecraftServer	()I	ak	method_0_4920
-METHOD	net/minecraft/server/MinecraftServer	()V	al	method_0_4921
+METHOD	net/minecraft/server/MinecraftServer	()Lle;	aj	method_0_4142
+METHOD	net/minecraft/server/MinecraftServer	()I	ak	method_0_4460
+METHOD	net/minecraft/server/MinecraftServer	()V	al	method_0_4461
 METHOD	net/minecraft/server/MinecraftServer	(I)V	b	method_0_3010
 METHOD	net/minecraft/server/MinecraftServer	(La;)La;	b	method_0_3011
 METHOD	net/minecraft/server/MinecraftServer	(Ljava/lang/String;)V	b	method_0_3015
@@ -9655,11 +9655,11 @@ FIELD	ny	Lmi;	a	field_0_3593
 FIELD	ny	Loq;	b	field_0_3594
 CLASS	nz	net/minecraft/class_0_904
 FIELD	nz	Lmi;	a	field_0_3595
-CLASS	o	net/minecraft/class_0_1495
-FIELD	o	I	a	field_0_5578
-FIELD	o	I	b	field_0_5579
-FIELD	o	I	c	field_0_5580
-METHOD	o	()Ljava/lang/String;	a	method_0_5093
+CLASS	o	net/minecraft/class_0_1407
+FIELD	o	I	a	field_0_5400
+FIELD	o	I	b	field_0_5401
+FIELD	o	I	c	field_0_5402
+METHOD	o	()Ljava/lang/String;	a	method_0_4633
 METHOD	o	()Ljava/lang/Object;	call	call
 CLASS	oa	net/minecraft/class_0_905
 FIELD	oa	Lml;	a	field_0_3596
@@ -9700,7 +9700,7 @@ CLASS	oh	net/minecraft/class_0_912
 FIELD	oh	Lmd;	a	field_0_3622
 FIELD	oh	Ljava/lang/Class;	b	field_0_3623
 FIELD	oh	I	c	field_0_3624
-FIELD	oh	Lly;	g	field_0_5223
+FIELD	oh	Lly;	g	field_0_5045
 FIELD	oh	Loi;	h	field_0_3625
 CLASS	oi	net/minecraft/class_0_913
 FIELD	oi	Loh;	a	field_0_3626
@@ -9804,38 +9804,38 @@ FIELD	or	I	e	field_0_3669
 FIELD	or	I	f	field_0_3670
 FIELD	or	I	g	field_0_3671
 FIELD	or	I	h	field_0_3672
-FIELD	or	I	i	field_0_5160
-FIELD	or	Ljava/util/TreeMap;	j	field_0_5161
+FIELD	or	I	i	field_0_4982
+FIELD	or	Ljava/util/TreeMap;	j	field_0_4983
 FIELD	or	Ljava/util/List;	k	field_0_3673
 FIELD	or	I	l	field_0_3674
 METHOD	or	()Ls;	a	method_0_2811
 METHOD	or	(I)V	a	method_0_2812
 METHOD	or	(III)Z	a	method_0_2813
 METHOD	or	(IIIIII)Laob;	a	method_0_2814
-METHOD	or	(Lbq;)V	a	method_0_4589
-METHOD	or	(Ljava/lang/String;)I	a	method_0_4590
-METHOD	or	(Ljava/lang/String;I)I	a	method_0_4591
+METHOD	or	(Lbq;)V	a	method_0_4129
+METHOD	or	(Ljava/lang/String;)I	a	method_0_4130
+METHOD	or	(Ljava/lang/String;I)I	a	method_0_4131
 METHOD	or	(Lmd;)V	a	method_0_2815
 METHOD	or	(Loq;)V	a	method_0_2816
-METHOD	or	(Lxv;)V	a	method_0_4592
+METHOD	or	(Lxv;)V	a	method_0_4132
 METHOD	or	()I	b	method_0_2817
-METHOD	or	(I)V	b	method_0_4750
+METHOD	or	(I)V	b	method_0_4290
 METHOD	or	(III)Loq;	b	method_0_2818
 METHOD	or	(IIIIII)Z	b	method_0_2819
-METHOD	or	(Lbq;)V	b	method_0_4593
+METHOD	or	(Lbq;)V	b	method_0_4133
 METHOD	or	(Lmd;)Lmd;	b	method_0_2820
 METHOD	or	()I	c	method_0_2821
 METHOD	or	(III)Loq;	c	method_0_2822
-METHOD	or	(Lmd;)Lqx;	c	method_0_4594
+METHOD	or	(Lmd;)Lqx;	c	method_0_4134
 METHOD	or	()I	d	method_0_2823
-METHOD	or	(Ljava/lang/String;)Z	d	method_0_4595
+METHOD	or	(Ljava/lang/String;)Z	d	method_0_4135
 METHOD	or	()I	e	method_0_2824
 METHOD	or	(III)Loq;	e	method_0_2825
 METHOD	or	()Ljava/util/List;	f	method_0_2826
 METHOD	or	(III)Z	f	method_0_2827
 METHOD	or	()Z	g	method_0_2828
-METHOD	or	()V	h	method_0_4596
-METHOD	or	()Z	i	method_0_4597
+METHOD	or	()V	h	method_0_4136
+METHOD	or	()Z	i	method_0_4137
 METHOD	or	()V	j	method_0_2829
 METHOD	or	()V	k	method_0_2830
 METHOD	or	()V	l	method_0_2831
@@ -9869,7 +9869,7 @@ METHOD	ou	()V	a	method_0_2838
 METHOD	ou	(III)V	a	method_0_2839
 METHOD	ou	(IIII)Lor;	a	method_0_2840
 METHOD	ou	(Ls;)V	a	method_0_2841
-METHOD	ou	(Lxv;)V	a	method_0_4598
+METHOD	ou	(Lxv;)V	a	method_0_4138
 METHOD	ou	()Ljava/util/List;	b	method_0_2842
 METHOD	ou	(III)Loq;	b	method_0_2843
 METHOD	ou	(III)V	c	method_0_2845
@@ -9878,11 +9878,11 @@ METHOD	ou	()V	e	method_0_2844
 METHOD	ou	(III)Z	e	method_0_2849
 METHOD	ou	()V	f	method_0_2846
 METHOD	ou	()V	g	method_0_2848
-CLASS	ov	net/minecraft/class_0_1422
-CLASS	ow	net/minecraft/class_0_1423
-FIELD	ow	Ls;	a	field_0_5360
-METHOD	ow	(Z)V	f	method_0_4841
-METHOD	ow	()Z	h	method_0_4842
+CLASS	ov	net/minecraft/class_0_1334
+CLASS	ow	net/minecraft/class_0_1335
+FIELD	ow	Ls;	a	field_0_5182
+METHOD	ow	(Z)V	f	method_0_4381
+METHOD	ow	()Z	h	method_0_4382
 CLASS	ox	net/minecraft/class_0_927
 FIELD	ox	I	d	field_0_3692
 FIELD	ox	I	e	field_0_3693
@@ -9899,14 +9899,14 @@ FIELD	oy	F	g	field_0_3697
 FIELD	oy	F	h	field_0_3698
 FIELD	oy	F	i	field_0_3699
 FIELD	oy	I	j	field_0_3700
-METHOD	oy	(Lln;)Loy;	b	method_0_5127
+METHOD	oy	(Lln;)Loy;	b	method_0_4667
 CLASS	oz	net/minecraft/class_0_929
-METHOD	oz	(Lln;)Loz;	b	method_0_5128
-CLASS	p	net/minecraft/class_0_1497
-FIELD	p	Ljava/lang/String;	a	field_0_5582
-FIELD	p	Ljava/lang/String;	b	field_0_5583
-METHOD	p	()Ljava/lang/String;	a	method_0_5094
-METHOD	p	()Ljava/lang/String;	b	method_0_5095
+METHOD	oz	(Lln;)Loz;	b	method_0_4668
+CLASS	p	net/minecraft/class_0_1409
+FIELD	p	Ljava/lang/String;	a	field_0_5404
+FIELD	p	Ljava/lang/String;	b	field_0_5405
+METHOD	p	()Ljava/lang/String;	a	method_0_4634
+METHOD	p	()Ljava/lang/String;	b	method_0_4635
 CLASS	pa	net/minecraft/class_0_930
 CLASS	paulscode/sound/Channel	paulscode/sound/Channel
 FIELD	paulscode/sound/Channel	Lpaulscode/sound/Source;	attachedSource	attachedSource
@@ -10756,35 +10756,35 @@ METHOD	paulscode/sound/libraries/SourceLWJGLOpenAL	()Z	checkALError	checkALError
 METHOD	paulscode/sound/libraries/SourceLWJGLOpenAL	()V	checkPitch	checkPitch
 METHOD	paulscode/sound/libraries/SourceLWJGLOpenAL	()V	resetALInformation	resetALInformation
 CLASS	pb	net/minecraft/class_0_931
-METHOD	pb	(Lln;)Lpb;	c	method_0_5129
+METHOD	pb	(Lln;)Lpb;	c	method_0_4669
 CLASS	pc	net/minecraft/class_0_932
 FIELD	pc	Lod;	e	field_0_3701
-METHOD	pc	(Lln;)Lpc;	b	method_0_5130
+METHOD	pc	(Lln;)Lpc;	b	method_0_4670
 METHOD	pc	(I)V	s	method_0_2856
 METHOD	pc	()I	t	method_0_2857
 CLASS	pd	net/minecraft/class_0_933
-FIELD	pd	Lmv;	d	field_0_5319
-METHOD	pd	(Lln;)Lpd;	b	method_0_5131
+FIELD	pd	Lmv;	d	field_0_5141
+METHOD	pd	(Lln;)Lpd;	b	method_0_4671
 METHOD	pd	(Z)V	f	method_0_2858
 METHOD	pd	()Z	m	method_0_2859
-METHOD	pd	()Lmv;	n	method_0_4797
+METHOD	pd	()Lmv;	n	method_0_4337
 CLASS	pe	net/minecraft/class_0_934
 FIELD	pe	[[F	d	field_0_3702
-FIELD	pe	Lrx;	e	field_0_5609
+FIELD	pe	Lrx;	e	field_0_5431
 FIELD	pe	I	f	field_0_3703
 FIELD	pe	Lmx;	g	field_0_3704
 METHOD	pe	(Ljava/util/Random;)I	a	method_0_2860
-METHOD	pe	(Lox;Lox;)I	a	method_0_5132
-METHOD	pe	(Lln;)Lpe;	b	method_0_5133
-METHOD	pe	(Lox;)I	b	method_0_5134
+METHOD	pe	(Lox;Lox;)I	a	method_0_4672
+METHOD	pe	(Lln;)Lpe;	b	method_0_4673
+METHOD	pe	(Lox;)I	b	method_0_4674
 METHOD	pe	(Z)V	f	method_0_2862
 METHOD	pe	(F)F	j	method_0_2863
 METHOD	pe	(F)F	k	method_0_2864
 METHOD	pe	()I	m	method_0_2865
 METHOD	pe	()Z	n	method_0_2866
 METHOD	pe	(I)V	s	method_0_2861
-CLASS	pf	net/minecraft/class_0_1496
-FIELD	pf	Lpe;	a	field_0_5581
+CLASS	pf	net/minecraft/class_0_1408
+FIELD	pf	Lpe;	a	field_0_5403
 CLASS	pg	net/minecraft/class_0_935
 CLASS	ph	net/minecraft/class_0_936
 FIELD	ph	F	bI	field_0_3710
@@ -10820,25 +10820,25 @@ FIELD	pk	Z	g	field_0_3725
 FIELD	pk	Z	h	field_0_3726
 FIELD	pk	F	i	field_0_3727
 FIELD	pk	F	j	field_0_3728
-METHOD	pk	(Lln;)Lpk;	b	method_0_5135
+METHOD	pk	(Lln;)Lpk;	b	method_0_4675
 METHOD	pk	()Z	bK	method_0_2873
-METHOD	pk	()I	bL	method_0_4701
+METHOD	pk	()I	bL	method_0_4241
 METHOD	pk	()Z	bM	method_0_2874
 METHOD	pk	(FF)F	f	method_0_2875
 METHOD	pk	(Z)V	i	method_0_2876
 METHOD	pk	(F)F	j	method_0_2878
 METHOD	pk	(Z)V	j	method_0_2877
 METHOD	pk	(F)F	k	method_0_2879
-METHOD	pk	(I)V	s	method_0_4702
+METHOD	pk	(I)V	s	method_0_4242
 METHOD	pk	()Z	t	method_0_2880
 METHOD	pk	()F	u	method_0_2881
-CLASS	pl	net/minecraft/class_0_1387
+CLASS	pl	net/minecraft/class_0_1299
 METHOD	pl	()I	aT	method_0_2598
 METHOD	pl	()Ljava/lang/String;	an	method_0_2517
 METHOD	pl	()I	b	method_0_2903
-CLASS	pm	net/minecraft/class_0_1388
+CLASS	pm	net/minecraft/class_0_1300
 METHOD	pm	(Lpn;Llh;I)Z	a	method_0_2882
-METHOD	pm	()Lxv;	d	method_0_4703
+METHOD	pm	()Lxv;	d	method_0_4243
 CLASS	pn	net/minecraft/class_0_942
 FIELD	pn	Lpm;	a	field_0_3731
 FIELD	pn	Ljava/lang/String;	b	field_0_3732
@@ -10872,33 +10872,33 @@ METHOD	pp	(Ljava/util/List;)V	a	method_0_2900
 METHOD	pp	(D)F	b	method_0_2901
 METHOD	pp	(Ljava/util/List;)V	b	method_0_2902
 METHOD	pp	(II)V	c	method_0_2898
-METHOD	pp	(Llh;I)Z	e	method_0_4704
+METHOD	pp	(Llh;I)Z	e	method_0_4244
 METHOD	pp	()V	h	method_0_2904
 METHOD	pp	()V	i	method_0_2905
-CLASS	pr	net/minecraft/class_0_1389
-FIELD	pr	Lly;	bI	field_0_5272
-FIELD	pr	[F	d	field_0_5224
-FIELD	pr	[F	e	field_0_5225
-FIELD	pr	[F	f	field_0_5226
-FIELD	pr	[F	g	field_0_5227
-FIELD	pr	[I	h	field_0_5250
-FIELD	pr	[I	i	field_0_5320
-FIELD	pr	I	j	field_0_5228
-METHOD	pr	(I)F	a	method_0_4705
-METHOD	pr	(IDDDZ)V	a	method_0_4798
-METHOD	pr	(ILmd;)V	a	method_0_4706
-METHOD	pr	(FFF)F	b	method_0_4707
-METHOD	pr	(II)V	c	method_0_4708
-METHOD	pr	()V	m	method_0_4751
-METHOD	pr	()I	n	method_0_4752
-METHOD	pr	()Z	o	method_0_4734
-METHOD	pr	(I)F	s	method_0_4709
-METHOD	pr	(I)V	t	method_0_4753
-METHOD	pr	(I)I	u	method_0_4710
-METHOD	pr	(I)D	v	method_0_4711
-METHOD	pr	(I)D	w	method_0_4712
-METHOD	pr	(I)D	x	method_0_4713
-CLASS	ps	net/minecraft/class_0_1405
+CLASS	pr	net/minecraft/class_0_1301
+FIELD	pr	Lly;	bI	field_0_5094
+FIELD	pr	[F	d	field_0_5046
+FIELD	pr	[F	e	field_0_5047
+FIELD	pr	[F	f	field_0_5048
+FIELD	pr	[F	g	field_0_5049
+FIELD	pr	[I	h	field_0_5072
+FIELD	pr	[I	i	field_0_5142
+FIELD	pr	I	j	field_0_5050
+METHOD	pr	(I)F	a	method_0_4245
+METHOD	pr	(IDDDZ)V	a	method_0_4338
+METHOD	pr	(ILmd;)V	a	method_0_4246
+METHOD	pr	(FFF)F	b	method_0_4247
+METHOD	pr	(II)V	c	method_0_4248
+METHOD	pr	()V	m	method_0_4291
+METHOD	pr	()I	n	method_0_4292
+METHOD	pr	()Z	o	method_0_4274
+METHOD	pr	(I)F	s	method_0_4249
+METHOD	pr	(I)V	t	method_0_4293
+METHOD	pr	(I)I	u	method_0_4250
+METHOD	pr	(I)D	v	method_0_4251
+METHOD	pr	(I)D	w	method_0_4252
+METHOD	pr	(I)D	x	method_0_4253
+CLASS	ps	net/minecraft/class_0_1317
 CLASS	pt	net/minecraft/class_0_945
 CLASS	pu	net/minecraft/class_0_946
 FIELD	pu	J	a	field_0_3870
@@ -10928,12 +10928,12 @@ FIELD	pw	I	a	field_0_3884
 FIELD	pw	I	b	field_0_3885
 FIELD	pw	I	c	field_0_3886
 FIELD	pw	Z	d	field_0_3887
-FIELD	pw	Z	e	field_0_5485
-FIELD	pw	Z	f	field_0_5493
-FIELD	pw	I	g	field_0_5494
-FIELD	pw	F	h	field_0_5495
+FIELD	pw	Z	e	field_0_5307
+FIELD	pw	Z	f	field_0_5315
+FIELD	pw	I	g	field_0_5316
+FIELD	pw	F	h	field_0_5317
 METHOD	pw	()Lxv;	c	method_0_3054
-METHOD	pw	(Z)V	e	method_0_4972
+METHOD	pw	(Z)V	e	method_0_4512
 CLASS	px	net/minecraft/class_0_949
 FIELD	px	Lum;	a	field_0_3888
 FIELD	px	I	b	field_0_3889
@@ -10942,7 +10942,7 @@ FIELD	px	F	d	field_0_3891
 FIELD	px	I	e	field_0_3892
 METHOD	px	(Lpx;)Z	a	method_0_3055
 METHOD	px	()V	c	method_0_3056
-METHOD	px	()V	d	method_0_5096
+METHOD	px	()V	d	method_0_4636
 CLASS	py	net/minecraft/class_0_950
 FIELD	py	I	a	field_0_3893
 FIELD	py	D	as	field_0_3907
@@ -10958,8 +10958,8 @@ FIELD	py	D	c	field_0_3901
 FIELD	py	[Lum;	d	field_0_3902
 FIELD	py	I	e	field_0_3903
 FIELD	py	Z	f	field_0_3904
-FIELD	py	Lgp;	g	field_0_5380
-FIELD	py	Z	h	field_0_5443
+FIELD	py	Lgp;	g	field_0_5202
+FIELD	py	Z	h	field_0_5265
 FIELD	py	[[[I	i	field_0_3905
 FIELD	py	I	j	field_0_3906
 METHOD	py	(DDD)Laob;	a	method_0_3057
@@ -10978,14 +10978,14 @@ METHOD	pz	()V	c	method_0_3067
 CLASS	q	net/minecraft/class_0_790
 FIELD	q	[I	a	field_0_2914
 FIELD	q	[I	b	field_0_2915
-FIELD	q	[Ljava/lang/String;	c	field_0_5354
+FIELD	q	[Ljava/lang/String;	c	field_0_5176
 FIELD	q	[I	d	field_0_2916
 FIELD	q	[I	e	field_0_2917
 FIELD	q	[I	f	field_0_2918
 FIELD	q	[I	g	field_0_2919
 FIELD	q	[I	h	field_0_2920
 FIELD	q	[[I	i	field_0_2921
-METHOD	q	(DD)I	a	method_0_4835
+METHOD	q	(DD)I	a	method_0_4375
 CLASS	qa	net/minecraft/class_0_952
 FIELD	qa	F	d	field_0_3910
 FIELD	qa	I	e	field_0_3911
@@ -10996,8 +10996,8 @@ CLASS	qb	net/minecraft/class_0_953
 CLASS	qc	net/minecraft/class_0_954
 FIELD	qc	I	d	field_0_3914
 FIELD	qc	I	e	field_0_3913
-FIELD	qc	I	f	field_0_5467
-FIELD	qc	I	g	field_0_5468
+FIELD	qc	I	f	field_0_5289
+FIELD	qc	I	g	field_0_5290
 METHOD	qc	(I)V	a	method_0_3070
 METHOD	qc	(F)F	j	method_0_3071
 METHOD	qc	()Z	m	method_0_3072
@@ -11017,8 +11017,8 @@ METHOD	qd	(Llq;)Z	p	method_0_3076
 METHOD	qd	()Z	q	method_0_3083
 METHOD	qd	(I)V	s	method_0_3075
 CLASS	qe	net/minecraft/class_0_956
-FIELD	qe	Lly;	a	field_0_5361
-CLASS	qf	net/minecraft/class_0_1424
+FIELD	qe	Lly;	a	field_0_5183
+CLASS	qf	net/minecraft/class_0_1336
 CLASS	qg	net/minecraft/class_0_957
 FIELD	qg	I	b	field_0_3918
 FIELD	qg	D	c	field_0_3919
@@ -11032,22 +11032,22 @@ METHOD	qg	(DDDD)Z	a	method_0_3084
 CLASS	qh	net/minecraft/class_0_958
 CLASS	qi	net/minecraft/class_0_959
 CLASS	qj	net/minecraft/class_0_960
-METHOD	qj	(Llq;)I	c	method_0_4603
+METHOD	qj	(Llq;)I	c	method_0_4143
 METHOD	qj	()Z	i_	method_0_3085
 CLASS	qk	net/minecraft/class_0_961
 FIELD	qk	I	d	field_0_3927
 FIELD	qk	I	e	field_0_3928
 METHOD	qk	(Llq;)V	p	method_0_3086
-CLASS	ql	net/minecraft/class_0_1390
-METHOD	ql	(Lmd;)V	d	method_0_4714
+CLASS	ql	net/minecraft/class_0_1302
+METHOD	ql	(Lmd;)V	d	method_0_4254
 CLASS	qm	net/minecraft/class_0_962
 FIELD	qm	I	d	field_0_3930
 CLASS	qn	net/minecraft/class_0_963
-FIELD	qn	Lnx;	d	field_0_5584
-FIELD	qn	Lnk;	e	field_0_5585
-METHOD	qn	(I)V	a	method_0_4754
-METHOD	qn	()V	m	method_0_5097
-METHOD	qn	()I	o	method_0_4755
+FIELD	qn	Lnx;	d	field_0_5406
+FIELD	qn	Lnk;	e	field_0_5407
+METHOD	qn	(I)V	a	method_0_4294
+METHOD	qn	()V	m	method_0_4637
+METHOD	qn	()I	o	method_0_4295
 CLASS	qo	net/minecraft/class_0_964
 FIELD	qo	F	b	field_0_3932
 FIELD	qo	F	c	field_0_3933
@@ -11068,20 +11068,20 @@ CLASS	qp	net/minecraft/class_0_965
 METHOD	qp	(Z)V	f	method_0_3098
 METHOD	qp	()F	m	method_0_3099
 METHOD	qp	()Z	o	method_0_3100
-CLASS	qq	net/minecraft/class_0_1425
-FIELD	qq	[I	d	field_0_5381
-FIELD	qq	I	e	field_0_5362
-METHOD	qq	(Z)V	f	method_0_4843
-METHOD	qq	()Z	m	method_0_4844
+CLASS	qq	net/minecraft/class_0_1337
+FIELD	qq	[I	d	field_0_5203
+FIELD	qq	I	e	field_0_5184
+METHOD	qq	(Z)V	f	method_0_4383
+METHOD	qq	()Z	m	method_0_4384
 CLASS	qr	net/minecraft/class_0_966
-FIELD	qr	I	d	field_0_5163
-METHOD	qr	(I)V	a	method_0_4605
-METHOD	qr	(Z)V	f	method_0_4606
-METHOD	qr	(Z)V	g	method_0_4607
-METHOD	qr	()Z	m	method_0_4608
-METHOD	qr	()Z	o	method_0_4609
-METHOD	qr	()V	p	method_0_4715
-METHOD	qr	()I	q	method_0_4716
+FIELD	qr	I	d	field_0_4985
+METHOD	qr	(I)V	a	method_0_4145
+METHOD	qr	(Z)V	f	method_0_4146
+METHOD	qr	(Z)V	g	method_0_4147
+METHOD	qr	()Z	m	method_0_4148
+METHOD	qr	()Z	o	method_0_4149
+METHOD	qr	()V	p	method_0_4255
+METHOD	qr	()I	q	method_0_4256
 CLASS	qs	net/minecraft/class_0_968
 FIELD	qs	Lsh;	a	field_0_3938
 FIELD	qs	Lqx;	b	field_0_3939
@@ -11090,9 +11090,9 @@ CLASS	qt	net/minecraft/class_0_969
 CLASS	qu	net/minecraft/class_0_970
 FIELD	qu	Z	bI	field_0_3944
 FIELD	qu	I	bJ	field_0_3945
-FIELD	qu	Ljava/lang/String;	bK	field_0_5164
-FIELD	qu	Z	bL	field_0_5273
-FIELD	qu	F	bM	field_0_5165
+FIELD	qu	Ljava/lang/String;	bK	field_0_4986
+FIELD	qu	Z	bL	field_0_5095
+FIELD	qu	F	bM	field_0_4987
 FIELD	qu	Ljava/util/Map;	bN	field_0_3942
 FIELD	qu	Ljava/util/Map;	bO	field_0_3943
 FIELD	qu	Lor;	d	field_0_3946
@@ -11106,17 +11106,17 @@ METHOD	qu	(ILjava/util/Random;)Lum;	a	method_0_3103
 METHOD	qu	(Ljava/lang/String;)V	a	method_0_3104
 METHOD	qu	(Lxn;ILjava/util/Random;F)V	a	method_0_3105
 METHOD	qu	(ILjava/util/Random;)I	b	method_0_3107
-METHOD	qu	(Lln;)Lqu;	b	method_0_5136
+METHOD	qu	(Lln;)Lqu;	b	method_0_4676
 METHOD	qu	(Lxn;ILjava/util/Random;F)V	b	method_0_3108
 METHOD	qu	(ILjava/util/Random;)I	c	method_0_3110
 METHOD	qu	(Z)V	f	method_0_3111
 METHOD	qu	(Z)V	g	method_0_3112
-METHOD	qu	(F)F	j	method_0_4610
+METHOD	qu	(F)F	j	method_0_4150
 METHOD	qu	()I	m	method_0_3113
 METHOD	qu	()Z	n	method_0_3114
 METHOD	qu	()Z	o	method_0_3115
 METHOD	qu	()Z	p	method_0_3116
-METHOD	qu	()V	q	method_0_4756
+METHOD	qu	()V	q	method_0_4296
 METHOD	qu	(I)V	s	method_0_3106
 METHOD	qu	(I)V	t	method_0_3109
 CLASS	qv	net/minecraft/class_0_971
@@ -11131,7 +11131,7 @@ METHOD	qv	()F	a	method_0_3117
 METHOD	qv	(F)V	a	method_0_3118
 METHOD	qv	(Lbq;)V	a	method_0_3119
 METHOD	qv	()F	b	method_0_3120
-METHOD	qv	(F)V	b	method_0_4982
+METHOD	qv	(F)V	b	method_0_4522
 METHOD	qv	(Lbq;)V	b	method_0_3121
 CLASS	qw	net/minecraft/class_0_972
 FIELD	qw	[Lum;	a	field_0_3960
@@ -11147,7 +11147,7 @@ METHOD	qw	(Lby;)Lby;	a	method_0_3124
 METHOD	qw	(Llq;)I	a	method_0_3125
 METHOD	qw	(Luk;I)V	a	method_0_3126
 METHOD	qw	(Lum;)Z	a	method_0_3127
-METHOD	qw	(II)I	b	method_0_4799
+METHOD	qw	(II)I	b	method_0_4339
 METHOD	qw	(Lamj;)Z	b	method_0_3128
 METHOD	qw	(Lby;)V	b	method_0_3129
 METHOD	qw	(Lqw;)V	b	method_0_3130
@@ -11202,16 +11202,16 @@ FIELD	qx	F	ch	field_0_4002
 FIELD	qx	Lrc;	ci	field_0_4003
 FIELD	qx	Ljava/lang/String;	cy	field_0_4004
 FIELD	qx	F	cz	field_0_4005
-FIELD	qx	Z	d	field_0_5321
+FIELD	qx	Z	d	field_0_5143
 FIELD	qx	Ls;	e	field_0_4007
 FIELD	qx	Lum;	f	field_0_4008
 FIELD	qx	I	g	field_0_4009
-FIELD	qx	I	h	field_0_5444
+FIELD	qx	I	h	field_0_5266
 METHOD	qx	(I)V	a	method_0_3149
 METHOD	qx	(III)Lqy;	a	method_0_3150
 METHOD	qx	(IIIILum;)Z	a	method_0_3202
 METHOD	qx	(Lamj;)F	a	method_0_3151
-METHOD	qx	(Land;)V	a	method_0_4611
+METHOD	qx	(Land;)V	a	method_0_4151
 METHOD	qx	(Lane;)V	a	method_0_3152
 METHOD	qx	(Lanh;)V	a	method_0_3153
 METHOD	qx	(Lank;)V	a	method_0_3154
@@ -11230,7 +11230,7 @@ METHOD	qx	(Lxv;Ls;Z)Ls;	a	method_0_3167
 METHOD	qx	(Lye;)V	a	method_0_3168
 METHOD	qx	(ZZZ)V	a	method_0_3169
 METHOD	qx	(III)V	b	method_0_3171
-METHOD	qx	(IZ)V	b	method_0_4949
+METHOD	qx	(IZ)V	b	method_0_4489
 METHOD	qx	(Lamj;)Z	b	method_0_3172
 METHOD	qx	(Ljava/lang/String;)V	b	method_0_3197
 METHOD	qx	(Llq;)V	b	method_0_3173
@@ -11240,9 +11240,9 @@ METHOD	qx	()Z	bM	method_0_3191
 METHOD	qx	()I	bN	method_0_3192
 METHOD	qx	()V	bO	method_0_3193
 METHOD	qx	()V	bP	method_0_3194
-METHOD	qx	()I	bQ	method_0_5098
+METHOD	qx	()I	bQ	method_0_4638
 METHOD	qx	()Lpx;	bR	method_0_3176
-METHOD	qx	()F	bS	method_0_4717
+METHOD	qx	()F	bS	method_0_4257
 METHOD	qx	()Lum;	bT	method_0_3177
 METHOD	qx	()V	bU	method_0_3178
 METHOD	qx	()V	bV	method_0_3179
@@ -11255,16 +11255,16 @@ METHOD	qx	(Llq;)V	c	method_0_3198
 METHOD	qx	(Lum;)Lpx;	c	method_0_3174
 METHOD	qx	(Lum;I)V	c	method_0_3200
 METHOD	qx	()Ls;	ca	method_0_3184
-METHOD	qx	()Z	cb	method_0_4800
+METHOD	qx	()Z	cb	method_0_4340
 METHOD	qx	()I	cc	method_0_3185
 METHOD	qx	()Lro;	cd	method_0_3186
 METHOD	qx	()Z	ce	method_0_3187
 METHOD	qx	()Lsk;	cf	method_0_3188
-METHOD	qx	()Z	cg	method_0_4950
-METHOD	qx	(III)V	d	method_0_4951
+METHOD	qx	()Z	cg	method_0_4490
+METHOD	qx	(III)V	d	method_0_4491
 METHOD	qx	(Lum;)V	d	method_0_3199
 METHOD	qx	()V	e_	method_0_3201
-METHOD	qx	(III)Z	f	method_0_4612
+METHOD	qx	(III)Z	f	method_0_4152
 METHOD	qx	(Z)Z	f	method_0_3203
 METHOD	qx	()Z	h	method_0_3204
 METHOD	qx	()V	i	method_0_3206
@@ -11278,9 +11278,9 @@ METHOD	qx	(Llq;)Z	p	method_0_3213
 METHOD	qx	(Llq;)V	q	method_0_3214
 METHOD	qx	(Llq;)V	r	method_0_3216
 METHOD	qx	()Lbn;	s	method_0_3219
-METHOD	qx	(I)V	s	method_0_5099
-METHOD	qx	(I)V	t	method_0_5100
-METHOD	qx	(I)Z	v	method_0_4952
+METHOD	qx	(I)V	s	method_0_4639
+METHOD	qx	(I)V	t	method_0_4640
+METHOD	qx	(I)Z	v	method_0_4492
 METHOD	qx	(I)V	w	method_0_3218
 METHOD	qx	(I)V	x	method_0_3170
 CLASS	qy	net/minecraft/class_0_974
@@ -11317,7 +11317,7 @@ FIELD	r	[I	a	field_0_3059
 FIELD	r	[I	b	field_0_3060
 FIELD	r	[I	c	field_0_3061
 FIELD	r	[I	d	field_0_3062
-FIELD	r	[Ljava/lang/String;	e	field_0_5384
+FIELD	r	[Ljava/lang/String;	e	field_0_5206
 CLASS	ra	net/minecraft/class_0_976
 FIELD	ra	I	a	field_0_4030
 FIELD	ra	D	b	field_0_4031
@@ -11339,7 +11339,7 @@ FIELD	rb	I	h	field_0_4044
 FIELD	rb	Z	i	field_0_4045
 FIELD	rb	I	j	field_0_4046
 METHOD	rb	(Lanz;)V	a	method_0_3227
-METHOD	rb	()F	c	method_0_4801
+METHOD	rb	()F	c	method_0_4341
 CLASS	rc	net/minecraft/class_0_978
 FIELD	rc	D	aA	field_0_4056
 FIELD	rc	D	aB	field_0_4057
@@ -11363,8 +11363,8 @@ FIELD	rc	I	i	field_0_4065
 FIELD	rc	I	j	field_0_4066
 METHOD	rc	()I	c	method_0_3229
 METHOD	rc	(DDDFF)V	c	method_0_3228
-CLASS	rd	net/minecraft/class_0_1391
-CLASS	re	net/minecraft/class_0_1460
+CLASS	rd	net/minecraft/class_0_1303
+CLASS	re	net/minecraft/class_0_1372
 METHOD	re	(DDDFF)V	c	method_0_3222
 CLASS	rf	net/minecraft/class_0_979
 CLASS	rg	net/minecraft/class_0_980
@@ -11376,24 +11376,24 @@ FIELD	rh	I	d	field_0_4071
 FIELD	rh	I	e	field_0_4072
 FIELD	rh	I	f	field_0_4073
 FIELD	rh	Lmd;	g	field_0_4069
-FIELD	rh	Ljava/lang/String;	h	field_0_5586
+FIELD	rh	Ljava/lang/String;	h	field_0_5408
 FIELD	rh	I	i	field_0_4074
 FIELD	rh	I	j	field_0_4075
 METHOD	rh	(Lanz;)V	a	method_0_3230
 METHOD	rh	()F	c	method_0_3232
 METHOD	rh	()F	d	method_0_3233
 METHOD	rh	()F	g	method_0_3234
-METHOD	rh	()Lmd;	h	method_0_5101
+METHOD	rh	()Lmd;	h	method_0_4641
 CLASS	ri	net/minecraft/class_0_982
 CLASS	rj	net/minecraft/class_0_983
 CLASS	rk	net/minecraft/class_0_984
 CLASS	rl	net/minecraft/class_0_985
-FIELD	rl	Lum;	c	field_0_5385
-METHOD	rl	(I)V	a	method_0_4845
+FIELD	rl	Lum;	c	field_0_5207
+METHOD	rl	(I)V	a	method_0_4385
 METHOD	rl	()I	i	method_0_3235
-CLASS	rm	net/minecraft/class_0_1392
-METHOD	rm	()Z	d	method_0_4802
-METHOD	rm	(Z)V	e	method_0_4803
+CLASS	rm	net/minecraft/class_0_1304
+METHOD	rm	()Z	d	method_0_4342
+METHOD	rm	(Z)V	e	method_0_4343
 CLASS	ro	net/minecraft/class_0_986
 FIELD	ro	I	a	field_0_4077
 FIELD	ro	F	b	field_0_4078
@@ -11438,17 +11438,17 @@ METHOD	rp	()V	b	method_0_3262
 METHOD	rp	(II)V	b	method_0_3264
 METHOD	rp	(Lqx;)V	b	method_0_3255
 METHOD	rp	(Lqx;I)Lum;	b	method_0_3263
-METHOD	rp	(Lrv;)V	b	method_0_4922
+METHOD	rp	(Lrv;)V	b	method_0_4462
 METHOD	rp	(Lqx;)Z	c	method_0_3266
-CLASS	rq	net/minecraft/class_0_1369
-FIELD	rq	Land;	a	field_0_5166
-FIELD	rq	Lrr;	f	field_0_5167
-FIELD	rq	I	g	field_0_5168
-FIELD	rq	I	h	field_0_5169
-FIELD	rq	I	i	field_0_5170
-METHOD	rq	()Land;	d	method_0_4614
-CLASS	rr	net/minecraft/class_0_1370
-FIELD	rr	Lrq;	a	field_0_5171
+CLASS	rq	net/minecraft/class_0_1281
+FIELD	rq	Land;	a	field_0_4988
+FIELD	rq	Lrr;	f	field_0_4989
+FIELD	rq	I	g	field_0_4990
+FIELD	rq	I	h	field_0_4991
+FIELD	rq	I	i	field_0_4992
+METHOD	rq	()Land;	d	method_0_4154
+CLASS	rr	net/minecraft/class_0_1282
+FIELD	rr	Lrq;	a	field_0_4993
 CLASS	rs	net/minecraft/class_0_988
 FIELD	rs	Lane;	a	field_0_4088
 FIELD	rs	Lsq;	f	field_0_4089
@@ -11465,7 +11465,7 @@ METHOD	rv	(Lrp;Ljava/util/List;)V	a	method_0_3271
 CLASS	rw	net/minecraft/class_0_992
 FIELD	rw	Lla;	a	field_0_4093
 FIELD	rw	I	f	field_0_4094
-METHOD	rw	()Lla;	d	method_0_5102
+METHOD	rw	()Lla;	d	method_0_4642
 CLASS	rx	net/minecraft/class_0_994
 FIELD	rx	[Lum;	a	field_0_4095
 FIELD	rx	I	b	field_0_4096
@@ -11495,7 +11495,7 @@ METHOD	s	(Ls;)I	a	method_0_2392
 METHOD	s	(III)V	b	method_0_2393
 METHOD	s	(Ljava/lang/Object;)I	compareTo	compareTo
 METHOD	s	(III)F	e	method_0_2394
-METHOD	s	(Ls;)F	e	method_0_4836
+METHOD	s	(Ls;)F	e	method_0_4376
 METHOD	s	(Ljava/lang/Object;)Z	equals	equals
 METHOD	s	()I	hashCode	hashCode
 CLASS	sa	net/minecraft/class_0_997
@@ -11514,7 +11514,7 @@ CLASS	se	net/minecraft/class_0_1001
 FIELD	se	Lrx;	a	field_0_4124
 FIELD	se	Lla;	f	field_0_4125
 FIELD	se	Z	g	field_0_4126
-FIELD	se	Lqx;	h	field_0_5274
+FIELD	se	Lqx;	h	field_0_5096
 CLASS	sf	net/minecraft/class_0_1002
 FIELD	sf	I	a	field_0_4127
 FIELD	sf	Lse;	b	field_0_4128
@@ -11545,29 +11545,29 @@ FIELD	sk	Lanj;	a	field_0_4141
 METHOD	sk	(Lanj;)V	a	method_0_3286
 METHOD	sk	(Lby;)V	a	method_0_3287
 METHOD	sk	()Lby;	g	method_0_3288
-CLASS	sl	net/minecraft/class_0_1463
-FIELD	sl	I	a	field_0_5469
-FIELD	sl	Lla;	f	field_0_5470
-FIELD	sl	Lla;	g	field_0_5471
-FIELD	sl	Lxv;	h	field_0_5472
-FIELD	sl	I	i	field_0_5473
-FIELD	sl	I	j	field_0_5474
-FIELD	sl	I	k	field_0_5475
-FIELD	sl	I	l	field_0_5496
-FIELD	sl	Ljava/lang/String;	m	field_0_5476
-FIELD	sl	Lqx;	n	field_0_5511
-METHOD	sl	(Ljava/lang/String;)V	a	method_0_4953
-METHOD	sl	(Lsl;)Lla;	a	method_0_4954
-METHOD	sl	(Lsl;)I	b	method_0_4973
-METHOD	sl	()V	d	method_0_4955
-CLASS	sm	net/minecraft/class_0_1464
-FIELD	sm	Lsl;	a	field_0_5477
-CLASS	sn	net/minecraft/class_0_1465
-FIELD	sn	Lxv;	a	field_0_5478
-FIELD	sn	I	b	field_0_5479
-FIELD	sn	I	c	field_0_5480
-FIELD	sn	I	d	field_0_5481
-FIELD	sn	Lsl;	e	field_0_5482
+CLASS	sl	net/minecraft/class_0_1375
+FIELD	sl	I	a	field_0_5291
+FIELD	sl	Lla;	f	field_0_5292
+FIELD	sl	Lla;	g	field_0_5293
+FIELD	sl	Lxv;	h	field_0_5294
+FIELD	sl	I	i	field_0_5295
+FIELD	sl	I	j	field_0_5296
+FIELD	sl	I	k	field_0_5297
+FIELD	sl	I	l	field_0_5318
+FIELD	sl	Ljava/lang/String;	m	field_0_5298
+FIELD	sl	Lqx;	n	field_0_5333
+METHOD	sl	(Ljava/lang/String;)V	a	method_0_4493
+METHOD	sl	(Lsl;)Lla;	a	method_0_4494
+METHOD	sl	(Lsl;)I	b	method_0_4513
+METHOD	sl	()V	d	method_0_4495
+CLASS	sm	net/minecraft/class_0_1376
+FIELD	sm	Lsl;	a	field_0_5299
+CLASS	sn	net/minecraft/class_0_1377
+FIELD	sn	Lxv;	a	field_0_5300
+FIELD	sn	I	b	field_0_5301
+FIELD	sn	I	c	field_0_5302
+FIELD	sn	I	d	field_0_5303
+FIELD	sn	Lsl;	e	field_0_5304
 CLASS	so	net/minecraft/class_0_1007
 FIELD	so	[Lum;	a	field_0_4142
 CLASS	sp	net/minecraft/class_0_1008
@@ -11583,7 +11583,7 @@ FIELD	sq	I	i	field_0_4150
 METHOD	sq	()I	a	method_0_3289
 METHOD	sq	(I)Lum;	a	method_0_3290
 METHOD	sq	(Lla;I)Z	a	method_0_3291
-METHOD	sq	(Lqx;)Z	a	method_0_4956
+METHOD	sq	(Lqx;)Z	a	method_0_4496
 METHOD	sq	(Lqx;Lum;)V	a	method_0_3296
 METHOD	sq	(Lum;)Z	a	method_0_3292
 METHOD	sq	(Lum;I)V	a	method_0_3293
@@ -11596,18 +11596,18 @@ METHOD	sq	()Z	d	method_0_3299
 METHOD	sq	()V	e	method_0_3301
 CLASS	sr	net/minecraft/class_0_1010
 FIELD	sr	Lanh;	a	field_0_4151
-CLASS	ss	net/minecraft/class_0_1466
+CLASS	ss	net/minecraft/class_0_1378
 CLASS	st	net/minecraft/class_0_1011
 FIELD	st	I	a	field_0_4152
 FIELD	st	I	b	field_0_4153
 FIELD	st	I	c	field_0_4156
 FIELD	st	[I	cl	field_0_4154
 FIELD	st	Lsu;	cm	field_0_4155
-METHOD	st	(Lum;)I	b	method_0_4718
-METHOD	st	(Lum;I)V	b	method_0_4719
-METHOD	st	(Lum;)Z	b_	method_0_4720
-METHOD	st	(Lum;)V	c	method_0_4722
-METHOD	st	()Lsu;	d	method_0_4721
+METHOD	st	(Lum;)I	b	method_0_4258
+METHOD	st	(Lum;I)V	b	method_0_4259
+METHOD	st	(Lum;)Z	b_	method_0_4260
+METHOD	st	(Lum;)V	c	method_0_4262
+METHOD	st	()Lsu;	d	method_0_4261
 METHOD	st	()[I	e	method_0_3302
 CLASS	su	net/minecraft/class_0_1012
 FIELD	su	Lsu;	a	field_0_4157
@@ -11621,7 +11621,7 @@ FIELD	su	I	h	field_0_4164
 FIELD	su	[Lsu;	i	field_0_4165
 METHOD	su	()I	a	method_0_3303
 METHOD	su	(I)I	a	method_0_3304
-METHOD	su	()I	b	method_0_4974
+METHOD	su	()I	b	method_0_4514
 METHOD	su	(I)I	b	method_0_3305
 METHOD	su	(Ljava/lang/String;)Lsu;	valueOf	valueOf
 METHOD	su	()[Lsu;	values	values
@@ -11638,7 +11638,7 @@ CLASS	ta	net/minecraft/class_0_1017
 CLASS	tb	net/minecraft/class_0_1019
 FIELD	tb	I	a	field_0_4166
 METHOD	tb	(Lxv;DDDIII)Z	a	method_0_3310
-CLASS	tc	net/minecraft/class_0_1406
+CLASS	tc	net/minecraft/class_0_1318
 CLASS	td	net/minecraft/class_0_1020
 CLASS	te	net/minecraft/class_0_1021
 CLASS	tf	net/minecraft/class_0_1022
@@ -11705,7 +11705,7 @@ CLASS	tw	net/minecraft/class_0_1039
 FIELD	tw	[Ljava/lang/String;	a	field_0_4192
 FIELD	tw	[I	b	field_0_4193
 CLASS	tx	net/minecraft/class_0_1040
-CLASS	ty	net/minecraft/class_0_1393
+CLASS	ty	net/minecraft/class_0_1305
 CLASS	tz	net/minecraft/class_0_1041
 CLASS	u	net/minecraft/class_0_887
 FIELD	u	Ljava/lang/String;	a	field_0_3519
@@ -11736,8 +11736,8 @@ METHOD	uf	()Z	i	method_0_3337
 METHOD	uf	()Luf;	j	method_0_3338
 CLASS	ug	net/minecraft/class_0_1049
 CLASS	uh	net/minecraft/class_0_1060
-FIELD	uh	Ljava/lang/Class;	a	field_0_5230
-METHOD	uh	(Lxv;IIII)Lmb;	a	method_0_4723
+FIELD	uh	Ljava/lang/Class;	a	field_0_5052
+METHOD	uh	(Lxv;IIII)Lmb;	a	method_0_4263
 CLASS	ui	net/minecraft/class_0_1050
 FIELD	ui	[Lamj;	c	field_0_4203
 CLASS	uj	net/minecraft/class_0_1051
@@ -11832,18 +11832,18 @@ FIELD	uk	Luk;	bF	field_0_4289
 FIELD	uk	Luk;	bG	field_0_4290
 FIELD	uk	Luk;	bH	field_0_4291
 FIELD	uk	I	b	field_0_4292
-FIELD	uk	Luk;	bI	field_0_5231
-FIELD	uk	Luk;	bJ	field_0_5232
-FIELD	uk	Luk;	bK	field_0_5233
-FIELD	uk	Luk;	bL	field_0_5234
-FIELD	uk	Luk;	bM	field_0_5235
-FIELD	uk	Luk;	bN	field_0_5236
-FIELD	uk	Lty;	bO	field_0_5237
-FIELD	uk	Luk;	bP	field_0_5238
-FIELD	uk	Luk;	bQ	field_0_5275
-FIELD	uk	Luk;	bR	field_0_5276
-FIELD	uk	Luk;	bS	field_0_5277
-FIELD	uk	Luk;	bT	field_0_5322
+FIELD	uk	Luk;	bI	field_0_5053
+FIELD	uk	Luk;	bJ	field_0_5054
+FIELD	uk	Luk;	bK	field_0_5055
+FIELD	uk	Luk;	bL	field_0_5056
+FIELD	uk	Luk;	bM	field_0_5057
+FIELD	uk	Luk;	bN	field_0_5058
+FIELD	uk	Lty;	bO	field_0_5059
+FIELD	uk	Luk;	bP	field_0_5060
+FIELD	uk	Luk;	bQ	field_0_5097
+FIELD	uk	Luk;	bR	field_0_5098
+FIELD	uk	Luk;	bS	field_0_5099
+FIELD	uk	Luk;	bT	field_0_5144
 FIELD	uk	Luk;	bU	field_0_4293
 FIELD	uk	Luk;	bV	field_0_4294
 FIELD	uk	Luk;	bW	field_0_4295
@@ -11882,7 +11882,7 @@ FIELD	uk	Luk;	cb	field_0_4300
 FIELD	uk	Luk;	cc	field_0_4301
 FIELD	uk	Luk;	cd	field_0_4302
 FIELD	uk	Luk;	ce	field_0_4303
-FIELD	uk	Luk;	cf	field_0_5587
+FIELD	uk	Luk;	cf	field_0_5409
 FIELD	uk	I	cg	field_0_4304
 FIELD	uk	I	ch	field_0_4305
 FIELD	uk	I	ci	field_0_4306
@@ -11928,7 +11928,7 @@ METHOD	uk	(Lum;Lmd;)Z	a	method_0_3351
 METHOD	uk	(Lum;Lmd;Lmd;)Z	a	method_0_3352
 METHOD	uk	(Lum;Lqx;Ljava/util/List;Z)V	a	method_0_3350
 METHOD	uk	(Lum;Lqx;Lxv;IIIIFFF)Z	a	method_0_3353
-METHOD	uk	(Lum;Lum;)Z	a	method_0_4975
+METHOD	uk	(Lum;Lum;)Z	a	method_0_4515
 METHOD	uk	(Lum;Lxv;IIIILmd;)Z	a	method_0_3354
 METHOD	uk	(Lum;Lxv;Llq;IZ)V	a	method_0_3355
 METHOD	uk	(Lum;Lxv;Lqx;)Lum;	a	method_0_3356
@@ -11971,7 +11971,7 @@ METHOD	uk	()Ljava/lang/String;	t	method_0_3392
 METHOD	uk	()Ljava/lang/String;	u	method_0_3393
 METHOD	uk	()Z	v	method_0_3394
 METHOD	uk	()Lth;	w	method_0_3396
-METHOD	uk	()Z	x	method_0_4616
+METHOD	uk	()Z	x	method_0_4156
 CLASS	ul	net/minecraft/class_0_1053
 FIELD	ul	Lul;	a	field_0_4361
 FIELD	ul	Lul;	b	field_0_4362
@@ -11989,7 +11989,7 @@ METHOD	ul	()F	b	method_0_3398
 METHOD	ul	()I	c	method_0_3399
 METHOD	ul	()I	d	method_0_3400
 METHOD	ul	()I	e	method_0_3401
-METHOD	ul	()I	f	method_0_4976
+METHOD	ul	()I	f	method_0_4516
 METHOD	ul	(Ljava/lang/String;)Lul;	valueOf	valueOf
 METHOD	ul	()[Lul;	values	values
 CLASS	um	net/minecraft/class_0_1054
@@ -11998,8 +11998,8 @@ FIELD	um	I	b	field_0_4373
 FIELD	um	I	c	field_0_4374
 FIELD	um	Lbq;	d	field_0_4375
 FIELD	um	I	e	field_0_4376
-FIELD	um	Lmc;	f	field_0_5239
-METHOD	um	()I	A	method_0_4957
+FIELD	um	Lmc;	f	field_0_5061
+METHOD	um	()I	A	method_0_4497
 METHOD	um	()Ljava/lang/String;	a	method_0_3402
 METHOD	um	(I)Lum;	a	method_0_3403
 METHOD	um	(ILmd;)V	a	method_0_3404
@@ -12007,7 +12007,7 @@ METHOD	um	(Lamj;)F	a	method_0_3405
 METHOD	um	(Lbq;)Lum;	a	method_0_3406
 METHOD	um	(Ljava/lang/String;Lcd;)V	a	method_0_3407
 METHOD	um	(Llq;)I	a	method_0_3408
-METHOD	um	(Lmc;)V	a	method_0_4724
+METHOD	um	(Lmc;)V	a	method_0_4264
 METHOD	um	(Lmd;)Z	a	method_0_3409
 METHOD	um	(Lmd;Lqx;)V	a	method_0_3410
 METHOD	um	(Lqx;Lxv;IIIIFFF)Z	a	method_0_3411
@@ -12028,9 +12028,9 @@ METHOD	um	(Lum;Lum;)Z	b	method_0_3424
 METHOD	um	(Lxv;Lqx;)Lum;	b	method_0_3425
 METHOD	um	(Lxv;Lqx;I)V	b	method_0_3426
 METHOD	um	()I	c	method_0_3427
-METHOD	um	(I)V	c	method_0_4958
+METHOD	um	(I)V	c	method_0_4498
 METHOD	um	(Lbq;)V	c	method_0_3428
-METHOD	um	(Ljava/lang/String;)V	c	method_0_4959
+METHOD	um	(Ljava/lang/String;)V	c	method_0_4499
 METHOD	um	()I	d	method_0_3430
 METHOD	um	(Lbq;)V	d	method_0_3431
 METHOD	um	(Lum;)Z	d	method_0_3432
@@ -12047,16 +12047,16 @@ METHOD	um	()Lvn;	n	method_0_3442
 METHOD	um	()Z	o	method_0_3443
 METHOD	um	()Lbq;	p	method_0_3444
 METHOD	um	()Lby;	q	method_0_3445
-METHOD	um	()Ljava/lang/String;	r	method_0_4960
-METHOD	um	()Z	s	method_0_4961
+METHOD	um	()Ljava/lang/String;	r	method_0_4500
+METHOD	um	()Z	s	method_0_4501
 METHOD	um	()Z	t	method_0_3447
 METHOD	um	()Ljava/lang/String;	toString	toString
 METHOD	um	()Luw;	u	method_0_3448
 METHOD	um	()Z	v	method_0_3449
 METHOD	um	()Z	w	method_0_3450
-METHOD	um	()Z	x	method_0_4617
-METHOD	um	()Z	y	method_0_4725
-METHOD	um	()Lmc;	z	method_0_4726
+METHOD	um	()Z	x	method_0_4157
+METHOD	um	()Z	y	method_0_4265
+METHOD	um	()Lmc;	z	method_0_4266
 CLASS	un	net/minecraft/class_0_1055
 CLASS	uo	net/minecraft/class_0_1056
 METHOD	uo	(Lum;Lxv;)Lahg;	a	method_0_3451
@@ -12067,9 +12067,9 @@ CLASS	uq	net/minecraft/class_0_1058
 FIELD	uq	I	a	field_0_4377
 CLASS	ur	net/minecraft/class_0_1059
 METHOD	ur	(Lxv;IDDD)Llq;	a	method_0_3454
-CLASS	us	net/minecraft/class_0_1394
-FIELD	us	Lamj;	a	field_0_5240
-FIELD	us	[Ljava/lang/String;	b	field_0_5241
+CLASS	us	net/minecraft/class_0_1306
+FIELD	us	Lamj;	a	field_0_5062
+FIELD	us	[Ljava/lang/String;	b	field_0_5063
 CLASS	ut	net/minecraft/class_0_1061
 FIELD	ut	[Lamj;	c	field_0_4378
 CLASS	uu	net/minecraft/class_0_1062
@@ -12078,7 +12078,7 @@ FIELD	uv	Ljava/util/HashMap;	a	field_0_4379
 FIELD	uv	Ljava/util/Map;	b	field_0_4380
 METHOD	uv	(I)Ljava/util/List;	f	method_0_3455
 METHOD	uv	(I)Z	g	method_0_3456
-METHOD	uv	(I)I	h	method_0_4727
+METHOD	uv	(I)I	h	method_0_4267
 METHOD	uv	(I)Z	i	method_0_3457
 METHOD	uv	(Lum;)Ljava/util/List;	l	method_0_3458
 CLASS	uw	net/minecraft/class_0_1064
@@ -12093,16 +12093,16 @@ METHOD	uw	(Ljava/lang/String;)Luw;	valueOf	valueOf
 METHOD	uw	()[Luw;	values	values
 CLASS	ux	net/minecraft/class_0_1065
 FIELD	ux	Ljava/lang/String;	a	field_0_4388
-FIELD	ux	Ljava/util/Map;	b	field_0_5610
-METHOD	ux	(Ljava/lang/String;)Lux;	d	method_0_5137
-METHOD	ux	()Ljava/lang/String;	g	method_0_5138
+FIELD	ux	Ljava/util/Map;	b	field_0_5432
+METHOD	ux	(Ljava/lang/String;)Lux;	d	method_0_4677
+METHOD	ux	()Ljava/lang/String;	g	method_0_4678
 CLASS	uy	net/minecraft/class_0_1066
 CLASS	uz	net/minecraft/class_0_1067
 CLASS	v	net/minecraft/class_0_914
 METHOD	v	(Laa;ILjava/lang/String;[Ljava/lang/Object;)V	a	method_0_2767
-CLASS	vb	net/minecraft/class_0_1395
-FIELD	vb	I	b	field_0_5242
-FIELD	vb	I	c	field_0_5243
+CLASS	vb	net/minecraft/class_0_1307
+FIELD	vb	I	b	field_0_5064
+FIELD	vb	I	c	field_0_5065
 CLASS	vc	net/minecraft/class_0_1070
 FIELD	vc	I	a	field_0_4390
 FIELD	vc	I	b	field_0_4391
@@ -12110,10 +12110,10 @@ CLASS	vd	net/minecraft/class_0_1071
 CLASS	ve	net/minecraft/class_0_1073
 FIELD	ve	[Lamj;	c	field_0_4392
 CLASS	vf	net/minecraft/class_0_1074
-CLASS	vg	net/minecraft/class_0_1407
-CLASS	vh	net/minecraft/class_0_1408
-FIELD	vh	[Ljava/lang/String;	a	field_0_5278
-FIELD	vh	[I	b	field_0_5279
+CLASS	vg	net/minecraft/class_0_1319
+CLASS	vh	net/minecraft/class_0_1320
+FIELD	vh	[Ljava/lang/String;	a	field_0_5100
+FIELD	vh	[I	b	field_0_5101
 CLASS	vi	net/minecraft/class_0_1076
 CLASS	vk	net/minecraft/class_0_1078
 FIELD	vk	Z	a	field_0_4394
@@ -12139,7 +12139,7 @@ CLASS	vo	net/minecraft/class_0_1083
 CLASS	vp	net/minecraft/class_0_1084
 FIELD	vp	I	a	field_0_4406
 FIELD	vp	Lul;	b	field_0_4407
-METHOD	vp	()I	g	method_0_4728
+METHOD	vp	()I	g	method_0_4268
 METHOD	vp	()Ljava/lang/String;	h	method_0_3463
 CLASS	vq	net/minecraft/class_0_1086
 METHOD	vq	(Lbq;)Z	a	method_0_3464
@@ -12157,7 +12157,7 @@ FIELD	vs	Ljava/lang/String;	h	field_0_4416
 FIELD	vs	Ljava/lang/String;	i	field_0_4417
 FIELD	vs	Ljava/lang/String;	j	field_0_4418
 FIELD	vs	Ljava/lang/String;	k	field_0_4419
-FIELD	vs	Ljava/lang/String;	l	field_0_5244
+FIELD	vs	Ljava/lang/String;	l	field_0_5066
 FIELD	vs	Ljava/util/HashMap;	m	field_0_4420
 FIELD	vs	Ljava/util/HashMap;	n	field_0_4421
 FIELD	vs	Ljava/util/HashMap;	o	field_0_4422
@@ -12172,31 +12172,31 @@ METHOD	vs	(Ljava/lang/String;III)I	a	method_0_3472
 METHOD	vs	(Ljava/util/Collection;)I	a	method_0_3473
 METHOD	vs	(ZZZIIII)I	a	method_0_3474
 METHOD	vs	(IZ)Ljava/util/List;	b	method_0_3475
-METHOD	vs	(Ljava/util/Collection;)Z	b	method_0_4962
+METHOD	vs	(Ljava/util/Collection;)Z	b	method_0_4502
 METHOD	vs	(I)Ljava/lang/String;	c	method_0_3476
 METHOD	vs	(II)I	c	method_0_3477
 METHOD	vs	(II)I	d	method_0_3478
 METHOD	vs	(I)I	h	method_0_3479
-CLASS	vz	net/minecraft/class_0_1396
+CLASS	vz	net/minecraft/class_0_1308
 CLASS	w	net/minecraft/class_0_941
 FIELD	w	Lv;	a	field_0_3730
-METHOD	w	()I	a	method_0_4599
+METHOD	w	()I	a	method_0_4139
 METHOD	w	(Laa;ILjava/lang/String;[Ljava/lang/Object;)V	a	method_0_2887
 METHOD	w	(Laa;Ljava/lang/String;)I	a	method_0_2888
 METHOD	w	(Laa;Ljava/lang/String;I)I	a	method_0_2889
 METHOD	w	(Laa;Ljava/lang/String;II)I	a	method_0_2890
 METHOD	w	(Laa;Ljava/lang/String;[Ljava/lang/Object;)V	a	method_0_2891
-METHOD	w	(Laa;[Ljava/lang/String;I)Ljava/lang/String;	a	method_0_4795
-METHOD	w	(Laa;[Ljava/lang/String;IZ)Ljava/lang/String;	a	method_0_4796
+METHOD	w	(Laa;[Ljava/lang/String;I)Ljava/lang/String;	a	method_0_4335
+METHOD	w	(Laa;[Ljava/lang/String;IZ)Ljava/lang/String;	a	method_0_4336
 METHOD	w	(Ljava/lang/String;Ljava/lang/String;)Z	a	method_0_2884
 METHOD	w	(Lv;)V	a	method_0_2885
 METHOD	w	(Ly;)I	a	method_0_2886
 METHOD	w	([Ljava/lang/Object;)Ljava/lang/String;	a	method_0_2892
 METHOD	w	([Ljava/lang/String;Ljava/lang/Iterable;)Ljava/util/List;	a	method_0_2894
 METHOD	w	([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;	a	method_0_2895
-METHOD	w	(Laa;Ljava/lang/String;)D	b	method_0_4939
+METHOD	w	(Laa;Ljava/lang/String;)D	b	method_0_4479
 METHOD	w	(Laa;)Liq;	c	method_0_2896
-METHOD	w	(Laa;Ljava/lang/String;)Liq;	c	method_0_4600
+METHOD	w	(Laa;Ljava/lang/String;)Liq;	c	method_0_4140
 METHOD	w	(Ljava/lang/Object;)I	compareTo	compareTo
 CLASS	wa	net/minecraft/class_0_1089
 FIELD	wa	[[Ljava/lang/String;	a	field_0_4424
@@ -12215,8 +12215,8 @@ METHOD	wd	(ILum;F)V	a	method_0_3486
 METHOD	wd	()Ljava/util/Map;	b	method_0_3487
 METHOD	wd	(I)Lum;	b	method_0_3488
 METHOD	wd	(I)F	c	method_0_3489
-CLASS	we	net/minecraft/class_0_1397
-CLASS	wf	net/minecraft/class_0_1398
+CLASS	we	net/minecraft/class_0_1309
+CLASS	wf	net/minecraft/class_0_1310
 CLASS	wg	net/minecraft/class_0_1094
 FIELD	wg	[[Ljava/lang/Object;	a	field_0_4429
 METHOD	wg	(Lwh;)V	a	method_0_3490
@@ -12327,12 +12327,12 @@ FIELD	wy	Lxc;	b	field_0_4486
 FIELD	wy	Lxb;	c	field_0_4487
 METHOD	wy	(ILum;)I	a	method_0_3517
 METHOD	wy	(I[Lum;)I	a	method_0_3518
-METHOD	wy	(Ljava/util/Map;Lum;)V	a	method_0_4963
+METHOD	wy	(Ljava/util/Map;Lum;)V	a	method_0_4503
 METHOD	wy	(Ljava/util/Random;IILum;)I	a	method_0_3519
 METHOD	wy	(Ljava/util/Random;Lum;I)Lum;	a	method_0_3520
 METHOD	wy	(Lmd;)I	a	method_0_3531
 METHOD	wy	(Lmd;Lmd;)I	a	method_0_3523
-METHOD	wy	(Lum;)Ljava/util/Map;	a	method_0_4964
+METHOD	wy	(Lum;)Ljava/util/Map;	a	method_0_4504
 METHOD	wy	(Lxa;Lum;)V	a	method_0_3524
 METHOD	wy	(Lxa;[Lum;)V	a	method_0_3525
 METHOD	wy	([Lum;Llh;)I	a	method_0_3522
@@ -12351,7 +12351,7 @@ CLASS	x	net/minecraft/class_0_967
 FIELD	x	Ljava/util/Map;	a	field_0_3936
 FIELD	x	Ljava/util/Set;	b	field_0_3937
 METHOD	x	(Ly;)Ly;	a	method_0_3101
-METHOD	x	(Ly;[Ljava/lang/String;)I	a	method_0_4604
+METHOD	x	(Ly;[Ljava/lang/String;)I	a	method_0_4144
 METHOD	x	([Ljava/lang/String;)[Ljava/lang/String;	a	method_0_3102
 CLASS	xa	net/minecraft/class_0_1114
 METHOD	xa	(Lww;I)V	a	method_0_3536
@@ -12387,9 +12387,9 @@ FIELD	xm	Lum;	a	field_0_4499
 FIELD	xm	Lum;	b	field_0_4500
 FIELD	xm	Lum;	c	field_0_4501
 FIELD	xm	I	d	field_0_4502
-FIELD	xm	I	e	field_0_5173
+FIELD	xm	I	e	field_0_4995
 METHOD	xm	()Lum;	a	method_0_3545
-METHOD	xm	(I)V	a	method_0_4619
+METHOD	xm	(I)V	a	method_0_4159
 METHOD	xm	(Lbq;)V	a	method_0_3546
 METHOD	xm	(Lxm;)Z	a	method_0_3547
 METHOD	xm	()Lum;	b	method_0_3548
@@ -12397,8 +12397,8 @@ METHOD	xm	(Lxm;)Z	b	method_0_3549
 METHOD	xm	()Z	c	method_0_3550
 METHOD	xm	()Lum;	d	method_0_3551
 METHOD	xm	()V	f	method_0_3553
-METHOD	xm	()Z	g	method_0_4620
-METHOD	xm	()V	h	method_0_4621
+METHOD	xm	()Z	g	method_0_4160
+METHOD	xm	()V	h	method_0_4161
 METHOD	xm	()Lbq;	i	method_0_3554
 CLASS	xn	net/minecraft/class_0_1128
 METHOD	xn	()Lbq;	a	method_0_3555
@@ -12419,7 +12419,7 @@ METHOD	xo	()I	hashCode	hashCode
 METHOD	xo	()Ljava/lang/String;	toString	toString
 CLASS	xq	net/minecraft/class_0_1130
 FIELD	xq	Z	a	field_0_4505
-FIELD	xq	Z	b	field_0_5174
+FIELD	xq	Z	b	field_0_4996
 FIELD	xq	D	c	field_0_4506
 FIELD	xq	D	d	field_0_4507
 FIELD	xq	D	e	field_0_4508
@@ -12440,24 +12440,24 @@ METHOD	xr	(DD)I	a	method_0_3569
 METHOD	xr	([I)V	a	method_0_3570
 METHOD	xr	()I	b	method_0_3571
 METHOD	xr	()I	c	method_0_3572
-CLASS	xs	net/minecraft/class_0_1372
-FIELD	xs	Ljava/util/TreeMap;	a	field_0_5175
-METHOD	xs	()Lbq;	a	method_0_4622
-METHOD	xs	(Lbq;)V	a	method_0_4623
-METHOD	xs	(Ljava/lang/String;)Ljava/lang/String;	a	method_0_4624
-METHOD	xs	(Ljava/lang/String;Ljava/lang/String;)V	a	method_0_4625
-METHOD	xs	()[Ljava/lang/String;	b	method_0_4626
-METHOD	xs	(Ljava/lang/String;)Z	b	method_0_4627
-METHOD	xs	(Ljava/lang/String;Ljava/lang/String;)V	b	method_0_4628
-METHOD	xs	(Ljava/lang/String;)Z	e	method_0_4629
-CLASS	xt	net/minecraft/class_0_1373
-FIELD	xt	Ljava/lang/String;	a	field_0_5176
-FIELD	xt	Z	b	field_0_5177
-FIELD	xt	I	c	field_0_5178
-FIELD	xt	D	d	field_0_5179
-METHOD	xt	()Ljava/lang/String;	a	method_0_4630
-METHOD	xt	(Ljava/lang/String;)V	a	method_0_4631
-METHOD	xt	()Z	b	method_0_4632
+CLASS	xs	net/minecraft/class_0_1284
+FIELD	xs	Ljava/util/TreeMap;	a	field_0_4997
+METHOD	xs	()Lbq;	a	method_0_4162
+METHOD	xs	(Lbq;)V	a	method_0_4163
+METHOD	xs	(Ljava/lang/String;)Ljava/lang/String;	a	method_0_4164
+METHOD	xs	(Ljava/lang/String;Ljava/lang/String;)V	a	method_0_4165
+METHOD	xs	()[Ljava/lang/String;	b	method_0_4166
+METHOD	xs	(Ljava/lang/String;)Z	b	method_0_4167
+METHOD	xs	(Ljava/lang/String;Ljava/lang/String;)V	b	method_0_4168
+METHOD	xs	(Ljava/lang/String;)Z	e	method_0_4169
+CLASS	xt	net/minecraft/class_0_1285
+FIELD	xt	Ljava/lang/String;	a	field_0_4998
+FIELD	xt	Z	b	field_0_4999
+FIELD	xt	I	c	field_0_5000
+FIELD	xt	D	d	field_0_5001
+METHOD	xt	()Ljava/lang/String;	a	method_0_4170
+METHOD	xt	(Ljava/lang/String;)V	a	method_0_4171
+METHOD	xt	()Z	b	method_0_4172
 CLASS	xu	net/minecraft/class_0_1132
 FIELD	xu	[I	a	field_0_4517
 METHOD	xu	(DD)I	a	method_0_3573
@@ -12473,8 +12473,8 @@ FIELD	xv	Z	G	field_0_4525
 FIELD	xv	Ljava/util/Set;	H	field_0_4526
 FIELD	xv	[I	I	field_0_4527
 FIELD	xv	Z	J	field_0_4528
-FIELD	xv	Laoc;	K	field_0_5323
-FIELD	xv	Ljava/util/Calendar;	L	field_0_5523
+FIELD	xv	Laoc;	K	field_0_5145
+FIELD	xv	Ljava/util/Calendar;	L	field_0_5345
 FIELD	xv	Ljava/util/ArrayList;	M	field_0_4535
 FIELD	xv	Z	N	field_0_4529
 FIELD	xv	I	O	field_0_4530
@@ -12516,17 +12516,17 @@ METHOD	xv	()J	E	method_0_3579
 METHOD	xv	(III)Z	E	method_0_3580
 METHOD	xv	()J	F	method_0_3581
 METHOD	xv	(III)Ljava/util/Random;	F	method_0_3582
-METHOD	xv	()J	G	method_0_4633
+METHOD	xv	()J	G	method_0_4173
 METHOD	xv	()Ls;	H	method_0_3583
 METHOD	xv	()Lzp;	I	method_0_3584
 METHOD	xv	()Laia;	J	method_0_3585
 METHOD	xv	()Lahq;	K	method_0_3586
-METHOD	xv	()Lxs;	L	method_0_4634
+METHOD	xv	()Lxs;	L	method_0_4174
 METHOD	xv	()Z	M	method_0_3587
 METHOD	xv	()Z	N	method_0_3588
 METHOD	xv	()I	P	method_0_3589
 METHOD	xv	()D	R	method_0_3591
-METHOD	xv	()Ljava/util/Calendar;	T	method_0_5010
+METHOD	xv	()Ljava/util/Calendar;	T	method_0_4550
 METHOD	xv	()V	a	method_0_3592
 METHOD	xv	(DDDD)Lqx;	a	method_0_3593
 METHOD	xv	(DDDLjava/lang/String;FF)V	a	method_0_3594
@@ -12534,11 +12534,11 @@ METHOD	xv	(F)I	a	method_0_3595
 METHOD	xv	(I)Llq;	a	method_0_1250
 METHOD	xv	(IIII)Z	a	method_0_3596
 METHOD	xv	(IIIII)V	a	method_0_3597
-METHOD	xv	(IIIIII)V	a	method_0_4983
+METHOD	xv	(IIIIII)V	a	method_0_4523
 METHOD	xv	(IIIIIZ)Z	a	method_0_3599
 METHOD	xv	(IIIIZILlq;)Z	a	method_0_3600
 METHOD	xv	(IIILanq;)V	a	method_0_3601
-METHOD	xv	(IIIZ)I	a	method_0_4924
+METHOD	xv	(IIIZ)I	a	method_0_4464
 METHOD	xv	(IILzs;)V	a	method_0_3603
 METHOD	xv	(J)V	a	method_0_3655
 METHOD	xv	(La;)Ll;	a	method_0_3604
@@ -12554,7 +12554,7 @@ METHOD	xv	(Laob;Laob;ZZ)Lanz;	a	method_0_3613
 METHOD	xv	(Ljava/lang/Class;)I	a	method_0_3614
 METHOD	xv	(Ljava/lang/Class;Lanw;)Ljava/util/List;	a	method_0_3615
 METHOD	xv	(Ljava/lang/Class;Lanw;Llq;)Llq;	a	method_0_3616
-METHOD	xv	(Ljava/lang/Class;Lanw;Lly;)Ljava/util/List;	a	method_0_4729
+METHOD	xv	(Ljava/lang/Class;Lanw;Lly;)Ljava/util/List;	a	method_0_4269
 METHOD	xv	(Ljava/lang/Class;Ljava/lang/String;)Lahj;	a	method_0_3617
 METHOD	xv	(Ljava/lang/String;)Lqx;	a	method_0_3618
 METHOD	xv	(Ljava/lang/String;DDDDDD)V	a	method_0_3619
@@ -12573,14 +12573,14 @@ METHOD	xv	(Llq;Lanw;)Ljava/util/List;	a	method_0_3631
 METHOD	xv	(Llq;Ljava/lang/String;FF)V	a	method_0_3632
 METHOD	xv	(Llq;Llq;FZZZZ)Lahe;	a	method_0_3633
 METHOD	xv	(Llq;Z)V	a	method_0_3634
-METHOD	xv	(Lpy;)Lgp;	a	method_0_4865
+METHOD	xv	(Lpy;)Lgp;	a	method_0_4405
 METHOD	xv	(Lqx;III)Z	a	method_0_3635
 METHOD	xv	(Lqx;IIII)Z	a	method_0_3636
 METHOD	xv	(Lqx;IIIII)V	a	method_0_3637
-METHOD	xv	(Lqx;Ljava/lang/String;FF)V	a	method_0_5103
+METHOD	xv	(Lqx;Ljava/lang/String;FF)V	a	method_0_4643
 METHOD	xv	(Lyb;)V	a	method_0_3638
 METHOD	xv	(Lyd;)V	a	method_0_3639
-METHOD	xv	(Lyh;III)I	a	method_0_4925
+METHOD	xv	(Lyh;III)I	a	method_0_4465
 METHOD	xv	(Lzs;Z)Ljava/util/List;	a	method_0_3641
 METHOD	xv	(Z)Z	a	method_0_3642
 METHOD	xv	(ZZ)V	a	method_0_3643
@@ -12589,13 +12589,13 @@ METHOD	xv	(DDDD)Lqx;	b	method_0_3645
 METHOD	xv	(DDDLjava/lang/String;FF)V	b	method_0_3646
 METHOD	xv	(F)F	b	method_0_3647
 METHOD	xv	(II)I	b	method_0_3648
-METHOD	xv	(III)I	b	method_0_4926
+METHOD	xv	(III)I	b	method_0_4466
 METHOD	xv	(IIII)Z	b	method_0_3650
 METHOD	xv	(IIIII)V	b	method_0_3651
-METHOD	xv	(IIIIII)I	b	method_0_4923
+METHOD	xv	(IIIIII)I	b	method_0_4463
 METHOD	xv	(IIILanq;)V	b	method_0_3653
 METHOD	xv	(IIIZ)Z	b	method_0_3654
-METHOD	xv	(J)V	b	method_0_4635
+METHOD	xv	(J)V	b	method_0_4175
 METHOD	xv	(Lanw;)Z	b	method_0_3656
 METHOD	xv	(Lanw;Lagb;)Z	b	method_0_3657
 METHOD	xv	(Ljava/lang/String;)I	b	method_0_3658
@@ -12627,9 +12627,9 @@ METHOD	xv	(Lanw;)Z	d	method_0_3683
 METHOD	xv	(Llq;)Z	d	method_0_3684
 METHOD	xv	(F)F	e	method_0_3685
 METHOD	xv	(II)Lzs;	e	method_0_3686
-METHOD	xv	(III)I	e	method_0_5104
+METHOD	xv	(III)I	e	method_0_4644
 METHOD	xv	(IIII)Z	e	method_0_3688
-METHOD	xv	(IIIII)V	e	method_0_4984
+METHOD	xv	(IIIII)V	e	method_0_4524
 METHOD	xv	(IIIIII)V	e	method_0_3682
 METHOD	xv	(Lanw;)Z	e	method_0_3690
 METHOD	xv	(Llq;)V	e	method_0_3691
@@ -12642,10 +12642,10 @@ METHOD	xv	(IIIII)V	f	method_0_3689
 METHOD	xv	(Llq;)V	f	method_0_3698
 METHOD	xv	()V	g	method_0_3699
 METHOD	xv	(F)Laob;	g	method_0_3700
-METHOD	xv	(II)I	g	method_0_4928
+METHOD	xv	(II)I	g	method_0_4468
 METHOD	xv	(IIII)V	g	method_0_3702
 METHOD	xv	(IIIII)V	g	method_0_3696
-METHOD	xv	(IIIIII)I	g	method_0_4927
+METHOD	xv	(IIIIII)I	g	method_0_4467
 METHOD	xv	(Llq;)V	g	method_0_3703
 METHOD	xv	()V	h	method_0_3725
 METHOD	xv	(F)F	h	method_0_3705
@@ -12662,14 +12662,14 @@ METHOD	xv	(F)V	k	method_0_3714
 METHOD	xv	(III)Z	k	method_0_3713
 METHOD	xv	(III)I	l	method_0_3715
 METHOD	xv	(IIII)Z	l	method_0_3719
-METHOD	xv	(III)I	m	method_0_4881
+METHOD	xv	(III)I	m	method_0_4421
 METHOD	xv	(IIII)V	m	method_0_3720
 METHOD	xv	()V	n	method_0_3717
 METHOD	xv	(III)V	o	method_0_3721
 METHOD	xv	(III)V	r	method_0_3723
 METHOD	xv	()Lyw;	t	method_0_3722
 METHOD	xv	()Z	u	method_0_3724
-METHOD	xv	(III)Z	u	method_0_5105
+METHOD	xv	(III)Z	u	method_0_4645
 METHOD	xv	()Ljava/lang/String;	v	method_0_3726
 METHOD	xv	()Ljava/lang/String;	w	method_0_3727
 METHOD	xv	(III)Z	w	method_0_3728
@@ -12679,10 +12679,10 @@ METHOD	xv	()V	y	method_0_3731
 METHOD	xv	(III)Z	y	method_0_3732
 METHOD	xv	()V	z	method_0_3733
 METHOD	xv	(III)V	z	method_0_3734
-CLASS	xw	net/minecraft/class_0_1498
-FIELD	xw	I	a	field_0_5588
-FIELD	xw	Lxv;	b	field_0_5589
-METHOD	xw	()Ljava/lang/String;	a	method_0_5106
+CLASS	xw	net/minecraft/class_0_1410
+FIELD	xw	I	a	field_0_5410
+FIELD	xw	Lxv;	b	field_0_5411
+METHOD	xw	()Ljava/lang/String;	a	method_0_4646
 METHOD	xw	()Ljava/lang/Object;	call	call
 CLASS	xx	net/minecraft/class_0_1134
 FIELD	xx	Lxv;	a	field_0_4558
@@ -12693,7 +12693,7 @@ FIELD	xy	Lxv;	a	field_0_4560
 METHOD	xy	()Ljava/lang/String;	a	method_0_3740
 METHOD	xy	()Ljava/lang/Object;	call	call
 CLASS	y	net/minecraft/class_0_993
-METHOD	y	(I)Z	a	method_0_4613
+METHOD	y	(I)Z	a	method_0_4153
 METHOD	y	(Laa;)Ljava/lang/String;	a	method_0_3273
 METHOD	y	(Laa;[Ljava/lang/String;)Ljava/util/List;	a	method_0_3274
 METHOD	y	()Ljava/util/List;	b	method_0_3272
@@ -12703,14 +12703,14 @@ METHOD	y	()Ljava/lang/String;	c	method_0_3275
 CLASS	ya	net/minecraft/class_0_1137
 CLASS	yb	net/minecraft/class_0_1138
 METHOD	yb	(III)V	a	method_0_3741
-METHOD	yb	(IIIII)V	a	method_0_4985
+METHOD	yb	(IIIII)V	a	method_0_4525
 METHOD	yb	(IIIIII)V	a	method_0_3743
 METHOD	yb	(Ljava/lang/String;DDDDDD)V	a	method_0_3744
 METHOD	yb	(Ljava/lang/String;DDDFF)V	a	method_0_3745
 METHOD	yb	(Ljava/lang/String;III)V	a	method_0_3746
 METHOD	yb	(Llq;)V	a	method_0_3747
 METHOD	yb	(Lqx;IIIII)V	a	method_0_3748
-METHOD	yb	(Lqx;Ljava/lang/String;DDDFF)V	a	method_0_5107
+METHOD	yb	(Lqx;Ljava/lang/String;DDDFF)V	a	method_0_4647
 METHOD	yb	(III)V	b	method_0_3749
 METHOD	yb	(IIIII)V	b	method_0_3742
 METHOD	yb	(Llq;)V	b	method_0_3750
@@ -12722,10 +12722,10 @@ FIELD	yd	Z	d	field_0_4564
 FIELD	yd	Lyg;	e	field_0_4565
 FIELD	yd	Z	f	field_0_4566
 FIELD	yd	Z	g	field_0_4567
-FIELD	yd	Ljava/lang/String;	h	field_0_5324
+FIELD	yd	Ljava/lang/String;	h	field_0_5146
 METHOD	yd	()Lyd;	a	method_0_3751
 METHOD	yd	(I)Lye;	a	method_0_3752
-METHOD	yd	(Ljava/lang/String;)Lyd;	a	method_0_4804
+METHOD	yd	(Ljava/lang/String;)Lyd;	a	method_0_4344
 METHOD	yd	()Lyd;	b	method_0_3753
 METHOD	yd	()Z	c	method_0_3754
 METHOD	yd	()J	d	method_0_3755
@@ -12734,7 +12734,7 @@ METHOD	yd	()Z	f	method_0_3757
 METHOD	yd	()Z	g	method_0_3758
 METHOD	yd	()Lyg;	h	method_0_3759
 METHOD	yd	()Z	i	method_0_3760
-METHOD	yd	()Ljava/lang/String;	j	method_0_4805
+METHOD	yd	()Ljava/lang/String;	j	method_0_4345
 CLASS	ye	net/minecraft/class_0_1140
 FIELD	ye	Lye;	a	field_0_4568
 FIELD	ye	Lye;	b	field_0_4569
@@ -12756,7 +12756,7 @@ METHOD	ye	()[Lye;	values	values
 CLASS	yf	net/minecraft/class_0_1141
 METHOD	yf	()I	O	method_0_3769
 METHOD	yf	()Z	Q	method_0_3770
-METHOD	yf	()Laoc;	S	method_0_4806
+METHOD	yf	()Laoc;	S	method_0_4346
 METHOD	yf	(II)Lyr;	a	method_0_3771
 METHOD	yf	(III)I	a	method_0_3772
 METHOD	yf	(III)Z	c	method_0_3773
@@ -12776,7 +12776,7 @@ FIELD	yg	Lyg;	b	field_0_4576
 FIELD	yg	Lyg;	c	field_0_4577
 FIELD	yg	Lyg;	d	field_0_4578
 FIELD	yg	Lyg;	e	field_0_4579
-FIELD	yg	I	f	field_0_5325
+FIELD	yg	I	f	field_0_5147
 FIELD	yg	Ljava/lang/String;	g	field_0_4580
 FIELD	yg	I	h	field_0_4581
 FIELD	yg	Z	i	field_0_4582
@@ -12789,7 +12789,7 @@ METHOD	yg	()Ljava/lang/String;	b	method_0_3787
 METHOD	yg	()I	c	method_0_3788
 METHOD	yg	()Z	d	method_0_3789
 METHOD	yg	()Z	e	method_0_3790
-METHOD	yg	()I	f	method_0_4807
+METHOD	yg	()I	f	method_0_4347
 METHOD	yg	()Lyg;	g	method_0_3791
 CLASS	yh	net/minecraft/class_0_1144
 FIELD	yh	Lyh;	a	field_0_4584
@@ -12807,25 +12807,25 @@ METHOD	yi	(Lme;Lxv;III)Z	a	method_0_3796
 METHOD	yi	(Lxv;II)Lyo;	a	method_0_3797
 METHOD	yi	(Lxv;Lyr;IIIILjava/util/Random;)V	a	method_0_3798
 CLASS	yj	net/minecraft/class_0_1146
-FIELD	yj	Lin;	a	field_0_5590
+FIELD	yj	Lin;	a	field_0_5412
 FIELD	yj	Ljava/util/Random;	b	field_0_4590
-FIELD	yj	Lkc;	c	field_0_5591
-FIELD	yj	Ljava/util/List;	d	field_0_5592
-METHOD	yj	(J)V	a	method_0_5108
+FIELD	yj	Lkc;	c	field_0_5413
+FIELD	yj	Ljava/util/List;	d	field_0_5414
+METHOD	yj	(J)V	a	method_0_4648
 METHOD	yj	(Llq;)Z	a	method_0_3801
 METHOD	yj	(Llq;DDDF)V	a	method_0_3799
 METHOD	yj	(Llq;DDDF)Z	b	method_0_3800
-CLASS	yk	net/minecraft/class_0_1499
-FIELD	yk	J	d	field_0_5593
-FIELD	yk	Lyj;	e	field_0_5594
+CLASS	yk	net/minecraft/class_0_1411
+FIELD	yk	J	d	field_0_5415
+FIELD	yk	Lyj;	e	field_0_5416
 CLASS	yl	net/minecraft/class_0_1147
 FIELD	yl	I	a	field_0_4591
 FIELD	yl	I	b	field_0_4592
 FIELD	yl	[[Lzs;	c	field_0_4593
 FIELD	yl	Z	d	field_0_4594
 FIELD	yl	Lxv;	e	field_0_4595
-METHOD	yl	(IIIZ)I	a	method_0_4929
-METHOD	yl	(Lyh;III)I	a	method_0_4930
+METHOD	yl	(IIIZ)I	a	method_0_4469
+METHOD	yl	(Lyh;III)I	a	method_0_4470
 METHOD	yl	(III)I	b	method_0_3804
 METHOD	yl	(Lyh;III)I	b	method_0_3803
 CLASS	ym	net/minecraft/class_0_1148
@@ -12834,10 +12834,10 @@ FIELD	ym	I	b	field_0_4597
 FIELD	ym	I	c	field_0_4598
 FIELD	ym	I	d	field_0_4599
 FIELD	ym	J	e	field_0_4600
-FIELD	ym	I	f	field_0_5501
+FIELD	ym	I	f	field_0_5323
 FIELD	ym	J	g	field_0_4601
 FIELD	ym	J	h	field_0_4602
-METHOD	ym	(I)V	a	method_0_4986
+METHOD	ym	(I)V	a	method_0_4526
 METHOD	ym	(J)Lym;	a	method_0_3806
 METHOD	ym	(Lym;)I	a	method_0_3807
 METHOD	ym	(Ljava/lang/Object;)I	compareTo	compareTo
@@ -12880,7 +12880,7 @@ FIELD	yr	Lyv;	I	field_0_4621
 FIELD	yr	Ljava/util/List;	J	field_0_4622
 FIELD	yr	Ljava/util/List;	K	field_0_4623
 FIELD	yr	Ljava/util/List;	L	field_0_4624
-FIELD	yr	Ljava/util/List;	M	field_0_5366
+FIELD	yr	Ljava/util/List;	M	field_0_5188
 FIELD	yr	I	N	field_0_4625
 FIELD	yr	Lacb;	O	field_0_4626
 FIELD	yr	Laax;	P	field_0_4627
@@ -13021,7 +13021,7 @@ METHOD	yw	([FIIII)[F	b	method_0_3858
 METHOD	yw	([Lyr;IIII)[Lyr;	b	method_0_3859
 CLASS	yx	net/minecraft/class_0_1159
 CLASS	yy	net/minecraft/class_0_1160
-FIELD	yy	Labf;	S	field_0_5367
+FIELD	yy	Labf;	S	field_0_5189
 CLASS	yz	net/minecraft/class_0_1161
 FIELD	yz	Lyr;	d	field_0_4713
 FIELD	yz	F	e	field_0_4714
@@ -13057,7 +13057,7 @@ METHOD	zp	(II)Lzs;	c	method_0_3869
 METHOD	zp	()Ljava/lang/String;	d	method_0_3870
 METHOD	zp	(II)Lzs;	d	method_0_3871
 METHOD	zp	()I	e	method_0_3872
-METHOD	zp	(II)V	e	method_0_4808
+METHOD	zp	(II)V	e	method_0_4348
 CLASS	zq	net/minecraft/class_0_1177
 FIELD	zq	[B	a	field_0_4717
 FIELD	zq	I	b	field_0_4718
@@ -13081,11 +13081,11 @@ FIELD	zs	Z	l	field_0_4731
 FIELD	zs	Z	m	field_0_4732
 FIELD	zs	J	n	field_0_4733
 FIELD	zs	Z	o	field_0_4734
-FIELD	zs	I	p	field_0_5245
-FIELD	zs	Z	q	field_0_5445
+FIELD	zs	I	p	field_0_5067
+FIELD	zs	Z	q	field_0_5267
 FIELD	zs	[Lzt;	r	field_0_4736
 FIELD	zs	[B	s	field_0_4737
-FIELD	zs	Z	t	field_0_5446
+FIELD	zs	Z	t	field_0_5268
 FIELD	zs	I	u	field_0_4739
 METHOD	zs	()V	a	method_0_3875
 METHOD	zs	(II)Z	a	method_0_3876
@@ -13109,7 +13109,7 @@ METHOD	zs	([BIIZ)V	a	method_0_3893
 METHOD	zs	([Lzt;)V	a	method_0_3894
 METHOD	zs	()V	b	method_0_3895
 METHOD	zs	(II)I	b	method_0_3896
-METHOD	zs	(III)I	b	method_0_4931
+METHOD	zs	(III)I	b	method_0_4471
 METHOD	zs	(IIII)Z	b	method_0_3898
 METHOD	zs	(Llq;)V	b	method_0_3899
 METHOD	zs	()V	c	method_0_3900
@@ -13119,9 +13119,9 @@ METHOD	zs	(IIII)I	c	method_0_3903
 METHOD	zs	()V	d	method_0_3904
 METHOD	zs	(II)I	d	method_0_3905
 METHOD	zs	(III)Z	d	method_0_3906
-METHOD	zs	(IIII)V	d	method_0_4932
+METHOD	zs	(IIII)V	d	method_0_4472
 METHOD	zs	()V	e	method_0_3908
-METHOD	zs	(II)V	e	method_0_4933
+METHOD	zs	(II)V	e	method_0_4473
 METHOD	zs	(III)Lanq;	e	method_0_3910
 METHOD	zs	(III)V	f	method_0_3911
 METHOD	zs	()Z	g	method_0_3912
@@ -13129,12 +13129,12 @@ METHOD	zs	(III)V	g	method_0_3913
 METHOD	zs	()I	h	method_0_3914
 METHOD	zs	(III)V	h	method_0_3915
 METHOD	zs	()[Lzt;	i	method_0_3916
-METHOD	zs	()V	k	method_0_4934
+METHOD	zs	()V	k	method_0_4474
 METHOD	zs	()Lxo;	l	method_0_3918
 METHOD	zs	()[B	m	method_0_3919
 METHOD	zs	()V	n	method_0_3920
 METHOD	zs	()V	o	method_0_3921
-METHOD	zs	()V	q	method_0_4935
+METHOD	zs	()V	q	method_0_4475
 CLASS	zt	net/minecraft/class_0_1180
 FIELD	zt	I	a	field_0_4740
 FIELD	zt	I	b	field_0_4741
@@ -13179,6 +13179,6 @@ METHOD	zx	(Lxv;II)Lzs;	a	method_0_3949
 METHOD	zx	(Lxv;Lzs;)V	a	method_0_3950
 METHOD	zx	()V	b	method_0_3951
 METHOD	zx	(Lxv;Lzs;)V	b	method_0_3952
-# INTERMEDIARY-COUNTER field 5611
-# INTERMEDIARY-COUNTER method 5139
-# INTERMEDIARY-COUNTER class 1508
+# INTERMEDIARY-COUNTER field 5433
+# INTERMEDIARY-COUNTER method 4679
+# INTERMEDIARY-COUNTER class 1420

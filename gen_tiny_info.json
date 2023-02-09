@@ -5,18 +5,6 @@
         },
         {
             "from":"1.3.1",
-            "to":"1.3-pre-07261249",
-            "fol":"1.3",
-            "inverted": true,
-            "conflicts": [1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_3340 <- qq<-ai.a()Ljava/lang/String;, rg.a()Ljava/lang/String;",
-                "2) method_0_3505 <- tb<-ai.a()Ljava/lang/String;, tr.a()Ljava/lang/String;"
-            ]
-        },
-        {
-            "from":"1.3.1",
             "to":"1.3.2",
             "fol":"1.3"
         },
@@ -392,7 +380,7 @@
             "_comment": [
                 "Conflict detected - matched same target name!",
                 "1) method_0_1425 <- bjf(itf).a(Lbjm;)V, bjn(itf).a(Lbjm;)V",
-                "2) method_0_5412 <- avf<-bjn.a(Lbjm;)V"
+                "2) method_0_5413 <- avf<-bjn.a(Lbjm;)V"
             ]
         },
         {
@@ -418,7 +406,7 @@
 
                 "Conflict detected - matched same target name!",
                 "1) method_0_2517 <- nm.ay()Ljava/lang/String;, sf(itf).ay()Ljava/lang/String;, sv(itf).ay()Ljava/lang/String;",
-                "2) method_0_5295 <- oc.ay()Ljava/lang/String;"
+                "2) method_0_5294 <- oc.ay()Ljava/lang/String;"
             ]
         },
         {
@@ -561,7 +549,7 @@
             "from": "1.7.4",
             "to": "1.7.5",
             "fol": "1.7",
-            "conflicts": [1, 2],
+            "conflicts": [1, 1],
             "_comment": [
                 "Conflict detected - matched same target name!",
                 "1) method_0_2497 <- qr.a(Ldh;)V, qx.a(Ldh;)V",
@@ -627,11 +615,11 @@
             "from": "1.7.10-pre3",
             "to": "1.7.10-pre4",
             "fol": "1.7",
-            "conflicts": [1],
+            "conflicts": [2],
             "_comment": [
                 "Conflict detected - matched same target name!",
                 "1) confirmResult <- bdw<-bbw.a(ZI)V",
-                "2) method_0_8414 <- bcv(itf).a(ZI)V"
+                "2) method_0_8415 <- bcv(itf).a(ZI)V"
             ]
         },
         {
@@ -649,11 +637,11 @@
                 "Conflict detected - matched same target name!",
                 "1) method_0_2385 <- ps(itf).b_()Ljava/lang/String;",
                 "2) method_0_2517 <- ab(itf).b_()Ljava/lang/String;, ac(itf).b_()Ljava/lang/String;, qr.b_()Ljava/lang/String;, rj.b_()Ljava/lang/String;",
-                "3) method_0_5275 <- ape<-[aos,ql<-qp].b_()Ljava/lang/String;",
+                "3) method_0_4815 <- ape<-[aos,ql<-qp].b_()Ljava/lang/String;",
 
                 "Conflict detected - matched same target name!",
-                "1) method_0_5277 <- ape<-[aos,ql<-qp].d()Z",
-                "2) method_0_5361 <- ps(itf).d()Z, wc<-qr.d()Z, wu<-[rj,qp].d()Z"
+                "1) method_0_4817 <- ape<-[aos,ql<-qp].d()Z",
+                "2) method_0_4901 <- ps(itf).d()Z, wc<-qr.d()Z, wu<-[rj,qp].d()Z"
             ]
         },
         {
@@ -698,12 +686,12 @@
             "conflicts": [1, 2],
             "_comment": [
                 "Conflict detected - matched same target name!",
-                "1) method_0_4745 <- btm<-bua<-btx<-bte.e()V, bud<-bur<-buo<-btv.e()V",
-                "2) method_0_4831 <- bvj<-bur<-buo<-btv.e()V",
+                "1) method_0_4285 <- btm<-bua<-btx<-bte.e()V, bud<-bur<-buo<-btv.e()V",
+                "2) method_0_4371 <- bvj<-bur<-buo<-btv.e()V",
 
                 "Conflict detected - matched same target name!",
-                "1) method_0_6210 <- sy<-sx<-rz.q(I)Ladu;",
-                "2) method_0_6325 <- zn<-[sx<-rz,aa].q(I)Ladu;"
+                "1) method_0_5750 <- sy<-sx<-rz.q(I)Ladu;",
+                "2) method_0_5865 <- zn<-[sx<-rz,aa].q(I)Ladu;"
             ]
         },
         {
@@ -713,9 +701,9 @@
             "conflicts": [1],
             "_comment": [
                 "Conflict detected - matched same target name!",
-                "1) method_0_9495 <- bvo<-bwd.a(Lsx;FFFFFFF)V(bridge)",
-                "2) method_0_9504 <- bvu<-bwd.a(Lsx;FFFFFFF)V(bridge)",
-                "3) method_0_9511 <- bwa<-bwd.a(Lsx;FFFFFFF)V(bridge)"
+                "1) method_0_9035 <- bvo<-bwd.a(Lsx;FFFFFFF)V(bridge)",
+                "2) method_0_9044 <- bvu<-bwd.a(Lsx;FFFFFFF)V(bridge)",
+                "3) method_0_9051 <- bwa<-bwd.a(Lsx;FFFFFFF)V(bridge)"
             ]
         },
         {
@@ -742,7 +730,7 @@
             "_comment": [
                 "Conflict detected - matched same target name!",
                 "1) method_0_439 <- alc.f(Lajj;Lde;Ldp;)Lrk;, alj.f(Lajj;Lde;Ldp;)Lrk;",
-                "2) method_0_5254 <- amb<-[amq<-alj,alp].f(Lajj;Lde;Ldp;)Lrk;"
+                "2) method_0_4794 <- amb<-[amq<-alj,alp].f(Lajj;Lde;Ldp;)Lrk;"
             ]
         },
         {
@@ -1501,27 +1489,27 @@
             "from": "1.10.2",
             "to": "16w32a",
             "fol": "1.11",
-            "conflicts": [18],
+            "conflicts": [9],
             "_comment": [
                 "Conflict detected - matched same target name!",
-                "1) method_0_10071 <- aeo$6<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "2) method_0_10072 <- aeo$7<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "3) method_0_10073 <- aeo$10<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "4) method_0_10074 <- aeo$11<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "5) method_0_10075 <- aeo$19<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "6) method_0_10076 <- aeo$3<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "7) method_0_10077 <- aeo$8<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "8) method_0_10078 <- aeo$9<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "9) method_0_10079 <- aeo$13<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "10) method_0_10760 <- aeo$5<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "11) method_0_10761 <- aeo$4<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "12) method_0_12037 <- aeo$14<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "13) method_0_9959 <- aeo$17<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "14) method_0_9960 <- aeo$18<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "15) method_0_9961 <- aeo$21<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "16) method_0_9962 <- aeo$20<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "17) method_0_9963 <- aeo$2<-aez$a.a(Laeq;)Ljava/lang/String;",
-                "18) method_0_9964 <- aez$1<-aez$a.a(Laeq;)Ljava/lang/String;"
+                "1) method_0_10299 <- aeo$5<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "2) method_0_10300 <- aeo$4<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "3) method_0_11576 <- aeo$14<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "4) method_0_9498 <- aeo$17<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "5) method_0_9499 <- aeo$18<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "6) method_0_9500 <- aeo$21<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "7) method_0_9501 <- aeo$20<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "8) method_0_9502 <- aeo$2<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "9) method_0_9503 <- aez$1<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "10) method_0_9610 <- aeo$6<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "11) method_0_9611 <- aeo$7<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "12) method_0_9612 <- aeo$10<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "13) method_0_9613 <- aeo$11<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "14) method_0_9614 <- aeo$19<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "15) method_0_9615 <- aeo$3<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "16) method_0_9616 <- aeo$8<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "17) method_0_9617 <- aeo$9<-aez$a.a(Laeq;)Ljava/lang/String;",
+                "18) method_0_9618 <- aeo$13<-aez$a.a(Laeq;)Ljava/lang/String;"
             ]
         },
         {
@@ -1702,7 +1690,7 @@
             "conflicts": [2],
             "_comments": [
                 "Conflict detected - matched same target name!",
-                "1) method_0_14985 <- bnl$a<-biy<-bip.a(Lbhz;IIF)V",
+                "1) method_0_14524 <- bnl$a<-biy<-bip.a(Lbhz;IIF)V",
                 "2) method_0_891 <- bix<-bio.a(Lbhz;IIF)V, biy<-bip.a(Lbhz;IIF)V"
             ]
         },
@@ -2066,6 +2054,32 @@
             "from": "1.13.2-pre2",
             "to": "1.13.2",
             "fol": "1.13"
+        },
+
+        {
+            "from": "1.13.2",
+            "to": "18w43a",
+            "fol": "1.14"
+        },
+
+        {
+            "from":"1.3.1",
+            "to":"1.3-pre-07261249",
+            "fol":"1.3",
+            "inverted": true,
+            "conflicts": [1],
+            "_comment": [
+                "Conflict detected - matched same target name!",
+                "1) method_0_3340 <- qq<-ai.a()Ljava/lang/String;, rg.a()Ljava/lang/String;",
+                "2) method_0_3505 <- tb<-ai.a()Ljava/lang/String;, tr.a()Ljava/lang/String;"
+            ]
+        },
+
+
+        {
+            "from": "18w43a",
+            "to": "18w43b",
+            "fol": "1.14"
         }
     ],
 
