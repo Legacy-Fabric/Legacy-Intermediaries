@@ -5,6 +5,7 @@ import os
 import json
 import subprocess
 import invert_match
+import gen_intermediary_diff
 
 stitch_url = "https://maven.legacyfabric.net/net/legacyfabric/stitch/{}/stitch-{}-all.jar"
 
@@ -67,6 +68,10 @@ def gen_tiny():
 
     for i in renames:
         rename(i, renames[i])
+
+    print("Generate diff between upstream and legacy fabric")
+    gen_intermediary_diff.gen_diff("./mappings/18w43b.tiny", "./18w43b-fabricmc.tiny")
+    os.remove("./mappings/18w43b.tiny")
 
 
 def update_intermediary(from_name: str, to_name: str, conflicts: list[int], inverted: bool, fol: str):
