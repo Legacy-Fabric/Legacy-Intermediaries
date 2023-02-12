@@ -208,7 +208,7 @@ def fix_inner_classes(file_name: str):
         content_array_array = []
 
         for i in content_array:
-            content_array_array.append(i.split("	"))
+            content_array_array.append(i.split("\t"))
 
         for i in range(len(content_array_array)):
             ii = content_array_array[i]
@@ -237,7 +237,7 @@ def fix_inner_classes(file_name: str):
             if ii[0] == "CLASS":
                 ii[2] = class_array[ii[1]]
 
-            content_array.append("	".join(ii))
+            content_array.append("\t".join(ii))
 
         file_content = "\n".join(content_array)
 
@@ -251,7 +251,6 @@ def rename(old_name: str, new_name: str):
         os.remove(tiny_path.format(new_name))
     if os.path.exists(tiny_path.format(old_name)):
         os.rename(tiny_path.format(old_name), tiny_path.format(new_name))
-        print()
 
 
 if __name__ == '__main__':

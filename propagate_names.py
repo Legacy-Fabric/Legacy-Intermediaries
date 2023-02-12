@@ -12,13 +12,13 @@ def propagate_names(diff_path: str, mappings_path: str):
             continue
 
         with open(mappings_path + "/" + i, 'r') as f:
-            lines = [transform_line(line, diff_dict) + "\n" for line in f.readlines()]
+            lines = [transform_line(line, diff_dict) + "\n" for line in f.read().splitlines()]
         with open(mappings_path + "/" + i, 'w') as f:
             f.writelines(lines)
 
 
 def transform_line(line: str, dic: dict):
-    line_parts = line.strip("\n").split("\t")
+    line_parts = line.split("\t")
 
     match line_parts[0]:
         case "CLASS":

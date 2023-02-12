@@ -3,15 +3,17 @@
 
 import sys
 
-def invert(path, newPath):
-    with open(path) as match:
-        string = match.read()
+
+def invert(path, new_path):
+    with open(path) as match_file:
+        string = match_file.read()
         lines = string.splitlines()
-        parse(lines, newPath)
-        match.close()
-        
-def parse(lines: list[str], newPath):
-    obj = {
+        parse(lines, new_path)
+        match_file.close()
+
+
+def parse(lines: list[str], new_path):
+    match_infos = {
         "title": lines.pop(0),
         "a": [],
         "b": [],
@@ -21,60 +23,63 @@ def parse(lines: list[str], newPath):
         "lines": []
     }
 
-    lines, obj = category(lines, "a", obj)
-    lines, obj = category(lines, "b", obj)
-    lines, obj = category(lines, "cp", obj)
-    lines, obj = category(lines, "cp_a", obj)
-    lines, obj = category(lines, "cp_b", obj)
+    lines, match_infos = category(lines, "a", match_infos)
+    lines, match_infos = category(lines, "b", match_infos)
+    lines, match_infos = category(lines, "cp", match_infos)
+    lines, match_infos = category(lines, "cp_a", match_infos)
+    lines, match_infos = category(lines, "cp_b", match_infos)
 
     while len(lines) > 0:
         line = lines.pop(0)
-        obj["lines"].append(line.split("\t"))
-    
-    obj = invert_object(obj)
+        match_infos["lines"].append(line.split("\t"))
 
-    write(newPath, obj)
+    match_infos = invert_object(match_infos)
 
-def write(newPath, obj):
+    write(new_path, match_infos)
+
+
+def write(new_path, obj):
     lines = [
-        obj["title"],
-        "\ta:"
-    ] + obj["a"] + ["\tb:"] + obj["b"] + ["\tcp:"] + obj["cp"] + ["\tcp a:"] + obj["cp_a"] + ["\tcp b:"] + obj["cp_b"] + obj["lines"]
+                obj["title"],
+                "\ta:"
+            ] + obj["a"] + ["\tb:"] + obj["b"] + ["\tcp:"] + obj["cp"] + ["\tcp a:"] + obj["cp_a"] + ["\tcp b:"] + obj[
+                "cp_b"] + obj["lines"]
 
     txt = ""
 
     for i in lines:
         txt += i + "\n"
-    
-    with open(newPath, 'w') as newFile:
+
+    with open(new_path, 'w') as newFile:
         newFile.write(txt)
         newFile.close()
-    
+
+
 def category(lines: list[str], name: str, obj: dict):
     if lines[0].startswith("\t" + name.replace("_", " ")):
         lines.pop(0)
-    
+
     line = lines.pop(0)
     while line.startswith("\t\t"):
         obj[name].append(line)
         line = lines.pop(0)
-    
+
     lines.insert(0, line)
 
-    return (lines, obj)
+    return lines, obj
 
-def invert_object(obj: dict):
 
-    obj["c"] = obj["a"]
-    obj["a"] = obj["b"]
-    obj["b"] = obj["c"]
+def invert_object(match_infos: dict):
+    match_infos["c"] = match_infos["a"]
+    match_infos["a"] = match_infos["b"]
+    match_infos["b"] = match_infos["c"]
 
-    obj["cp_c"] = obj["cp_a"]
-    obj["cp_a"] = obj["cp_b"]
-    obj["cp_b"] = obj["cp_c"]
+    match_infos["cp_c"] = match_infos["cp_a"]
+    match_infos["cp_a"] = match_infos["cp_b"]
+    match_infos["cp_b"] = match_infos["cp_c"]
 
-    for i in range(0, len(obj["lines"])):
-        line = obj["lines"][i]
+    for i in range(0, len(match_infos["lines"])):
+        line = match_infos["lines"][i]
 
         if line[0] == "c":
             line[0] = line[1]
@@ -91,16 +96,16 @@ def invert_object(obj: dict):
             line[3] = line[4]
             line[4] = line[0]
             line[0] = ""
-        
-        strLine = ""
-        for g in line:
-            strLine += g + "\t"
-        
-        strLine.removesuffix("\t")
 
-        obj["lines"][i] = strLine
-    
-    return obj
+        str_line = ""
+        for g in line:
+            str_line += g + "\t"
+
+        str_line = str_line.removesuffix("\t")
+
+        match_infos["lines"][i] = str_line
+
+    return match_infos
 
 
 if __name__ == '__main__':
