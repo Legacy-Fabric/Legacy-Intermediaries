@@ -18,18 +18,15 @@ plugins {
 	id 'maven-publish'
 }
 
+def intermediaryVersion = "v1"
+
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
-	publishMapping(it, false, localMappingsPath)
+	publishMapping(it, localMappingsPath)
 }
 
-// Old intermediary
-file('legacy/mappings').eachFile {
-	publishMapping(it, true, localMappingsPath)
-}
-
-def publishMapping(File it, boolean old, def localMappingsPath) {
+def publishMapping(File it, def localMappingsPath) {
 	if (!it.name.endsWith(".tiny")) return
 
 	def mcVer = it.name.replace(".tiny", "")
@@ -37,7 +34,7 @@ def publishMapping(File it, boolean old, def localMappingsPath) {
 	File v1MappingFile = it
 	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-	def conversionTask = "convert${it.name}ToV2" + (old ? "old" : "new")
+	def conversionTask = "convert${it.name}ToV2"
 	tasks.register(conversionTask) {
 		group = "V2 Conversion"
 		inputs.file(v1MappingFile)
@@ -53,8 +50,8 @@ def publishMapping(File it, boolean old, def localMappingsPath) {
 		}
 	}
 
-	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false, old)
-	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true, old)
+	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
 
 
 	build.dependsOn makeV1Jar
@@ -64,9 +61,9 @@ def publishMapping(File it, boolean old, def localMappingsPath) {
 
 	publishing {
 		publications {
-			create("${mcVer.replace(" ", "")}_mavenJava" + (old ? "_old" : ""), MavenPublication) {
-				groupId 'net.legacyfabric'
-				artifactId !old ? "intermediary" : "intermediary-old"
+			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
+				groupId 'net.legacyfabric.unstable'
+				artifactId "intermediary" + intermediaryVersion
 				version mcVer
 				artifact(makeV1Jar.archiveFile) {
 					builtBy makeV1Jar
@@ -80,9 +77,9 @@ def publishMapping(File it, boolean old, def localMappingsPath) {
 	}
 }
 
-def makeJar(String mcVersion, File mappings, boolean v2, boolean old) {
-	def jarFilename = "intermediary2-" + mcVersion + (v2 ? "-v2" : "") + (old ? "-old" : "")
-	return task("${mcVersion}_makeJar" + (v2 ? "v2" : "") + (old ? "_old" : ""), type: Jar) {
+def makeJar(String mcVersion, File mappings, boolean v2) {
+	def jarFilename = "intermediary2-" + mcVersion + (v2 ? "-v2" : "")
+	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
 		baseName jarFilename
 		from(file(mappings)) {
 			into "mappings"
@@ -108,5 +105,5 @@ publishing {
                 }
             }
         }
-}
+	}
 }
