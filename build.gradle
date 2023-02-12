@@ -18,8 +18,6 @@ plugins {
 	id 'maven-publish'
 }
 
-def intermediaryVersion = "v1"
-
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
@@ -28,6 +26,8 @@ file('mappings').eachFile {
 
 def publishMapping(File it, def localMappingsPath) {
 	if (!it.name.endsWith(".tiny")) return
+
+	def intermediaryVersion = "v1"
 
 	def mcVer = it.name.replace(".tiny", "")
 
