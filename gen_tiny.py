@@ -75,7 +75,7 @@ def gen_tiny():
     os.remove("./mappings/18w43b.tiny")
 
     print("Propagating upstream names")
-    propagate_names.propagate_names("./diff.json", "./mappings")
+    # propagate_names.propagate_names("./diff.json", "./mappings")
     print("Done")
 
 
