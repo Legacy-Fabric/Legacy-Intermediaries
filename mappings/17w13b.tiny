@@ -2531,19 +2531,19 @@ FIELD	ahh	Lahd;	bx	field_8752
 FIELD	ahh	Lahd;	by	field_8308
 FIELD	ahh	Lahd;	bz	field_8073
 FIELD	ahh	Lahd;	cA	field_8220
-FIELD	ahh	Lahd;	cB	field_8638
-FIELD	ahh	Lahd;	cC	field_8648
-FIELD	ahh	Lahd;	cD	field_8740
-FIELD	ahh	Lahd;	cE	field_8772
-FIELD	ahh	Lahd;	cF	field_8849
-FIELD	ahh	Lahd;	cG	field_8074
-FIELD	ahh	Lahd;	cH	field_8077
-FIELD	ahh	Lahd;	cI	field_8241
-FIELD	ahh	Lahd;	cJ	field_8363
-FIELD	ahh	Lahd;	cK	field_8242
-FIELD	ahh	Lahd;	cL	field_8615
+FIELD	ahh	Lahd;	cB	field_8144
+FIELD	ahh	Lahd;	cC	field_8075
+FIELD	ahh	Lahd;	cD	field_8425
+FIELD	ahh	Lahd;	cE	field_8623
+FIELD	ahh	Lahd;	cF	field_8502
+FIELD	ahh	Lahd;	cG	field_8534
+FIELD	ahh	Lahd;	cH	field_8344
+FIELD	ahh	Lahd;	cI	field_8834
+FIELD	ahh	Lahd;	cJ	field_8065
+FIELD	ahh	Lahd;	cK	field_8355
+FIELD	ahh	Lahd;	cL	field_8731
 FIELD	ahh	Lahd;	c	field_8403
-FIELD	ahh	Lahd;	cM	field_8372
+FIELD	ahh	Lahd;	cM	field_8806
 FIELD	ahh	Lahd;	cN	field_8662
 FIELD	ahh	Lahd;	cO	field_8434
 FIELD	ahh	Lahd;	cP	field_0_11997
@@ -7361,7 +7361,7 @@ FIELD	awh	[Lpu;	o	field_12833
 FIELD	awh	Z	p	field_0_4730
 FIELD	awh	Z	q	field_0_7075
 FIELD	awh	Z	r	field_12847
-FIELD	awh	Z	s	field_0_4731
+FIELD	awh	Z	s	field_12834
 FIELD	awh	Z	t	field_12837
 FIELD	awh	J	u	field_12843
 FIELD	awh	I	v	field_0_5066
@@ -7397,7 +7397,7 @@ METHOD	awh	([Lawi;)V	a	method_0_3894
 METHOD	awh	()V	b	method_0_3895
 METHOD	awh	(II)I	b	method_0_3896
 METHOD	awh	(III)V	b	method_0_3913
-METHOD	awh	(J)V	b	method_12028
+METHOD	awh	(J)V	b	method_12043
 METHOD	awh	(Ldx;)I	b	method_12233
 METHOD	awh	(Lub;)V	b	method_12002
 METHOD	awh	(Z)V	b	method_0_4473
@@ -9933,14 +9933,14 @@ METHOD	bee	()Lbeg;	e	method_301
 METHOD	bee	()F	f	method_302
 CLASS	bee$1	net/minecraft/class_47$1
 FIELD	bee$1	[I	a	field_0_14173
-CLASS	bee$a	net/minecraft/class_47$class_0_3367
-FIELD	bee$a	Lnl;	a	field_0_14642
-FIELD	bee$a	F	b	field_0_14643
+CLASS	bee$a	net/minecraft/class_47$class_48
+FIELD	bee$a	Lnl;	a	field_930
+FIELD	bee$a	F	b	field_931
 FIELD	bee$a	Lub;	c	field_0_14174
 FIELD	bee$a	Lacu;	d	field_0_14175
 FIELD	bee$a	Ltm;	e	field_0_14176
 METHOD	bee$a	()Lbee;	a	method_0_12802
-METHOD	bee$a	(F)Lbee$a;	a	method_0_13002
+METHOD	bee$a	(F)Lbee$a;	a	method_303
 METHOD	bee$a	(Lacu;)Lbee$a;	a	method_0_12805
 METHOD	bee$a	(Ltm;)Lbee$a;	a	method_0_12803
 METHOD	bee$a	(Lub;)Lbee$a;	a	method_0_12804

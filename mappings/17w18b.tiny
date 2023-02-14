@@ -2832,19 +2832,19 @@ FIELD	aid	Lahz;	bx	field_8752
 FIELD	aid	Lahz;	by	field_8308
 FIELD	aid	Lahz;	bz	field_8073
 FIELD	aid	Lahz;	cA	field_8220
-FIELD	aid	Lahz;	cB	field_8638
-FIELD	aid	Lahz;	cC	field_8648
-FIELD	aid	Lahz;	cD	field_8740
-FIELD	aid	Lahz;	cE	field_8772
-FIELD	aid	Lahz;	cF	field_8849
-FIELD	aid	Lahz;	cG	field_8074
-FIELD	aid	Lahz;	cH	field_8077
-FIELD	aid	Lahz;	cI	field_8241
-FIELD	aid	Lahz;	cJ	field_8363
-FIELD	aid	Lahz;	cK	field_8242
-FIELD	aid	Lahz;	cL	field_8615
+FIELD	aid	Lahz;	cB	field_8144
+FIELD	aid	Lahz;	cC	field_8075
+FIELD	aid	Lahz;	cD	field_8425
+FIELD	aid	Lahz;	cE	field_8623
+FIELD	aid	Lahz;	cF	field_8502
+FIELD	aid	Lahz;	cG	field_8534
+FIELD	aid	Lahz;	cH	field_8344
+FIELD	aid	Lahz;	cI	field_8834
+FIELD	aid	Lahz;	cJ	field_8065
+FIELD	aid	Lahz;	cK	field_8355
+FIELD	aid	Lahz;	cL	field_8731
 FIELD	aid	Lahz;	c	field_8403
-FIELD	aid	Lahz;	cM	field_8372
+FIELD	aid	Lahz;	cM	field_8806
 FIELD	aid	Lahz;	cN	field_8662
 FIELD	aid	Lahz;	cO	field_8434
 FIELD	aid	Lahz;	cP	field_0_11997
@@ -7578,7 +7578,7 @@ FIELD	axh	[Lqk;	o	field_12833
 FIELD	axh	Z	p	field_0_4730
 FIELD	axh	Z	q	field_0_7075
 FIELD	axh	Z	r	field_12847
-FIELD	axh	Z	s	field_0_4731
+FIELD	axh	Z	s	field_12834
 FIELD	axh	Z	t	field_12837
 FIELD	axh	J	u	field_12843
 FIELD	axh	I	v	field_0_5066
@@ -7614,7 +7614,7 @@ METHOD	axh	([Laxi;)V	a	method_0_3894
 METHOD	axh	()V	b	method_0_3895
 METHOD	axh	(II)I	b	method_0_3896
 METHOD	axh	(III)V	b	method_0_3913
-METHOD	axh	(J)V	b	method_12028
+METHOD	axh	(J)V	b	method_12043
 METHOD	axh	(Lel;)I	b	method_12233
 METHOD	axh	(Lut;)V	b	method_12002
 METHOD	axh	(Z)V	b	method_0_4473
@@ -10269,14 +10269,14 @@ METHOD	bfe	()Lbfg;	e	method_301
 METHOD	bfe	()F	f	method_302
 CLASS	bfe$1	net/minecraft/class_47$1
 FIELD	bfe$1	[I	a	field_0_14173
-CLASS	bfe$a	net/minecraft/class_47$class_0_3367
-FIELD	bfe$a	Lob;	a	field_0_14642
-FIELD	bfe$a	F	b	field_0_14643
+CLASS	bfe$a	net/minecraft/class_47$class_48
+FIELD	bfe$a	Lob;	a	field_930
+FIELD	bfe$a	F	b	field_931
 FIELD	bfe$a	Lut;	c	field_0_14174
 FIELD	bfe$a	Ladq;	d	field_0_14175
 FIELD	bfe$a	Lue;	e	field_0_14176
 METHOD	bfe$a	()Lbfe;	a	method_0_12802
-METHOD	bfe$a	(F)Lbfe$a;	a	method_0_13002
+METHOD	bfe$a	(F)Lbfe$a;	a	method_303
 METHOD	bfe$a	(Ladq;)Lbfe$a;	a	method_0_12805
 METHOD	bfe$a	(Lue;)Lbfe$a;	a	method_0_12803
 METHOD	bfe$a	(Lut;)Lbfe$a;	a	method_0_12804

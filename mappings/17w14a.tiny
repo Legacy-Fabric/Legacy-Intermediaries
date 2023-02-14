@@ -2601,19 +2601,19 @@ FIELD	ahm	Lahi;	bx	field_8752
 FIELD	ahm	Lahi;	by	field_8308
 FIELD	ahm	Lahi;	bz	field_8073
 FIELD	ahm	Lahi;	cA	field_8220
-FIELD	ahm	Lahi;	cB	field_8638
-FIELD	ahm	Lahi;	cC	field_8648
-FIELD	ahm	Lahi;	cD	field_8740
-FIELD	ahm	Lahi;	cE	field_8772
-FIELD	ahm	Lahi;	cF	field_8849
-FIELD	ahm	Lahi;	cG	field_8074
-FIELD	ahm	Lahi;	cH	field_8077
-FIELD	ahm	Lahi;	cI	field_8241
-FIELD	ahm	Lahi;	cJ	field_8363
-FIELD	ahm	Lahi;	cK	field_8242
-FIELD	ahm	Lahi;	cL	field_8615
+FIELD	ahm	Lahi;	cB	field_8144
+FIELD	ahm	Lahi;	cC	field_8075
+FIELD	ahm	Lahi;	cD	field_8425
+FIELD	ahm	Lahi;	cE	field_8623
+FIELD	ahm	Lahi;	cF	field_8502
+FIELD	ahm	Lahi;	cG	field_8534
+FIELD	ahm	Lahi;	cH	field_8344
+FIELD	ahm	Lahi;	cI	field_8834
+FIELD	ahm	Lahi;	cJ	field_8065
+FIELD	ahm	Lahi;	cK	field_8355
+FIELD	ahm	Lahi;	cL	field_8731
 FIELD	ahm	Lahi;	c	field_8403
-FIELD	ahm	Lahi;	cM	field_8372
+FIELD	ahm	Lahi;	cM	field_8806
 FIELD	ahm	Lahi;	cN	field_8662
 FIELD	ahm	Lahi;	cO	field_8434
 FIELD	ahm	Lahi;	cP	field_0_11997
@@ -7317,7 +7317,7 @@ FIELD	awm	[Lpy;	o	field_12833
 FIELD	awm	Z	p	field_0_4730
 FIELD	awm	Z	q	field_0_7075
 FIELD	awm	Z	r	field_12847
-FIELD	awm	Z	s	field_0_4731
+FIELD	awm	Z	s	field_12834
 FIELD	awm	Z	t	field_12837
 FIELD	awm	J	u	field_12843
 FIELD	awm	I	v	field_0_5066
@@ -7353,7 +7353,7 @@ METHOD	awm	([Lawn;)V	a	method_0_3894
 METHOD	awm	()V	b	method_0_3895
 METHOD	awm	(II)I	b	method_0_3896
 METHOD	awm	(III)V	b	method_0_3913
-METHOD	awm	(J)V	b	method_12028
+METHOD	awm	(J)V	b	method_12043
 METHOD	awm	(Leb;)I	b	method_12233
 METHOD	awm	(Luf;)V	b	method_12002
 METHOD	awm	(Z)V	b	method_0_4473
@@ -10051,14 +10051,14 @@ METHOD	bej	()Lbel;	e	method_301
 METHOD	bej	()F	f	method_302
 CLASS	bej$1	net/minecraft/class_47$1
 FIELD	bej$1	[I	a	field_0_14173
-CLASS	bej$a	net/minecraft/class_47$class_0_3367
-FIELD	bej$a	Lnp;	a	field_0_14642
-FIELD	bej$a	F	b	field_0_14643
+CLASS	bej$a	net/minecraft/class_47$class_48
+FIELD	bej$a	Lnp;	a	field_930
+FIELD	bej$a	F	b	field_931
 FIELD	bej$a	Luf;	c	field_0_14174
 FIELD	bej$a	Lacz;	d	field_0_14175
 FIELD	bej$a	Ltq;	e	field_0_14176
 METHOD	bej$a	()Lbej;	a	method_0_12802
-METHOD	bej$a	(F)Lbej$a;	a	method_0_13002
+METHOD	bej$a	(F)Lbej$a;	a	method_303
 METHOD	bej$a	(Lacz;)Lbej$a;	a	method_0_12805
 METHOD	bej$a	(Ltq;)Lbej$a;	a	method_0_12803
 METHOD	bej$a	(Luf;)Lbej$a;	a	method_0_12804

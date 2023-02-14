@@ -3531,19 +3531,19 @@ FIELD	akv	Lakr;	bx	field_8752
 FIELD	akv	Lakr;	by	field_8308
 FIELD	akv	Lakr;	bz	field_8073
 FIELD	akv	Lakr;	cA	field_8220
-FIELD	akv	Lakr;	cB	field_8638
-FIELD	akv	Lakr;	cC	field_8648
-FIELD	akv	Lakr;	cD	field_8740
-FIELD	akv	Lakr;	cE	field_8772
-FIELD	akv	Lakr;	cF	field_8849
-FIELD	akv	Lakr;	cG	field_8074
-FIELD	akv	Lakr;	cH	field_8077
-FIELD	akv	Lakr;	cI	field_8241
-FIELD	akv	Lakr;	cJ	field_8363
-FIELD	akv	Lakr;	cK	field_8242
-FIELD	akv	Lakr;	cL	field_8615
+FIELD	akv	Lakr;	cB	field_8144
+FIELD	akv	Lakr;	cC	field_8075
+FIELD	akv	Lakr;	cD	field_8425
+FIELD	akv	Lakr;	cE	field_8623
+FIELD	akv	Lakr;	cF	field_8502
+FIELD	akv	Lakr;	cG	field_8534
+FIELD	akv	Lakr;	cH	field_8344
+FIELD	akv	Lakr;	cI	field_8834
+FIELD	akv	Lakr;	cJ	field_8065
+FIELD	akv	Lakr;	cK	field_8355
+FIELD	akv	Lakr;	cL	field_8731
 FIELD	akv	Lakr;	c	field_8403
-FIELD	akv	Lakr;	cM	field_8372
+FIELD	akv	Lakr;	cM	field_8806
 FIELD	akv	Lakr;	cN	field_8662
 FIELD	akv	Lakr;	cO	field_8434
 FIELD	akv	Lakr;	cP	field_0_11997
@@ -8372,7 +8372,7 @@ FIELD	baa	[Lsz;	o	field_12833
 FIELD	baa	Z	p	field_0_4730
 FIELD	baa	Z	q	field_0_7075
 FIELD	baa	Z	r	field_12847
-FIELD	baa	Z	s	field_0_4731
+FIELD	baa	Z	s	field_12834
 FIELD	baa	Z	t	field_12837
 FIELD	baa	J	u	field_12843
 FIELD	baa	I	v	field_0_5066
@@ -8408,7 +8408,7 @@ METHOD	baa	([Lbab;)V	a	method_0_3894
 METHOD	baa	()V	b	method_0_3895
 METHOD	baa	(II)I	b	method_0_3896
 METHOD	baa	(III)V	b	method_0_3913
-METHOD	baa	(J)V	b	method_12028
+METHOD	baa	(J)V	b	method_12043
 METHOD	baa	(Lde;)I	b	method_12233
 METHOD	baa	(Lxk;)V	b	method_12002
 METHOD	baa	(Z)V	b	method_0_4473
@@ -10981,14 +10981,14 @@ METHOD	bhx	()Lbhz;	e	method_301
 METHOD	bhx	()F	f	method_302
 CLASS	bhx$1	net/minecraft/class_47$1
 FIELD	bhx$1	[I	a	field_0_14173
-CLASS	bhx$a	net/minecraft/class_47$class_0_3367
-FIELD	bhx$a	Lpo;	a	field_0_14642
-FIELD	bhx$a	F	b	field_0_14643
+CLASS	bhx$a	net/minecraft/class_47$class_48
+FIELD	bhx$a	Lpo;	a	field_930
+FIELD	bhx$a	F	b	field_931
 FIELD	bhx$a	Lxk;	c	field_0_14174
 FIELD	bhx$a	Lagh;	d	field_0_14175
 FIELD	bhx$a	Lwv;	e	field_0_14176
 METHOD	bhx$a	()Lbhx;	a	method_0_12802
-METHOD	bhx$a	(F)Lbhx$a;	a	method_0_13002
+METHOD	bhx$a	(F)Lbhx$a;	a	method_303
 METHOD	bhx$a	(Lagh;)Lbhx$a;	a	method_0_12805
 METHOD	bhx$a	(Lwv;)Lbhx$a;	a	method_0_12803
 METHOD	bhx$a	(Lxk;)Lbhx$a;	a	method_0_12804
@@ -19805,9 +19805,9 @@ METHOD	cit	(Ljava/lang/Object;)V	a	method_0_15228
 METHOD	cit	(Ljava/lang/Object;Ljava/lang/String;)V	a	method_0_15229
 METHOD	cit	(Ljava/lang/Object;Llw;)V	a	method_4794
 METHOD	cit	(Ljava/lang/Object;)V	b	method_0_15231
-CLASS	cit$a	net/minecraft/class_1121$class_0_3872
-FIELD	cit$a	Ljava/util/Iterator;	a	field_0_16845
-FIELD	cit$a	Ljava/util/Iterator;	b	field_0_16846
+CLASS	cit$a	net/minecraft/class_1121$class_1127
+FIELD	cit$a	Ljava/util/Iterator;	a	field_5499
+FIELD	cit$a	Ljava/util/Iterator;	b	field_5500
 FIELD	cit$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_16847
 FIELD	cit$a	Ljava/lang/Object;	d	field_0_16848
 FIELD	cit$a	Ljava/lang/Object;	e	field_0_16849

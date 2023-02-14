@@ -1163,18 +1163,18 @@ FIELD	adr	Ladn;	bw	field_8752
 FIELD	adr	Ladn;	bx	field_8308
 FIELD	adr	Ladn;	by	field_8073
 FIELD	adr	Ladn;	bz	field_8245
-FIELD	adr	Ladn;	cA	field_8638
-FIELD	adr	Ladn;	cB	field_8648
-FIELD	adr	Ladn;	cC	field_8740
-FIELD	adr	Ladn;	cD	field_8772
-FIELD	adr	Ladn;	cE	field_8849
-FIELD	adr	Ladn;	cF	field_8074
-FIELD	adr	Ladn;	cG	field_8077
-FIELD	adr	Ladn;	cH	field_8241
-FIELD	adr	Ladn;	cI	field_8363
-FIELD	adr	Ladn;	cJ	field_8242
-FIELD	adr	Ladn;	cK	field_8615
-FIELD	adr	Ladn;	cL	field_8372
+FIELD	adr	Ladn;	cA	field_8144
+FIELD	adr	Ladn;	cB	field_8075
+FIELD	adr	Ladn;	cC	field_8425
+FIELD	adr	Ladn;	cD	field_8623
+FIELD	adr	Ladn;	cE	field_8502
+FIELD	adr	Ladn;	cF	field_8534
+FIELD	adr	Ladn;	cG	field_8344
+FIELD	adr	Ladn;	cH	field_8834
+FIELD	adr	Ladn;	cI	field_8065
+FIELD	adr	Ladn;	cJ	field_8355
+FIELD	adr	Ladn;	cK	field_8731
+FIELD	adr	Ladn;	cL	field_8806
 FIELD	adr	Ladn;	c	field_8475
 FIELD	adr	Ladn;	cM	field_8662
 FIELD	adr	Ladn;	cN	field_8434
@@ -5424,7 +5424,7 @@ FIELD	asd	[Lny;	n	field_12833
 FIELD	asd	Z	o	field_0_4730
 FIELD	asd	Z	p	field_0_7075
 FIELD	asd	Z	q	field_12847
-FIELD	asd	Z	r	field_0_4731
+FIELD	asd	Z	r	field_12834
 FIELD	asd	Z	s	field_12837
 FIELD	asd	J	t	field_12843
 FIELD	asd	I	u	field_0_5066
@@ -5460,7 +5460,7 @@ METHOD	asd	([Lase;)V	a	method_0_3894
 METHOD	asd	()V	b	method_0_3895
 METHOD	asd	(II)I	b	method_0_3896
 METHOD	asd	(III)V	b	method_0_3913
-METHOD	asd	(J)V	b	method_12028
+METHOD	asd	(J)V	b	method_12043
 METHOD	asd	(Lcj;)I	b	method_12233
 METHOD	asd	(Lrq;)V	b	method_12002
 METHOD	asd	(Z)V	b	method_0_4473
@@ -7714,14 +7714,14 @@ METHOD	azy	()Lbaa;	e	method_301
 METHOD	azy	()F	f	method_302
 CLASS	azy$1	net/minecraft/class_47$1
 FIELD	azy$1	[I	a	field_0_14173
-CLASS	azy$a	net/minecraft/class_47$class_0_3367
-FIELD	azy$a	Llp;	a	field_0_14642
-FIELD	azy$a	F	b	field_0_14643
+CLASS	azy$a	net/minecraft/class_47$class_48
+FIELD	azy$a	Llp;	a	field_930
+FIELD	azy$a	F	b	field_931
 FIELD	azy$a	Lrq;	c	field_0_14174
 FIELD	azy$a	Lzi;	d	field_0_14175
 FIELD	azy$a	Lrb;	e	field_0_14176
 METHOD	azy$a	()Lazy;	a	method_0_12802
-METHOD	azy$a	(F)Lazy$a;	a	method_0_13002
+METHOD	azy$a	(F)Lazy$a;	a	method_303
 METHOD	azy$a	(Lrb;)Lazy$a;	a	method_0_12803
 METHOD	azy$a	(Lrq;)Lazy$a;	a	method_0_12804
 METHOD	azy$a	(Lzi;)Lazy$a;	a	method_0_12805

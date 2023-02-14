@@ -1629,19 +1629,19 @@ FIELD	aeu	Laeq;	bx	field_8752
 FIELD	aeu	Laeq;	by	field_8308
 FIELD	aeu	Laeq;	bz	field_8073
 FIELD	aeu	Laeq;	cA	field_8220
-FIELD	aeu	Laeq;	cB	field_8638
-FIELD	aeu	Laeq;	cC	field_8648
-FIELD	aeu	Laeq;	cD	field_8740
-FIELD	aeu	Laeq;	cE	field_8772
-FIELD	aeu	Laeq;	cF	field_8849
-FIELD	aeu	Laeq;	cG	field_8074
-FIELD	aeu	Laeq;	cH	field_8077
-FIELD	aeu	Laeq;	cI	field_8241
-FIELD	aeu	Laeq;	cJ	field_8363
-FIELD	aeu	Laeq;	cK	field_8242
-FIELD	aeu	Laeq;	cL	field_8615
+FIELD	aeu	Laeq;	cB	field_8144
+FIELD	aeu	Laeq;	cC	field_8075
+FIELD	aeu	Laeq;	cD	field_8425
+FIELD	aeu	Laeq;	cE	field_8623
+FIELD	aeu	Laeq;	cF	field_8502
+FIELD	aeu	Laeq;	cG	field_8534
+FIELD	aeu	Laeq;	cH	field_8344
+FIELD	aeu	Laeq;	cI	field_8834
+FIELD	aeu	Laeq;	cJ	field_8065
+FIELD	aeu	Laeq;	cK	field_8355
+FIELD	aeu	Laeq;	cL	field_8731
 FIELD	aeu	Laeq;	c	field_8403
-FIELD	aeu	Laeq;	cM	field_8372
+FIELD	aeu	Laeq;	cM	field_8806
 FIELD	aeu	Laeq;	cN	field_8662
 FIELD	aeu	Laeq;	cO	field_8434
 FIELD	aeu	Laeq;	cP	field_0_11997
@@ -5975,7 +5975,7 @@ FIELD	atp	[Lod;	o	field_12833
 FIELD	atp	Z	p	field_0_4730
 FIELD	atp	Z	q	field_0_7075
 FIELD	atp	Z	r	field_12847
-FIELD	atp	Z	s	field_0_4731
+FIELD	atp	Z	s	field_12834
 FIELD	atp	Z	t	field_12837
 FIELD	atp	J	u	field_12843
 FIELD	atp	I	v	field_0_5066
@@ -6011,7 +6011,7 @@ METHOD	atp	([Latq;)V	a	method_0_3894
 METHOD	atp	()V	b	method_0_3895
 METHOD	atp	(II)I	b	method_0_3896
 METHOD	atp	(III)V	b	method_0_3913
-METHOD	atp	(J)V	b	method_12028
+METHOD	atp	(J)V	b	method_12043
 METHOD	atp	(Lcn;)I	b	method_12233
 METHOD	atp	(Lsg;)V	b	method_12002
 METHOD	atp	(Z)V	b	method_0_4473
@@ -8424,14 +8424,14 @@ METHOD	bbk	()Lbbm;	e	method_301
 METHOD	bbk	()F	f	method_302
 CLASS	bbk$1	net/minecraft/class_47$1
 FIELD	bbk$1	[I	a	field_0_14173
-CLASS	bbk$a	net/minecraft/class_47$class_0_3367
-FIELD	bbk$a	Llu;	a	field_0_14642
-FIELD	bbk$a	F	b	field_0_14643
+CLASS	bbk$a	net/minecraft/class_47$class_48
+FIELD	bbk$a	Llu;	a	field_930
+FIELD	bbk$a	F	b	field_931
 FIELD	bbk$a	Lsg;	c	field_0_14174
 FIELD	bbk$a	Laam;	d	field_0_14175
 FIELD	bbk$a	Lrr;	e	field_0_14176
 METHOD	bbk$a	()Lbbk;	a	method_0_12802
-METHOD	bbk$a	(F)Lbbk$a;	a	method_0_13002
+METHOD	bbk$a	(F)Lbbk$a;	a	method_303
 METHOD	bbk$a	(Laam;)Lbbk$a;	a	method_0_12805
 METHOD	bbk$a	(Lrr;)Lbbk$a;	a	method_0_12803
 METHOD	bbk$a	(Lsg;)Lbbk$a;	a	method_0_12804

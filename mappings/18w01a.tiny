@@ -4924,14 +4924,14 @@ FIELD	anq	Lanl;	dO	field_8807
 FIELD	anq	Lanl;	dP	field_8719
 FIELD	anq	Lanl;	dQ	field_8448
 FIELD	anq	Lanl;	dR	field_8220
-FIELD	anq	Lanl;	dS	field_8638
-FIELD	anq	Lanl;	dT	field_8648
-FIELD	anq	Lanl;	dU	field_8740
-FIELD	anq	Lanl;	dV	field_8772
-FIELD	anq	Lanl;	dW	field_8849
-FIELD	anq	Lanl;	dX	field_8074
-FIELD	anq	Lanl;	dY	field_8077
-FIELD	anq	Lanl;	dZ	field_8241
+FIELD	anq	Lanl;	dS	field_8144
+FIELD	anq	Lanl;	dT	field_8075
+FIELD	anq	Lanl;	dU	field_8425
+FIELD	anq	Lanl;	dV	field_8623
+FIELD	anq	Lanl;	dW	field_8502
+FIELD	anq	Lanl;	dX	field_8534
+FIELD	anq	Lanl;	dY	field_8344
+FIELD	anq	Lanl;	dZ	field_8834
 FIELD	anq	Lanl;	da	field_8086
 FIELD	anq	Lanl;	db	field_8149
 FIELD	anq	Lanl;	dc	field_8254
@@ -4968,10 +4968,10 @@ FIELD	anq	Lanl;	eG	field_8675
 FIELD	anq	Lanl;	eH	field_8361
 FIELD	anq	Lanl;	eI	field_8688
 FIELD	anq	Lanl;	e	field_8884
-FIELD	anq	Lanl;	ea	field_8363
-FIELD	anq	Lanl;	eb	field_8242
-FIELD	anq	Lanl;	ec	field_8615
-FIELD	anq	Lanl;	ed	field_8372
+FIELD	anq	Lanl;	ea	field_8065
+FIELD	anq	Lanl;	eb	field_8355
+FIELD	anq	Lanl;	ec	field_8731
+FIELD	anq	Lanl;	ed	field_8806
 FIELD	anq	Lanl;	ee	field_8662
 FIELD	anq	Lanl;	ef	field_8434
 FIELD	anq	Lanl;	eg	field_8539
@@ -9672,7 +9672,7 @@ FIELD	bde	[Lva;	p	field_12833
 FIELD	bde	Z	q	field_0_4730
 FIELD	bde	Z	r	field_0_7075
 FIELD	bde	Z	s	field_12847
-FIELD	bde	Z	t	field_0_4731
+FIELD	bde	Z	t	field_12834
 FIELD	bde	Z	u	field_12837
 FIELD	bde	J	v	field_12843
 FIELD	bde	I	w	field_0_5066
@@ -9709,7 +9709,7 @@ METHOD	bde	([Lbdf;)V	a	method_0_3894
 METHOD	bde	()V	b	method_0_3895
 METHOD	bde	(II)I	b	method_0_3896
 METHOD	bde	(III)V	b	method_0_3913
-METHOD	bde	(J)V	b	method_12028
+METHOD	bde	(J)V	b	method_12043
 METHOD	bde	(Laad;)V	b	method_12002
 METHOD	bde	(Ldy;)I	b	method_12233
 METHOD	bde	(Z)V	b	method_0_4473
@@ -12317,14 +12317,14 @@ METHOD	bkw	()Lbky;	e	method_301
 METHOD	bkw	()F	f	method_302
 CLASS	bkw$1	net/minecraft/class_47$1
 FIELD	bkw$1	[I	a	field_0_14173
-CLASS	bkw$a	net/minecraft/class_47$class_0_3367
-FIELD	bkw$a	Lrn;	a	field_0_14642
-FIELD	bkw$a	F	b	field_0_14643
+CLASS	bkw$a	net/minecraft/class_47$class_48
+FIELD	bkw$a	Lrn;	a	field_930
+FIELD	bkw$a	F	b	field_931
 FIELD	bkw$a	Laad;	c	field_0_14174
 FIELD	bkw$a	Laiz;	d	field_0_14175
 FIELD	bkw$a	Lzn;	e	field_0_14176
 METHOD	bkw$a	()Lbkw;	a	method_0_12802
-METHOD	bkw$a	(F)Lbkw$a;	a	method_0_13002
+METHOD	bkw$a	(F)Lbkw$a;	a	method_303
 METHOD	bkw$a	(Laad;)Lbkw$a;	a	method_0_12804
 METHOD	bkw$a	(Laiz;)Lbkw$a;	a	method_0_12805
 METHOD	bkw$a	(Lzn;)Lbkw$a;	a	method_0_12803
@@ -16761,8 +16761,8 @@ CLASS	bw$a	net/minecraft/class_2203$class_2205
 FIELD	bw$a	Ljava/lang/String;	a	field_9902
 CLASS	bw$b	net/minecraft/class_2203$class_2206
 FIELD	bw$b	I	a	field_9903
-CLASS	bw$c	net/minecraft/class_2203$class_0_4000
-FIELD	bw$c	Ljava/lang/String;	a	field_0_17677
+CLASS	bw$c	net/minecraft/class_2203$class_2209
+FIELD	bw$c	Ljava/lang/String;	a	field_9909
 FIELD	bw$c	[Lbw$d;	b	field_0_17678
 METHOD	bw$c	(I)Lgu;	a	method_0_16715
 METHOD	bw$c	(Lgu;)Lgu;	a	method_0_16716
@@ -21436,9 +21436,9 @@ FIELD	clx$a	Lcom/google/common/collect/PeekingIterator;	a	field_5490
 FIELD	clx$a	Lcom/google/common/collect/PeekingIterator;	b	field_5491
 FIELD	clx$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_18455
 METHOD	clx$a	()Ljava/lang/Object;	computeNext	computeNext
-CLASS	clx$b	net/minecraft/class_1121$class_0_3872
-FIELD	clx$b	Lcom/google/common/collect/PeekingIterator;	a	field_0_16845
-FIELD	clx$b	Lcom/google/common/collect/PeekingIterator;	b	field_0_16846
+CLASS	clx$b	net/minecraft/class_1121$class_1127
+FIELD	clx$b	Lcom/google/common/collect/PeekingIterator;	a	field_5499
+FIELD	clx$b	Lcom/google/common/collect/PeekingIterator;	b	field_5500
 FIELD	clx$b	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_16847
 METHOD	clx$b	()Ljava/lang/Object;	computeNext	computeNext
 CLASS	cly	net/minecraft/class_1124
@@ -22093,7 +22093,7 @@ METHOD	cv	(Lnr;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collecti
 METHOD	cv	(Lnr;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	b	method_0_17622
 METHOD	cv	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions	listSuggestions
 METHOD	cv	(Lcom/mojang/brigadier/StringReader;Lcom/mojang/brigadier/context/CommandContextBuilder;)Ljava/lang/Object;	parse	parse
-CLASS	cv$a	net/minecraft/class_2284$class_0_4165
+CLASS	cv$a	net/minecraft/class_2284$class_2285
 METHOD	cv$a	(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	create	create
 CLASS	cw	net/minecraft/class_2287
 METHOD	cw	()Lcw;	a	method_9776

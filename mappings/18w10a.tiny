@@ -5733,18 +5733,18 @@ FIELD	app	Lapk;	ea	field_8807
 FIELD	app	Lapk;	eb	field_8719
 FIELD	app	Lapk;	ec	field_8448
 FIELD	app	Lapk;	ed	field_8220
-FIELD	app	Lapk;	ee	field_8638
-FIELD	app	Lapk;	ef	field_8648
-FIELD	app	Lapk;	eg	field_8740
-FIELD	app	Lapk;	eh	field_8772
-FIELD	app	Lapk;	ei	field_8849
-FIELD	app	Lapk;	ej	field_8074
-FIELD	app	Lapk;	ek	field_8077
-FIELD	app	Lapk;	el	field_8241
-FIELD	app	Lapk;	em	field_8363
-FIELD	app	Lapk;	en	field_8242
-FIELD	app	Lapk;	eo	field_8615
-FIELD	app	Lapk;	ep	field_8372
+FIELD	app	Lapk;	ee	field_8144
+FIELD	app	Lapk;	ef	field_8075
+FIELD	app	Lapk;	eg	field_8425
+FIELD	app	Lapk;	eh	field_8623
+FIELD	app	Lapk;	ei	field_8502
+FIELD	app	Lapk;	ej	field_8534
+FIELD	app	Lapk;	ek	field_8344
+FIELD	app	Lapk;	el	field_8834
+FIELD	app	Lapk;	em	field_8065
+FIELD	app	Lapk;	en	field_8355
+FIELD	app	Lapk;	eo	field_8731
+FIELD	app	Lapk;	ep	field_8806
 FIELD	app	Lapk;	eq	field_8662
 FIELD	app	Lapk;	er	field_8434
 FIELD	app	Lapk;	es	field_8539
@@ -10660,7 +10660,7 @@ CLASS	bhs$1	net/minecraft/class_2841$1
 CLASS	bht	net/minecraft/class_2791
 METHOD	bht	()[Lbid;	a	method_12006
 METHOD	bht	(II)I	a	method_0_18215
-METHOD	bht	(J)V	a	method_12028
+METHOD	bht	(J)V	a	method_12043
 METHOD	bht	(Labl;)V	a	method_12002
 METHOD	bht	(Laun;Lec;Z)I	a	method_0_3888
 METHOD	bht	(Laun;ZLec;I)V	a	method_0_3889
@@ -10818,7 +10818,7 @@ FIELD	bic	[Lit/unimi/dsi/fastutil/shorts/ShortList;	t	field_0_19209
 FIELD	bic	Z	u	field_12847
 FIELD	bic	Z	v	field_12837
 FIELD	bic	J	w	field_12843
-FIELD	bic	Z	x	field_0_4731
+FIELD	bic	Z	x	field_12834
 FIELD	bic	I	y	field_0_5066
 FIELD	bic	J	z	field_12844
 METHOD	bic	()J	A	method_0_8492
@@ -11813,8 +11813,8 @@ CLASS	bmw	net/minecraft/class_3145
 FIELD	bmw	I	b	field_0_19377
 METHOD	bmw	(Lbhu;)I	a	method_13773
 METHOD	bmw	()I	c	method_13774
-CLASS	bmx	net/minecraft/class_0_4355
-METHOD	bmx	(Lauf;Lbhu;Ljava/util/Random;Lec;Lbmt;)Z	a	method_0_18416
+CLASS	bmx	net/minecraft/class_3150
+METHOD	bmx	(Lauf;Lbhu;Ljava/util/Random;Lec;Lbmt;)Z	a	method_13798
 METHOD	bmx	(Lbky;Lbkz;Lauf;Lbhu;Ljava/util/Random;Lec;)Z	a	method_0_18417
 CLASS	bmy	net/minecraft/class_3148
 METHOD	bmy	(Lauf;Lbhu;Ljava/util/Random;Lec;Lbmh;)Z	a	method_13782
@@ -14329,15 +14329,15 @@ METHOD	bvt	()F	g	method_302
 METHOD	bvt	()Lse;	h	method_299
 CLASS	bvt$1	net/minecraft/class_47$1
 FIELD	bvt$1	[I	a	field_0_14173
-CLASS	bvt$a	net/minecraft/class_47$class_0_3367
-FIELD	bvt$a	Lse;	a	field_0_14642
-FIELD	bvt$a	F	b	field_0_14643
+CLASS	bvt$a	net/minecraft/class_47$class_48
+FIELD	bvt$a	Lse;	a	field_930
+FIELD	bvt$a	F	b	field_931
 FIELD	bvt$a	Labl;	c	field_0_14174
 FIELD	bvt$a	Lakq;	d	field_0_14175
 FIELD	bvt$a	Laav;	e	field_0_14176
 FIELD	bvt$a	Lec;	f	field_0_20317
 METHOD	bvt$a	()Lbvt;	a	method_0_12802
-METHOD	bvt$a	(F)Lbvt$a;	a	method_0_13002
+METHOD	bvt$a	(F)Lbvt$a;	a	method_303
 METHOD	bvt$a	(Laav;)Lbvt$a;	a	method_0_12803
 METHOD	bvt$a	(Labl;)Lbvt$a;	a	method_0_12804
 METHOD	bvt$a	(Lakq;)Lbvt$a;	a	method_0_12805
@@ -16299,8 +16299,8 @@ CLASS	ca$a	net/minecraft/class_2203$class_2205
 FIELD	ca$a	Ljava/lang/String;	a	field_9902
 CLASS	ca$b	net/minecraft/class_2203$class_2206
 FIELD	ca$b	I	a	field_9903
-CLASS	ca$c	net/minecraft/class_2203$class_0_4000
-FIELD	ca$c	Ljava/lang/String;	a	field_0_17677
+CLASS	ca$c	net/minecraft/class_2203$class_2209
+FIELD	ca$c	Ljava/lang/String;	a	field_9909
 FIELD	ca$c	[Lca$d;	b	field_0_17678
 METHOD	ca$c	(I)Lhf;	a	method_0_16715
 METHOD	ca$c	(Lhf;)Lhf;	a	method_0_16716
@@ -23509,9 +23509,9 @@ FIELD	cxy$a	Lcom/google/common/collect/PeekingIterator;	a	field_5490
 FIELD	cxy$a	Lcom/google/common/collect/PeekingIterator;	b	field_5491
 FIELD	cxy$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_18455
 METHOD	cxy$a	()Ljava/lang/Object;	computeNext	computeNext
-CLASS	cxy$b	net/minecraft/class_1121$class_0_3872
-FIELD	cxy$b	Lcom/google/common/collect/PeekingIterator;	a	field_0_16845
-FIELD	cxy$b	Lcom/google/common/collect/PeekingIterator;	b	field_0_16846
+CLASS	cxy$b	net/minecraft/class_1121$class_1127
+FIELD	cxy$b	Lcom/google/common/collect/PeekingIterator;	a	field_5499
+FIELD	cxy$b	Lcom/google/common/collect/PeekingIterator;	b	field_5500
 FIELD	cxy$b	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_16847
 METHOD	cxy$b	()Ljava/lang/Object;	computeNext	computeNext
 CLASS	cxz	net/minecraft/class_1124
@@ -24115,7 +24115,7 @@ METHOD	da	(Loe;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collecti
 METHOD	da	()Ljava/util/Collection;	getExamples	getExamples
 METHOD	da	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions	listSuggestions
 METHOD	da	(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse	parse
-CLASS	da$a	net/minecraft/class_2284$class_0_4165
+CLASS	da$a	net/minecraft/class_2284$class_2285
 METHOD	da$a	(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	create	create
 CLASS	db	net/minecraft/class_2287
 FIELD	db	Ljava/util/Collection;	a	field_10790

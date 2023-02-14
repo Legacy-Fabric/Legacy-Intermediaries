@@ -2530,19 +2530,19 @@ FIELD	ahg	Lahc;	bx	field_8752
 FIELD	ahg	Lahc;	by	field_8308
 FIELD	ahg	Lahc;	bz	field_8073
 FIELD	ahg	Lahc;	cA	field_8220
-FIELD	ahg	Lahc;	cB	field_8638
-FIELD	ahg	Lahc;	cC	field_8648
-FIELD	ahg	Lahc;	cD	field_8740
-FIELD	ahg	Lahc;	cE	field_8772
-FIELD	ahg	Lahc;	cF	field_8849
-FIELD	ahg	Lahc;	cG	field_8074
-FIELD	ahg	Lahc;	cH	field_8077
-FIELD	ahg	Lahc;	cI	field_8241
-FIELD	ahg	Lahc;	cJ	field_8363
-FIELD	ahg	Lahc;	cK	field_8242
-FIELD	ahg	Lahc;	cL	field_8615
+FIELD	ahg	Lahc;	cB	field_8144
+FIELD	ahg	Lahc;	cC	field_8075
+FIELD	ahg	Lahc;	cD	field_8425
+FIELD	ahg	Lahc;	cE	field_8623
+FIELD	ahg	Lahc;	cF	field_8502
+FIELD	ahg	Lahc;	cG	field_8534
+FIELD	ahg	Lahc;	cH	field_8344
+FIELD	ahg	Lahc;	cI	field_8834
+FIELD	ahg	Lahc;	cJ	field_8065
+FIELD	ahg	Lahc;	cK	field_8355
+FIELD	ahg	Lahc;	cL	field_8731
 FIELD	ahg	Lahc;	c	field_8403
-FIELD	ahg	Lahc;	cM	field_8372
+FIELD	ahg	Lahc;	cM	field_8806
 FIELD	ahg	Lahc;	cN	field_8662
 FIELD	ahg	Lahc;	cO	field_8434
 FIELD	ahg	Lahc;	cP	field_0_11997
@@ -7344,7 +7344,7 @@ FIELD	awg	[Lpu;	o	field_12833
 FIELD	awg	Z	p	field_0_4730
 FIELD	awg	Z	q	field_0_7075
 FIELD	awg	Z	r	field_12847
-FIELD	awg	Z	s	field_0_4731
+FIELD	awg	Z	s	field_12834
 FIELD	awg	Z	t	field_12837
 FIELD	awg	J	u	field_12843
 FIELD	awg	I	v	field_0_5066
@@ -7380,7 +7380,7 @@ METHOD	awg	([Lawh;)V	a	method_0_3894
 METHOD	awg	()V	b	method_0_3895
 METHOD	awg	(II)I	b	method_0_3896
 METHOD	awg	(III)V	b	method_0_3913
-METHOD	awg	(J)V	b	method_12028
+METHOD	awg	(J)V	b	method_12043
 METHOD	awg	(Ldx;)I	b	method_12233
 METHOD	awg	(Lub;)V	b	method_12002
 METHOD	awg	(Z)V	b	method_0_4473
@@ -9916,14 +9916,14 @@ METHOD	bed	()Lbef;	e	method_301
 METHOD	bed	()F	f	method_302
 CLASS	bed$1	net/minecraft/class_47$1
 FIELD	bed$1	[I	a	field_0_14173
-CLASS	bed$a	net/minecraft/class_47$class_0_3367
-FIELD	bed$a	Lnl;	a	field_0_14642
-FIELD	bed$a	F	b	field_0_14643
+CLASS	bed$a	net/minecraft/class_47$class_48
+FIELD	bed$a	Lnl;	a	field_930
+FIELD	bed$a	F	b	field_931
 FIELD	bed$a	Lub;	c	field_0_14174
 FIELD	bed$a	Lact;	d	field_0_14175
 FIELD	bed$a	Ltm;	e	field_0_14176
 METHOD	bed$a	()Lbed;	a	method_0_12802
-METHOD	bed$a	(F)Lbed$a;	a	method_0_13002
+METHOD	bed$a	(F)Lbed$a;	a	method_303
 METHOD	bed$a	(Lact;)Lbed$a;	a	method_0_12805
 METHOD	bed$a	(Ltm;)Lbed$a;	a	method_0_12803
 METHOD	bed$a	(Lub;)Lbed$a;	a	method_0_12804

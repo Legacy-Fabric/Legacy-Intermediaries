@@ -3090,19 +3090,19 @@ FIELD	aip	Lail;	bx	field_8752
 FIELD	aip	Lail;	by	field_8308
 FIELD	aip	Lail;	bz	field_8073
 FIELD	aip	Lail;	cA	field_8220
-FIELD	aip	Lail;	cB	field_8638
-FIELD	aip	Lail;	cC	field_8648
-FIELD	aip	Lail;	cD	field_8740
-FIELD	aip	Lail;	cE	field_8772
-FIELD	aip	Lail;	cF	field_8849
-FIELD	aip	Lail;	cG	field_8074
-FIELD	aip	Lail;	cH	field_8077
-FIELD	aip	Lail;	cI	field_8241
-FIELD	aip	Lail;	cJ	field_8363
-FIELD	aip	Lail;	cK	field_8242
-FIELD	aip	Lail;	cL	field_8615
+FIELD	aip	Lail;	cB	field_8144
+FIELD	aip	Lail;	cC	field_8075
+FIELD	aip	Lail;	cD	field_8425
+FIELD	aip	Lail;	cE	field_8623
+FIELD	aip	Lail;	cF	field_8502
+FIELD	aip	Lail;	cG	field_8534
+FIELD	aip	Lail;	cH	field_8344
+FIELD	aip	Lail;	cI	field_8834
+FIELD	aip	Lail;	cJ	field_8065
+FIELD	aip	Lail;	cK	field_8355
+FIELD	aip	Lail;	cL	field_8731
 FIELD	aip	Lail;	c	field_8403
-FIELD	aip	Lail;	cM	field_8372
+FIELD	aip	Lail;	cM	field_8806
 FIELD	aip	Lail;	cN	field_8662
 FIELD	aip	Lail;	cO	field_8434
 FIELD	aip	Lail;	cP	field_0_11997
@@ -7825,7 +7825,7 @@ FIELD	axt	[Lqv;	o	field_12833
 FIELD	axt	Z	p	field_0_4730
 FIELD	axt	Z	q	field_0_7075
 FIELD	axt	Z	r	field_12847
-FIELD	axt	Z	s	field_0_4731
+FIELD	axt	Z	s	field_12834
 FIELD	axt	Z	t	field_12837
 FIELD	axt	J	u	field_12843
 FIELD	axt	I	v	field_0_5066
@@ -7861,7 +7861,7 @@ METHOD	axt	([Laxu;)V	a	method_0_3894
 METHOD	axt	()V	b	method_0_3895
 METHOD	axt	(II)I	b	method_0_3896
 METHOD	axt	(III)V	b	method_0_3913
-METHOD	axt	(J)V	b	method_12028
+METHOD	axt	(J)V	b	method_12043
 METHOD	axt	(Let;)I	b	method_12233
 METHOD	axt	(Lve;)V	b	method_12002
 METHOD	axt	(Z)V	b	method_0_4473
@@ -10507,14 +10507,14 @@ METHOD	bfq	()Lbfs;	e	method_301
 METHOD	bfq	()F	f	method_302
 CLASS	bfq$1	net/minecraft/class_47$1
 FIELD	bfq$1	[I	a	field_0_14173
-CLASS	bfq$a	net/minecraft/class_47$class_0_3367
-FIELD	bfq$a	Lom;	a	field_0_14642
-FIELD	bfq$a	F	b	field_0_14643
+CLASS	bfq$a	net/minecraft/class_47$class_48
+FIELD	bfq$a	Lom;	a	field_930
+FIELD	bfq$a	F	b	field_931
 FIELD	bfq$a	Lve;	c	field_0_14174
 FIELD	bfq$a	Laeb;	d	field_0_14175
 FIELD	bfq$a	Lup;	e	field_0_14176
 METHOD	bfq$a	()Lbfq;	a	method_0_12802
-METHOD	bfq$a	(F)Lbfq$a;	a	method_0_13002
+METHOD	bfq$a	(F)Lbfq$a;	a	method_303
 METHOD	bfq$a	(Laeb;)Lbfq$a;	a	method_0_12805
 METHOD	bfq$a	(Lup;)Lbfq$a;	a	method_0_12803
 METHOD	bfq$a	(Lve;)Lbfq$a;	a	method_0_12804

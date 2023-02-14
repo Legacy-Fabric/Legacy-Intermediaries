@@ -2645,19 +2645,19 @@ FIELD	ahr	Lahn;	bx	field_8752
 FIELD	ahr	Lahn;	by	field_8308
 FIELD	ahr	Lahn;	bz	field_8073
 FIELD	ahr	Lahn;	cA	field_8220
-FIELD	ahr	Lahn;	cB	field_8638
-FIELD	ahr	Lahn;	cC	field_8648
-FIELD	ahr	Lahn;	cD	field_8740
-FIELD	ahr	Lahn;	cE	field_8772
-FIELD	ahr	Lahn;	cF	field_8849
-FIELD	ahr	Lahn;	cG	field_8074
-FIELD	ahr	Lahn;	cH	field_8077
-FIELD	ahr	Lahn;	cI	field_8241
-FIELD	ahr	Lahn;	cJ	field_8363
-FIELD	ahr	Lahn;	cK	field_8242
-FIELD	ahr	Lahn;	cL	field_8615
+FIELD	ahr	Lahn;	cB	field_8144
+FIELD	ahr	Lahn;	cC	field_8075
+FIELD	ahr	Lahn;	cD	field_8425
+FIELD	ahr	Lahn;	cE	field_8623
+FIELD	ahr	Lahn;	cF	field_8502
+FIELD	ahr	Lahn;	cG	field_8534
+FIELD	ahr	Lahn;	cH	field_8344
+FIELD	ahr	Lahn;	cI	field_8834
+FIELD	ahr	Lahn;	cJ	field_8065
+FIELD	ahr	Lahn;	cK	field_8355
+FIELD	ahr	Lahn;	cL	field_8731
 FIELD	ahr	Lahn;	c	field_8403
-FIELD	ahr	Lahn;	cM	field_8372
+FIELD	ahr	Lahn;	cM	field_8806
 FIELD	ahr	Lahn;	cN	field_8662
 FIELD	ahr	Lahn;	cO	field_8434
 FIELD	ahr	Lahn;	cP	field_0_11997
@@ -7392,7 +7392,7 @@ FIELD	awt	[Lqa;	o	field_12833
 FIELD	awt	Z	p	field_0_4730
 FIELD	awt	Z	q	field_0_7075
 FIELD	awt	Z	r	field_12847
-FIELD	awt	Z	s	field_0_4731
+FIELD	awt	Z	s	field_12834
 FIELD	awt	Z	t	field_12837
 FIELD	awt	J	u	field_12843
 FIELD	awt	I	v	field_0_5066
@@ -7428,7 +7428,7 @@ METHOD	awt	([Lawu;)V	a	method_0_3894
 METHOD	awt	()V	b	method_0_3895
 METHOD	awt	(II)I	b	method_0_3896
 METHOD	awt	(III)V	b	method_0_3913
-METHOD	awt	(J)V	b	method_12028
+METHOD	awt	(J)V	b	method_12043
 METHOD	awt	(Leb;)I	b	method_12233
 METHOD	awt	(Luh;)V	b	method_12002
 METHOD	awt	(Z)V	b	method_0_4473
@@ -10127,14 +10127,14 @@ METHOD	beq	()Lbes;	e	method_301
 METHOD	beq	()F	f	method_302
 CLASS	beq$1	net/minecraft/class_47$1
 FIELD	beq$1	[I	a	field_0_14173
-CLASS	beq$a	net/minecraft/class_47$class_0_3367
-FIELD	beq$a	Lnq;	a	field_0_14642
-FIELD	beq$a	F	b	field_0_14643
+CLASS	beq$a	net/minecraft/class_47$class_48
+FIELD	beq$a	Lnq;	a	field_930
+FIELD	beq$a	F	b	field_931
 FIELD	beq$a	Luh;	c	field_0_14174
 FIELD	beq$a	Lade;	d	field_0_14175
 FIELD	beq$a	Lts;	e	field_0_14176
 METHOD	beq$a	()Lbeq;	a	method_0_12802
-METHOD	beq$a	(F)Lbeq$a;	a	method_0_13002
+METHOD	beq$a	(F)Lbeq$a;	a	method_303
 METHOD	beq$a	(Lade;)Lbeq$a;	a	method_0_12805
 METHOD	beq$a	(Lts;)Lbeq$a;	a	method_0_12803
 METHOD	beq$a	(Luh;)Lbeq$a;	a	method_0_12804

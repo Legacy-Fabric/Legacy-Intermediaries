@@ -1004,18 +1004,18 @@ FIELD	adn	Ladj;	bw	field_8752
 FIELD	adn	Ladj;	bx	field_8308
 FIELD	adn	Ladj;	by	field_8073
 FIELD	adn	Ladj;	bz	field_8245
-FIELD	adn	Ladj;	cA	field_8638
-FIELD	adn	Ladj;	cB	field_8648
-FIELD	adn	Ladj;	cC	field_8740
-FIELD	adn	Ladj;	cD	field_8772
-FIELD	adn	Ladj;	cE	field_8849
-FIELD	adn	Ladj;	cF	field_8074
-FIELD	adn	Ladj;	cG	field_8077
-FIELD	adn	Ladj;	cH	field_8241
-FIELD	adn	Ladj;	cI	field_8363
-FIELD	adn	Ladj;	cJ	field_8242
-FIELD	adn	Ladj;	cK	field_8615
-FIELD	adn	Ladj;	cL	field_8372
+FIELD	adn	Ladj;	cA	field_8144
+FIELD	adn	Ladj;	cB	field_8075
+FIELD	adn	Ladj;	cC	field_8425
+FIELD	adn	Ladj;	cD	field_8623
+FIELD	adn	Ladj;	cE	field_8502
+FIELD	adn	Ladj;	cF	field_8534
+FIELD	adn	Ladj;	cG	field_8344
+FIELD	adn	Ladj;	cH	field_8834
+FIELD	adn	Ladj;	cI	field_8065
+FIELD	adn	Ladj;	cJ	field_8355
+FIELD	adn	Ladj;	cK	field_8731
+FIELD	adn	Ladj;	cL	field_8806
 FIELD	adn	Ladj;	c	field_8475
 FIELD	adn	Ladj;	cM	field_8662
 FIELD	adn	Ladj;	cN	field_8434
@@ -5197,7 +5197,7 @@ FIELD	arw	[Lnx;	n	field_12833
 FIELD	arw	Z	o	field_0_4730
 FIELD	arw	Z	p	field_0_7075
 FIELD	arw	Z	q	field_12847
-FIELD	arw	Z	r	field_0_4731
+FIELD	arw	Z	r	field_12834
 FIELD	arw	Z	s	field_12837
 FIELD	arw	J	t	field_12843
 FIELD	arw	I	u	field_0_5066
@@ -5233,7 +5233,7 @@ METHOD	arw	([Larx;)V	a	method_0_3894
 METHOD	arw	()V	b	method_0_3895
 METHOD	arw	(II)I	b	method_0_3896
 METHOD	arw	(III)V	b	method_0_3913
-METHOD	arw	(J)V	b	method_12028
+METHOD	arw	(J)V	b	method_12043
 METHOD	arw	(Lcj;)I	b	method_12233
 METHOD	arw	(Lro;)V	b	method_12002
 METHOD	arw	(Z)V	b	method_0_4473
@@ -7481,14 +7481,14 @@ METHOD	azt	()Lazv;	e	method_301
 METHOD	azt	()F	f	method_302
 CLASS	azt$1	net/minecraft/class_47$1
 FIELD	azt$1	[I	a	field_0_14173
-CLASS	azt$a	net/minecraft/class_47$class_0_3367
-FIELD	azt$a	Llp;	a	field_0_14642
-FIELD	azt$a	F	b	field_0_14643
+CLASS	azt$a	net/minecraft/class_47$class_48
+FIELD	azt$a	Llp;	a	field_930
+FIELD	azt$a	F	b	field_931
 FIELD	azt$a	Lro;	c	field_0_14174
 FIELD	azt$a	Lzo;	d	field_0_14175
 FIELD	azt$a	Lqz;	e	field_0_14176
 METHOD	azt$a	()Lazt;	a	method_0_12802
-METHOD	azt$a	(F)Lazt$a;	a	method_0_13002
+METHOD	azt$a	(F)Lazt$a;	a	method_303
 METHOD	azt$a	(Lqz;)Lazt$a;	a	method_0_12803
 METHOD	azt$a	(Lro;)Lazt$a;	a	method_0_12804
 METHOD	azt$a	(Lzo;)Lazt$a;	a	method_0_12805

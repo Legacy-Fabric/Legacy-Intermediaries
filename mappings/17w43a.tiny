@@ -3363,19 +3363,19 @@ FIELD	aju	Lajq;	bx	field_8752
 FIELD	aju	Lajq;	by	field_8308
 FIELD	aju	Lajq;	bz	field_8073
 FIELD	aju	Lajq;	cA	field_8220
-FIELD	aju	Lajq;	cB	field_8638
-FIELD	aju	Lajq;	cC	field_8648
-FIELD	aju	Lajq;	cD	field_8740
-FIELD	aju	Lajq;	cE	field_8772
-FIELD	aju	Lajq;	cF	field_8849
-FIELD	aju	Lajq;	cG	field_8074
-FIELD	aju	Lajq;	cH	field_8077
-FIELD	aju	Lajq;	cI	field_8241
-FIELD	aju	Lajq;	cJ	field_8363
-FIELD	aju	Lajq;	cK	field_8242
-FIELD	aju	Lajq;	cL	field_8615
+FIELD	aju	Lajq;	cB	field_8144
+FIELD	aju	Lajq;	cC	field_8075
+FIELD	aju	Lajq;	cD	field_8425
+FIELD	aju	Lajq;	cE	field_8623
+FIELD	aju	Lajq;	cF	field_8502
+FIELD	aju	Lajq;	cG	field_8534
+FIELD	aju	Lajq;	cH	field_8344
+FIELD	aju	Lajq;	cI	field_8834
+FIELD	aju	Lajq;	cJ	field_8065
+FIELD	aju	Lajq;	cK	field_8355
+FIELD	aju	Lajq;	cL	field_8731
 FIELD	aju	Lajq;	c	field_8403
-FIELD	aju	Lajq;	cM	field_8372
+FIELD	aju	Lajq;	cM	field_8806
 FIELD	aju	Lajq;	cN	field_8662
 FIELD	aju	Lajq;	cO	field_8434
 FIELD	aju	Lajq;	cP	field_0_11997
@@ -8116,7 +8116,7 @@ FIELD	ayz	[Lrz;	o	field_12833
 FIELD	ayz	Z	p	field_0_4730
 FIELD	ayz	Z	q	field_0_7075
 FIELD	ayz	Z	r	field_12847
-FIELD	ayz	Z	s	field_0_4731
+FIELD	ayz	Z	s	field_12834
 FIELD	ayz	Z	t	field_12837
 FIELD	ayz	J	u	field_12843
 FIELD	ayz	I	v	field_0_5066
@@ -8152,7 +8152,7 @@ METHOD	ayz	([Laza;)V	a	method_0_3894
 METHOD	ayz	()V	b	method_0_3895
 METHOD	ayz	(II)I	b	method_0_3896
 METHOD	ayz	(III)V	b	method_0_3913
-METHOD	ayz	(J)V	b	method_12028
+METHOD	ayz	(J)V	b	method_12043
 METHOD	ayz	(Let;)I	b	method_12233
 METHOD	ayz	(Lwj;)V	b	method_12002
 METHOD	ayz	(Z)V	b	method_0_4473
@@ -10789,14 +10789,14 @@ METHOD	bgw	()Lbgy;	e	method_301
 METHOD	bgw	()F	f	method_302
 CLASS	bgw$1	net/minecraft/class_47$1
 FIELD	bgw$1	[I	a	field_0_14173
-CLASS	bgw$a	net/minecraft/class_47$class_0_3367
-FIELD	bgw$a	Loo;	a	field_0_14642
-FIELD	bgw$a	F	b	field_0_14643
+CLASS	bgw$a	net/minecraft/class_47$class_48
+FIELD	bgw$a	Loo;	a	field_930
+FIELD	bgw$a	F	b	field_931
 FIELD	bgw$a	Lwj;	c	field_0_14174
 FIELD	bgw$a	Lafg;	d	field_0_14175
 FIELD	bgw$a	Lvu;	e	field_0_14176
 METHOD	bgw$a	()Lbgw;	a	method_0_12802
-METHOD	bgw$a	(F)Lbgw$a;	a	method_0_13002
+METHOD	bgw$a	(F)Lbgw$a;	a	method_303
 METHOD	bgw$a	(Lafg;)Lbgw$a;	a	method_0_12805
 METHOD	bgw$a	(Lvu;)Lbgw$a;	a	method_0_12803
 METHOD	bgw$a	(Lwj;)Lbgw$a;	a	method_0_12804
@@ -19686,9 +19686,9 @@ METHOD	chp	(Ljava/lang/Object;)V	a	method_0_15228
 METHOD	chp	(Ljava/lang/Object;Ljava/lang/String;)V	a	method_0_15229
 METHOD	chp	(Ljava/lang/Object;Lnf;)V	a	method_4794
 METHOD	chp	(Ljava/lang/Object;)V	b	method_0_15231
-CLASS	chp$a	net/minecraft/class_1121$class_0_3872
-FIELD	chp$a	Ljava/util/Iterator;	a	field_0_16845
-FIELD	chp$a	Ljava/util/Iterator;	b	field_0_16846
+CLASS	chp$a	net/minecraft/class_1121$class_1127
+FIELD	chp$a	Ljava/util/Iterator;	a	field_5499
+FIELD	chp$a	Ljava/util/Iterator;	b	field_5500
 FIELD	chp$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_16847
 FIELD	chp$a	Ljava/lang/Object;	d	field_0_16848
 FIELD	chp$a	Ljava/lang/Object;	e	field_0_16849

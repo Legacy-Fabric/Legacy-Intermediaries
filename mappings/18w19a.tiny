@@ -7019,18 +7019,18 @@ FIELD	aum	Lauh;	eb	field_8807
 FIELD	aum	Lauh;	ec	field_8719
 FIELD	aum	Lauh;	ed	field_8448
 FIELD	aum	Lauh;	ee	field_8220
-FIELD	aum	Lauh;	ef	field_8638
-FIELD	aum	Lauh;	eg	field_8648
-FIELD	aum	Lauh;	eh	field_8740
-FIELD	aum	Lauh;	ei	field_8772
-FIELD	aum	Lauh;	ej	field_8849
-FIELD	aum	Lauh;	ek	field_8074
-FIELD	aum	Lauh;	el	field_8077
-FIELD	aum	Lauh;	em	field_8241
-FIELD	aum	Lauh;	en	field_8363
-FIELD	aum	Lauh;	eo	field_8242
-FIELD	aum	Lauh;	ep	field_8615
-FIELD	aum	Lauh;	eq	field_8372
+FIELD	aum	Lauh;	ef	field_8144
+FIELD	aum	Lauh;	eg	field_8075
+FIELD	aum	Lauh;	eh	field_8425
+FIELD	aum	Lauh;	ei	field_8623
+FIELD	aum	Lauh;	ej	field_8502
+FIELD	aum	Lauh;	ek	field_8534
+FIELD	aum	Lauh;	el	field_8344
+FIELD	aum	Lauh;	em	field_8834
+FIELD	aum	Lauh;	en	field_8065
+FIELD	aum	Lauh;	eo	field_8355
+FIELD	aum	Lauh;	ep	field_8731
+FIELD	aum	Lauh;	eq	field_8806
 FIELD	aum	Lauh;	er	field_8662
 FIELD	aum	Lauh;	es	field_8434
 FIELD	aum	Lauh;	et	field_8539
@@ -12084,7 +12084,7 @@ METHOD	bne	()I	p	method_11956
 METHOD	bne	()I	q	method_11972
 CLASS	bng	net/minecraft/class_2791
 METHOD	bng	()[Lbns;	a	method_12006
-METHOD	bng	(J)V	a	method_12028
+METHOD	bng	(J)V	a	method_12043
 METHOD	bng	(Lafz;)V	a	method_12002
 METHOD	bng	(Lazm;Lef;Z)I	a	method_0_3888
 METHOD	bng	(Lazm;ZLef;I)V	a	method_0_3889
@@ -12265,7 +12265,7 @@ FIELD	bnr	Lazs;	u	field_12857
 FIELD	bnr	Z	v	field_12847
 FIELD	bnr	Z	w	field_12837
 FIELD	bnr	J	x	field_12843
-FIELD	bnr	Z	y	field_0_4731
+FIELD	bnr	Z	y	field_12834
 FIELD	bnr	I	z	field_0_5066
 METHOD	bnr	()[Lwj;	A	method_12215
 METHOD	bnr	()I	C	method_0_8491
@@ -13433,8 +13433,8 @@ CLASS	bsv	net/minecraft/class_3145
 METHOD	bsv	(Lbnh;)I	a	method_13773
 METHOD	bsv	()I	c	method_13774
 METHOD	bsv	()I	f	method_0_19191
-CLASS	bsw	net/minecraft/class_0_4355
-METHOD	bsw	(Laze;Lbnh;Ljava/util/Random;Lef;Lbss;)Z	a	method_0_18416
+CLASS	bsw	net/minecraft/class_3150
+METHOD	bsw	(Laze;Lbnh;Ljava/util/Random;Lef;Lbss;)Z	a	method_13798
 METHOD	bsw	(Lbqv;Lbqw;Laze;Lbnh;Ljava/util/Random;Lef;)Z	a	method_0_18417
 CLASS	bsx	net/minecraft/class_3148
 METHOD	bsx	(Laze;Lbnh;Ljava/util/Random;Lef;Lbsg;)Z	a	method_13782
@@ -16141,15 +16141,15 @@ METHOD	ccv	()F	g	method_302
 METHOD	ccv	()Lsi;	h	method_299
 CLASS	ccv$1	net/minecraft/class_47$1
 FIELD	ccv$1	[I	a	field_0_14173
-CLASS	ccv$a	net/minecraft/class_47$class_0_3367
-FIELD	ccv$a	Lsi;	a	field_0_14642
-FIELD	ccv$a	F	b	field_0_14643
+CLASS	ccv$a	net/minecraft/class_47$class_48
+FIELD	ccv$a	Lsi;	a	field_930
+FIELD	ccv$a	F	b	field_931
 FIELD	ccv$a	Lafz;	c	field_0_14174
 FIELD	ccv$a	Lapn;	d	field_0_14175
 FIELD	ccv$a	Lafi;	e	field_0_14176
 FIELD	ccv$a	Lef;	f	field_0_20317
 METHOD	ccv$a	()Lccv;	a	method_0_12802
-METHOD	ccv$a	(F)Lccv$a;	a	method_0_13002
+METHOD	ccv$a	(F)Lccv$a;	a	method_303
 METHOD	ccv$a	(Lafi;)Lccv$a;	a	method_0_12803
 METHOD	ccv$a	(Lafz;)Lccv$a;	a	method_0_12804
 METHOD	ccv$a	(Lapn;)Lccv$a;	a	method_0_12805
@@ -16220,8 +16220,8 @@ CLASS	cd$a	net/minecraft/class_2203$class_2205
 FIELD	cd$a	Ljava/lang/String;	a	field_9902
 CLASS	cd$b	net/minecraft/class_2203$class_2206
 FIELD	cd$b	I	a	field_9903
-CLASS	cd$c	net/minecraft/class_2203$class_0_4000
-FIELD	cd$c	Ljava/lang/String;	a	field_0_17677
+CLASS	cd$c	net/minecraft/class_2203$class_2209
+FIELD	cd$c	Ljava/lang/String;	a	field_9909
 FIELD	cd$c	[Lcd$d;	b	field_0_17678
 METHOD	cd$c	(I)Lhj;	a	method_0_16715
 METHOD	cd$c	(Lhj;)Lhj;	a	method_0_16716
@@ -24835,7 +24835,7 @@ METHOD	dd	(Loi;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collecti
 METHOD	dd	()Ljava/util/Collection;	getExamples	getExamples
 METHOD	dd	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions	listSuggestions
 METHOD	dd	(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse	parse
-CLASS	dd$a	net/minecraft/class_2284$class_0_4165
+CLASS	dd$a	net/minecraft/class_2284$class_2285
 METHOD	dd$a	(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	create	create
 CLASS	dda	net/minecraft/class_1060
 FIELD	dda	Loi;	a	field_5285
@@ -25447,9 +25447,9 @@ FIELD	dfm$a	Lcom/google/common/collect/PeekingIterator;	a	field_5490
 FIELD	dfm$a	Lcom/google/common/collect/PeekingIterator;	b	field_5491
 FIELD	dfm$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_18455
 METHOD	dfm$a	()Ljava/lang/Object;	computeNext	computeNext
-CLASS	dfm$b	net/minecraft/class_1121$class_0_3872
-FIELD	dfm$b	Lcom/google/common/collect/PeekingIterator;	a	field_0_16845
-FIELD	dfm$b	Lcom/google/common/collect/PeekingIterator;	b	field_0_16846
+CLASS	dfm$b	net/minecraft/class_1121$class_1127
+FIELD	dfm$b	Lcom/google/common/collect/PeekingIterator;	a	field_5499
+FIELD	dfm$b	Lcom/google/common/collect/PeekingIterator;	b	field_5500
 FIELD	dfm$b	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_16847
 METHOD	dfm$b	()Ljava/lang/Object;	computeNext	computeNext
 CLASS	dfn	net/minecraft/class_1124

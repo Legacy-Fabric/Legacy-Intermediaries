@@ -3688,19 +3688,19 @@ FIELD	alo	Lalk;	bx	field_8752
 FIELD	alo	Lalk;	by	field_8308
 FIELD	alo	Lalk;	bz	field_8073
 FIELD	alo	Lalk;	cA	field_8220
-FIELD	alo	Lalk;	cB	field_8638
-FIELD	alo	Lalk;	cC	field_8648
-FIELD	alo	Lalk;	cD	field_8740
-FIELD	alo	Lalk;	cE	field_8772
-FIELD	alo	Lalk;	cF	field_8849
-FIELD	alo	Lalk;	cG	field_8074
-FIELD	alo	Lalk;	cH	field_8077
-FIELD	alo	Lalk;	cI	field_8241
-FIELD	alo	Lalk;	cJ	field_8363
-FIELD	alo	Lalk;	cK	field_8242
-FIELD	alo	Lalk;	cL	field_8615
+FIELD	alo	Lalk;	cB	field_8144
+FIELD	alo	Lalk;	cC	field_8075
+FIELD	alo	Lalk;	cD	field_8425
+FIELD	alo	Lalk;	cE	field_8623
+FIELD	alo	Lalk;	cF	field_8502
+FIELD	alo	Lalk;	cG	field_8534
+FIELD	alo	Lalk;	cH	field_8344
+FIELD	alo	Lalk;	cI	field_8834
+FIELD	alo	Lalk;	cJ	field_8065
+FIELD	alo	Lalk;	cK	field_8355
+FIELD	alo	Lalk;	cL	field_8731
 FIELD	alo	Lalk;	c	field_8403
-FIELD	alo	Lalk;	cM	field_8372
+FIELD	alo	Lalk;	cM	field_8806
 FIELD	alo	Lalk;	cN	field_8662
 FIELD	alo	Lalk;	cO	field_8434
 FIELD	alo	Lalk;	cP	field_0_11997
@@ -8510,7 +8510,7 @@ FIELD	bat	[Lts;	o	field_12833
 FIELD	bat	Z	p	field_0_4730
 FIELD	bat	Z	q	field_0_7075
 FIELD	bat	Z	r	field_12847
-FIELD	bat	Z	s	field_0_4731
+FIELD	bat	Z	s	field_12834
 FIELD	bat	Z	t	field_12837
 FIELD	bat	J	u	field_12843
 FIELD	bat	I	v	field_0_5066
@@ -8546,7 +8546,7 @@ METHOD	bat	([Lbau;)V	a	method_0_3894
 METHOD	bat	()V	b	method_0_3895
 METHOD	bat	(II)I	b	method_0_3896
 METHOD	bat	(III)V	b	method_0_3913
-METHOD	bat	(J)V	b	method_12028
+METHOD	bat	(J)V	b	method_12043
 METHOD	bat	(Ldq;)I	b	method_12233
 METHOD	bat	(Lyd;)V	b	method_12002
 METHOD	bat	(Z)V	b	method_0_4473
@@ -11122,14 +11122,14 @@ METHOD	biq	()Lbis;	e	method_301
 METHOD	biq	()F	f	method_302
 CLASS	biq$1	net/minecraft/class_47$1
 FIELD	biq$1	[I	a	field_0_14173
-CLASS	biq$a	net/minecraft/class_47$class_0_3367
-FIELD	biq$a	Lqh;	a	field_0_14642
-FIELD	biq$a	F	b	field_0_14643
+CLASS	biq$a	net/minecraft/class_47$class_48
+FIELD	biq$a	Lqh;	a	field_930
+FIELD	biq$a	F	b	field_931
 FIELD	biq$a	Lyd;	c	field_0_14174
 FIELD	biq$a	Laha;	d	field_0_14175
 FIELD	biq$a	Lxo;	e	field_0_14176
 METHOD	biq$a	()Lbiq;	a	method_0_12802
-METHOD	biq$a	(F)Lbiq$a;	a	method_0_13002
+METHOD	biq$a	(F)Lbiq$a;	a	method_303
 METHOD	biq$a	(Laha;)Lbiq$a;	a	method_0_12805
 METHOD	biq$a	(Lxo;)Lbiq$a;	a	method_0_12803
 METHOD	biq$a	(Lyd;)Lbiq$a;	a	method_0_12804
@@ -15452,8 +15452,8 @@ CLASS	bu$a	net/minecraft/class_2203$class_2205
 FIELD	bu$a	Ljava/lang/String;	a	field_9902
 CLASS	bu$b	net/minecraft/class_2203$class_2206
 FIELD	bu$b	I	a	field_9903
-CLASS	bu$c	net/minecraft/class_2203$class_0_4000
-FIELD	bu$c	Ljava/lang/String;	a	field_0_17677
+CLASS	bu$c	net/minecraft/class_2203$class_2209
+FIELD	bu$c	Ljava/lang/String;	a	field_9909
 FIELD	bu$c	[Lbu$d;	b	field_0_17678
 METHOD	bu$c	(I)Lfr;	a	method_0_16715
 METHOD	bu$c	(Lfr;)Lfr;	a	method_0_16716
@@ -20026,9 +20026,9 @@ METHOD	cjm	(Ljava/lang/Object;)V	a	method_0_15228
 METHOD	cjm	(Ljava/lang/Object;Ljava/lang/String;)V	a	method_0_15229
 METHOD	cjm	(Ljava/lang/Object;Lmk;)V	a	method_4794
 METHOD	cjm	(Ljava/lang/Object;)V	b	method_0_15231
-CLASS	cjm$a	net/minecraft/class_1121$class_0_3872
-FIELD	cjm$a	Ljava/util/Iterator;	a	field_0_16845
-FIELD	cjm$a	Ljava/util/Iterator;	b	field_0_16846
+CLASS	cjm$a	net/minecraft/class_1121$class_1127
+FIELD	cjm$a	Ljava/util/Iterator;	a	field_5499
+FIELD	cjm$a	Ljava/util/Iterator;	b	field_5500
 FIELD	cjm$a	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	c	field_0_16847
 FIELD	cjm$a	Ljava/lang/Object;	d	field_0_16848
 FIELD	cjm$a	Ljava/lang/Object;	e	field_0_16849

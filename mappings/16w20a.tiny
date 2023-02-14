@@ -1195,18 +1195,18 @@ FIELD	ady	Ladu;	bw	field_8752
 FIELD	ady	Ladu;	bx	field_8308
 FIELD	ady	Ladu;	by	field_8073
 FIELD	ady	Ladu;	bz	field_8245
-FIELD	ady	Ladu;	cA	field_8638
-FIELD	ady	Ladu;	cB	field_8648
-FIELD	ady	Ladu;	cC	field_8740
-FIELD	ady	Ladu;	cD	field_8772
-FIELD	ady	Ladu;	cE	field_8849
-FIELD	ady	Ladu;	cF	field_8074
-FIELD	ady	Ladu;	cG	field_8077
-FIELD	ady	Ladu;	cH	field_8241
-FIELD	ady	Ladu;	cI	field_8363
-FIELD	ady	Ladu;	cJ	field_8242
-FIELD	ady	Ladu;	cK	field_8615
-FIELD	ady	Ladu;	cL	field_8372
+FIELD	ady	Ladu;	cA	field_8144
+FIELD	ady	Ladu;	cB	field_8075
+FIELD	ady	Ladu;	cC	field_8425
+FIELD	ady	Ladu;	cD	field_8623
+FIELD	ady	Ladu;	cE	field_8502
+FIELD	ady	Ladu;	cF	field_8534
+FIELD	ady	Ladu;	cG	field_8344
+FIELD	ady	Ladu;	cH	field_8834
+FIELD	ady	Ladu;	cI	field_8065
+FIELD	ady	Ladu;	cJ	field_8355
+FIELD	ady	Ladu;	cK	field_8731
+FIELD	ady	Ladu;	cL	field_8806
 FIELD	ady	Ladu;	c	field_8475
 FIELD	ady	Ladu;	cM	field_8662
 FIELD	ady	Ladu;	cN	field_8434
@@ -5526,7 +5526,7 @@ FIELD	asr	[Loa;	o	field_12833
 FIELD	asr	Z	p	field_0_4730
 FIELD	asr	Z	q	field_0_7075
 FIELD	asr	Z	r	field_12847
-FIELD	asr	Z	s	field_0_4731
+FIELD	asr	Z	s	field_12834
 FIELD	asr	Z	t	field_12837
 FIELD	asr	J	u	field_12843
 FIELD	asr	I	v	field_0_5066
@@ -5562,7 +5562,7 @@ METHOD	asr	([Lass;)V	a	method_0_3894
 METHOD	asr	()V	b	method_0_3895
 METHOD	asr	(II)I	b	method_0_3896
 METHOD	asr	(III)V	b	method_0_3913
-METHOD	asr	(J)V	b	method_12028
+METHOD	asr	(J)V	b	method_12043
 METHOD	asr	(Lcl;)I	b	method_12233
 METHOD	asr	(Lrs;)V	b	method_12002
 METHOD	asr	(Z)V	b	method_0_4473
@@ -7942,14 +7942,14 @@ METHOD	bam	()Lbao;	e	method_301
 METHOD	bam	()F	f	method_302
 CLASS	bam$1	net/minecraft/class_47$1
 FIELD	bam$1	[I	a	field_0_14173
-CLASS	bam$a	net/minecraft/class_47$class_0_3367
-FIELD	bam$a	Llr;	a	field_0_14642
-FIELD	bam$a	F	b	field_0_14643
+CLASS	bam$a	net/minecraft/class_47$class_48
+FIELD	bam$a	Llr;	a	field_930
+FIELD	bam$a	F	b	field_931
 FIELD	bam$a	Lrs;	c	field_0_14174
 FIELD	bam$a	Lzp;	d	field_0_14175
 FIELD	bam$a	Lrd;	e	field_0_14176
 METHOD	bam$a	()Lbam;	a	method_0_12802
-METHOD	bam$a	(F)Lbam$a;	a	method_0_13002
+METHOD	bam$a	(F)Lbam$a;	a	method_303
 METHOD	bam$a	(Lrd;)Lbam$a;	a	method_0_12803
 METHOD	bam$a	(Lrs;)Lbam$a;	a	method_0_12804
 METHOD	bam$a	(Lzp;)Lbam$a;	a	method_0_12805
