@@ -178,11 +178,6 @@
         },
         {
             "from":"13w04a",
-            "to":"13w05a-1504",
-            "fol":"1.5"
-        },
-        {
-            "from":"13w05a-1504",
             "to":"13w05a-1538",
             "fol":"1.5"
         },
@@ -193,11 +188,6 @@
         },
         {
             "from":"13w05b",
-            "to":"13w06a-1559",
-            "fol":"1.5"
-        },
-        {
-            "from":"13w06a-1559",
             "to":"13w06a-1636",
             "fol":"1.5"
         },
@@ -385,17 +375,7 @@
         {
             "from": "1.6.2-091847",
             "to": "13w36a-09051446",
-            "fol": "1.7",
-            "conflicts": [1, 1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2517 <- nm.d_()Ljava/lang/String;, oc.d_()Ljava/lang/String;, sf(itf).d_()Ljava/lang/String;",
-                "2) method_0_3332 <- ad(itf).d_()Ljava/lang/String;",
-
-                "Conflict detected - matched same target name!",
-                "1) method_0_2517 <- nm.ay()Ljava/lang/String;, sf(itf).ay()Ljava/lang/String;, sv(itf).ay()Ljava/lang/String;",
-                "2) method_0_5294 <- oc.ay()Ljava/lang/String;"
-            ]
+            "fol": "1.7"
         },
         {
             "from": "13w36a-09051446",
@@ -440,13 +420,7 @@
         {
             "from": "13w39b",
             "to": "13w41a",
-            "fol": "1.7",
-            "conflicts": [1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2192 <- mx<-jk<-eq.a()V",
-                "2) method_0_2200 <- ms<-ic<-eq.a()V"
-            ]
+            "fol": "1.7"
         },
         {
             "from": "13w41a",
@@ -536,17 +510,7 @@
         {
             "from": "1.7.4",
             "to": "1.7.5",
-            "fol": "1.7",
-            "conflicts": [1, 1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2497 <- qr.a(Ldh;)V, qx.a(Ldh;)V",
-                "2) method_0_2527 <- qr.a(Ldh;)V",
-
-                "Conflict detected - matched same target name!",
-                "1) method_0_2497 <- qr.b(Ldh;)V",
-                "2) method_0_2527 <- qr.b(Ldh;)V, qx.b(Ldh;)V"
-            ]
+            "fol": "1.7"
         },
         {
             "from": "1.7.5",
@@ -591,13 +555,7 @@
         {
             "from": "1.7.10-pre2",
             "to": "1.7.10-pre3",
-            "fol": "1.7",
-            "conflicts": [1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) renderItem <- bcr<-bcm.a(IZII)V",
-                "2) selectItem <- bcm.a(IZII)V"
-            ]
+            "fol": "1.7"
         },
         {
             "from": "1.7.10-pre3",
@@ -607,7 +565,7 @@
             "_comment": [
                 "Conflict detected - matched same target name!",
                 "1) confirmResult <- bdw<-bbw.a(ZI)V",
-                "2) method_0_8418 <- bcv(itf).a(ZI)V"
+                "2) method_0_8401 <- bcv(itf).a(ZI)V"
             ]
         },
         {
@@ -619,18 +577,7 @@
         {
             "from": "1.7.4",
             "to": "14w02a",
-            "fol": "1.8",
-            "conflicts": [2, 1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2385 <- ps(itf).b_()Ljava/lang/String;",
-                "2) method_0_2517 <- ab(itf).b_()Ljava/lang/String;, ac(itf).b_()Ljava/lang/String;, qr.b_()Ljava/lang/String;, rj.b_()Ljava/lang/String;",
-                "3) method_0_4816 <- ape<-[aos,ql<-qp].b_()Ljava/lang/String;",
-
-                "Conflict detected - matched same target name!",
-                "1) method_0_4818 <- ape<-[aos,ql<-qp].d()Z",
-                "2) method_0_4901 <- ps(itf).d()Z, wc<-qr.d()Z, wu<-[rj,qp].d()Z"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w02a",
@@ -645,17 +592,7 @@
         {
             "from": "14w02c",
             "to": "14w03a",
-            "fol": "1.8",
-            "conflicts": [1, 2],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2497 <- rj.a(Ldw;)V, rk.a(Ldw;)V",
-                "2) method_0_2527 <- rj.a(Ldw;)V",
-
-                "Conflict detected - matched same target name!",
-                "1) method_0_2497 <- rj.b(Ldw;)V",
-                "2) method_0_2527 <- rj.b(Ldw;)V, rk.b(Ldw;)V"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w03a",
@@ -670,40 +607,17 @@
         {
             "from": "14w04b-1554",
             "to": "14w05a",
-            "fol": "1.8",
-            "conflicts": [1, 2],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_4286 <- btm<-bua<-btx<-bte.e()V, bud<-bur<-buo<-btv.e()V",
-                "2) method_0_4371 <- bvj<-bur<-buo<-btv.e()V",
-
-                "Conflict detected - matched same target name!",
-                "1) method_0_5757 <- sy<-sx<-rz.q(I)Ladu;",
-                "2) method_0_5874 <- zn<-[sx<-rz,aa].q(I)Ladu;"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w05a",
             "to": "14w05b",
-            "fol": "1.8",
-            "conflicts": [1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_9037 <- bvo<-bwd.a(Lsx;FFFFFFF)V(bridge)",
-                "2) method_0_9046 <- bvu<-bwd.a(Lsx;FFFFFFF)V(bridge)",
-                "3) method_0_9053 <- bwa<-bwd.a(Lsx;FFFFFFF)V(bridge)"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w05b",
             "to": "14w06a",
-            "fol": "1.8",
-            "conflicts": [2],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2632 <- sx<-rz.bt()V",
-                "2) method_0_2634 <- sx<-rz.bt()V, sy<-sb.bt()V"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w06a",
@@ -713,13 +627,7 @@
         {
             "from": "14w06b",
             "to": "14w07a",
-            "fol": "1.8",
-            "conflicts": [2],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_4794 <- amb<-[amq<-alj,alp].f(Lajj;Lde;Ldp;)Lrk;",
-                "2) method_0_4808 <- alc.f(Lajj;Lde;Ldp;)Lrk;, alj.f(Lajj;Lde;Ldp;)Lrk;"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w07a",
@@ -784,7 +692,12 @@
         {
             "from": "14w20b",
             "to": "14w21a",
-            "fol": "1.8"
+            "fol": "1.8",
+            "conflicts": [1],
+            "_comment": [
+                "1) method_0_2053 <- nk(itf).c()V, nn(itf).c()V",
+                "2) method_0_7199 <- gd(itf).c()V"
+            ]
         },
         {
             "from": "14w21a",
@@ -794,13 +707,7 @@
         {
             "from": "14w21b",
             "to": "14w25a",
-            "fol": "1.8",
-            "conflicts": [1],
-            "_comment": [
-                "Conflict detected - matched same target name!",
-                "1) method_0_2633 <- uv<-ub.z()V",
-                "2) method_0_2634 <- uv<-ub.z()V"
-            ]
+            "fol": "1.8"
         },
         {
             "from": "14w25a",
@@ -840,7 +747,12 @@
         {
             "from": "14w28a",
             "to": "14w28b",
-            "fol": "1.8"
+            "fol": "1.8",
+            "conflicts": [2],
+            "_comment": [
+                "1) method_0_2053 <- pb(itf).c()V, pd(itf).c()V",
+                "2) method_0_545 <- bae.c()V"
+            ]
         },
         {
             "from": "14w28b",

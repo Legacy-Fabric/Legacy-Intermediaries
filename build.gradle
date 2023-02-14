@@ -27,7 +27,7 @@ file('mappings').eachFile {
 def publishMapping(File it, def localMappingsPath) {
 	if (!it.name.endsWith(".tiny")) return
 
-	def intermediaryVersion = "v3"
+	def intermediaryVersion = "v4"
 
 	def mcVer = it.name.replace(".tiny", "")
 
