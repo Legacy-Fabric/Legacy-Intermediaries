@@ -24,7 +24,7 @@ tasks.register("build")
 
 def ENV = System.getenv()
 
-def intermediaryVersion = "v2"
+def intermediaryVersion = 2
 
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
@@ -63,7 +63,7 @@ file('mappings').eachFile {
 	publishing {
 		publications {
 			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
-				groupId "net.legacyfabric.$intermediaryVersion"
+				groupId "net.legacyfabric.v$intermediaryVersion"
 				artifactId "intermediary"
 				version mcVer
 				artifact(makeV1Jar.get().archiveFile) {
