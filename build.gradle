@@ -1,5 +1,3 @@
-import cuchaz.enigma.command.ConvertMappingsCommand
-
 buildscript {
 	repositories {
 		maven {
@@ -9,66 +7,69 @@ buildscript {
 	}
 
 	dependencies {
-		classpath "cuchaz:enigma:0.14.2.138"
+		classpath "net.fabricmc:mapping-io:0.3.0"
 	}
 }
 
 plugins {
-	id 'maven'
 	id 'maven-publish'
 }
+
+import net.fabricmc.mappingio.MappingReader
+import net.fabricmc.mappingio.MappingWriter
+import net.fabricmc.mappingio.format.MappingFormat
+import net.fabricmc.mappingio.adapter.MappingNsCompleter
+
+tasks.register("build")
+
+def ENV = System.getenv()
+
+def intermediaryVersion = "v2"
 
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
-	publishMapping(it, localMappingsPath)
-}
-
-def publishMapping(File it, def localMappingsPath) {
 	if (!it.name.endsWith(".tiny")) return
-
-	def intermediaryVersion = "v6"
 
 	def mcVer = it.name.replace(".tiny", "")
 
 	File v1MappingFile = it
 	File v2MappingFile = new File("$localMappingsPath/${it.name}")
 
-	def conversionTask = "convert${it.name}ToV2"
-	tasks.register(conversionTask) {
+	def conversionTask = tasks.register("convert${it.name}ToV2") {
 		group = "V2 Conversion"
 		inputs.file(v1MappingFile)
 		outputs.file(v2MappingFile)
 
 		doLast {
-			new ConvertMappingsCommand().run(
-					"tiny",
-					v1MappingFile.path,
-					"tinyv2:official:intermediary",
-					v2MappingFile.path
-			)
+			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
+				def visitor = new MappingNsCompleter(it, ["intermediary": "official"], true)
+				MappingReader.read(v1MappingFile.toPath(), visitor)
+			}
 		}
 	}
 
-	Jar makeV1Jar = makeJar(mcVer, v1MappingFile, false)
-	Jar makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	def makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	def makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	makeV2Jar.configure {
+		dependsOn conversionTask
+	}
 
+	project.logger.lifecycle("Publishing ${mcVer}")
 
 	build.dependsOn makeV1Jar
 	build.dependsOn makeV2Jar
 
-	makeV2Jar.dependsOn conversionTask
-
 	publishing {
 		publications {
 			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
-				groupId 'net.legacyfabric.unstable'
-				artifactId "intermediary" + intermediaryVersion
+				groupId "net.legacyfabric.$intermediaryVersion"
+				artifactId "intermediary"
 				version mcVer
-				artifact(makeV1Jar.archiveFile) {
+				artifact(makeV1Jar.get().archiveFile) {
 					builtBy makeV1Jar
 				}
-				artifact(makeV2Jar.archiveFile) {
+				artifact(makeV2Jar.get().archiveFile) {
 					builtBy makeV2Jar
 					classifier = "v2"
 				}
@@ -78,9 +79,10 @@ def publishMapping(File it, def localMappingsPath) {
 }
 
 def makeJar(String mcVersion, File mappings, boolean v2) {
-	def jarFilename = "intermediary2-" + mcVersion + (v2 ? "-v2" : "")
-	return task("${mcVersion}_makeJar" + (v2 ? "v2" : ""), type: Jar) {
-		baseName jarFilename
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "") + ".jar"
+	return tasks.register("${mcVersion}_makeJar" + (v2 ? "v2" : ""), Jar) {
+		archiveFileName = jarFilename
+		group = "jar"
 		from(file(mappings)) {
 			into "mappings"
 			rename mappings.name, "mappings.tiny"
@@ -89,7 +91,6 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 	}
 }
 
-def ENV = System.getenv()
 
 publishing {
 	repositories {
