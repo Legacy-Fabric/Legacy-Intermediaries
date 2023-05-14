@@ -821,14 +821,14 @@ METHOD	adk	(Laqt;)F	a	method_7924
 METHOD	adk	(Ldn;)Ladk;	a	method_0_8322
 METHOD	adk	(Ljava/lang/String;Leb;)V	a	method_7959
 METHOD	adk	(Ljava/lang/String;Lsh;Lrs;)V	a	method_7916
-METHOD	adk	(Ljava/lang/String;Z)Ldn;	a	method_7941
+METHOD	adk	(Ljava/lang/String;Z)Ldn;	a	method_7911
 METHOD	adk	(Lrs;)Lcom/google/common/collect/Multimap;	a	method_7926
 METHOD	adk	(Lrw;Lzn;)V	a	method_7979
 METHOD	adk	(Lxm;)V	a	method_7943
 METHOD	adk	(Lzn;Lahm;Lcj;Lqj;Lcq;FFF)Lql;	a	method_7981
 METHOD	adk	(Lzn;Lrw;Lqj;)Z	a	method_7920
 METHOD	adk	(Lzn;Z)Ljava/util/List;	a	method_0_8329
-METHOD	adk	()Ladi;	b	method_7909
+METHOD	adk	()Ladi;	b	method_0_8333
 METHOD	adk	(I)V	b	method_0_8334
 METHOD	adk	(Ladk;)Z	b	method_7929
 METHOD	adk	(Ladk;Ladk;)Z	b	method_7973
@@ -10295,7 +10295,7 @@ METHOD	bhe	()V	d	method_2779
 METHOD	bhe	()I	e	method_2773
 METHOD	bhe	()Lbhi;	f	method_2772
 CLASS	bhe$1	net/minecraft/class_531$1
-CLASS	bhe$a	net/minecraft/class_531$class_532
+CLASS	bhe$a	net/minecraft/class_531$class_0_835
 CLASS	bhe$b	net/minecraft/class_531$class_533
 FIELD	bhe$b	I	a	field_3264
 FIELD	bhe$b	Z	b	field_3265
@@ -13088,7 +13088,7 @@ METHOD	bqw	()Lahm;	a	method_3935
 METHOD	bqw	(Laqt;DDDLcj;FFDDD)V	a	method_3928
 METHOD	bqw	(Lbba;DDD)V	a	method_3922
 METHOD	bqw	(Lkk;)V	a	method_3924
-METHOD	bqw	(Lrn;)Lkk;	a	method_0_3899
+METHOD	bqw	(Lrn;)Lkk;	a	method_3931
 METHOD	bqw	(Lrn;DDD)V	a	method_3926
 METHOD	bqw	(Lrn;DDDF)V	a	method_3938
 METHOD	bqw	(Lrn;DDDFF)V	a	method_3936
@@ -13448,7 +13448,7 @@ FIELD	bsr	Lbij;	q	field_0_4939
 FIELD	bsr	Lbjm;	r	field_0_4940
 FIELD	bsr	Ljava/util/List;	s	field_0_4941
 FIELD	bsr	Ljava/util/List;	t	field_0_4942
-METHOD	bsr	(Lze;)Lkk;	a	method_4163
+METHOD	bsr	(Lze;)Lkk;	a	method_0_4070
 METHOD	bsr	(Lze;DDDFF)V	a	method_0_4071
 METHOD	bsr	(Lze;FFF)V	a	method_0_4072
 METHOD	bsr	(Lze;)V	b	method_0_4073
@@ -19068,7 +19068,7 @@ METHOD	net/minecraft/realms/RealmsSliderButton	()Ljava/lang/String;	getMessage	g
 METHOD	net/minecraft/realms/RealmsSliderButton	(F)F	toPct	toPct
 METHOD	net/minecraft/realms/RealmsSliderButton	(F)F	toValue	toValue
 CLASS	net/minecraft/realms/RealmsVertexFormat	net/minecraft/realms/RealmsVertexFormat
-FIELD	net/minecraft/realms/RealmsVertexFormat	Lbva;	v	field_0_8833
+FIELD	net/minecraft/realms/RealmsVertexFormat	Lbva;	v	field_5663
 METHOD	net/minecraft/realms/RealmsVertexFormat	(Lnet/minecraft/realms/RealmsVertexFormatElement;)Lnet/minecraft/realms/RealmsVertexFormat;	addElement	addElement
 METHOD	net/minecraft/realms/RealmsVertexFormat	()V	clear	clear
 METHOD	net/minecraft/realms/RealmsVertexFormat	(Ljava/lang/Object;)Z	equals	equals
@@ -21198,7 +21198,7 @@ FIELD	rp	Ljava/util/Map;	f	field_0_7396
 FIELD	rp	Ljava/util/Map;	g	field_0_7397
 METHOD	rp	()V	a	method_0_7045
 METHOD	rp	(I)Ljava/lang/Class;	a	method_0_7046
-METHOD	rp	(ILahm;)Lrn;	a	method_0_7047
+METHOD	rp	(ILahm;)Lrn;	a	method_5889
 METHOD	rp	(Ldn;Lahm;)Lrn;	a	method_5892
 METHOD	rp	(Ljava/lang/Class;)Ljava/lang/String;	a	method_0_9117
 METHOD	rp	(Ljava/lang/Class;Ljava/lang/String;I)V	a	method_5895
@@ -22543,7 +22543,7 @@ FIELD	wf	[Ljava/lang/String;	bG	field_0_7905
 FIELD	wf	[Ljava/lang/String;	bH	field_0_7906
 FIELD	wf	[Ljava/lang/String;	bI	field_0_7877
 FIELD	wf	Lwi;	bJ	field_0_10247
-FIELD	wf	I	bK	field_6971
+FIELD	wf	I	bK	field_0_7878
 FIELD	wf	I	bL	field_6973
 FIELD	wf	I	bM	field_6970
 FIELD	wf	Laao;	bN	field_6962
@@ -22560,7 +22560,7 @@ FIELD	wf	F	bX	field_6961
 FIELD	wf	I	bY	field_6975
 FIELD	wf	Ljava/lang/String;	bZ	field_0_7891
 FIELD	wf	I	br	field_6957
-FIELD	wf	I	bs	field_6958
+FIELD	wf	I	bs	field_0_7895
 FIELD	wf	Z	bt	field_6968
 FIELD	wf	I	bv	field_6955
 FIELD	wf	F	bw	field_6976
@@ -22585,12 +22585,12 @@ METHOD	wf	()Z	dB	method_0_7521
 METHOD	wf	()V	dC	method_6733
 METHOD	wf	()I	dD	method_0_7528
 METHOD	wf	()V	dE	method_6721
-METHOD	wf	()V	dF	method_6731
+METHOD	wf	()V	dF	method_0_7542
 METHOD	wf	()V	dG	method_0_7543
 METHOD	wf	()V	dH	method_0_7544
 METHOD	wf	()V	dI	method_6759
 METHOD	wf	()V	dJ	method_6738
-METHOD	wf	()Z	dK	method_6734
+METHOD	wf	()Z	dK	method_0_7547
 METHOD	wf	()V	dL	method_6748
 METHOD	wf	()F	dM	method_6754
 METHOD	wf	()D	dN	method_6774
@@ -22600,9 +22600,9 @@ METHOD	wf	()F	dd	method_6770
 METHOD	wf	()Z	de	method_6763
 METHOD	wf	()Z	df	method_0_7537
 METHOD	wf	()Lwg;	dg	method_0_7538
-METHOD	wf	()Z	dh	method_6724
+METHOD	wf	()Z	dh	method_0_7539
 METHOD	wf	()Z	di	method_6736
-METHOD	wf	()Z	dj	method_6744
+METHOD	wf	()Z	dj	method_0_7508
 METHOD	wf	()Z	dk	method_0_7509
 METHOD	wf	()I	dl	method_6729
 METHOD	wf	()Z	dm	method_0_7511
@@ -22627,12 +22627,12 @@ METHOD	wf	(I)Z	o	method_6730
 METHOD	wf	(Z)V	p	method_6766
 METHOD	wf	(Z)V	q	method_6758
 METHOD	wf	(F)F	r	method_6739
-METHOD	wf	(Z)V	r	method_6751
+METHOD	wf	(Z)V	r	method_0_7559
 METHOD	wf	(F)F	s	method_6767
 METHOD	wf	(Z)V	s	method_0_7560
 METHOD	wf	(F)F	t	method_6772
 METHOD	wf	(Z)V	t	method_0_7562
-METHOD	wf	(Z)V	u	method_6753
+METHOD	wf	(Z)V	u	method_0_7564
 METHOD	wf	(Z)V	v	method_6740
 METHOD	wf	(Z)V	w	method_6737
 METHOD	wf	(Z)V	x	method_6760
@@ -22640,9 +22640,9 @@ METHOD	wf	(Z)V	y	method_0_7522
 CLASS	wf$1	net/minecraft/class_1496$1
 METHOD	wf$1	(Lrn;)Z	a	method_0_7575
 METHOD	wf$1	(Ljava/lang/Object;)Z	apply	apply
-CLASS	wf$a	net/minecraft/class_1496$class_1499
+CLASS	wf$a	net/minecraft/class_1496$class_0_1853
 FIELD	wf$a	Lwh;	a	field_0_7907
-FIELD	wf$a	I	b	field_6994
+FIELD	wf$a	I	b	field_0_7908
 CLASS	wg	net/minecraft/class_1497
 FIELD	wg	Lwg;	a	field_6979
 FIELD	wg	Lwg;	b	field_6977
@@ -23602,10 +23602,10 @@ METHOD	ze	(Z)V	p	method_7201
 METHOD	ze	(Z)V	q	method_7217
 METHOD	ze	(Z)V	r	method_7214
 CLASS	ze$1	net/minecraft/class_1642$1
-CLASS	ze$a	net/minecraft/class_1642$class_1644
-FIELD	ze$a	Z	a	field_7439
+CLASS	ze$a	net/minecraft/class_1642$class_0_1952
+FIELD	ze$a	Z	a	field_0_8257
 FIELD	ze$a	Z	b	field_0_8258
-FIELD	ze$a	Lze;	c	field_7438
+FIELD	ze$a	Lze;	c	field_0_8259
 CLASS	zg	net/minecraft/class_1645
 FIELD	zg	Labg;	a	field_7443
 FIELD	zg	Lzn;	b	field_7441
