@@ -24,8 +24,6 @@ tasks.register("build")
 
 def ENV = System.getenv()
 
-def intermediaryVersion = 2
-
 def localMappingsPath = "$buildDir/v2Mappings"
 new File(localMappingsPath).mkdirs()
 file('mappings').eachFile {
@@ -63,7 +61,7 @@ file('mappings').eachFile {
 	publishing {
 		publications {
 			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
-				groupId "net.legacyfabric.v$intermediaryVersion"
+				groupId "net.legacyfabric.v$project.intermediaryVersion"
 				artifactId "intermediary"
 				version mcVer
 				artifact(makeV1Jar.get().archiveFile) {
@@ -90,7 +88,7 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 		destinationDirectory = file("build/jars")
 		manifest {
 			attributes(
-					"Intermediary-Version": intermediaryVersion,
+					"Intermediary-Version": project.intermediaryVersion,
 			)
 		}
 	}
