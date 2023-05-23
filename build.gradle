@@ -88,6 +88,11 @@ def makeJar(String mcVersion, File mappings, boolean v2) {
 			rename mappings.name, "mappings.tiny"
 		}
 		destinationDirectory = file("build/jars")
+		manifest {
+			attributes(
+					"Intermediary-Version": intermediaryVersion,
+			)
+		}
 	}
 }
 
